@@ -4,11 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "b793ab401a9fccb3",
+        "id": "d4728c5b74efc4a0",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Software-Engineering/Ruby.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -44,12 +47,21 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "4b8ef7b9b74ed718",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "88584f44ddabdce4",
@@ -65,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Software-Engineering/Ruby.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -72,6 +85,27 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "512582d5e655a9a9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "261342eab85567c7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Software-Engineering/Ruby.md"
               }
             }
           }
@@ -82,6 +116,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b793ab401a9fccb3",
-  "lastOpenFiles": []
+  "active": "d4728c5b74efc4a0",
+  "lastOpenFiles": [
+    "Software-Engineering/Ruby.md",
+    "Software-Engineering/SWE Table of Contents.md",
+    "Software-Engineering/09-14-2021 Quiz.md"
+  ]
 }

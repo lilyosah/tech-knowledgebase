@@ -1,0 +1,51 @@
+/* Reduce indentation in bullet lists */
+/* ol {
+    padding-inline-start: 18px;
+}
+
+ul {
+    padding-inline-start: 18px;
+    list-style-type: disc;
+} */
+
+/* Long bullet list: connect the same levels of bullets with vertical "lines" */
+.cm-hmd-list-indent .cm-tab,
+ul ul {
+    position: relative;
+}
+
+.cm-hmd-list-indent .cm-tab::before,
+ul ul::before {
+    content: '';
+    border-left: 1px solid rgba(170, 170, 170, 0.25);
+    position: absolute;
+}
+
+.cm-hmd-list-indent .cm-tab::before {
+    left: 0;
+    top: -5px;
+    bottom: -4px;
+}
+
+ul ul::before {
+    left: -11px;
+    top: 0;
+    bottom: 0;
+    /* change "left:" value for align of vert. line */
+}
+
+/* Edit mode unordered list dash rendered as dot for WYSIWYG */
+/* I prefer "Turn -lists into bullets as you type as per Typora */
+/* Unordered lists: turn into bullets as you type, as per Typora */
+```css span.cm-formatting-list-ul {
+    visibility: hidden !important;
+}
+
+span.cm-formatting-list-ul:after {
+    content: '• ';
+    /* ITS theme; for Blue Topaz  */
+    margin-left: -12px;
+    color: var(--accent);
+    /* ITS theme; for Blue Topaz --text-normal */
+    visibility: visible !important;
+}

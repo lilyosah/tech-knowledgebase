@@ -1,0 +1,18 @@
+/* List styling (H1 numbering ONLY) for note content */
+
+/* initialize css counter */
+body {
+    counter-reset: head-num-1;
+}
+
+/* put counter result into H1 headings */
+.markdown-source-view .cm-formatting-header-1::after,
+h1::before {
+    counter-increment: head-num-1;
+    content: counter(head-num-1) ". ";
+}
+
+/* Do not render H6 header in Preview */
+h6 {
+    display: none;
+}

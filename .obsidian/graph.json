@@ -1,0 +1,72 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "#concept",
+      "color": {
+        "a": 1,
+        "rgb": 16749764
+      }
+    },
+    {
+      "query": "#reading",
+      "color": {
+        "a": 1,
+        "rgb": 5750527
+      }
+    },
+    {
+      "query": "#algo #TOC",
+      "color": {
+        "a": 1,
+        "rgb": 7733132
+      }
+    },
+    {
+      "query": "#america-as-a-democracy #TOC",
+      "color": {
+        "a": 1,
+        "rgb": 16756065
+      }
+    },
+    {
+      "query": "#hunting-eating-vegetarianism #TOC",
+      "color": {
+        "a": 1,
+        "rgb": 16774912
+      }
+    },
+    {
+      "query": "#algo/project",
+      "color": {
+        "a": 1,
+        "rgb": 4980991
+      }
+    },
+    {
+      "query": "#MOC",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 15.0167089961235,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.1268870896713739,
+  "close": true
+}

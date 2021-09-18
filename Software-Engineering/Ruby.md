@@ -6,143 +6,150 @@
 
 ---
 
-#📌 Add ruby doc link
 #❓ What exactly does the pound mean
 #❓ double !! around something to make true/false
 
+## Resources
+- [Ruby Doc](https://ruby-doc.org/core-3.0.2/doc/syntax_rdoc.html)
+- [Rubular (Regex)](https://rubular.com/
+
+## Basics:
 "Extreme object orientation"
 
-- Everything is an object, there are no primitive types. So everything is a method call and every method returns a value
+- Everything is an object, there are no primitive types. So **everything** is a method call and **every method returns a value**
 - All access to instance variables must take place via accessor methods
-## Basics:
+
 ### Types, Typing, and Names
-- Dynamically types
+- Dynamically typed
 	- Interpreted/just-in-time compiled language
-- Any classes can be modified at any point! Nothing is sacred
+- Any classes can be modified at any point! Nothing is sacred 😭
 	- Requires a lot of discipline... Programs may not work the same on different computers 
-- Every assignment is actually calling a method
 - `false` and `nil` are falsy, **every other** value is truthy (evaluates to true)
-
-#### Names
-- Instance vars: preceded with @ (instance var) or @@ (class values)
-- Vars: lower snake case is used for 
-- Classes use upper camel case
-- Constants: Uppercase
-- Global: $ in front and then all uppercase 
-
-
-### Primitives 
-- No primitive types, everything is an object
-	- Uses more memory but not really significant 
-- `nil` signifies falsiness or a variable that refers to nothing 
 - Every Ruby statement returns a value. Assignments return the value of their left hand side, the value of the var that was just assigned to. 
 
+#### Names
+Instance vars: preceded by `@` 
+Class vars: preceded by `@@`
+
+##### Case
+Vars: lower snake case 
+Classes: upper camel case
+Constants: Uppercase
+Global: `$` in front and then all uppercase 
+
+### Primitives 
+- ⭐ No primitive types, everything is an object
+	- This does use more memory but not really a significant amount 
+- `nil` signifies falsiness or a var that refers to nothing 
+
 #### Symbols
-- Symbols: immutable tokens whose value is itself `:cat`
-	- Sort of like enums
-- Prefixed with a colon
-
-### Methods
-Defined like
-`def method_name(arg1,...)` 
-and ends with end
-
-- All return a value, if it doesn't have a return statement it **returns the last expression evaluated**
-	- Most people do not specify a return statement unless you want to break at a certain point with code after it 
-- **Every method is called on an object**
-- You don't need parens around the method call if it doesn't result in ambiguous parsing
-- Need accessor methods and mutator methods to access and change vars
-- If you have a # symbol in front it means that it is called on a type
-	- String#to_i
-
-Some syntax doesn't look liek a method call but it is
-Ex: 5 + 4 is equivalent to 5.send(:+, 4)
+==Symbols:== immutable tokens whose value is itself 
+- Prefixed with a colon `:`
+	- Ex: `:cat`
+- Sort of like enums
 
 ### Abstraction and Encapsulation
-- Supports inheritance, `SubFoo<Foo` indicates SubFoo is a subclass of Foo
-- Constructors are called as `Foo.new`, the method is called initialize 
-- Class/static vars have @@, instance have @
-
+- Supports inheritance, `SubFoo<Foo` indicates `SubFoo` is a subclass of `Foo`
+- Constructors are called as `Foo.new`, the method in the class body is called `def initialize()` 
 
 
 ## Methods
+Defined like
+`def method_name(arg1,...)` 
+and ends with `end`
+
+- **All return a value,** if it doesn't have a return statement it **returns the last expression evaluated**
+	- Most people do not specify a return statement unless you want to break at a certain point with code after it 
+- **Every method is called on an object**
+	- Even if it doesn't look like a method call, it is.
+	- Ex: `5 + 4` is equivalent to `5.send(:+, 4)`
+- You don't need parentheses around the method call if it doesn't result in ambiguous parsing
+- Need accessor and mutator methods to access and change vars, cannot be done without methods
+- If you have a `#` symbol in front, it specifies that the methods is called on a certain class
+	- ex: `String#to_i`
+
+### Useful Methods
 - `puts` print to output 
 - `gets` get input
-- Rocket `=>` indicated return 
-- Following a method with `?` indicated that it returns true or false, part of the method name
+- Following a method name with `?` indicates that it returns true or false
+	- Ex: `.has_money?`
 
-### To
+#### Conversion
 - `.to_s` to string
 - `.to_sym` to symbol
 - `.to_i` to integer
 - `.to_f` to float
 - `.to_a` to array 
 
-### String interpolation
-- Double quotes, curly braces, pound symbol outside converts it to a string
-`"#{s.to_s}"`
+#### String interpolation
+- Double quotes with pound symbol before curlies interpolates vars in a string
+	- Ex: `"Hello, #{name.to_s}"`
 
 
-## Data types
+## Data Structures
 ### Arrays
-- Creation syntax is the same as in Python
-- Also %w (single-quoted) syntax %W (double-quoted)
-	- `%w{one two three}` --> `["one", "two", "three"]`
-- .length for length
+- Creation syntax is the same as in [[Python]]
+	- Also has `%w` (single-quoted),  `%W` (double-quoted) creation syntax
+		- `%w{one two three}` => `['one', 'two', 'three']`
+- `.length` for length
 - Indexing is normal
+	- `my_array[0]`
 - OOB returns `nil`
-- Can contain multiple types
+- May contain multiple types
 - `<<`, `+=` Appends
 	- `my_array << nil`
 
-
 ### Hashes
-- Two creation syntaxes
-	- `w = {'a' => 1, :b => [2, 3]}`
-		- Does NOT turn into symbols
-	- `w = {a: 1, b: [2, 3]}` 
+
+- Like dictionaries in python, or a Java [[Map]]
+- Creation:
+	1. `w = {'a' => 1, :b => [2, 3]}`
+		- Does NOT turn the keys into symbols
+	2. `w = {a: 1, b: [2, 3]}` 
 		- ❗ Default behavior of colon turns everything into a symbol
-		- `"#{a}"` is a is a var, turns the val of a into a symbol
+		- `"#{a}"` if `a` is a var, turns the val of `a` into a symbol
 - `Hash#key?` checks for key
 
 ### Range object
+
 - `a..b` inclusive range
 - `a...b` exclusive range
-- To create, just put in parens
+- To create, just put in parentheses
 	- `(1..3)`
 
 ### Strings
+Creation:
+- `%q{}` equiv to **single quotes**: nothing inside quotes is interpolated
+- `%Q{}` equiv to **double quotes**: things are interpolated, *I believe this also lets the string span multiple lines?*
+	- Alternatively, `"#{x}flate this"`
+Other
 - `.length`
-- Indexing is normal
-- Constructing strings
-	- `%q{}` equiv to **single quotes**: nothing inside quotes is interpolated
-	- `%Q{}` equiv to **double quotes**: things are interpolated
-		- Alternatively, `"#{x}flate this"`
+- Normal indexing
 - `a.to_f` 
 	- `format("%.02f", a.to_f)`
 
 
-## Basic Looping
+## Looping
+
 ```Ruby
 3times do
 	puts "Swiper no swiping!"
 end
 ```
 
-- For loops and while loops exist but aren't as common in ruby
-- #❓ What are the pipes for?
+- For loops and while loops exist but aren't as common in Ruby
 - Calling `.each` on a collection is much more common
 	- `(1..3).each {puts "Swiper no swiping"}` For one line
 	- `(1..3).each do |x|`
+		- The variable in pipes is the value returned by the iterator
 
 ## [[Regular Expressions]] in Ruby
-> [Rubular](http://rubular.com)
 
 `=~` operator matches a string with a regex
 Ex: `"jsommers" =~ /jsommers/`
-Pattern goes on the left, regex is on the right between slashes 
-- Non-matching regexes return nil
-- Matches return index of match, can use capture groups to show the match, prefix with $
+Pattern on the left, regex on the right between slashes 
+- Non-matching regexes return `nil`
+- Matches return index of match, can use capture groups to show the match, prefix with `$`
 	- `$1` returns first match 
 
 Creation:

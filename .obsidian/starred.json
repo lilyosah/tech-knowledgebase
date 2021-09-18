@@ -1,0 +1,39 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "title": "02-04-2021 Basic Data Structures",
+      "path": "Spring 2021 Notes/Data-Structures-and-Algorithms/Reading/02-04-2021 Data Structures.md"
+    },
+    {
+      "type": "file",
+      "title": "Project 2 - Divide and Conquer",
+      "path": "Spring 2021 Notes/Data-Structures-and-Algorithms/Projects/Project 3 - Divide and Conquer.md"
+    },
+    {
+      "type": "file",
+      "title": "Hotkey Bindings",
+      "path": "public-tech-database/Using-Obisdian/Emoji and Tag Key.md"
+    },
+    {
+      "type": "file",
+      "title": "02-04-2021 Data Structures",
+      "path": "spring_2021_notes/Data-Structures-and-Algorithms/Data Structures.md"
+    },
+    {
+      "type": "file",
+      "title": "NLP Table of Contents",
+      "path": "fall_2021_notes/Natural-Language-Processing/NLP Table of Contents.md"
+    },
+    {
+      "type": "file",
+      "title": "SWE Table of Contents",
+      "path": "fall_2021_notes/Software-Engineering/SWE Table of Contents.md"
+    },
+    {
+      "type": "file",
+      "title": "Sorting Algorithms",
+      "path": "spring_2021_notes/Data-Structures-and-Algorithms/Sorting Algorithms.md"
+    }
+  ]
+}
