@@ -3,11 +3,6 @@
 
 ---
 
-[[Software as a Service, an Agile Approach Using Cloud Computing]]
-
-## Projects
-- 
-
 ## Units
 ### Week 1
 -  08-26-2021 Half Day

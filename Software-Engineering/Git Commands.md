@@ -5,10 +5,12 @@
 
 ---
 
+## Some basics
 - `git reset --hard ORIG_HEAD`: Revert your repo to last committed state just before the merge.  
 - `git reset --hard HEAD  `: Revert your repo to last committed state.  
 - `git checkout [commit] -- [file]`: Restore a file, or if omitted the whole repo, to its state at commit. Can be used to recover files that were previously deleted using git rm.  
 - `git revert commit`: Reverts the changes introduced by commit. If that commit was the result of a merge, effectively undoes the merge, and leaves the current branch in the state it was in before the merge. Git tries to back out just the changes introduced by that commit without disturbing other changes since that commit, but if the commit happened a long time ago, manual conflict resolution may be required.
+- `git push [upstream] [branch]`: Push branch to upstream
 
 
 ## To see who changes which files when
@@ -27,11 +29,11 @@ version.
 - `"[branch]@{[date]}"`: The last commit prior to date (see Figure 10.7 for date format) on branch, where HEAD refers to the current branch
 
 ## Branches
-
 Feature branches: make changes until changes are complete and tested
 Release branches: each branch is substantially different, often used with non-SaaS
 
 ## Changing History
+### Rebasing
 Rebasing: going through and changing git history
 - Can be used to help resolve merge conflicts. Git should say if there will be a conflict caused by merging, you can fix it by rebasing the branch you're merging on onto current. This applies each change from that branch to yours and then tries to apply your change, if there is a conflict you change them one-by-one
 - You can only do this in 3 cases:
@@ -40,3 +42,6 @@ Rebasing: going through and changing git history
 	3. Otherwise anyone else who has made changes based off of the branch will be out of sync
 
 Instead of rebasing, you can also just merge to resolve conflicts but this will create a lot of merge commits
+
+### Reflog
+Use `git reflog` to see a history of git commands that have been executed. To undo one, I think do `checkout [that reflog identifier]` 

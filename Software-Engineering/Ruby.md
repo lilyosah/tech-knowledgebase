@@ -7,10 +7,6 @@
 ---
 
 #❓ What exactly does the pound mean
-#❓ double !! around something to make true/false
-
-#📌  	- `x||=5`: If x is nil, assign 5
-
 
 ## Resources
 - [Ruby Doc](https://ruby-doc.org/core-3.0.2/doc/syntax_rdoc.html)
@@ -253,22 +249,21 @@ Procs are just blocks
 		- `p = lambda { |n| }`
 		- `p = ->(n) {puts n}` 
 
-## Classes
-- `initialize` is used to instantiate, but you call using new `thing.new`
-- Still has self but it represented the class itself and not an instance of it??????? WHEN ITS ON THE DEF LINE!!!!!!!
-	- Means that you call that method on the actual class and not an instance. Class method 
-	- Instance of class Class, when an instance of that is the class is the class name that self is on the same line as a def within 
-- When self is inside a def then it refers to an instance of the class
-- Setters have `=` after method name
-	- `balance=(newbal)`
-- All instance vars are private, have to use pubic methods
-- Shorthand for accessor methods:
-	- `attr_accessor`
-	- `attr_reader`
-	- `attr_writer`
-	- Defined like `attr_accessor :balance`
-	- Accessed like `bank.balance`
+### Other interesting things
+- double `!!` in front of something to make true/false
+	- Ex: `!!balance` if `balance` is `nil`, will be `false`
+- `x||=5`: If `x` is `nil`, assign 5
 
+## Classes
+- `initialize` is used to instantiate, but you call using new `Thing.new`
+
+### Self
+- **WHEN ON A METHOD DEF LINE:** Represents the class itself and not an instance of it 
+	- Means that you call that method on the actual class and not an instance. Class method 
+	- Instance of class `Class`, when an instance of that is the class is the class name that self is on the same line as a def within #❓ *I have no idea what I was trying to say here*
+- **WHEN INSIDE A METHOD:** Refers to the particular instance of the class
+
+### Subclasses
 Subclasses defined like
 `class SavingsAccount < Account`
 - Inherits all methods, variables 
@@ -276,32 +271,24 @@ Subclasses defined like
 - If you want to call a parents method, use `super`
 	- `super.to_s`
 
+### Defining Methods
+- Setters have `=` after method name
+	- `balance=(newbal)`
+- All instance vars are private, must use accessor methods to change/read
+- Shorthand for accessor methods:
+	- `attr_accessor`: read & write
+	- `attr_reader`: only read
+	- `attr_writer`: only change?
+	- Defined like `attr_accessor :balance` (the instance var is referred to by a symbol of its name)
+	- After vars have accessor methods they're accessed like `bank.balance`
 
-Functional programming: methods have no side effects
-### Enumerable methods
-`.reject`: Loop and return a new array where the given block is not true
-	- Ex: `arr.reject{|x| x < 0`: Rejects when x >= 0
-`.sort`: 
-`.map`: Apply the block to every element in the collection, but collects up a new array
-	- Same as `.collect`?
-
-```Ruby
-y = x.map do |fruit|
-	fruit.reverse
-end.sort # => ["elppa"]
-```
-
-**None of these methods are defined for arrays**, Duck typing and mix-ins
-- Only care that the receiver responds to `.each`
-- Enumerable set of methods
-
-
+==Functional programming:== methods have no side effects
 
 
 ## Metaprogramming
 
 ## Modules
-Modules: collection of class and instance methods that aren't actually a class
+==Modules:== collection of class and instance methods that aren't actually a class
 One was to access things in modules explicitly `Math::sin(Math::PI/2.0)`
 
 Alternatively, 
@@ -312,23 +299,37 @@ end
 ```
 inserts all instance vars, methods into class.
 
-Method resolution:
-1. Look in class first
+Method resolution order:
+1. Look in that class first
 2. Look in any included modules
 3. Look in classes inherited from 
 	1. These could include other modules... process may continue
 
 Ex: Enumerable has methods like `.all?, .collect`
 - Its **only** requirement is that the class implements `.each`
-- Has `.sort` if the class implements `<=>`
 
 ⭐ Can check whether an objects responds to a method with `O.respond_to? :<=>` method name as a symbol
-
-`<=>`: Comparison. a < b ==> -1, a > b ==> 1, else ==> 0
 
 ### When to use modules
 - Allow reuse of **behaviors** that could conceptually apply to many different classes 
 - A lot of the time, prefer composition over inheritance
 ==Composition==: Mixins and modules and things 
+
+### Enumerable module methods
+- `.reject`: Loop and return a new array where the given block is not true
+	- Ex: `arr.reject{|x| x < 0`: Rejects when x >= 0
+- `.sort`: Requires that the class implements `<=>`
+	- `<=>`: Comparison. a < b ==> -1, a > b ==> 1, else ==> 0
+- `.map`: Apply the block to every element in the collection, but collects up a new array
+	- Same as `.collect`
+
+```Ruby
+y = x.map do |fruit|
+	fruit.reverse
+end.sort # => ["elppa"]
+```
+
+**None of these methods are defined for arrays** because the array mixes in enumerable
+- Only care that the receiver responds to `.each`
 
 

@@ -9,7 +9,7 @@
 ![[Agile]]
 
 ## Waterfall Software Dev Lifecycle
-Complete each stage before the next, going back is a huge deal
+Complete each stage before the next, going back is a huge deal and is avoided
 Because catching mistakes earlier is better 
 Plan and document approach is not very well suited for today if you get paid for the service and not how long it takes
 
@@ -22,7 +22,7 @@ Phases:
 
 Complete one phase at a time, usually takes between 6-18 months
 
-However, users don't usually know what they want, which led to the
+However, users don't usually know what they want, which led to the spiral model
 
 ## Spiral model
 BDUF + prototypes, develop requirements across iterations 
