@@ -81,7 +81,9 @@
     "mutator",
     "Tokenize",
     "falsy",
-    "truthy"
+    "truthy",
+    "datacenter",
+    "datacenters"
   ],
   "newFileLocation": "current",
   "attachmentFolderPath": "./",

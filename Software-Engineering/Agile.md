@@ -8,7 +8,8 @@
 %%
 
 
-Focuses mainly on improving existing code 
+Focuses mainly on improving existing code.
+Practices center around successive refinement a working but incomplete software prototype until the customer is happy with the result. The customer offers feedback on each iteration, and each iteration is short.
 
 ## Manifesto
 Do the important things more:
@@ -20,3 +21,9 @@ Do the important things more:
 - [[Testing#Testing practices|Test driven development]]
 - New versions every week or so, continuously improve a working prototype
 - User stories instead of documentation
+
+
+## XP Variant 
+Extreme programming
+- Write [[Testing|tests]] before coding
+This practice often employs 1-2 week iterations, behavior- and test-driven development and pair programming

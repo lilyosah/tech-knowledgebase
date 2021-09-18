@@ -8,6 +8,7 @@
 -  08-26-2021 Half Day
 - 08-27-2021 Textbook
 	- [[Plan-document Models]]
+		- [[Agile]]
 	- [[Testing]]
 	- [[Cloud Computing]]
 	- [[Git Commands]]

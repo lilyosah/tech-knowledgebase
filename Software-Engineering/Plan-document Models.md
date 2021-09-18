@@ -8,10 +8,11 @@
 
 ![[Agile]]
 
-## Waterfall Software Dev Lifecycle
-Complete each stage before the next, going back is a huge deal and is avoided
-Because catching mistakes earlier is better 
-Plan and document approach is not very well suited for today if you get paid for the service and not how long it takes
+## Waterfall/Plan and Document
+Focuses on extensive documentation and planning prior to any code development or testing
+- Complete each stage before the next, going back is a huge deal and is avoided
+- Because catching mistakes earlier is better 
+- Plan and document approach is not very well suited for today if you get paid for the service and not how long it takes
 
 Phases: 
 1. Requirements analysis and specification  
@@ -25,6 +26,7 @@ Complete one phase at a time, usually takes between 6-18 months
 However, users don't usually know what they want, which led to the spiral model
 
 ## Spiral model
+Involves building prototypes of increasing complexity in each iteration, where an iteration is several months long
 BDUF + prototypes, develop requirements across iterations 
 Finish one section at a time but repeatedly go through them in prototypes 
 
@@ -56,3 +58,6 @@ Engineering disciplines:
 4. Implementation  
 5. Test  
 6. Deployment
+
+## ScrumBan
+This practice often 2-4 week sprints, daily standup meetings, team members with fixed roles, and a dynamic evaluation of team priorities
