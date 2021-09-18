@@ -9,6 +9,9 @@
 #❓ What exactly does the pound mean
 #❓ double !! around something to make true/false
 
+#📌  	- `x||=5`: If x is nil, assign 5
+
+
 ## Resources
 - [Ruby Doc](https://ruby-doc.org/core-3.0.2/doc/syntax_rdoc.html)
 - [Rubular (Regex)](https://rubular.com/
@@ -63,16 +66,23 @@ and ends with `end`
 - **Every method is called on an object**
 	- Even if it doesn't look like a method call, it is.
 	- Ex: `5 + 4` is equivalent to `5.send(:+, 4)`
+	- `.send` sends methods to objects it always happens in the back-end
+		- Method names are sent as symbols
+		- `s.send(:length) # => 12`
+		- `s.send(:[], 0) # => 'c'`
 - You don't need parentheses around the method call if it doesn't result in ambiguous parsing
 - Need accessor and mutator methods to access and change vars, cannot be done without methods
+
+### Conventions (?)
 - If you have a `#` symbol in front, it specifies that the methods is called on a certain class
 	- ex: `String#to_i`
+- Following a method name with `?` indicates that it returns true or false
+	- Ex: `.has_money?`
+- Following a method name with `!` indicates that it is destructive and modifies the original receiver, otherwise you can assume that it returns a new object
 
 ### Useful Methods
 - `puts` print to output 
 - `gets` get input
-- Following a method name with `?` indicates that it returns true or false
-	- Ex: `.has_money?`
 
 #### Conversion
 - `.to_s` to string
@@ -88,10 +98,13 @@ and ends with `end`
 
 ## Data Structures
 ### Arrays
-- Creation syntax is the same as in [[Python]]
+Creation:
+- Same as [[Python]] syntax
 	- Also has `%w` (single-quoted),  `%W` (double-quoted) creation syntax
 		- `%w{one two three}` => `['one', 'two', 'three']`
-- `.length` for length
+
+Other
+-   `.length` for length
 - Indexing is normal
 	- `my_array[0]`
 - OOB returns `nil`
@@ -100,28 +113,33 @@ and ends with `end`
 	- `my_array << nil`
 
 ### Hashes
+Like dictionaries in python, or a Java [[Map]]
 
-- Like dictionaries in python, or a Java [[Map]]
-- Creation:
+Creation:
 	1. `w = {'a' => 1, :b => [2, 3]}`
 		- Does NOT turn the keys into symbols
 	2. `w = {a: 1, b: [2, 3]}` 
 		- ❗ Default behavior of colon turns everything into a symbol
 		- `"#{a}"` if `a` is a var, turns the val of `a` into a symbol
+
+Other
 - `Hash#key?` checks for key
 
 ### Range object
+Creation:
+- just put in parentheses
+- `(1..3)`
 
+Other
 - `a..b` inclusive range
 - `a...b` exclusive range
-- To create, just put in parentheses
-	- `(1..3)`
 
 ### Strings
 Creation:
 - `%q{}` equiv to **single quotes**: nothing inside quotes is interpolated
 - `%Q{}` equiv to **double quotes**: things are interpolated, *I believe this also lets the string span multiple lines?*
 	- Alternatively, `"#{x}flate this"`
+
 Other
 - `.length`
 - Normal indexing
@@ -129,7 +147,7 @@ Other
 	- `format("%.02f", a.to_f)`
 
 
-## Looping
+## Iteration
 
 ```Ruby
 3times do
@@ -138,7 +156,8 @@ end
 ```
 
 - For loops and while loops exist but aren't as common in Ruby
-- Calling `.each` on a collection is much more common
+- Calling `.each` on a collection is much more common, it's the workhorse of Ruby, classes may implement it slightly differently
+	- Ex: might have key, val pairs for hash
 	- `(1..3).each {puts "Swiper no swiping"}` For one line
 	- `(1..3).each do |x|`
 		- The variable in pipes is the value returned by the iterator
@@ -159,23 +178,25 @@ Creation:
 
 
 ## Ruby Idioms 
+==Idioms:== specific to this language
 
-Poetry mode: can not use parens around method calls when it is unambiguous. Also, when the last param is a hash, you don't need curlies around the hash literal 
-- `link_to "edit", :controller=<'students', :action=>'edit'`
-Duck Typing: "If something looks like a duck and quacks like a duck, it might as well be a duck"
-- Something responds the same way another class/type may
-- ==Mix-in==: Named collection of related methods that can be added to any class what fulfills some "contract" with the methods.
+### Poetry mode
+Including parentheses after method calls is optional when it is unambiguous.
+- Ex: `puts "hello!"`
+
+Also, when the last parameter passed is a [[Ruby#Hashes|Hash]], you don't need curlies around the hash literal 
+- Ex: `link_to "edit", :controller=<'students', :action=>'edit'`
+
+### Duck typing
+> "If something looks like a duck and quacks like a duck, it might as well be a duck"
+
+If one class behaves the same way as another, it can be used in the same context as the other, who cares about it's "guts". Suitability for a certain use-case is determined by whether or not the class implements required methods. If the class **does** meet certain requirements, for example, implementing `.each`, then it may mix-in a set of other behaviors.
+
+==Mix-ins:== Named collections of related methods that can be added to any class that fulfills some "contract" with the methods.
+	- Ex: if a class implements `.each`, then it may include [Enumerable](https://ruby-doc.org/core-3.0.2/Enumerable.html)
 	- Packed together in modules
-	- Having `include ModuleName` in the class def mixes in that modules instance and class methods and variables
-	- Up to the programmer to make sure that type actually has the needed requirements to mix-in the module
-	
-`.send` way to send methods to objects, always happens in the back-end
-- `s.send(:length) # => 12`
-- `s.send(:[], 0) # => 'c'`
-
-`x||=5`: Is x is nil, assign 5
-
-- `!` at the end of method names is destructive, modifying the original receiver
+	- Having `include ModuleName` right under the class definition **mixes in that modules instance and class methods and variables**
+	- It is to the programmer to make sure that type actually has the needed requirements to mix-in the module
 
 ### Blocks
 ==Blocks==: Anonymous functions
@@ -190,12 +211,18 @@ end
 ```
 
 In this case you are passing in the block (a function to apply to each element) to `.each`
+- You can check if a block was passed to a function (ex: `.each`) with the `block_given?` predicate within that function
+- Blocks have ==closures==: All variables that were in scope when the block was made are passed in with the block 
+- **Make no assumption about how vars are used**
+- Blocks can be explicitly captured with `&param_name`. This must be the the last param passed, in the function that they're being passed to (`.each`)
+	- This is useful in case you want to write a method that takes a block and if it needs to pass it to another method, among other situations
+	- `each (x, &my_block)`
 
-- `.yield` invokes the block passed to the method, passing back whatever parameter follows it 
-Ex: 
+####  Yield
+`.yield` **invokes the block passed to the method,** passing back whatever parameter follows it into the var(s) surrounded by pipes in the block call
 
+Ex:
 ```Ruby
-
 def make_salad  
 	if !block_given?  
 		puts "No salad today!"  
@@ -205,6 +232,7 @@ yield "lettuce" # call block passed to this method, giving param "lettuce"
 yield "tomatoes"  
 yield "carrots"  
 end  
+
 make_salad { |ingredient| puts "Adding #{ingredient} to salad!" }  
 # equivalently, with do/end syntax  
 # make_salad do |ingredient|  
@@ -213,23 +241,17 @@ make_salad { |ingredient| puts "Adding #{ingredient} to salad!" }
 Adding lettuce to salad!  
 Adding tomatoes to salad!  
 Adding carrots to salad!
-
 ```
+
+#### Procs
+Procs are just blocks
 - If you have an explicit variable that refers to a `Proc`, you call it with `.call`
-	- Procs are blocks
 	- `myProc.call(myParam)`
 - Can also make blocks with
 	- `Proc.new { |n| }`
-	- `lambda` or `->` **In these cases expected to be single-line** 
+	- `lambda` or `->` **(In these cases, the block is expected to be single-line)** 
 		- `p = lambda { |n| }`
 		- `p = ->(n) {puts n}` 
-
-- You can check if a block was passed to a function (ex: `.each`) with `block_given?` predicate within that function
-- `yield` calls the block that was passed, passes any params which go in the `|x|` spot
-- Blocks have ==closures==: All variables that were in scope when the block was made are passed in with the block 
-- Make no assumption about how vars are used. 
-- Blocks can be explicitly captures with `&param` have to the the last param passed, in the function that they're being passed to (`.each`)
-	- `each (x, &my_block)`
 
 ## Classes
 - `initialize` is used to instantiate, but you call using new `thing.new`
@@ -254,10 +276,6 @@ Subclasses defined like
 - If you want to call a parents method, use `super`
 	- `super.to_s`
 
-
-## Iteration #📌 
-- `.each` is the workhorse of Ruby, classes implement it slightly differently
-	- Ex: might have key, val pairs for hash
 
 Functional programming: methods have no side effects
 ### Enumerable methods
