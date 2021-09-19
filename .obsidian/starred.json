@@ -34,6 +34,11 @@
       "type": "file",
       "title": "Sorting Algorithms",
       "path": "spring_2021_notes/Data-Structures-and-Algorithms/Sorting Algorithms.md"
+    },
+    {
+      "type": "file",
+      "title": "SWE Table of Contents",
+      "path": "Software-Engineering/SWE Table of Contents.md"
     }
   ]
 }

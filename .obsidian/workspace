@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software-Engineering/Agile.md",
-            "mode": "source"
+            "file": "Natural-Language-Processing/Regular Expressions.md",
+            "mode": "preview"
           }
         }
       }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software-Engineering/Agile.md",
+                "file": "Natural-Language-Processing/Regular Expressions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software-Engineering/Agile.md"
+                "file": "Natural-Language-Processing/Regular Expressions.md"
               }
             }
           }
@@ -118,15 +118,15 @@
   },
   "active": "6f9654e066bb4a2b",
   "lastOpenFiles": [
-    "Software-Engineering/Agile.md",
+    "Natural-Language-Processing/Regular Expressions.md",
     "Software-Engineering/SWE Table of Contents.md",
-    "Software-Engineering/Cloud Computing.md",
-    "Software-Engineering/Plan-document Models.md",
+    "Software-Engineering/CSS.md",
+    "Software-Engineering/HTML.md",
     "Software-Engineering/Testing.md",
-    "Software-Engineering/Software as a Service, an Agile Approach Using Cloud Computing.md",
-    "Software-Engineering/Git Commands.md",
+    "Software-Engineering/Plan-document Models.md",
     "Software-Engineering/Ruby.md",
-    "README.md",
-    "Software-Engineering/09-14-2021 Quiz.md"
+    "Software-Engineering/Agile.md",
+    "Software-Engineering/Cloud Computing.md",
+    "Software-Engineering/Software as a Service, an Agile Approach Using Cloud Computing.md"
   ]
 }
