@@ -1,6 +1,6 @@
 .theme-dark {
   --darker-bg: #212432;
-  --codeblock-bg:#151720a1;
+  --codeblock-bg: #151720a1;
   --lighter-bg: #292d3e;
   --default-bg: #292d3e;
   --blue-accent: #80cbc4;
@@ -34,7 +34,7 @@
   --text-link: #99ff99;
   --text-a: #ffa4cf;
   --text-a-hover: #b0b2ff;
-  --text-mark:var(--text-title-h2);
+  --text-mark: var(--text-title-h2);
   /* rgba(134, 227, 255, 0.788); */
   /* SEE HIGHLIGHTER */
   /* #212432; */
@@ -69,8 +69,10 @@
   stroke: var(--interactive-accent-rgb) !important;
 }
 
+/* App bar */
 .side-dock-ribbon {
-  flex: 0 0 0;
+  /* This hides the app bar */
+  /* flex: 0 0 0; */
 }
 
 /**********************/
@@ -88,7 +90,7 @@
 .theme-dark .graph-view.color-fill-unresolved {
   color: rgba(111, 110, 124, 0.466);
   /* #9e8aff; */
-  Opacity: 1;
+  opacity: 1;
 }
 
 .theme-dark .graph-view.color-arrow {
@@ -127,12 +129,9 @@
   /* #5dbcd2; */
 }
 
-
-
 /**********************/
 /* BOLD AND ITALTICS */
 /**********************/
-
 
 strong {
   color: #cccccc;
@@ -140,17 +139,14 @@ strong {
   font-weight: 700;
 }
 
-
 em {
   color: var(--text-faint);
   /* #b8b894; */
 }
 
-
 /**********************/
 /* HIGHLIGHTER */
 /**********************/
-
 
 mark {
   background-color: var(--text-mark) !important;
@@ -160,20 +156,17 @@ mark {
   padding-right: 2px;
 }
 
-
 .cm-s-obsidian span.cm-highlight {
   color: #0c0c0e;
   font-weight: 500;
   background-color: var(--text-mark);
-   /* rgb(252, 246, 1, 0.49); */
+  /* rgb(252, 246, 1, 0.49); */
 }
 
 .markdown-preview-view mark {
   color: #0c0c0e;
   font-weight: 500;
 }
-
-
 
 /* Transluscent behind popup windows */
 .modal-bg {
@@ -193,14 +186,13 @@ mark {
   color: var(--text-link) !important;
 }
 
-
 /***************************************/
 /*             Blockquote              */
 /***************************************/
 
 /* for preview */
 .markdown-preview-view blockquote {
-  background-color: #1A1B24;
+  background-color: #1a1b24;
   border: 0px solid;
   border-color: var(--text-title-h2) !important;
   border-left-width: 2px !important;
@@ -211,11 +203,9 @@ mark {
   margin: 0 10px;
 }
 
-
 /***************************************/
 /* link */
 /***************************************/
-
 
 a,
 .internal-link,
@@ -242,15 +232,13 @@ a:not(.internal-link) {
 /* blockquote */
 .cm-quote
 
-/* for editor */
-  {
+/* for editor */ {
   color: var(--text-normal) !important;
 }
 
 blockquote
 
-/* for preview */
-  {
+/* for preview */ {
   border-color: var(--blockquote-border) !important;
 }
 
@@ -293,11 +281,9 @@ code,
   font-size: 13.5px;
 }
 
-
 /**********/
 /* tables */
 /**********/
-
 
 th {
   font-weight: 800 !important;
@@ -331,11 +317,9 @@ img {
   background-color: var(--text-normal);
 }
 
-
 /***************************************/
 /*             Presentation Mode              */
 /***************************************/
-
 
 .reveal h1 {
   color: var(--text-title-h1);
@@ -361,11 +345,9 @@ img {
   color: var(--text-title-h6);
 }
 
-
 /*************/
 /* checkboxes */
 /*************/
-
 
 /* Death-au */
 /* 3.9.3. Task lists! (I'm proud of this, but could use improvement) */
@@ -373,18 +355,17 @@ img {
   -webkit-appearance: none;
   top: 1.8px !important;
   box-sizing: border-box;
-  border: .5px solid var(--text-title-h2);
+  border: 0.5px solid var(--text-title-h2);
   position: relative;
   width: 1em;
   height: 1em;
   margin: 0;
-  margin-right: .7em;
+  margin-right: 0.7em;
   box-shadow: 0 0 0.15em var(--text-title-h2);
 }
 
-
 .markdown-preview-view .task-list-item-checkbox:checked::before {
-  content: '✓';
+  content: "✓";
   position: absolute;
   color: #999999;
   font-size: 1em;
@@ -394,11 +375,9 @@ img {
   text-shadow: 0 0 0.1em #aaa701;
 }
 
-
 .markdown-preview-view .task-list-item-checkbox {
   top: 0px;
 }
-
 
 .checkbox-container {
   background-color: #9196a1;
@@ -410,23 +389,25 @@ img {
   user-select: none;
   width: 42px;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.15);
-  transition: background 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border 0.15s ease-in-out, opacity 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: background 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+    border 0.15s ease-in-out, opacity 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
 }
 
 .checkbox-container.is-enabled {
   background-color: #5dbcd2;
 }
 
+element.style {
+}
 
-element.style {}
-
-.workspace-leaf-content[data-type='search'] .nav-action-button.is-active {
+.workspace-leaf-content[data-type="search"] .nav-action-button.is-active {
   /* background-color: rgb(252, 246, 1, 0.25); */
   /* color: var(--text--accent); */
 }
 
-.workspace-leaf-content[data-type='search'] .nav-action-button.is-active,
-.workspace-leaf-content[data-type='backlink'] .nav-action-button.is-active {
+.workspace-leaf-content[data-type="search"] .nav-action-button.is-active,
+.workspace-leaf-content[data-type="backlink"] .nav-action-button.is-active {
   /* background-color: rgb(252, 246, 1, 0.25); */
   /* color: var(--text--accent); */
 }
@@ -448,27 +429,21 @@ element.style {}
   background-color: #141414;
 }
 
-
 button.mod-cta {
   background-color: #5dbcd2;
   color: #36393f;
 }
 
-
 .cm-hmd-frontmatter {
   font-size: 13px;
 }
-
-
-
 
 /*************/
 /* LEFT side dock --------- RIBBON*/
 /*************/
 
-
 .side-dock-ribbon {
-  background-color: var(--default-bg)
+  background-color: var(--default-bg);
   /* #141414; */
 }
 
@@ -479,7 +454,6 @@ button.mod-cta {
 .side-dock-ribbon-action {
   /* background-color: #141414; */
 }
-
 
 /* LEFT side dock ----- RIBBON FAILED ATTEMPTS*/
 side-dock-ribbon-tab is-before-active {
@@ -511,9 +485,6 @@ side-dock-ribbon-tab-inner {
   /* #141414; */
 }
 
-
-
-
 side-dock-ribbon-tab-inner is-after-active {
   background-color: #141414;
 }
@@ -521,7 +492,6 @@ side-dock-ribbon-tab-inner is-after-active {
 .side-dock-ribbon-tab.is-active {
   color: #cccccc !important;
 }
-
 
 .side-dock-title {
   background-color: var(--darker-bg);
@@ -541,13 +511,11 @@ side-dock-ribbon-tab-inner is-after-active {
 
 .workspace-tab-header.is-active {
   background-color: var(--default-bg);
-
 }
 
 /* Line inbetween boxes */
 .workspace-leaf-resize-handle {
   background-color: var(--text-title-h2);
-
 }
 
 /* right side dock */
@@ -574,7 +542,6 @@ side-dock-ribbon-tab-inner is-after-active {
 /* LEFT side dock --------- FILE EXPLORER*/
 /*************/
 
-
 .nav-folder-title {
   color: var(--text-normal);
   /* #cccccc; */
@@ -584,7 +551,7 @@ side-dock-ribbon-tab-inner is-after-active {
 }
 
 .nav-file-title {
-  color: var(--text-normal);;
+  color: var(--text-normal);
   /* #999999; */
   background-color: var(--darker-bg);
   /* #141414; */
@@ -595,14 +562,13 @@ side-dock-ribbon-tab-inner is-after-active {
   /* #141414; */
 }
 
-input[type='text'],
-input[type='search'],
-input[type='email'],
-input[type='password'],
-input[type='number'] {
+input[type="text"],
+input[type="search"],
+input[type="email"],
+input[type="password"],
+input[type="number"] {
   border: 1px solid var(--background-secondary);
 }
-
 
 /*************/
 /* RIGHT side dock SPECIAL STUFF*/
@@ -650,17 +616,14 @@ input[type='number'] {
   /* #141414; */
 }
 
-
 /*************/
 /* RIGHT side dock ******* RIBBON*/
 /*************/
-
 
 .side-dock-ribbon-tab.is-active .side-dock-ribbon-tab-inner:hover {
   color: #5dbcd2 !important;
   background-color: #1a1a1a;
 }
-
 
 .side-dock-ribbon-tab.is-active .side-dock-ribbon-tab-inner:hover {
   color: #69d672 !important;
@@ -677,17 +640,12 @@ but can't specifically target "PNG", just all of those filetype tags. */
   color: var(--blue-accent);
 }
 
-
-
-
-
 /* side dock text, like file names and backlink context */
 .side-dock-panels-container * {
   font-size: 13px !important;
 }
 
 .side-dock-plugin-panel-inner {
-
   background-color: #1a1a1a;
 }
 
@@ -696,8 +654,6 @@ but can't specifically target "PNG", just all of those filetype tags. */
   font-size: 20px !important;
   font-weight: 800 !important;
 }
-
-
 
 /* hover actions on side dock navigation */
 .side-dock-ribbon-tab:hover,
@@ -720,7 +676,6 @@ but can't specifically target "PNG", just all of those filetype tags. */
   font-size: 14px;
 }
 
-
 /* Andy sliding panes gradient around title */
 /* clean up side bar empty state (e.g. unlinked mentions) */
 .search-empty-state {
@@ -737,11 +692,15 @@ body.plugin-sliding-panes-rotate-header {
   background: transparent;
 }
 
-body.plugin-sliding-panes-rotate-header .workspace>.mod-root>.workspace-leaf>.workspace-leaf-content>.view-header>.view-header-title-container:after {
+body.plugin-sliding-panes-rotate-header
+  .workspace
+  > .mod-root
+  > .workspace-leaf
+  > .workspace-leaf-content
+  > .view-header
+  > .view-header-title-container:after {
   background: transparent;
 }
-
-
 
 /* font for everything outside of editor/preview panes */
 .app-container {
@@ -753,27 +712,9 @@ body.plugin-sliding-panes-rotate-header .workspace>.mod-root>.workspace-leaf>.wo
   font-size: 12px;
 }
 
-
-
-
-
-
-
-
-
-
 /******************/
 /* editor section */
 /******************/
-
-
-
-
-
-
-
-
-
 
 /* EDITOR Text (outside of headings and code) */
 
@@ -793,10 +734,7 @@ body.plugin-sliding-panes-rotate-header .workspace>.mod-root>.workspace-leaf>.wo
   padding-right: 3% !important;
 }
 
-
-
 /* EDITOR headings */
-
 
 .cm-header-1 {
   font-family: var(--font-family-editor);
@@ -864,8 +802,6 @@ body.plugin-sliding-panes-rotate-header .workspace>.mod-root>.workspace-leaf>.wo
   text-decoration: underline;
 }
 
-
-
 /* This is the dashes in bullets. Color does not work, 
 but font weight does. */
 .cm-formatting-list {
@@ -907,9 +843,7 @@ but font weight does. */
   padding-right: 10% !important;
 }
 
-
 /* PREVIEW headings */
-
 
 .markdown-preview-view h1 {
   font-family: var(--font-family-preview);
@@ -957,13 +891,7 @@ but font weight does. */
   font-size: 16px;
   font-weight: bold;
   color: var(--text-title-h6);
-
 }
-
-
-
-
-
 
 /* this code stuff isn't working for me */
 
@@ -981,18 +909,10 @@ code {
   border-color: #ba6ea0 !important;
 }
 
-
-
-
-
-
-
-
 /* internal embedded link rendering in preview */
 .markdown-embed-title {
   font-weight: 600;
 }
-
 
 /* normal text outside of headings and code */
 .markdown-preview-view {
@@ -1002,8 +922,6 @@ code {
   padding-left: 8% !important;
   padding-right: 4% !important;
 }
-
-
 
 /* remove secondary scroll bar in editor that comes from adding variable padding */
 .CodeMirror-scroll::-webkit-scrollbar {
@@ -1016,12 +934,10 @@ code {
 }
 */
 
-
 /* internal embedded link rendering in preview */
 .markdown-embed-title {
   font-weight: 600;
 }
-
 
 /* clean up side bar empty state (e.g. unlinked mentions) */
 .search-empty-state {
@@ -1036,20 +952,11 @@ code {
   display: none;
 }
 
- /* to have sidebar hide and then reveal on hover */
+/* to have sidebar hide and then reveal on hover */
 /* .app-container.is-left-sidedock-collapsed .side-dock.mod-left:not(:hover), .app-container.is-right-sidedock-collapsed .side-dock.mod-right:not(:hover) {
   width: 0px !important;
 }
   */
-
-
-
-
-
-
-
-
-
 
 /******************/
 /* Editor Code Appearance - */
@@ -1057,10 +964,7 @@ code {
 
 .CodeMirror-code span.cm-inline-code {
   color: #f1f2f3 !important;
-
 }
-
-
 
 /* Editor CodeBlock TEXT Appearance - */
 .cm-s-obsidian pre.HyperMD-codeblock {
@@ -1069,20 +973,17 @@ code {
   /* var(--darker-bg) !important; */
 }
 
-
 .cm-s-obsidian pre.HyperMD-list-line {
-  padding-top: 0.0em;
-  min-height: 1.0em;
+  padding-top: 0em;
+  min-height: 1em;
 }
-
 
 /******************/
 /* Preview Code Appearance */
 /******************/
 
-br+.internal-embed {
+br + .internal-embed {
   margin-top: -2rem;
-  
 }
 
 .markdown-preview-view code {
@@ -1090,7 +991,6 @@ br+.internal-embed {
   background-color: var(--codeblock-bg) !important;
   bottom: -0.1px !important;
 }
-
 
 .markdown-embed {
   padding-left: 0px !important;
@@ -1101,8 +1001,8 @@ br+.internal-embed {
 
 .markdown-preview-view .markdown-embed,
 .markdown-preview-view .file-embed {
-  border-top: .25px solid #b3a14b;
-  border-bottom: .25px solid #b3a14b;
+  border-top: 0.25px solid #b3a14b;
+  border-bottom: 0.25px solid #b3a14b;
   padding: 0px 0;
   margin: 10px 0;
 }
@@ -1114,14 +1014,13 @@ br+.internal-embed {
   display: none;
 }
 
-.markdown-preview-view .markdown-embed-content>:first-child {
+.markdown-preview-view .markdown-embed-content > :first-child {
   margin-top: 0;
 }
 
-.markdown-preview-view .markdown-embed-content>:last-child {
+.markdown-preview-view .markdown-embed-content > :last-child {
   margin-bottom: 0;
 }
-
 
 .markdown-embed-link {
   color: #5bb983 !important;
@@ -1131,7 +1030,6 @@ br+.internal-embed {
 .markdown-embed-link:hover {
   color: #38dc7f !important;
 }
-
 
 /******************/
 /* Custom addition by randulfr */
@@ -1143,8 +1041,6 @@ br+.internal-embed {
   color: var(--text-title-h2);
 }
 
-
-
 /***************************************/
 /* Title Bar Button */
 /***************************************/
@@ -1155,10 +1051,9 @@ br+.internal-embed {
   cursor: pointer;
   opacity: 0.9;
   display: inline-block;
-  color: var(--text-title-h2);;
+  color: var(--text-title-h2);
   /* #57da52; */
 }
-
 
 .titlebar-text {
   position: absolute;
@@ -1174,8 +1069,6 @@ br+.internal-embed {
   color: var(--text-title-h2);
   /* #52c1da; */
 }
-
-
 
 /***************************************/
 /* Transcluded notes embeds - By Ryan JA Murphy */
@@ -1198,7 +1091,7 @@ br+.internal-embed {
 
 .markdown-embed .markdown-preview-sizer {
   padding-left: 0em !important;
-  padding-top: .25em !important;
+  padding-top: 0.25em !important;
   padding-bottom: 0em !important;
   min-height: 0em !important;
 }
@@ -1230,21 +1123,20 @@ br+.internal-embed {
   opacity: 1;
 }
 
-.markdown-preview-view .markdown-embed-content>.markdown-preview-view {
+.markdown-preview-view .markdown-embed-content > .markdown-preview-view {
   max-height: none !important;
 }
 
-
 .internal-embed .markdown-embed {
   border: 0;
-  border: .5px solid var(--background-tertiary);
+  border: 0.5px solid var(--background-tertiary);
   /* Make this have some value if you want the embed line */
   border-left: 0px solid var(--embed-line);
   border-radius: 0;
   padding-left: 0;
   background-color: var(--background-primary-alt);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
 .internal-embed .markdown-embed:hover {
@@ -1252,11 +1144,11 @@ br+.internal-embed {
   transform: translate3d(0px, -1px, 0px);
 }
 
-br+.internal-embed {
+br + .internal-embed {
   margin-top: -1.75rem;
 }
 
-.markdown-embed-title~.markdown-embed-link,
+.markdown-embed-title ~ .markdown-embed-link,
 .internal-embed[src*="#"] .markdown-embed-link {
   right: 0 !important;
   width: 3%;
@@ -1267,13 +1159,13 @@ br+.internal-embed {
 }
 
 .internal-embed[src*="^"] .markdown-preview-sizer {
-  padding-left: .25em !important;
+  padding-left: 0.25em !important;
   padding-top: 0 !important;
 }
 
-li>div.internal-embed {
+li > div.internal-embed {
   display: inline-flex;
-  width: 99%
+  width: 99%;
 }
 
 li .internal-embed .markdown-embed {
@@ -1288,7 +1180,7 @@ li .internal-embed .markdown-embed {
 
 .markdown-embed .markdown-preview-sizer {
   /* padding-left: 1em; */
-  padding-top: .5em;
+  padding-top: 0.5em;
 }
 
 .popover {
@@ -1322,16 +1214,6 @@ li .internal-embed .markdown-embed {
   max-height: 40vh;
 }
 
-
-
-
-
-
-
-
-
-
-
 /***************************************/
 /*    at a rule line before ul list    */
 /***************************************/
@@ -1341,22 +1223,21 @@ ul ul {
 }
 
 ul ul::before {
-  content: '';
+  content: "";
   border-left: 1px solid var(--text-normal);
   position: absolute;
 }
 
 ul ul::before {
-  left: -.8em;
+  left: -0.8em;
   top: 0;
   bottom: 0;
 }
 
 /* rule line when there are checkboxes*/
 ul .task-list-item ul::before {
-  left: 0.15em !important
+  left: 0.15em !important;
 }
-
 
 /***************************************/
 /*    Tiny Tweaks now that Nick knows a smidgen more */
@@ -1381,6 +1262,7 @@ ul .task-list-item ul::before {
 .workspace-ribbon.mod-left,
 .workspace-ribbon.mod-left.is-collapsed {
   border: 0;
+  /* flex: 0; */
   /* border-right-color: rgb(158, 138, 255, .66); */
 }
 
@@ -1404,11 +1286,10 @@ ul .task-list-item ul::before {
   width: 2px;
   height: 100%;
   color: #d669bc;
-  background-color: rgb(20, 20, 20, 0.0);
-  z-index: rgb(20, 20, 20, 0.0);
+  background-color: rgb(20, 20, 20, 0);
+  z-index: rgb(20, 20, 20, 0);
   cursor: col-resize;
 }
-
 
 /* Bottom Status Bar */
 .sync-status-icon.mod-success {
@@ -1418,13 +1299,11 @@ ul .task-list-item ul::before {
 .is-translucent .status-bar {
   border-top: 0;
   /* background-color: #01010273; */
-
 }
 
 .status-bar {
   /* background-color: var(--default-bg); */
   opacity: 0;
-
 }
 /* ScrollBar */
 ::-webkit-scrollbar {
@@ -1451,11 +1330,13 @@ ul .task-list-item ul::before {
 }
 
 ::-webkit-scrollbar-thumb:active {
-  background-color: rgb(93, 188, 210, .9);
+  background-color: rgb(93, 188, 210, 0.9);
 }
 
 /* Nick's Tiny Sliding Panes Tweaks */
-.workspace-split.mod-root>.workspace-leaf:last-of-type .workspace-leaf-content {
+.workspace-split.mod-root
+  > .workspace-leaf:last-of-type
+  .workspace-leaf-content {
   border-top-right-radius: 0px;
   /*instead of 6px*/
 }
@@ -1585,7 +1466,7 @@ mark.green {
   /* padding: 0.1em 0 0.1em 0.4em; */
   /* border-radius: 0.8em 0 0 0.4em; */
   /* background: none; */
-/* background-image: linear-gradient(105deg,
+  /* background-image: linear-gradient(105deg,
   transparent 0,
   transparent 0.3em,
   var(--blue-accent) 0.5em,
@@ -1594,7 +1475,7 @@ mark.green {
   box-decoration-break: clone;
 }
 
-.cm-s-obsidian .cm-highlight+span.cm-formatting-highlight {
+.cm-s-obsidian .cm-highlight + span.cm-formatting-highlight {
   /* margin: 0 -0.4em 0 0; */
   /* padding: 0.1em 0.4em 0.1em 0; */
   /* border-radius: 0 0.4em 0.8em 0; */
@@ -1610,6 +1491,4 @@ mark.green {
 
 /* Command Palette */
 .suggestion-item .is-selected {
-
-
 }
