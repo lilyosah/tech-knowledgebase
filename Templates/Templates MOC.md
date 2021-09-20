@@ -8,6 +8,7 @@
 [[Concept]]
 [[Study Guide]]
 [[Textbook]]
+[[Table of Contents Template]]
 [[Reference]]
 
  <br/>

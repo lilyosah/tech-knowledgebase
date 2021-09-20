@@ -15,31 +15,10 @@
       }
     },
     {
-      "query": "#reading",
-      "color": {
-        "a": 1,
-        "rgb": 5750527
-      }
-    },
-    {
-      "query": "#algo #TOC",
-      "color": {
-        "a": 1,
-        "rgb": 7733132
-      }
-    },
-    {
       "query": "#america-as-a-democracy #TOC",
       "color": {
         "a": 1,
         "rgb": 16756065
-      }
-    },
-    {
-      "query": "#hunting-eating-vegetarianism #TOC",
-      "color": {
-        "a": 1,
-        "rgb": 16774912
       }
     },
     {
@@ -67,6 +46,6 @@
   "repelStrength": 15.0167089961235,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.1268870896713739,
+  "scale": 0.2124222859278036,
   "close": true
 }
