@@ -12,7 +12,7 @@
 - [Ruby Doc](https://ruby-doc.org/core-3.0.2/doc/syntax_rdoc.html)
 - [Rubular (Regex)](https://rubular.com/
 
-## Basics:
+## Basics
 "Extreme object orientation"
 
 - Everything is an object, there are no primitive types. So **everything** is a method call and **every method returns a value**
@@ -26,7 +26,7 @@
 - `false` and `nil` are falsy, **every other** value is truthy (evaluates to true)
 - Every Ruby statement returns a value. Assignments return the value of their left hand side, the value of the var that was just assigned to. 
 
-#### Names
+#### Naming
 Instance vars: preceded by `@` 
 Class vars: preceded by `@@`
 
@@ -51,6 +51,21 @@ Global: `$` in front and then all uppercase
 - Supports inheritance, `SubFoo<Foo` indicates `SubFoo` is a subclass of `Foo`
 - Constructors are called as `Foo.new`, the method in the class body is called `def initialize()` 
 
+### Iteration
+
+```Ruby
+3times do
+	puts "Swiper no swiping!"
+end
+```
+
+- For loops and while loops exist but aren't as common in Ruby
+- Calling `.each` on a collection is much more common, it's the workhorse of Ruby, classes may implement it slightly differently
+	- Ex: might have key, val pairs for hash
+	- `(1..3).each {puts "Swiper no swiping"}` For one line
+	- `(1..3).each do |x|`
+		- The variable in pipes is the value returned by the iterator
+
 
 ## Methods
 Defined like
@@ -69,7 +84,7 @@ and ends with `end`
 - You don't need parentheses around the method call if it doesn't result in ambiguous parsing
 - Need accessor and mutator methods to access and change vars, cannot be done without methods
 
-### Conventions (?)
+### Naming %%%%Conventions
 - If you have a `#` symbol in front, it specifies that the methods is called on a certain class
 	- ex: `String#to_i`
 - Following a method name with `?` indicates that it returns true or false
@@ -92,6 +107,35 @@ and ends with `end`
 	- Ex: `"Hello, #{name.to_s}"`
 
 
+## Classes
+- `initialize` is used to instantiate, but you call using new `Thing.new`
+
+### Self
+- **WHEN ON A METHOD DEF LINE:** Represents the class itself and not an instance of it 
+	- Means that you call that method on the actual class and not an instance. Class method 
+	- Instance of class `Class`, when an instance of that is the class is the class name that self is on the same line as a def within #❓ *I have no idea what I was trying to say here*
+- **WHEN INSIDE A METHOD:** Refers to the particular instance of the class
+
+### Subclasses
+Subclasses defined like
+`class SavingsAccount < Account`
+- Inherits all methods, variables 
+- To access parents variables, use `self.balance`
+- If you want to call a parents method, use `super`
+	- `super.to_s`
+
+### Defining Methods
+- Setters have `=` after method name
+	- `balance=(newbal)`
+- All instance vars are private, must use accessor methods to change/read
+- Shorthand for accessor methods:
+	- `attr_accessor`: read & write
+	- `attr_reader`: only read
+	- `attr_writer`: only change?
+	- Defined like `attr_accessor :balance` (the instance var is referred to by a symbol of its name)
+	- After vars have accessor methods they're accessed like `bank.balance`
+
+==Functional programming:== methods have no side effects
 ## Data Structures
 ### Arrays
 Creation:
@@ -142,21 +186,6 @@ Other
 - `a.to_f` 
 	- `format("%.02f", a.to_f)`
 
-
-## Iteration
-
-```Ruby
-3times do
-	puts "Swiper no swiping!"
-end
-```
-
-- For loops and while loops exist but aren't as common in Ruby
-- Calling `.each` on a collection is much more common, it's the workhorse of Ruby, classes may implement it slightly differently
-	- Ex: might have key, val pairs for hash
-	- `(1..3).each {puts "Swiper no swiping"}` For one line
-	- `(1..3).each do |x|`
-		- The variable in pipes is the value returned by the iterator
 
 ## [[Regular Expressions]] in Ruby
 
@@ -249,42 +278,88 @@ Procs are just blocks
 		- `p = lambda { |n| }`
 		- `p = ->(n) {puts n}` 
 
+### Modules
+==Modules:== collection of class and instance methods that aren't actually a class
+One was to access things in modules explicitly `Math::sin(Math::PI/2.0)`
+
+Alternatively, 
+```Ruby
+class A < B
+	include myModule
+end
+```
+inserts all instance vars, methods into class.
+
+Method resolution order:
+1. Look in that class first
+2. Look in any included modules
+3. Look in classes inherited from 
+	1. These could include other modules... process may continue
+
+Ex: Enumerable has methods like `.all?, .collect`
+- Its **only** requirement is that the class implements `.each`
+
+⭐ Can check whether an objects responds to a method with `O.respond_to? :<=>` method name as a symbol
+
+#### When to use modules
+- Allow reuse of **behaviors** that could conceptually apply to many different classes 
+- A lot of the time, prefer composition over inheritance
+==Composition==: Mixins and modules and things 
+
+#### Enumerable module methods
+- `.reject`: Loop and return a new array where the given block is not true
+	- Ex: `arr.reject{|x| x < 0`: Rejects when x >= 0
+- `.sort`: Requires that the class implements `<=>`
+	- `<=>`: Comparison. a < b ==> -1, a > b ==> 1, else ==> 0
+- `.map`: Apply the block to every element in the collection, but collects up a new array
+	- Same as `.collect`
+
+```Ruby
+y = x.map do |fruit|
+	fruit.reverse
+end.sort # => ["elppa"]
+```
+
+**None of these methods are defined for arrays** because the array mixes in enumerable
+- Only care that the receiver responds to `.each`
+
 ### Other interesting things
 - double `!!` in front of something to make true/false
 	- Ex: `!!balance` if `balance` is `nil`, will be `false`
 - `x||=5`: If `x` is `nil`, assign 5
 
-## Classes
-- `initialize` is used to instantiate, but you call using new `Thing.new`
+## Meta-programming
+## Testing
+[[Testing]] in Ruby uses the RSpec test framework
 
-### Self
-- **WHEN ON A METHOD DEF LINE:** Represents the class itself and not an instance of it 
-	- Means that you call that method on the actual class and not an instance. Class method 
-	- Instance of class `Class`, when an instance of that is the class is the class name that self is on the same line as a def within #❓ *I have no idea what I was trying to say here*
-- **WHEN INSIDE A METHOD:** Refers to the particular instance of the class
+- Tests are under `spec/` folder
+- Test files are in Ruby and should require the Rspec library `require 'rspec'`
+- `it` method describes what the test does
 
-### Subclasses
-Subclasses defined like
-`class SavingsAccount < Account`
-- Inherits all methods, variables 
-- To access parents variables, use `self.balance`
-- If you want to call a parents method, use `super`
-	- `super.to_s`
+```Ruby
+require 'rspec-example'
+require 'rspec'
 
-### Defining Methods
-- Setters have `=` after method name
-	- `balance=(newbal)`
-- All instance vars are private, must use accessor methods to change/read
-- Shorthand for accessor methods:
-	- `attr_accessor`: read & write
-	- `attr_reader`: only read
-	- `attr_writer`: only change?
-	- Defined like `attr_accessor :balance` (the instance var is referred to by a symbol of its name)
-	- After vars have accessor methods they're accessed like `bank.balance`
+describe "RSpec-example" do
+	context "sum tests" do
+		it "should work correctly with an empty array" do
+			expect(sum([]).to eq(0))
+		end
+		it "should work correctly with an array of 1 element" do
+			expect(sum([S]).to eq(S))
+		end
+	context "tuesday? tests" do
+		# t is a time mock object
+		t = double("time")
+		expect(t).to receive(:wday).and_return(2)
+		expect(Time).to receive(:now).and_return(t)
+		expect(tuesday?).to be_truthy
+end
+```
 
-==Functional programming:== methods have no side effects
+- When running, need to specify where the tests are
 
-
-## Metaprogramming
-
+```Bash 
+$ rspec -I. spec/rspec_example_spec.rb
+```
 

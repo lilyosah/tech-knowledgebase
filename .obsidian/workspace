@@ -120,7 +120,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -130,8 +131,8 @@
   "active": "d64642625d770a98",
   "lastOpenFiles": [
     "Software-Engineering/Ruby.md",
-    "Software-Engineering/SWE Table of Contents.md",
     "Software-Engineering/Testing.md",
+    "Software-Engineering/SWE Table of Contents.md",
     "README.md",
     "Data-Structures-and-Algorithms/Tree.md",
     "Software-Engineering/Cloud Computing.md",
