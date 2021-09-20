@@ -32,8 +32,10 @@
 - 09-14-2021
 	- [[Ruby]]
 - 09-16-2021
-	- [[Ruby]]
+	- [[Ruby#Modules]]
 
 ### Week 5
 - 09-21-2021
-	- [[Testing]]
+	- [[Testing#Testing practices]]
+	- [[Testing#Test-Driven Development TDD]]
+	- [[Ruby]]

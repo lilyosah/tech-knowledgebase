@@ -1,4 +1,4 @@
-x# Testing
+# Testing
 %%
 #topic
 #concept
@@ -10,6 +10,7 @@ x# Testing
 ==Verification:== making sure the thing works correctly
 ==Validation:== making sure you built the right thing 
 ==Coverage:== the % of code paths that are tested. There are different definitions of coverage and it's impossible by most standards to meet 100% of test coverage
+- There are multiple levels of coverage that can be obtained (C0 most common, statement coverage. Is every statement of the code executed once by the test suite?)
 - Does not imply that all code has really been tested, ex: short circuiting and expressions, may never evaluate the second half
 
 ## Types of tests
@@ -45,6 +46,8 @@ Steps that must be followed to set up a test:
 3. **Assert** verify that the result or behavior matches what was expected
 
 - Choose assertions that each cover one code paths
+- When arrangement is complicated/ there is nondeterminism, you can create method stubs or mock objects to return fixed desired values for a method/object instead of dealing with the actual one
+- If a function has side effects, in arrange observe the relevant state, in assert observe again and check for side effects
 
 ### Test-Driven Development (TDD)
 : write tests first, for the code you want to have

@@ -20,7 +20,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software-Engineering/SWE Table of Contents.md",
+            "file": "Software-Engineering/Ruby.md",
             "mode": "source"
           }
         }
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software-Engineering/SWE Table of Contents.md",
+                "file": "Software-Engineering/Ruby.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software-Engineering/SWE Table of Contents.md"
+                "file": "Software-Engineering/Ruby.md"
               }
             }
           }
@@ -129,12 +129,12 @@
   },
   "active": "d64642625d770a98",
   "lastOpenFiles": [
+    "Software-Engineering/Ruby.md",
     "Software-Engineering/SWE Table of Contents.md",
     "Software-Engineering/Testing.md",
     "README.md",
     "Data-Structures-and-Algorithms/Tree.md",
     "Software-Engineering/Cloud Computing.md",
-    "Software-Engineering/Ruby.md",
     "Natural-Language-Processing/Regular Expressions.md",
     "Software-Engineering/CSS.md",
     "Software-Engineering/HTML.md",

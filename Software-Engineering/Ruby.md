@@ -287,49 +287,4 @@ Subclasses defined like
 
 ## Metaprogramming
 
-## Modules
-==Modules:== collection of class and instance methods that aren't actually a class
-One was to access things in modules explicitly `Math::sin(Math::PI/2.0)`
-
-Alternatively, 
-```Ruby
-class A < B
-	include myModule
-end
-```
-inserts all instance vars, methods into class.
-
-Method resolution order:
-1. Look in that class first
-2. Look in any included modules
-3. Look in classes inherited from 
-	1. These could include other modules... process may continue
-
-Ex: Enumerable has methods like `.all?, .collect`
-- Its **only** requirement is that the class implements `.each`
-
-⭐ Can check whether an objects responds to a method with `O.respond_to? :<=>` method name as a symbol
-
-### When to use modules
-- Allow reuse of **behaviors** that could conceptually apply to many different classes 
-- A lot of the time, prefer composition over inheritance
-==Composition==: Mixins and modules and things 
-
-### Enumerable module methods
-- `.reject`: Loop and return a new array where the given block is not true
-	- Ex: `arr.reject{|x| x < 0`: Rejects when x >= 0
-- `.sort`: Requires that the class implements `<=>`
-	- `<=>`: Comparison. a < b ==> -1, a > b ==> 1, else ==> 0
-- `.map`: Apply the block to every element in the collection, but collects up a new array
-	- Same as `.collect`
-
-```Ruby
-y = x.map do |fruit|
-	fruit.reverse
-end.sort # => ["elppa"]
-```
-
-**None of these methods are defined for arrays** because the array mixes in enumerable
-- Only care that the receiver responds to `.each`
-
 
