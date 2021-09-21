@@ -22,7 +22,7 @@
 ## Testing practices
 Tests should be "FIRST:"
 - **Fast:** Should be easy and fast to run the tests
-- **Independent:** No test relies on other tests so that you can run only a subset of tests that cover recent changes
+- **Independent:** No test relies on other tests so that you can run only a subset of tests that cover recent changes/in any order
 - **Repeatable:** Should not rely on external factors like the date or magic constants that will break the test if their values change 
 - **Self-checking:** Tests should not need human checking to know if they passed
 - **Timely:** Should be updated at the same time as the code they are for
@@ -53,7 +53,7 @@ Steps that must be followed to set up a test:
 : write tests first, for the code you want to have
 📝 There's no actual evidence that writing tests before is better
 ==Red-Green-Refactor:== The basic TDD workflow:
-1. Write a test for one aspect of the behavior you want your code to have
+1. Write a test for one aspect of the behavior you want your code to have (CYWYH)
 2. **Red:** Run the test to verify it fails
 3. **Green:** Write the most simple code that causes this test to pass without breaking existing tests
 4. **Refactor:** Look for opportunities to refactor your code or your tests 

@@ -374,10 +374,32 @@ def new_conversion_factor (name, factor)
 	Numeric.module_eval(code)
 end
 
+# ---
+
 def getset(sym)
 	name = sym.to_s
-	getter = %Q{def #{name}; @
+	getter = %Q{def #{name} ; @#{name} ; end}
+	setter = %Q{def #{name}=(newval) ; @#{name} = newval ; end}
+	class_eval(getter) # Setting instance methods
 end
+
+class Car
+	getset :manufacturer
+end
+
+# ---
+
+class Example
+	private
+	def private_method
+		"hello!"
+	end	
+end
+
+e = Exmaple.new
+
+e.instance_eval :private # allows you to override private, access these methods
+
 ```
 
 
@@ -385,7 +407,10 @@ end
 
 
 ## Testing
+> `.to be` or `!.to be`, that is the question
+
 [[Testing]] in Ruby uses the RSpec test framework
+Great for [[Testing#Test-Driven Development TDD]]
 
 - Tests are under `spec/` folder
 - Test files are in Ruby and should require the Rspec library `require 'rspec'`
@@ -396,7 +421,7 @@ require 'rspec-example'
 require 'rspec'
 
 describe "RSpec-example" do
-	context "sum tests" do
+	context "sum tests" do # context is the same as describe
 		it "should work correctly with an empty array" do
 			expect(sum([]).to eq(0))
 		end
@@ -418,3 +443,11 @@ end
 $ rspec -I. spec/rspec_example_spec.rb
 ```
 
+How to meet [[Testing#Testing practices|FIRST]] principles
+- **Fast:** Stubbing/mocking
+- **Independent:** RSpec `before(:each)` can maintain independence
+- **Repeatable:** Stubbing/mocking
+- **Self-checking:** RSpec expectations
+- **Timely:** We'll be using TDD
+
+📝 If you write `it` and then the stirng and nothing else, the test is 

@@ -20,7 +20,29 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software-Engineering/Ruby.md",
+            "file": "Software-Engineering/Testing.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "a8e11e47563fc075",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Software-Engineering/Agile.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "1f3f92cc21a4ecc8",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Software-Engineering/SWE Table of Contents.md",
             "mode": "source"
           }
         }
@@ -131,14 +153,14 @@
   "active": "6f9654e066bb4a2b",
   "lastOpenFiles": [
     "Software-Engineering/Ruby.md",
-    "Software-Engineering/SWE Table of Contents.md",
     "Software-Engineering/Testing.md",
+    "Software-Engineering/Agile.md",
+    "Software-Engineering/SWE Table of Contents.md",
     "Coding Languages and Frameworks.md",
     "Software-Engineering/Cloud Computing.md",
     "README.md",
     "Data-Structures-and-Algorithms/Tree.md",
     "Natural-Language-Processing/Regular Expressions.md",
-    "Software-Engineering/CSS.md",
-    "Software-Engineering/HTML.md"
+    "Software-Engineering/CSS.md"
   ]
 }

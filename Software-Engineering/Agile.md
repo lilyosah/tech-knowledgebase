@@ -27,3 +27,9 @@ Do the important things more:
 Extreme programming
 - Write [[Testing|tests]] before coding
 This practice often employs 1-2 week iterations, behavior- and test-driven development and pair programming
+
+## Testing
+- Part of each iteration
+- Each dev tests their own code
+- Testing tools & processes are highly automated
+- QA improves tools
