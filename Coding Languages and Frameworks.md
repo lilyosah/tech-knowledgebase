@@ -13,3 +13,4 @@
 - [[CSS]]
 - [[HTML]]
 - [[React]]
+- [[Python]]

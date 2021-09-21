@@ -323,12 +323,67 @@ end.sort # => ["elppa"]
 **None of these methods are defined for arrays** because the array mixes in enumerable
 - Only care that the receiver responds to `.each`
 
+
+### Open Classes and Modules
+- All classes are open in Ruby, can be overridden/changed
+- This can be kind of dangerous 
+
+**Ex: ✏**  Can override numeric and add classes, etc.
+- `method_missing`: invoked on an object doesn't know how to handle a particular method call
+	- Always takes `method_sym` argument but doesn't have to be called that
+	- 📝 `respond_to?` would NOT recognize methods being accepted through method missing
+
+```Ruby
+class Numeric 
+	def method_missing(method_sym, *args) # This sucks up all other args
+		method_name = mehtod_sym.to_s
+		if method_name =~ /^meters?$/
+			self
+		if method_name =~ /^centimeters?$/
+			self * 0.01
+		else
+			super method_sym, *args # This unpacks all other args
+		end
+	end
+end
+
+```
+
+In this case, the parent may also have a `method_missing` that we don't want to break
+
+
 ### Other interesting things
 - double `!!` in front of something to make true/false
 	- Ex: `!!balance` if `balance` is `nil`, will be `false`
 - `x||=5`: If `x` is `nil`, assign 5
 
 ## Meta-programming
+: Code generates new code at runtime
+
+- Write code as a string and pass to `class_eval`, `instance_eval`, `module_eval`
+- Code gets executed in its specific context
+	- ❗ class and instance meanings are kind of reversed here
+	- `instance_eval` to add class/static methods
+	- `class_eval` to add instance
+	- `module_eval` to add to modules, **not** class
+
+**Ex: ✏**  
+```Ruby
+def new_conversion_factor (name, factor)
+	code = %Q{def #{name}; self * #{factor}; end}
+	Numeric.module_eval(code)
+end
+
+def getset(sym)
+	name = sym.to_s
+	getter = %Q{def #{name}; @
+end
+```
+
+
+
+
+
 ## Testing
 [[Testing]] in Ruby uses the RSpec test framework
 

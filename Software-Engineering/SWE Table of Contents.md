@@ -38,4 +38,5 @@
 - 09-21-2021
 	- [[Testing#Testing practices]]
 	- [[Testing#Test-Driven Development TDD]]
-	- [[Ruby]]
+	- [[Ruby#Testing]]
+	- [[Ruby#Open Classes and Modules]]

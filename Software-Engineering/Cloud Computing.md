@@ -3,7 +3,6 @@
 #topic
 #concept
 **Related:**
--  [[Software as a Service, an Agile Approach Using Cloud Computing]]
 
 %%
 
