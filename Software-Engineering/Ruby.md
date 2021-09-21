@@ -450,4 +450,4 @@ How to meet [[Testing#Testing practices|FIRST]] principles
 - **Self-checking:** RSpec expectations
 - **Timely:** We'll be using TDD
 
-📝 If you write `it` and then the stirng and nothing else, the test is 
+📝 If you write `it` and then the string and nothing else, the test is pending

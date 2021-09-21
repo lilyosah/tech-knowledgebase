@@ -10,7 +10,6 @@
 ==Verification:== making sure the thing works correctly
 ==Validation:== making sure you built the right thing 
 ==Coverage:== the % of code paths that are tested. There are different definitions of coverage and it's impossible by most standards to meet 100% of test coverage
-- There are multiple levels of coverage that can be obtained (C0 most common, statement coverage. Is every statement of the code executed once by the test suite?)
 - Does not imply that all code has really been tested, ex: short circuiting and expressions, may never evaluate the second half
 
 ## Types of tests
@@ -18,6 +17,29 @@
 ==Module testing:== tests across individual units
 ==Integration testing:== ensures that interfaces between units have consistent assumptions and communicate correctly
 ==Acceptance/system testing:== tests to see if the integrated program meets its specifications
+
+### Continuous Integration
+- As changes happen to different code branches in a repo, run a battery of automated tests
+
+### Classifications of tests
+- There are multiple levels of coverage that can be obtained (C0 most common, statement coverage. Is every statement of the code executed once by the test suite?)
+
+**S0:** Every method called
+**S1:** Every method from every call site
+**C0:** Every statement
+**C1:** Every branch in both directions
+	- Both parts of if/else
+**C1+decision:** Every sub-expression in conditional
+**C2:** Every path (difficult, and disagreement on how useful)
+
+### Other
+==Mutation testing:== deliberately changing code at runtime to make sure that it will fail
+==Fuzz testing:== Throw random input at the code, tests apps the way it wasn't meant to be used
+	- 🌎 Microsoft found that this found 20% of crash bugs
+==DU-coverage:== is every pair (`define x/use x`) executed?
+==Black box vs. white box:== About the kind of assumptions you make during testing
+- Being oblivious of the internals or be aware and try to exploit/break it 
+
 
 ## Testing practices
 Tests should be "FIRST:"
@@ -32,6 +54,11 @@ Tests should be "FIRST:"
 
 ==Regression testing:== automatically rerunning old tests so that changes don't break what used to work
 ==Continuous integration testing:== continuous regression testing vs. later phases
+
+### How much testing is enough?
+(lines of code)/(lines of test)
+code-to-test ratio 1.2-1.5 is not unreasonable
+Better: "How thorough is my testing?"
 
 ## Structure of a Test Case
 ==System under test (SUT):== The object being tested. (Single method, group of methods, etc). Defined from the POV of the test
