@@ -4,8 +4,10 @@
 ---
 
 ## Units
-### Week 1
+### Week 3
 -  08-26-2021 Half Day
+
+### Week 2
 - 08-27-2021 Textbook
 	- [[Plan-document Models]]
 		- [[Agile]]
@@ -13,7 +15,7 @@
 	- [[Cloud Computing]]
 	- [[Git Commands]]
 
-### Week 2
+### Week 3
 - 08-31-2021
 	- [[HTML]]
 	- [[CSS]]
@@ -22,22 +24,23 @@
 	- [[Pair Programming]]
 	- [[Ruby]]
 
-### Week 3
+### Week 4
 - 09-07-2021
 	- [[Ruby]]
 - 09-09-2021
 	- [[Ruby]]
 
-### Week 4
+### Week 5
 - 09-14-2021
 	- [[Ruby]]
 - 09-16-2021
 	- [[Ruby#Modules]]
 
-### Week 5
+### Week 6
 - 09-21-2021
 	- [[Testing#Testing practices]]
 	- [[Testing#Test-Driven Development TDD]]
 	- [[Ruby#Testing]]
 	- [[Ruby#Open Classes and Modules]]
 	- [[Agile#Testing]]
+	- [[Machine Learning]]
