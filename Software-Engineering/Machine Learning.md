@@ -35,8 +35,13 @@ Assumption that xi within R^d
 There is another vector V associated with R
 
 #### Applications
+Both use [[Probability]]
+
 ##### Classification
-yi within 
+yi within C where C = {c1, c2, ... cl}
 ##### Regression
+yi within R
+Where does this thing best fit
+
 
 ### Reinforcement Learning
