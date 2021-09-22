@@ -22,6 +22,8 @@ Tags:
 	- `U.S.A.` is tokenized as one
 	- `L.M.A.O.` is one
 
+## Things we don't know
+- Why does `.is_punct` not include commas/break up sentences
 
 ## Ideas
 Add rules to the existing code to catch more cases.
