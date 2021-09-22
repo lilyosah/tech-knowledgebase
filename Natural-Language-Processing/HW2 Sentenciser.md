@@ -16,4 +16,4 @@ Tags:
 Add rules to the existing code to catch more cases.
 
 - Acronyms
-	- Right now, in `"I live in the U.S. and my name is Mairo"` is counted as two sentences by enumerate. 
+	- Right now, in `"I live in the U.S. and my name is Mairo"` is counted as two sentences, should be one. 
