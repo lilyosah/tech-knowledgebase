@@ -14,8 +14,9 @@
 ### Unsupervised Learning
 
 ### Supervised Learning
-Have a
+- Have a data set of input observations, each associated with some correct output ("supervision signal")
 
+[[Naive Bayes Classifiers]]
 
 Representation:
 - Objects in a vector $R$
@@ -41,7 +42,13 @@ There is another vector V associated with R
 Both use [[Probability]]
 
 ##### Classification
+- For an input $x$, and a fixed set of output classes, return a predicted output in from that set
+
+==Probabilistic classifier:== In addition to outputting the most likely class, outputs the probability of it
+
 yi within C where C = {c1, c2, ... cl}
+
+
 ##### Regression
 yi within R
 Where does this thing best fit

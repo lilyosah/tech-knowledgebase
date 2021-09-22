@@ -34,7 +34,7 @@
 
 ### Week 5:
 - [[09-14-2021 NLP]]
-- [[Naive Bayes Law]]
+- [[Naive Bayes Classifiers]]
 - [[Sentiment Classification]]
 
 ### Week 6:
