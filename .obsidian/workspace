@@ -9,50 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Natural-Language-Processing/NLP Table of Contents.md",
+            "file": "Natural-Language-Processing/HW2 Sentenciser.md",
             "mode": "source"
           }
-        }
-      },
-      {
-        "id": "3552b4dc864daeb1",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Software-Engineering/Machine Learning.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "1ac72431c7789f54",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Templates/Concept.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "5cdbf4a4237102ff",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Data-Structures-and-Algorithms/01-28-2021 Intro. to Algorithmic Runtime.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "8256637240ffc80b",
-        "type": "leaf",
-        "state": {
-          "type": "empty",
-          "state": {}
         }
       }
     ],
@@ -118,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/Concept.md",
+                "file": "Natural-Language-Processing/HW2 Sentenciser.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/Concept.md"
+                "file": "Natural-Language-Processing/HW2 Sentenciser.md"
               }
             }
           }
@@ -158,17 +117,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "1ac72431c7789f54",
+  "active": "1f3f92cc21a4ecc8",
   "lastOpenFiles": [
+    "Natural-Language-Processing/HW2 Sentenciser.md",
+    "Natural-Language-Processing/NLP Table of Contents.md",
+    "Software-Engineering/Machine Learning.md",
+    "Data-Structures-and-Algorithms/01-28-2021 Intro. to Algorithmic Runtime.md",
     "Templates/Concept.md",
     "Software-Engineering/Probability.md",
     "Templates/Templates MOC.md",
-    "Data-Structures-and-Algorithms/01-28-2021 Intro. to Algorithmic Runtime.md",
     "Data-Structures-and-Algorithms/Algo MOC.md",
     "Data-Structures-and-Algorithms/Dynamic Programming.md",
-    "Data-Structures-and-Algorithms/Binary Search Tree.md",
-    "Software-Engineering/Machine Learning.md",
-    "Software-Engineering/SWE Table of Contents.md",
-    "Natural-Language-Processing/NLP Table of Contents.md"
+    "Data-Structures-and-Algorithms/Binary Search Tree.md"
   ]
 }
