@@ -31,7 +31,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software-Engineering/Probability.md",
+            "file": "Templates/Concept.md",
             "mode": "source"
           }
         }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software-Engineering/Probability.md",
+                "file": "Templates/Concept.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software-Engineering/Probability.md"
+                "file": "Templates/Concept.md"
               }
             }
           }
@@ -160,8 +160,8 @@
   },
   "active": "1ac72431c7789f54",
   "lastOpenFiles": [
-    "Software-Engineering/Probability.md",
     "Templates/Concept.md",
+    "Software-Engineering/Probability.md",
     "Templates/Templates MOC.md",
     "Data-Structures-and-Algorithms/01-28-2021 Intro. to Algorithmic Runtime.md",
     "Data-Structures-and-Algorithms/Algo MOC.md",
