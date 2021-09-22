@@ -24,3 +24,6 @@ $$\hat{c} = {argmax P(c|d) \atop {c \in C}} = {argmax P(d|c)P(c) \atop {c \in C}
 
 Liklihood of the document: $P(c|d)$
 Prior probability: $P(c)$
+
+==Precision:== The percentage of items that the system detected that are in fact positive 
+==Recall:== The percentage of items actually present in the input that were correctly identified by the system 
