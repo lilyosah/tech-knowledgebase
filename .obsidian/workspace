@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Natural-Language-Processing/HW2 Sentenciser.md",
+            "file": "Software-Engineering/Machine Learning.md",
             "mode": "source"
           }
         }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Natural-Language-Processing/HW2 Sentenciser.md",
+                "file": "Software-Engineering/Machine Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Natural-Language-Processing/HW2 Sentenciser.md"
+                "file": "Software-Engineering/Machine Learning.md"
               }
             }
           }
@@ -119,15 +119,15 @@
   },
   "active": "1f3f92cc21a4ecc8",
   "lastOpenFiles": [
-    "Natural-Language-Processing/HW2 Sentenciser.md",
-    "Natural-Language-Processing/NLP Table of Contents.md",
     "Software-Engineering/Machine Learning.md",
+    "Natural-Language-Processing/Sentiment Classification.md",
+    "Natural-Language-Processing/Naive Bayes Law.md",
+    "Natural-Language-Processing/NLP Table of Contents.md",
+    "Natural-Language-Processing/Naive Bayes.md",
+    "Natural-Language-Processing/Naive Bayes and Sentiment Classification.md",
+    "Natural-Language-Processing/Bayes Law.md",
+    "Natural-Language-Processing/HW2 Sentenciser.md",
     "Data-Structures-and-Algorithms/01-28-2021 Intro. to Algorithmic Runtime.md",
-    "Templates/Concept.md",
-    "Software-Engineering/Probability.md",
-    "Templates/Templates MOC.md",
-    "Data-Structures-and-Algorithms/Algo MOC.md",
-    "Data-Structures-and-Algorithms/Dynamic Programming.md",
-    "Data-Structures-and-Algorithms/Binary Search Tree.md"
+    "Templates/Concept.md"
   ]
 }

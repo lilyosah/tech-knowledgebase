@@ -14,6 +14,9 @@
 ### Unsupervised Learning
 
 ### Supervised Learning
+Have a
+
+
 Representation:
 - Objects in a vector $R$
 - Can be coordinates in a space
