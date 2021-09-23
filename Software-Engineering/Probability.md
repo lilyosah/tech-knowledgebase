@@ -46,3 +46,7 @@ $L(P|X)$
 $\frac{dL}{dp}$
 $dl = p(o)$
 
+If things in a vector are independent, then their probability is multiplied by each other
+
+
+
