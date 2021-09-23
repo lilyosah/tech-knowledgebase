@@ -21,16 +21,18 @@ Tags:
 - Tokenizes acronyms, even if they're really weird and not real, correctly
 	- `U.S.A.` is tokenized as one
 	- `L.M.A.O.` is one
-	- Gradescope:
-		- One number is based on how many sentences you submitted
-		- (perfetalg - perfectdefault) => 0 means it's the same as the default alg
-		- A 1 is weird because it's the opposite of the default alg
+	- Does not count them as the end of sentences
+- Gradescope:
+	- One number is based on how many sentences you submitted
+	- (perfetalg - perfectdefault) => 0 means it's the same as the default alg
+	- A 1 is weird because it's the opposite of the default alg
 
 ## Things we don't know
-- Why does `.is_punct` not include commas/break up sentences
+- Why does `.is_punct` not include commas/ why do they not break up sentences
 
 ## Ideas
 Add rules to the existing code to catch more cases.
 - Ending sentence with acronym
+	- Problem with the assertion
 - Decimal numbers
 - newline 
