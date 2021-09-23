@@ -56,10 +56,23 @@ Include:
 	- 2xx, 3xx (resource moved), 4xx (access problem), 5xx (server error)
 - Response headers
 - Response body
-
-### Represential State Transfer (REST) 
-: Conventions to indicate how URIs are constructed or how tasks should occur
-- PUT and POST calls send the request in the body
+e
+### Representational State Transfer (REST) 
+: Conventions to indicate how URIs are constructed or how tasks should occur. Self-contained requests specify what resources to operate on and what to do with it
+- 📝 Roy Fielding's PhD thesis
+- Resource may be existing content or a request to modify something
+- All state affecting the resource is explicit
+- Common operations are ==CRUDI:== Create Read Update Delete Index, maps to operations
+	- **Create** - POST
+		- Ex: /books
+	- **Read** - GET
+		- Ex: /books/:id
+	- **Update** - PUT or PATCH
+		- Ex: /books/:id
+	- **Delete** - DELETE
+		- Ex: /books/:id
+	- **Index** - GET: Get listing of ALL books
+		- Ex: /books
 
 
 ## Other things:

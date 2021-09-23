@@ -38,7 +38,10 @@ Key issues that must be resolved:
 2. Which operation is called?
 	- Operations on resources in a RESTFUL sense [[Networks#Represential State Transfer REST]]
 	- URI and HTTP encodes the operation
-	- CRUDI: Create Read Update Delete Index, maps to operations
+	- CRUDI [[Networks#Represential State Transfer REST]]
 3. How are args passed?
+	- HTTP query params or HTTP payload
 4. How does caller receive return value?
+	- Response headers/HTTP response
 5. How do we signal errors?
+	- HTTP status codes
