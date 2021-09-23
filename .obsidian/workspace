@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Natural-Language-Processing/Naive Bayes Classifiers.md",
+            "file": "Software-Engineering/SWE Table of Contents.md",
             "mode": "source"
           }
         }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Natural-Language-Processing/Naive Bayes Classifiers.md",
+                "file": "Software-Engineering/SWE Table of Contents.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Natural-Language-Processing/Naive Bayes Classifiers.md"
+                "file": "Software-Engineering/SWE Table of Contents.md"
               }
             }
           }
@@ -119,6 +119,7 @@
   },
   "active": "077949af5ce43792",
   "lastOpenFiles": [
+    "Software-Engineering/SWE Table of Contents.md",
     "Natural-Language-Processing/Naive Bayes Classifiers.md",
     "Natural-Language-Processing/Naive Bayes Law.md",
     "Software-Engineering/Machine Learning.md",
@@ -127,7 +128,6 @@
     "Natural-Language-Processing/Naive Bayes.md",
     "Natural-Language-Processing/Naive Bayes and Sentiment Classification.md",
     "Natural-Language-Processing/Bayes Law.md",
-    "Natural-Language-Processing/HW2 Sentenciser.md",
-    "Data-Structures-and-Algorithms/01-28-2021 Intro. to Algorithmic Runtime.md"
+    "Natural-Language-Processing/HW2 Sentenciser.md"
   ]
 }

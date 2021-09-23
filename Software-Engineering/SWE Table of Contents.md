@@ -44,3 +44,5 @@
 	- [[Ruby#Open Classes and Modules]]
 	- [[Agile#Testing]]
 	- [[Machine Learning]]
+- 09-23-2021
+	- [[]]
