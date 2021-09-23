@@ -31,8 +31,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software-Engineering/Networks.md",
-            "mode": "preview"
+            "file": "Software-Engineering/Probability.md",
+            "mode": "source"
           }
         }
       },
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software-Engineering/Networks.md",
+                "file": "Software-Engineering/Probability.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software-Engineering/Networks.md"
+                "file": "Software-Engineering/Probability.md"
               }
             }
           }
@@ -158,6 +158,7 @@
   },
   "active": "2262301111496709",
   "lastOpenFiles": [
+    "Software-Engineering/Probability.md",
     "Software-Engineering/Networks.md",
     "Software-Engineering/SaaS (Software as a Service).md",
     "Design Patterns.md",
@@ -166,7 +167,6 @@
     "Software-Engineering/Cloud Computing.md",
     "Templates/Concept.md",
     "Software-Engineering/SWE Table of Contents.md",
-    "Software-Engineering/Web.md",
-    "Software-Engineering/SaaS.md"
+    "Software-Engineering/Web.md"
   ]
 }
