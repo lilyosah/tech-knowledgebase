@@ -6,6 +6,8 @@
 %%
 **Related:**
 -  [[Cloud Computing]]
+-  [[Design Patterns]]
+-  [[Networks]]
 
 
 : Software as a service 
@@ -15,10 +17,28 @@
 - A good fit when a group of users wants to collectively interact with the same data
 - Often service-oriented architecture (SOA)
 - Often uses [[Design Patterns#Client-Server]], sometime [[Design Patterns#Peer-to-peer Architecture]]
+- Communicate using [[Networks]]
 
 
-## Communication
-[[Networks]]
+==Service Oriented Architecture (SOA):== A set of independent services composed to produce larger sites
+- App divided into sub-parts with a clear external interface
+- Sub-parts cannot access eachother's data without an interface (API)
 
-==Service Oriented Architecture:== A set of independent services composed to produce larger sites
+
 ==Microservice:== A standalone service that performs just one type of task
+- Dividing service components into their smallest possible parts
+- Pros: Each sub-component is independent and easy to evolve, components may be reused by multiple services 
+- Cons: Performance is lower, complexity is higher
+
+
+## APIs
+Key issues that must be resolved:
+1. How does caller (user) identify callee? (server)
+	- HTTP endpoints
+2. Which operation is called?
+	- Operations on resources in a RESTFUL sense [[Networks#Represential State Transfer REST]]
+	- URI and HTTP encodes the operation
+	- CRUDI: Create Read Update Delete Index, maps to operations
+3. How are args passed?
+4. How does caller receive return value?
+5. How do we signal errors?

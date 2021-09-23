@@ -29,11 +29,18 @@
 : Rules for communication to make a request and receive a response
 - Text-based request/reply protocol for transferring web content
 - Uses port 80 by default
-- Stateless, all requests are unrelated
+- By default, stateless. All requests are unrelated, does not keep any history
+	- The illusion of state is cookies
 
 1. Initiate TCP/IP connection by specifying ip and port number
 2. If successful, sends a request to perform an operation on a resource (web page, image, form submission, etc.)
 3. Server delivers a response
+
+### Cookies
+- Key value
+- Used to store info about requests
+- Used for tracking
+- Authentication (logged in or not)
 
 ### Requests
 Include:
@@ -57,4 +64,7 @@ Include:
 
 ## Other things:
 - ==CNAMEs:== Aliases for other URI paths?  #🔍
-- ==CURL:== Command li used for making requests 
+- ==CURL:== Command line program used for making requests 
+- ==Idempotent:== Can be retired with no side effects
+	- GET requests
+	- Non-idempotent: PUT, POST... (modifying requests)
