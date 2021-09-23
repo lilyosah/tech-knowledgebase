@@ -27,4 +27,10 @@
 
 ==HTTP Protocol:== Rules for communication to make a request and receive a response
 1. Initiate TCP/IP connection by specifying ip and port number
-2. If successful,  
+2. If successful, sends a request to perform an operation on a resource (web page, image, form submission, etc.)
+3. Server delivers a response
+
+- Stateless, all requests are unrelated 
+
+==Service Oriented Architecture:== A set of independent services composed to produce larger sites
+==Microservice:== A standalone service that performs just one type of task
