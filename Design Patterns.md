@@ -31,6 +31,8 @@
 
 ## Client-Server
 - Distinguishing clients from the server, allowing each type of program to be highly specialized
+- Client: asks questions on behalf of users
+- Server: wait and respond to questions, serve many clients
 
 ## Peer-to-peer Architecture
 - 🌎 Used in BitTorrent

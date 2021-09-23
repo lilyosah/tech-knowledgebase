@@ -83,7 +83,8 @@
     "falsy",
     "truthy",
     "datacenter",
-    "datacenters"
+    "datacenters",
+    "resends"
   ],
   "newFileLocation": "current",
   "attachmentFolderPath": "./",
