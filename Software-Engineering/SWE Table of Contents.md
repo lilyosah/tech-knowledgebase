@@ -45,4 +45,5 @@
 	- [[Agile#Testing]]
 	- [[Machine Learning]]
 - 09-23-2021
-	- [[]]
+	- [[Design Patterns#Client-Server]]
+	- [[SaaS (Software as a Service)]]

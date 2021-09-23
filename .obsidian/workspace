@@ -9,7 +9,29 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software-Engineering/SWE Table of Contents.md",
+            "file": "Software-Engineering/Cloud Computing.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "94a585086b842fec",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Software-Engineering/SaaS (Software as a Service).md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "538c4e5f77e3d9e0",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Design Patterns.md",
             "mode": "source"
           }
         }
@@ -77,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software-Engineering/SWE Table of Contents.md",
+                "file": "Software-Engineering/SaaS (Software as a Service).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software-Engineering/SWE Table of Contents.md"
+                "file": "Software-Engineering/SaaS (Software as a Service).md"
               }
             }
           }
@@ -117,17 +139,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "077949af5ce43792",
+  "active": "94a585086b842fec",
   "lastOpenFiles": [
+    "Software-Engineering/SaaS (Software as a Service).md",
+    "Design Patterns.md",
+    "Templates/Concept.md",
     "Software-Engineering/SWE Table of Contents.md",
+    "Software-Engineering/Web.md",
+    "Software-Engineering/SaaS.md",
+    "Software-Engineering/Cloud Computing.md",
+    "Software-Engineering/Untitled.md",
     "Natural-Language-Processing/Naive Bayes Classifiers.md",
-    "Natural-Language-Processing/Naive Bayes Law.md",
-    "Software-Engineering/Machine Learning.md",
-    "Natural-Language-Processing/Sentiment Classification.md",
-    "Natural-Language-Processing/NLP Table of Contents.md",
-    "Natural-Language-Processing/Naive Bayes.md",
-    "Natural-Language-Processing/Naive Bayes and Sentiment Classification.md",
-    "Natural-Language-Processing/Bayes Law.md",
-    "Natural-Language-Processing/HW2 Sentenciser.md"
+    "Natural-Language-Processing/Naive Bayes Law.md"
   ]
 }
