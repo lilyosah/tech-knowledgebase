@@ -84,7 +84,7 @@ and ends with `end`
 - You don't need parentheses around the method call if it doesn't result in ambiguous parsing
 - Need accessor and mutator methods to access and change vars, cannot be done without methods
 
-### Naming %%%%Conventions
+### Naming Conventions
 - If you have a `#` symbol in front, it specifies that the methods is called on a certain class
 	- ex: `String#to_i`
 - Following a method name with `?` indicates that it returns true or false

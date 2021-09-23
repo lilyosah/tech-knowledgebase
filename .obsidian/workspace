@@ -31,7 +31,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Natural-Language-Processing/HW2 Sentenciser.md",
+            "file": "Software-Engineering/Ruby.md",
             "mode": "source"
           }
         }
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Natural-Language-Processing/HW2 Sentenciser.md",
+                "file": "Software-Engineering/Ruby.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Natural-Language-Processing/HW2 Sentenciser.md"
+                "file": "Software-Engineering/Ruby.md"
               }
             }
           }
@@ -158,15 +158,15 @@
   },
   "active": "2262301111496709",
   "lastOpenFiles": [
+    "Software-Engineering/Ruby.md",
+    "Design Patterns.md",
     "Natural-Language-Processing/HW2 Sentenciser.md",
     "Natural-Language-Processing/NLP Table of Contents.md",
     "Software-Engineering/Probability.md",
     "Software-Engineering/Networks.md",
     "Software-Engineering/SaaS (Software as a Service).md",
-    "Design Patterns.md",
     "Software-Engineering/Networking.md",
     "Software-Engineering/- Uses HTTP routes.md",
-    "Software-Engineering/Cloud Computing.md",
-    "Templates/Concept.md"
+    "Software-Engineering/Cloud Computing.md"
   ]
 }
