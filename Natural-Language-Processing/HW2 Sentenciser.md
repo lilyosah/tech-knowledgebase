@@ -12,6 +12,9 @@ Tags:
 
 --- 
 
+## Problem
+Improve the [[Python]] [Spacey Sentencizer](https://spacy.io/api/sentencizer).
+
 ## Things we know
 - Acronyms
 	- `"I live in the U.S. and my name is Mairo"` -> 1 sentence, says it's 1✔
@@ -40,3 +43,12 @@ Add rules to the existing code to catch more cases.
 - Honorifics ❌
 	- `George Sr. brushed his teeth.` -> breaks it into 2, should be one 
 	- Thinks `Miss. My name is George.` is 1
+	- Things it breaks on: 
+		- Sr.
+		- Capt.
+		- Col.
+		- Drs.
+		- Lt.
+		- Agt.
+		- Mx.
+		- Misc.

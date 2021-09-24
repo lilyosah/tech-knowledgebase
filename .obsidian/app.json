@@ -84,7 +84,8 @@
     "truthy",
     "datacenter",
     "datacenters",
-    "resends"
+    "resends",
+    "Sentencizer"
   ],
   "newFileLocation": "current",
   "attachmentFolderPath": "./",
