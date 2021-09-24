@@ -15,8 +15,8 @@
 
 - IP addresses identify a physical network interface with four octets 
 - Establishing a TCP/IP connection requires a port number from 1 - 655435 to indicate which program on the server is the intended communication partner in additional to the IP
-	- 443 is HTTPS
-	- 80 is HTTP
+	- 443 is HTTPS (encrypted)
+	- 80 is HTTP (not encrypted)
 - IP is a "best effort service", but packets may be dropped, additional protocols (TCP) are layered on top to make more reliable
 	- Detects and resends dropped, mangled, out-of-order packets, adapts to slow networks or hosts 
 
@@ -53,10 +53,10 @@ Include:
 
 ### Responses
 - Protocol version and status code 
-	- 2xx, 3xx (resource moved), 4xx (access problem), 5xx (server error)
+	- 2xx, 3xx (resource moved), 4xx (client error), 5xx (server error)
 - Response headers
 - Response body
-e
+
 ### Representational State Transfer (REST) 
 : Conventions to indicate how URIs are constructed or how tasks should occur. Self-contained requests specify what resources to operate on and what to do with it
 - 📝 Roy Fielding's PhD thesis
