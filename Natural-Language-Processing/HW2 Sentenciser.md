@@ -39,6 +39,7 @@ Add rules to the existing code to catch more cases.
 	- Problem with the assertion
 - Decimal numbers ✔
 - Newline 
+- Roman numerals
 - e.g. an i.e. ✔
 - Honorifics ❌
 	- `George Sr. brushed his teeth.` -> breaks it into 2, should be one 
@@ -52,3 +53,6 @@ Add rules to the existing code to catch more cases.
 		- Agt.
 		- Mx.
 		- Misc.
+	- One solution: Check if the current token is in this list. If it is and the next token is a period, and the first letter of the following token is lowercase, assume to not be the start of a new sentence. 
+		- Problem with this: If it's followed by a proper noun this will be marked as the end of the sentence but there's not an easy way to check if the following token is a proper noun. 
+		- Solution: have two sets, one with honorifics, these should not be sentence boundary when the next word is uppercase. Abbreviations should not be sentence boundaries when the next word is lowercase.
