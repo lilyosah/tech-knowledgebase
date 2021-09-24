@@ -4,45 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "077949af5ce43792",
+        "id": "3d355bba6d5578b9",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software-Engineering/Cloud Computing.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "94a585086b842fec",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Software-Engineering/SaaS (Software as a Service).md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "2262301111496709",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Software-Engineering/Ruby.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "538c4e5f77e3d9e0",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Design Patterns.md",
+            "file": "Natural-Language-Processing/HW2 Sentenciser.md",
             "mode": "source"
           }
         }
@@ -127,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software-Engineering/Ruby.md",
+                "file": "Natural-Language-Processing/HW2 Sentenciser.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software-Engineering/Ruby.md"
+                "file": "Natural-Language-Processing/HW2 Sentenciser.md"
               }
             }
           }
@@ -156,17 +123,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "2262301111496709",
+  "active": "3d355bba6d5578b9",
   "lastOpenFiles": [
-    "Software-Engineering/Ruby.md",
-    "Design Patterns.md",
     "Natural-Language-Processing/HW2 Sentenciser.md",
+    "Software-Engineering/SaaS (Software as a Service).md",
+    "Software-Engineering/Cloud Computing.md",
+    "Design Patterns.md",
+    "Software-Engineering/Ruby.md",
     "Natural-Language-Processing/NLP Table of Contents.md",
     "Software-Engineering/Probability.md",
     "Software-Engineering/Networks.md",
-    "Software-Engineering/SaaS (Software as a Service).md",
     "Software-Engineering/Networking.md",
-    "Software-Engineering/- Uses HTTP routes.md",
-    "Software-Engineering/Cloud Computing.md"
+    "Software-Engineering/- Uses HTTP routes.md"
   ]
 }

@@ -32,7 +32,11 @@ Tags:
 
 ## Ideas
 Add rules to the existing code to catch more cases.
-- Ending sentence with acronym
+- Ending sentence with acronym - Sort of implemented
 	- Problem with the assertion
-- Decimal numbers
-- newline 
+- Decimal numbers ✔
+- Newline 
+- e.g. an i.e. ✔
+- Honorifics ❌
+	- `George Sr. brushed his teeth.` -> breaks it into 2, should be one 
+	- Thinks `Miss. My name is George.` is 1
