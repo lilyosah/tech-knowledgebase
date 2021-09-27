@@ -21,7 +21,9 @@
 	- For rails: [[Design Patterns#Active Record]]
 	- A class that descends from `ActiveRecord::Base` provides methods needed to connect model to the database
 	- `$ exec rails g(enerate) model`
-		- Default table is model name with an s added
+		- Default table is model name in all lowercase with an s added at the end
+			- Model `Book` -> BD table `books`
+			- `TimeSheet` -> `time_sheet`
 		- Lets you do everything except create the table, to do that you must create a ==migration:== a [[Ruby]] script describing a set of changes to make to the database schema
 			- Do this instead of using SQL because Rails defines production environments, you'd have to make three identical SQL calls 
 			- `$ exec rails g(enerate) migration [migration name]`
