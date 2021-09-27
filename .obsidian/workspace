@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Natural-Language-Processing/HW2 Sentenciser.md",
+            "file": "Design Patterns.md",
             "mode": "source"
           }
         }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Natural-Language-Processing/HW2 Sentenciser.md",
+                "file": "Design Patterns.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Natural-Language-Processing/HW2 Sentenciser.md"
+                "file": "Design Patterns.md"
               }
             }
           }
@@ -125,15 +125,15 @@
   },
   "active": "3d355bba6d5578b9",
   "lastOpenFiles": [
+    "Design Patterns.md",
+    "Software-Engineering/09-28-2021 SWE Notes.md",
+    "Software-Engineering/SWE Table of Contents.md",
     "Natural-Language-Processing/HW2 Sentenciser.md",
     "Software-Engineering/Networks.md",
     "Software-Engineering/SaaS (Software as a Service).md",
     "Software-Engineering/Cloud Computing.md",
-    "Design Patterns.md",
     "Software-Engineering/Ruby.md",
     "Natural-Language-Processing/NLP Table of Contents.md",
-    "Software-Engineering/Probability.md",
-    "Software-Engineering/Networking.md",
-    "Software-Engineering/- Uses HTTP routes.md"
+    "Software-Engineering/Probability.md"
   ]
 }

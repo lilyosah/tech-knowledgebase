@@ -47,3 +47,7 @@
 - 09-23-2021
 	- [[Design Patterns#Client-Server]]
 	- [[SaaS (Software as a Service)]]
+
+### Week 7
+- 09-28-2021
+	- [[09-28-2021 SWE Notes]]

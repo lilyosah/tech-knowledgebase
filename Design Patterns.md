@@ -34,6 +34,15 @@
 - Client: asks questions on behalf of users
 - Server: wait and respond to questions, serve many clients
 
+
+## Model-View-Controller (MVC)
+- Way to organize the server application in Client-Server Architecture
+==Models:== Store data about one entity 
+==Views:== Are the interface between the data and the user 
+
+
 ## Peer-to-peer Architecture
 - 🌎 Used in BitTorrent
 - Every participant is both a client and participant
+
+
