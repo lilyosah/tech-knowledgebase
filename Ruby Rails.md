@@ -20,4 +20,6 @@
 	- What mechanisms mediate those representations?
 	- For rails: [[Design Patterns#Active Record]]
 	- A class that descends from `ActiveRecord::Base` provides methods needed to connect model to the database
-		- Lets you do everything except create the table, to do that you must create a ==migration:== a [[Ruby]] scrip
+		- Lets you do everything except create the table, to do that you must create a ==migration:== a [[Ruby]] script describing a set of changes to make to the database schema
+			- Do this instead of using SQL because Rails defines production environments, you'd have to make three identical SQL calls 
+			- `$ rails generate migration [migration name]`
