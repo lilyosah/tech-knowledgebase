@@ -4,7 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "3d355bba6d5578b9",
+        "id": "af41094f42088111",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Ruby Rails.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "d8cdb37b23c25560",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -94,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Design Patterns.md",
+                "file": "Ruby Rails.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Design Patterns.md"
+                "file": "Ruby Rails.md"
               }
             }
           }
@@ -123,17 +134,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "3d355bba6d5578b9",
+  "active": "af41094f42088111",
   "lastOpenFiles": [
+    "Ruby Rails.md",
     "Design Patterns.md",
-    "Software-Engineering/09-28-2021 SWE Notes.md",
+    "Software-Engineering/Relational Databases.md",
+    "Templates/Concept.md",
     "Software-Engineering/SWE Table of Contents.md",
-    "Natural-Language-Processing/HW2 Sentenciser.md",
-    "Software-Engineering/Networks.md",
+    "Software-Engineering/Relational Database.md",
     "Software-Engineering/SaaS (Software as a Service).md",
-    "Software-Engineering/Cloud Computing.md",
-    "Software-Engineering/Ruby.md",
-    "Natural-Language-Processing/NLP Table of Contents.md",
-    "Software-Engineering/Probability.md"
+    "Software-Engineering/09-28-2021 SWE Notes.md",
+    "Natural-Language-Processing/HW2 Sentenciser.md",
+    "Software-Engineering/Networks.md"
   ]
 }

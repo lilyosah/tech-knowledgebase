@@ -1,4 +1,4 @@
-# Saas
+# SaaS (Software as a Service)
 #📥 
 %%
 #topic
@@ -30,6 +30,10 @@
 - Pros: Each sub-component is independent and easy to evolve, components may be reused by multiple services 
 - Cons: Performance is lower, complexity is higher
 
+## Databases and Active Record
+- Needs to store and manipulate persistent data (entities) for which all entities of one type share common attributes
+	- Must be able to express relationships between different entity types
+	- Use [[Relational Databases]] management systems
 
 ## APIs
 Key issues that must be resolved:

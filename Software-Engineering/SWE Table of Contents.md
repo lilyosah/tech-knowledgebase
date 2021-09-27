@@ -50,4 +50,7 @@
 
 ### Week 7
 - 09-28-2021
-	- [[09-28-2021 SWE Notes]]
+	- [[Design Patterns#Model-View-Controller MVC]]
+	- [[Ruby Rails]]
+	- [[SaaS (Software as a Service)#Databses and Active Record]]
+	- [[Relational Databases]]
