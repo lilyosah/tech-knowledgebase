@@ -21,6 +21,20 @@
 	- For rails: [[Design Patterns#Active Record]]
 	- A class that descends from `ActiveRecord::Base` provides methods needed to connect model to the database
 	- `$ exec rails g(enerate) model`
+		- Default table is model name with an s added
 		- Lets you do everything except create the table, to do that you must create a ==migration:== a [[Ruby]] script describing a set of changes to make to the database schema
 			- Do this instead of using SQL because Rails defines production environments, you'd have to make three identical SQL calls 
 			- `$ exec rails g(enerate) migration [migration name]`
+			- To add to the table, have to add to the seed
+
+## [[SQL]] Calls in Rails
+[[Networks#Representational State Transfer REST|CRUDI]]
+- **SELECT** `[Model].all`
+- **SELECT WHERE** `[Model].where("year >= 2000")`
+	- Can be chained, like
+		- `[Model].where("year >= 2000").where("year <= 2020")`
+- **Create/INSERT** `Model.create(attribute: "The Perks of being a Wallflower", year: 1999)
+	- If you don't specify attributes, default to `nil`/`null` (for databases)
+- **Update/Read** `Model.find(9)` Takes ID
+	- So save in the table, save the found object with `item.save!`
+- **Delete** `item.destroy`
