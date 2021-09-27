@@ -13,17 +13,6 @@
             "mode": "source"
           }
         }
-      },
-      {
-        "id": "d8cdb37b23c25560",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Design Patterns.md",
-            "mode": "source"
-          }
-        }
       }
     ],
     "direction": "vertical"
