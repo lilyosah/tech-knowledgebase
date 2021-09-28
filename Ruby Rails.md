@@ -74,22 +74,23 @@ graph TD
 guides.rubyonrails.org/routing.html
 
 1. Routes: Map incoming URLs to controller actions and extract optional parameters 
-	- Result of matching a route is calling an instnce method in a controller class
+	- Result of matching a route is calling an instance method in a controller class
 	- Wildcard parameters: (e.g. `:id`) + query params are put into `params[]` hash and are accessible in controller actions 
-2. Controller actions/methods: Set instance varaibles which are visbile to views 
-	- Controller methods call models class methods to retirenve database/model objects
-	- Subdirectories of `views/` match controller and action names
+2. Controller actions/methods: Set instance variables which are visible to views 
+	- Controller methods call model's class methods ([[Ruby Rails#SQL Calls in Rails]] and any other additional methods) to retrieve database/model objects
+	- Sub-directories of `views/` match controller and action names
 	```Ruby
+	# The controller
 	class BooksController < ApplicationController
 		def index
 			# Unfinished
 	```
 	
-	
 3. Controller eventually renders a view 
 	- Use `<% ... %>` to execute arbitrary lines of Ruby with no output
 	- Use `<%= %>` for interpolating Ruby into HTML
 	```HTML
+	<!-- The view is what is actually rendered -->
 	<tbody>
 		<% @books.each do |book}| %>
 			<tr>
@@ -99,6 +100,7 @@ guides.rubyonrails.org/routing.html
 
 
 ### Models
+- Business logic 
 - Each model gets its own [[Relational Databases|Relational Database]] table
 - 1 row = 1 model instance
 - Each row has a unique primary key
@@ -107,7 +109,32 @@ guides.rubyonrails.org/routing.html
 ==Schema:== Collection of their tables and their structure 
 
  [[Design Patterns#Active Record]] 
+ 
+Types:
+- int, string, text, decimal (digits, ), blob (raw binary)
+- Can't have array 
+ 
+ **Ex: ✏ Model for a product and user**  
+ Model for a product:
+ - `int` ID
+ - `int` Quantity
+ - `string` Image URL
+ - `string` Name
+ - `decimal` Price
+ - `text` Description
+ - `string` Manufacturer, maybe in another model
+ - `string` Category/tags - probably in another model
+ - Reviews - probably in another model
 
+Model for a user:
+- `int` ID
+- `string` Username
+- `string` Password
+- `string` Name
+- `string` Address - could be another model association or break it out here
+- Payment info - in another model
+- Cart IDs - another model
+- Order history
 
 ## [[SQL]] Calls in Rails
 Rails generally shields us from needing to make actual SQL calls

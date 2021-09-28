@@ -9,29 +9,40 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Ruby Rails.md",
+            "file": "Natural-Language-Processing/Naive Bayes Classifiers.md",
+            "mode": "preview"
+          }
+        }
+      },
+      {
+        "id": "ce7a1e2b670069dc",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Natural-Language-Processing/Naive Bayes Classifiers.md",
             "mode": "source"
           }
         }
       },
       {
-        "id": "7dc65f9b5f3d3b38",
+        "id": "2d5139431b4ffc8c",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Design Patterns.md",
+            "file": "Natural-Language-Processing/Sentiment Classification.md",
             "mode": "source"
           }
         }
       },
       {
-        "id": "5d4f62538743031c",
+        "id": "dda103c40c6c175c",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software-Engineering/SWE Table of Contents.md",
+            "file": "Natural-Language-Processing/Naive Bayes Classifiers.md",
             "mode": "source"
           }
         }
@@ -116,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ruby Rails.md",
+                "file": "Natural-Language-Processing/Naive Bayes Classifiers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ruby Rails.md"
+                "file": "Natural-Language-Processing/Naive Bayes Classifiers.md"
               }
             }
           }
@@ -145,17 +156,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f649a16c62306eac",
+  "active": "ce7a1e2b670069dc",
   "lastOpenFiles": [
+    "Natural-Language-Processing/Naive Bayes Classifiers.md",
+    "Natural-Language-Processing/NLP Table of Contents.md",
+    "Natural-Language-Processing/Sentiment Classification.md",
+    "Software-Engineering/Machine Learning.md",
+    "Natural-Language-Processing/09-28-2021 NLP Notes.md",
     "Ruby Rails.md",
     "Design Patterns.md",
     "Software-Engineering/Relational Databases.md",
     "Software-Engineering/SQL.md",
-    "Software-Engineering/SWE Table of Contents.md",
-    "Natural-Language-Processing/HW3 N-Grams.md",
-    "Templates/Assignment.md",
-    "Natural-Language-Processing/NLP Table of Contents.md",
-    "Software-Engineering/Ruby.md",
-    "Software-Engineering/Networks.md"
+    "Software-Engineering/SWE Table of Contents.md"
   ]
 }
