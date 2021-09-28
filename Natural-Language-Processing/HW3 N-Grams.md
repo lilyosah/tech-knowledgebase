@@ -53,5 +53,14 @@ Related notes:
  prob of next word given less. The second thing there is a bigram...**Need to calculate n-1 grams**
  P(is|my~name)
  
+ my~name
+ 
+ - Bigram
+	 - Prob of the next word following the token given all the times the first word appears
+	 - bigram count / first token count
+	 - Prob of the sentence: The probabilities of each of the individual bigrams multiplied together 
+ - Trigram
+	 - prob of the next two words as a bigram given all the times the first word appears
+ 
 
 
