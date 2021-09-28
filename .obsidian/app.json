@@ -86,7 +86,8 @@
     "datacenters",
     "resends",
     "Sentencizer",
-    "metaprogramming"
+    "metaprogramming",
+    "params"
   ],
   "newFileLocation": "current",
   "attachmentFolderPath": "./",

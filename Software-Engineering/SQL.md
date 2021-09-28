@@ -10,6 +10,7 @@
 ---
 
 : Structured Query Language
+- Based on relational algebra
 
 *Selects just member_type, start_date, duration columns*
 ```SQL

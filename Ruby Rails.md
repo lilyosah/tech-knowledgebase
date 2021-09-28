@@ -1,5 +1,5 @@
 # Ruby Rails
-#📥 
+#📥 *Really needs to be reogranized*
 %%
 #coding 
 #concept
@@ -24,11 +24,7 @@
 - Uses [[Design Patterns#Model-View-Controller MVC]]
 	- Each Rails model is a resource type whose instances are rows in a particular table of a relational database 
 	- Rails routing subsystem maps HTTP routes to code in the app that performs the correct action
-- Convention over configuration
-- Uses [[Relational Databases]]
-	- What is the relationship between how an instance of a resource is stored in the database and how it's represented in a particular programming language used by the framework?
-	- What mechanisms mediate those representations?
-	- For rails: [[Design Patterns#Active Record]]
+
 
 
 ## Making an App
@@ -67,12 +63,55 @@ launches in localhost:3000
 
 - Server usually live-updates, if you change routes or server configurations you must relaunch the server 
 
-#### Routes 
-Map incoming URLs to controller actions and extract optional parameters 
-- Wildcare paramters:
+
+```mermaid
+graph TD
+ Controller("Access model, assign to instance var") --> Model("Model (Database)")
+ Controller --> View("View - Render HTML")
+```
+
+### Routing
+guides.rubyonrails.org/routing.html
+
+1. Routes: Map incoming URLs to controller actions and extract optional parameters 
+	- Result of matching a route is calling an instnce method in a controller class
+	- Wildcard parameters: (e.g. `:id`) + query params are put into `params[]` hash and are accessible in controller actions 
+2. Controller actions/methods: Set instance varaibles which are visbile to views 
+	- Controller methods call models class methods to retirenve database/model objects
+	- Subdirectories of `views/` match controller and action names
+	```Ruby
+	class BooksController < ApplicationController
+		def index
+			# Unfinished
+	```
+	
+	
+3. Controller eventually renders a view 
+	- Use `<% ... %>` to execute arbitrary lines of Ruby with no output
+	- Use `<%= %>` for interpolating Ruby into HTML
+	```HTML
+	<tbody>
+		<% @books.each do |book}| %>
+			<tr>
+				<td><%= book.title %> <!-- Ruby -->
+				...
+	```
+
+
+### Models
+- Each model gets its own [[Relational Databases|Relational Database]] table
+- 1 row = 1 model instance
+- Each row has a unique primary key
+	- By convention, and integer called `id`
+
+==Schema:== Collection of their tables and their structure 
+
+ [[Design Patterns#Active Record]] 
 
 
 ## [[SQL]] Calls in Rails
+Rails generally shields us from needing to make actual SQL calls
+
 [[Networks#Representational State Transfer REST|CRUDI]]
 - **SELECT** `[Model].all`
 - **SELECT WHERE** `[Model].where("year >= 2000")`

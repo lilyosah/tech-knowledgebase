@@ -54,7 +54,6 @@
 	- Update an existing row with new attributes from a modified object instance
 	- Delete row
 
-
 ## Peer-to-peer Architecture
 - 🌎 Used in BitTorrent
 - Every participant is both a client and participant
