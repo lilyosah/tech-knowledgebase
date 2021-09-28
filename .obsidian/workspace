@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Ruby Rails.md",
-            "mode": "source"
+            "file": "Software-Engineering/Ruby.md",
+            "mode": "preview"
           }
         }
       }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ruby Rails.md",
+                "file": "Software-Engineering/Ruby.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ruby Rails.md"
+                "file": "Software-Engineering/Ruby.md"
               }
             }
           }
@@ -125,6 +125,7 @@
   },
   "active": "f649a16c62306eac",
   "lastOpenFiles": [
+    "Software-Engineering/Ruby.md",
     "Ruby Rails.md",
     "Software-Engineering/Networks.md",
     "Software-Engineering/SQL.md",
@@ -133,7 +134,6 @@
     "Templates/Concept.md",
     "Software-Engineering/SWE Table of Contents.md",
     "Software-Engineering/Relational Database.md",
-    "Software-Engineering/SaaS (Software as a Service).md",
-    "Software-Engineering/09-28-2021 SWE Notes.md"
+    "Software-Engineering/SaaS (Software as a Service).md"
   ]
 }
