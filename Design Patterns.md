@@ -36,8 +36,11 @@
 
 
 ## Model-View-Controller (MVC)
+- Goal: Separate organization of data (model) from UI and presentation (view) by introducing a controller
+	- URI routes maps action to model 
 - Way to organize the server application in Client-Server Architecture
 ==Models:== Store data about one entity 
+==Controllers:== Mediate user actions requesting access to data
 ==Views:== Are the interface between the data and the user 
 - [[Ruby Rails]] supports MVC
 

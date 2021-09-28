@@ -9,8 +9,30 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Natural-Language-Processing/HW3 N-Grams.md",
-            "mode": "preview"
+            "file": "Ruby Rails.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "7dc65f9b5f3d3b38",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Design Patterns.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "5d4f62538743031c",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Software-Engineering/SWE Table of Contents.md",
+            "mode": "source"
           }
         }
       }
@@ -94,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Natural-Language-Processing/HW3 N-Grams.md",
+                "file": "Ruby Rails.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Natural-Language-Processing/HW3 N-Grams.md"
+                "file": "Ruby Rails.md"
               }
             }
           }
@@ -125,15 +147,15 @@
   },
   "active": "f649a16c62306eac",
   "lastOpenFiles": [
+    "Ruby Rails.md",
+    "Design Patterns.md",
+    "Software-Engineering/SWE Table of Contents.md",
     "Natural-Language-Processing/HW3 N-Grams.md",
     "Templates/Assignment.md",
     "Natural-Language-Processing/NLP Table of Contents.md",
     "Software-Engineering/Ruby.md",
-    "Ruby Rails.md",
     "Software-Engineering/Networks.md",
     "Software-Engineering/SQL.md",
-    "Software-Engineering/Relational Databases.md",
-    "Design Patterns.md",
-    "Templates/Concept.md"
+    "Software-Engineering/Relational Databases.md"
   ]
 }
