@@ -22,4 +22,36 @@ Related notes:
 
 ## 
 
+ # part 2
+
+ # bigrams
+
+ # hi all
+
+ # hi~all
+
+ # p(all|hi)
+
+ # hi all world
+
+ # p(all|hi)p(world|all)
+
+ # hi my name is mario
+
+ # Get the probability of each of the pairs 
+
+ # hi~my
+
+ # hi~name
+
+ # hi~mairo
+
+ # 3grams
+ 
+ hi~my~name
+ my~name~is...
+ prob of next word given less. The second thing there is a bigram...**Need to calculate n-1 grams**
+ P(is|my~name)
+ 
+
 
