@@ -29,8 +29,8 @@ Related notes:
  my~name
  
  - Bigram
-	 - Prob of the next word following the token given all the times the first word appears
-	 - bigram count / first token count
+	 - Prob of the next word following the token given all the times the first word (token) appears
+	 - correct actual bigram count / first token count
 	 - Prob of the sentence: The probabilities of each of the individual bigrams of the given sentence multiplied together 
  - Trigram
 	 - prob of the next two words as a bigram given all the times the first word appears
@@ -38,6 +38,8 @@ Related notes:
 
 Feel like I should use a recursive solution. Up until a bigram? 
 Calculate ngram(n-1)
+
+
  
 
 
