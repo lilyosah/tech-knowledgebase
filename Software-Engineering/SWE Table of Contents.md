@@ -54,4 +54,4 @@
 	- [[Ruby Rails]]
 	- [[SaaS (Software as a Service)#Databses and Active Record]]
 	- [[Relational Databases]]
-	- 
+- 9-30-2021

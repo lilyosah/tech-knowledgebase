@@ -42,6 +42,8 @@
 ==Models:== Store data about one entity 
 ==Controllers:== Mediate user actions requesting access to data
 ==Views:== Are the interface between the data and the user 
+The user interacts with views and invokes controller action
+- Requests come in the form of 
 - [[Ruby Rails]] supports MVC
 
 ## Active Record
