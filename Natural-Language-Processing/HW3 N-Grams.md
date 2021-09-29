@@ -36,8 +36,9 @@ Related notes:
 	 - prob of the next two words as a bigram given all the times the first word appears
 	 - Prob of the sentence: The probabilities of each of the given trigrams of the sentence multiplied together 
 
-Feel like I should use a recursive solution. Up until a bigram? 
-Calculate ngram(n-1)
+Trigram: need to count the occurences of w1w2w3 and divide by occurences of w1w2  
+- n_grams: creates n-grams of specified lengths
+- self.\_n_grams keeps counters of ngrams. Need to count ngrams of length n and n-1
 
 
  
