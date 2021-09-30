@@ -20,4 +20,20 @@ Input -> classifier -> class label category
 
 ## Creating Text-to-Vector Function
 ==Bag of Word model:== id : token -> N
-- Map IDs to a unique token (Like two dicts, keys to vals, vals to keys)
+- Dict to map IDs to a unique token (Like two dicts, keys to vals, vals to keys)
+- Alg, each token gets value that is the size of the dict
+
+d (unique tokens) corresponds to max_x id(x)
+
+function delta returns 1 if $i \in id(x) | x \in tokens(text)$, 0 otherwise 
+*index\[ID of this token in array] = 1*
+m(text) = delta_0(text), delta_1(text)... delta_d-1(text)
+**Creates a boolean mask of all of the tokens**
+
+
+|     |     |     |     |
+| --- | --- | --- | --- |
+| 0   | 0   | 1   | 0   |
+
+## Naive Bayes with Bag of Word
+[[Naive Bayes Classifiers]]
