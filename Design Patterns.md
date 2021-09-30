@@ -43,7 +43,8 @@
 ==Controllers:== Mediate user actions requesting access to data
 ==Views:== Are the interface between the data and the user 
 The user interacts with views and invokes controller action
-- Requests come in the form of 
+- Requests come in the form of HTTP routes
+- Must determine which code should be invoked to handle that route
 - [[Ruby Rails]] supports MVC
 
 ## Active Record

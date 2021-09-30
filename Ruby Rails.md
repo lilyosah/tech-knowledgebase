@@ -20,13 +20,6 @@
 	- Blocks (closures)
 	- Modules (Mix-ins)
 
-## Structure / Design Pattern
-- Uses [[Design Patterns#Model-View-Controller MVC]]
-	- Each Rails model is a resource type whose instances are rows in a particular table of a relational database 
-	- Rails routing subsystem maps HTTP routes to code in the app that performs the correct action
-
-
-
 ## Making an App
 - A class that descends from `ActiveRecord::Base` provides methods needed to connect model to the database
 - `$ exec rails g(enerate) model`
@@ -70,14 +63,23 @@ graph TD
  Controller --> View("View - Render HTML")
 ```
 
+## Structure / Design Pattern
+- Uses [[Design Patterns#Model-View-Controller MVC]]
+	- Each Rails model is a resource type whose instances are rows in a particular table of a relational database 
+
 ### Routing
 guides.rubyonrails.org/routing.html
+
+- Rails routing subsystem maps HTTP routes to code in the app that performs the correct action
+- Adds default routes `new` and `edit`. New displays what is necessary for a `create` request. `edit` shows an editable version of the existing resource in preparation for `update`.
+- Route helpers decouple what the route does from the actual route URI
 
 1. Routes: Map incoming URLs to controller actions and extract optional parameters 
 	- Result of matching a route is calling an instance method in a controller class
 	- Wildcard parameters: (e.g. `:id`) + query params are put into `params[]` hash and are accessible in controller actions 
 2. Controller actions/methods: Set instance variables which are visible to views 
 	- Controller methods call model's class methods ([[Ruby Rails#SQL Calls in Rails]] and any other additional methods) to retrieve database/model objects
+	- Routes created by `resources 'movies'` will expect to find `controllers/movies_controller.rb` what defines c`class MovieController` which descends from `ApplicationController`. This class will be expected to define `index, new, create, show, edit, update, destroy`
 	- Sub-directories of `views/` match controller and action names
 	```Ruby
 	# The controller
@@ -85,6 +87,8 @@ guides.rubyonrails.org/routing.html
 		def index
 			# Unfinished
 	```
+	- After execution, a view named `app/  
+views/model-name/action.html.erb` will be rendered
 	
 3. Controller eventually renders a view 
 	- Use `<% ... %>` to execute arbitrary lines of Ruby with no output
