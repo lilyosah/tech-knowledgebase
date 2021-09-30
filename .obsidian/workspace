@@ -20,8 +20,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Models.md",
-            "mode": "preview"
+            "file": "Natural-Language-Processing/09-30-2021 NLP Notes.md",
+            "mode": "source"
           }
         }
       },
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Models.md",
+                "file": "Natural-Language-Processing/09-30-2021 NLP Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Models.md"
+                "file": "Natural-Language-Processing/09-30-2021 NLP Notes.md"
               }
             }
           }
@@ -147,6 +147,8 @@
   },
   "active": "5d6440e7f23b22e8",
   "lastOpenFiles": [
+    "Natural-Language-Processing/09-30-2021 NLP Notes.md",
+    "Natural-Language-Processing/NLP Table of Contents.md",
     "Models.md",
     "Ruby Rails.md",
     "Design Patterns.md",
@@ -154,8 +156,6 @@
     "Software-Engineering/Relational Databases.md",
     "Software-Engineering/SWE Table of Contents.md",
     "Natural-Language-Processing/Naive Bayes Classifiers.md",
-    "Software-Engineering/Ruby.md",
-    "Natural-Language-Processing/HW3 N-Grams.md",
-    "Natural-Language-Processing/Sentiment Classification.md"
+    "Software-Engineering/Ruby.md"
   ]
 }
