@@ -41,11 +41,11 @@ Handles business logic in [[Design Patterns#Model-View-Controller MVC]] architec
 
 Show help: `rails g model`
 
-### Option 1
+### Creation Option 1
 1. Create table `rails generate migration CreateBooks`
 2. Apply migrations `rails db:migrate`
 
-### Option 2
+### Creation Option 2 (Preferred)
 - `rails generate model`
 - Creates a migration script along with `app/models/model.rb`
 	- Can specify column names/types to generator, and the migration generator
@@ -89,7 +89,7 @@ Rails generally shields us from needing to make actual SQL calls
 
 
 > ⭐ The getters and setters do not modify instance variables, it's data in the table.
-> **So the class is empty, there are no actual instance variables.**
+> **So the class is empty, there are no actual instance variables, don't refer to values with `@`**
 > This is why you must save after making changes to the data, otherwise the data is only in memory
 
 
@@ -97,24 +97,42 @@ Rails generally shields us from needing to make actual SQL calls
 [[Networks#Representational State Transfer REST|CRUDI]]
 📝`.to_sql` method on any CRUDI method shows the corresponding SQL call at the end of any active record call
 
-- **SELECT** `[Model].all`
-	- Like `SELECT * FROM books`
-- **SELECT WHERE** `[Model].where("year >= 2000")`
-	- Can be chained, like
-		- `[Model].where("year >= 2000").where("year <= 2020")`
-		- `[Model].where("list_price < ?", 2)` interpolates `2` into `?`
-		- `[Model].where("list_price < ?", "%#{match_str}%")` interpolates `match_str` into `?`
-		- ❗ Do not use regular string interpolation, opens app up to SQL injection 
-- **Create/INSERT** `Model.create(attribute: "The Perks of being a Wallflower", year: 1999)
-	- If you don't specify attributes, default to `nil`/`null` (for databases)
-- **Update/Read** `Model.find(9)` Takes ID
-	- To save the data in the table after making changes, save the found object with `[Model instance].save!`
-	- `[Model].find_by(key: "value")`
-- **Delete** `item.destroy`
-- **Create and Save** `item.create` (adding `!` throws exception)
+#### SELECT 
+`[Model].all`
+- Like `SELECT * FROM books`
 
-Computations
-Do not do computations in Ruby if possible, should be done in the DB
+#### SELECT WHERE 
+`[Model].where("year >= 2000")`
+- Can be chained, like
+	- `[Model].where("year >= 2000").where("year <= 2020")`
+	- `[Model].where("list_price < ?", 2)` interpolates `2` into `?`
+	- `[Model].where("list_price < ?", "%#{match_str}%")` interpolates `match_str` into `?`
+	- 📝 This does not return an array, it's an array-like thing [[Ruby#Duck typing]]
+	- ❗ **Do not use regular string interpolation**, opens app up to SQL injection 
+		- `[Model].where("list_price > #{min_price}")`
+- `[Model].all.order_by("col")`
+
+#### Create/INSERT 
+`Model.create(attribute: "The Perks of being a Wallflower", year: 1999)
+- If you don't specify attributes, default to `nil`/`null` (for databases)
+
+#### Update/Read 
+- `Model.find(9)` Takes ID
+- To save the data in the table after making changes, save the found object with `[Model instance].save!`
+	- `[Model instance].persisted?` checks if it's in the DB
+- `[Model].find_by(key: "value")`
+- `[Model].update_all("list_price = list_price * .9")`
+
+#### Delete
+`item.destroy`
+
+#### Create and Save 
+`item.create` (adding `!` throws exception)
+
+### Computations
+Do not do computations in Ruby if possible, should be done in the DB. It's much faster
+
+**Some methods**
 - `[Model].average('col')`
 - `[Model].max('col')`
 - `[Model].min('col')`
