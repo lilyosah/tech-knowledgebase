@@ -8,7 +8,7 @@
 
 %%
 
-Created for [[Sentiment Classification|category classification]]
+Created for [[Text Classification|category classification]]
 
 - Called naive because it assumes the words are in an unordered set, keeping only their frequency
 
