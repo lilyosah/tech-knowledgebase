@@ -11,6 +11,15 @@
 
 ---
 
+Launch server:
+
+```Bash
+# In WSL:
+$ ifconfig
+# get number from inet under eth0:
+$ rails server -b [ip]
+```
+
 ## Philosophy
 - **Convention over Configuration**
 	- If naming follow certain conventions, no need for config files
