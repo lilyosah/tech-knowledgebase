@@ -13,6 +13,28 @@
             "mode": "source"
           }
         }
+      },
+      {
+        "id": "5d6440e7f23b22e8",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Models.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "4647845c2009b3eb",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Design Patterns.md",
+            "mode": "source"
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -126,14 +148,14 @@
   "active": "f649a16c62306eac",
   "lastOpenFiles": [
     "Ruby Rails.md",
+    "Models.md",
     "Design Patterns.md",
+    "Software-Engineering/SaaS (Software as a Service).md",
+    "Software-Engineering/Relational Databases.md",
     "Software-Engineering/SWE Table of Contents.md",
     "Natural-Language-Processing/Naive Bayes Classifiers.md",
     "Software-Engineering/Ruby.md",
     "Natural-Language-Processing/HW3 N-Grams.md",
-    "Natural-Language-Processing/Sentiment Classification.md",
-    "Natural-Language-Processing/NLP Table of Contents.md",
-    "Software-Engineering/Machine Learning.md",
-    "Natural-Language-Processing/09-28-2021 NLP Notes.md"
+    "Natural-Language-Processing/Sentiment Classification.md"
   ]
 }

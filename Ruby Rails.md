@@ -26,7 +26,7 @@
 	- Default table is model name in all lowercase with an s added at the end
 		- Model `Book` -> BD table `books`
 		- `TimeSheet` -> `time_sheet`
-	- Lets you do everything except create the table, to do that you must create a ==migration:== a [[Ruby]] script describing a set of changes to make to the database schema
+	- Lets you do everything except create the table, to do that you must create a ==migration:== a [[Ruby]] script describing a set of changes to make to the database schema #📌 
 		- Do this instead of using SQL because Rails defines production environments, you'd have to make three identical SQL calls 
 		- `$ exec rails g(enerate) migration [migration name]`
 		- To add to the table, have to add to the seed
@@ -75,71 +75,39 @@ guides.rubyonrails.org/routing.html
 - Route helpers decouple what the route does from the actual route URI
 - `resources [plural model sylbol or str]` creates whole set of routes
 
-1. Routes: Map incoming URLs to controller actions and extract optional parameters 
-	- Result of matching a route is calling an instance method in a controller class
-	- Wildcard parameters: (e.g. `:id`) + query params are put into `params[]` hash and are accessible in controller actions 
-2. Controller actions/methods: Set instance variables which are visible to views 
-	- Controller methods call model's class methods ([[Ruby Rails#SQL Calls in Rails]] and any other additional methods) to retrieve database/model objects
-	- Routes created by `resources 'movies'` will expect to find `controllers/movies_controller.rb` what defines c`class MovieController` which descends from `ApplicationController`. This class will be expected to define `index, new, create, show, edit, update, destroy`
-	- Sub-directories of `views/` match controller and action names
-	```Ruby
-	# The controller
-	class BooksController < ApplicationController
-		def index
-			# Unfinished
-	```
-	- After execution, a view named `app/  
-views/model-name/action.html.erb` will be rendered
+#### Routes
+: Map incoming URLs to controller actions and extract optional parameters 
+- Result of matching a route is calling an instance method in a controller class
+- Wildcard parameters: (e.g. `:id`) + query params are put into `params[]` hash and are accessible in controller actions 
+
+#### Controller actions/methods
+: Set instance variables which are visible to views 
+- Controller methods call model's class methods ([[Ruby Rails#SQL Calls in Rails]] and any other additional methods) to retrieve database/model objects
+- Routes created by `resources 'movies'` will expect to find `controllers/movies_controller.rb` what defines c`class MovieController` which descends from `ApplicationController`. This class will be expected to define `index, new, create, show, edit, update, destroy`
+- Sub-directories of `views/` match controller and action names
+```Ruby
+# The controller
+class BooksController < ApplicationController
+	def index
+		# Unfinished
+```
+- After execution, a view named `app/views/model-name/action.html.erb` will be rendered
 	
-3. Controller eventually renders a view 
-	- Use `<% ... %>` to execute arbitrary lines of Ruby with no output
-	- Use `<%= %>` for interpolating Ruby into HTML
-	```HTML
-	<!-- The view is what is actually rendered -->
-	<tbody>
-		<% @books.each do |book}| %>
-			<tr>
-				<td><%= book.title %> <!-- Ruby -->
-				...
-	```
+#### Controller 
+:eventually renders a view 
+- Use `<% ... %>` to execute arbitrary lines of Ruby with no output
+- Use `<%= %>` for interpolating Ruby into HTML
+```HTML
+<!-- The view is what is actually rendered -->
+<tbody>
+	<% @books.each do |book}| %>
+		<tr>
+			<td><%= book.title %> <!-- Ruby -->
+			...
+```
 
 
-### Models
-- Business logic 
-- Each model gets its own [[Relational Databases|Relational Database]] table
-- 1 row = 1 model instance
-- Each row has a unique primary key
-	- By convention, and integer called `id`
-
-==Schema:== Collection of their tables and their structure 
-
- [[Design Patterns#Active Record]] 
- 
-Types:
-- int, string, text, decimal (digits, ), blob (raw binary)
-- Can't have array 
- 
- **Ex: ✏ Model for a product and user**  
- Model for a product:
- - `int` ID
- - `int` Quantity
- - `string` Image URL
- - `string` Name
- - `decimal` Price
- - `text` Description
- - `string` Manufacturer, maybe in another model
- - `string` Category/tags - probably in another model
- - Reviews - probably in another model
-
-Model for a user:
-- `int` ID
-- `string` Username
-- `string` Password
-- `string` Name
-- `string` Address - could be another model association or break it out here
-- Payment info - in another model
-- Cart IDs - another model
-- Order history
+## [[Models]]
 
 ## [[SQL]] Calls in Rails
 Rails generally shields us from needing to make actual SQL calls
