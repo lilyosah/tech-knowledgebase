@@ -8,6 +8,8 @@
 
 ---
 
+#📌 Break these into different files
+
 : Reusable structure, behavior, strategy, or technique that captures a proven solution to a collection of similar problems by separating the things that change form the things that stay the same
 
 ## Singleton
