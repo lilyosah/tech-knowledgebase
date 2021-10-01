@@ -9,31 +9,17 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Ruby Rails.md",
+            "file": "Data-Structures-and-Algorithms/Binary Search Tree.md",
             "mode": "source"
           }
         }
       },
       {
-        "id": "5d6440e7f23b22e8",
+        "id": "9f20018720f23701",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Natural-Language-Processing/Text Classification.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "4647845c2009b3eb",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Design Patterns.md",
-            "mode": "source"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -116,7 +102,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ruby Rails.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,30 +117,27 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Ruby Rails.md"
-              }
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "f649a16c62306eac",
+  "active": "9f20018720f23701",
   "lastOpenFiles": [
+    "Data-Structures-and-Algorithms/Algo MOC.md",
+    "Software-Engineering/Machine Learning.md",
+    "Data-Structures-and-Algorithms/02-25-2021 PSS Binary Search Trees.md",
+    "Data-Structures-and-Algorithms/Binary Search Tree.md",
+    "Data-Structures-and-Algorithms/List.md",
+    "Data-Structures-and-Algorithms/Data Structures.md",
+    "Natural-Language-Processing/Text Classification.md",
     "Ruby Rails.md",
     "Natural-Language-Processing/Sentiment Classification.md",
-    "Natural-Language-Processing/09-30-2021 NLP Notes.md",
-    "Natural-Language-Processing/NLP Table of Contents.md",
-    "Models.md",
-    "Design Patterns.md",
-    "Software-Engineering/SaaS (Software as a Service).md",
-    "Software-Engineering/Relational Databases.md",
-    "Software-Engineering/SWE Table of Contents.md",
-    "Natural-Language-Processing/Naive Bayes Classifiers.md"
+    "Natural-Language-Processing/09-30-2021 NLP Notes.md"
   ]
 }
