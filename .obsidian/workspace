@@ -18,8 +18,11 @@
         "id": "9f20018720f23701",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Software-Engineering/Ruby.md",
+            "mode": "preview"
+          }
         }
       }
     ],
@@ -102,6 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Software-Engineering/Ruby.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +121,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Software-Engineering/Ruby.md"
+              }
             }
           }
         ]
@@ -129,6 +135,7 @@
   },
   "active": "9f20018720f23701",
   "lastOpenFiles": [
+    "Software-Engineering/Ruby.md",
     "Data-Structures-and-Algorithms/Algo MOC.md",
     "Software-Engineering/Machine Learning.md",
     "Data-Structures-and-Algorithms/02-25-2021 PSS Binary Search Trees.md",
@@ -137,7 +144,6 @@
     "Data-Structures-and-Algorithms/Data Structures.md",
     "Natural-Language-Processing/Text Classification.md",
     "Ruby Rails.md",
-    "Natural-Language-Processing/Sentiment Classification.md",
-    "Natural-Language-Processing/09-30-2021 NLP Notes.md"
+    "Natural-Language-Processing/Sentiment Classification.md"
   ]
 }

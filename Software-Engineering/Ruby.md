@@ -252,10 +252,10 @@ def make_salad
 	if !block_given?  
 		puts "No salad today!"  
 		return  
-end  
-yield "lettuce" # call block passed to this method, giving param "lettuce"  
-yield "tomatoes"  
-yield "carrots"  
+	end  
+	yield "lettuce" # call block passed to this method, giving param "lettuce"  
+	yield "tomatoes"  
+	yield "carrots"  
 end  
 
 make_salad { |ingredient| puts "Adding #{ingredient} to salad!" }  
@@ -428,6 +428,7 @@ describe "RSpec-example" do
 		it "should work correctly with an array of 1 element" do
 			expect(sum([S]).to eq(S))
 		end
+		
 	context "tuesday? tests" do
 		# t is a time mock object
 		t = double("time")
