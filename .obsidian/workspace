@@ -20,7 +20,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software-Engineering/Ruby.md",
+            "file": "Templates/Study Guide.md",
             "mode": "preview"
           }
         }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software-Engineering/Ruby.md",
+                "file": "Templates/Study Guide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software-Engineering/Ruby.md"
+                "file": "Templates/Study Guide.md"
               }
             }
           }
@@ -135,6 +135,7 @@
   },
   "active": "9f20018720f23701",
   "lastOpenFiles": [
+    "Templates/Study Guide.md",
     "Software-Engineering/Ruby.md",
     "Data-Structures-and-Algorithms/Algo MOC.md",
     "Software-Engineering/Machine Learning.md",
@@ -143,7 +144,6 @@
     "Data-Structures-and-Algorithms/List.md",
     "Data-Structures-and-Algorithms/Data Structures.md",
     "Natural-Language-Processing/Text Classification.md",
-    "Ruby Rails.md",
-    "Natural-Language-Processing/Sentiment Classification.md"
+    "Ruby Rails.md"
   ]
 }
