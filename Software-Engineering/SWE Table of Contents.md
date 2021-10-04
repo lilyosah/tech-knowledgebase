@@ -50,8 +50,12 @@
 
 ### Week 7
 - 09-28-2021
-	- [[Design Patterns#Model-View-Controller MVC]]
+	- [[Model-View-Controller MVC]]
 	- [[Ruby Rails]]
 	- [[SaaS (Software as a Service)#Databses and Active Record]]
 	- [[Relational Databases]]
 - 9-30-2021
+
+### Week 8
+- 10-5-2021
+	- [[Views#Forms]]

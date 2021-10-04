@@ -9,7 +9,7 @@
 
 ---
 
-Handles business logic in [[Design Patterns#Model-View-Controller MVC]] architecture
+Handles business logic in [[Model-View-Controller (MVC)]] architecture
 
 - 1 [[Relational Databases|Relational Database]] table = 1 model class
 	- **Naming:** snake-case and plural

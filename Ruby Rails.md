@@ -8,6 +8,7 @@
 -  [[Ruby]]
 -  [[SaaS (Software as a Service)]]
 -  [[Relational Databases]]
+-  [[Model-View-Controller (MVC)]]
 
 ---
 
@@ -73,8 +74,8 @@ graph TD
 ```
 
 ## Structure / Design Pattern
-- Uses [[Design Patterns#Model-View-Controller MVC]]
-	- Each Rails model is a resource type whose instances are rows in a particular table of a relational database 
+- Uses [[Model-View-Controller (MVC)]]
+	- Each Rails [[Models|model]] is a resource type whose instances are rows in a particular table of a relational database 
 
 ### Routing
 guides.rubyonrails.org/routing.html

@@ -2,7 +2,7 @@
 #topic
 #concept
 **Related:**
--  [[IXP]]
+-  
 
 ---
 
@@ -16,7 +16,6 @@ Once you figure out a customer problem, get a correct sample size to test a chan
 **Made up of:**
 - Experiences: The changes you are making
 - Experiment infrastructure: Getting experiments to customers 
-	- ⭐[[IXP]] 
 - Data: The results and analysis, getting the right data and analysis is important
 
 ==Experimentation culture:== A way of running a business, how do they go about their day-to-day, a way of making almost all decision

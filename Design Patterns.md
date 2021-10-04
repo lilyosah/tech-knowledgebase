@@ -37,27 +37,9 @@
 - Server: wait and respond to questions, serve many clients
 
 
-## Model-View-Controller (MVC)
-- Goal: Separate organization of data (model) from UI and presentation (view) by introducing a controller
-	- URI routes maps action to model 
-- Way to organize the server application in Client-Server Architecture
-==Models:== Store data about one entity 
-==Controllers:== Mediate user actions requesting access to data
-==Views:== Are the interface between the data and the user 
-The user interacts with views and invokes controller action
-- Requests come in the form of HTTP routes
-- Must determine which code should be invoked to handle that route
-- [[Ruby Rails]] supports MVC
+![[Model-View-Controller (MVC)]]
 
-## Active Record
-[[Ruby Rails]]
-- Rails model is a class backed by a specific table of a [[Relational Databases|RDBMS]]
-	- An instance of the class is a single row
-- Model has built in behaviors:
-	- Create a new row in the table
-	- Read an existing row into an object instance
-	- Update an existing row with new attributes from a modified object instance
-	- Delete row
+![[Active Record]]
 
 ## Peer-to-peer Architecture
 - 🌎 Used in BitTorrent
