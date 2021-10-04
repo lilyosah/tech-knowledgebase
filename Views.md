@@ -28,4 +28,5 @@ You don't have to use form tag helpers to submit data from forms but it makes th
 `form_tag` helper takes two arguments
 - URI to which the form should submit (EX: RESTful Route helper)
 - Hash of optional arguments, one of which may be the HTTP method that should be used to submit the form
+- `params['movie']`
 
