@@ -28,5 +28,10 @@ You don't have to use form tag helpers to submit data from forms but it makes th
 `form_tag` helper takes two arguments
 - URI to which the form should submit (EX: RESTful Route helper)
 - Hash of optional arguments, one of which may be the HTTP method that should be used to submit the form
-- `params['movie']`
+
+- `params['movie']` is a hash of movie attribute names and values that can be passed directly to `Movie.create!(params['movie'])`
+	- Controller action can inspect `params[]`
+
+- When creating or updating a model, for user friendliness it's common to 	`redirect_to` a view such as `index` rather than rendering a dedicated view
+`flash[]`: special object that quacks like a hash but whose contents only persist from the current request to the next
 
