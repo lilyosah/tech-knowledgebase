@@ -23,6 +23,8 @@
 - This would need the controller to have some idea of what the form field names are. [[Ruby Rails]] uses tag helper methods that generate [[HTML]] form tags whose names follow particular conventions that make them easy to parse by the controller action
 
 ### Helpers
+You don't have to use form tag helpers to submit data from forms but it makes things easier 
+
 `form_tag` helper takes two arguments
 - URI to which the form should submit (EX: RESTful Route helper)
 - Hash of optional arguments, one of which may be the HTTP method that should be used to submit the form
