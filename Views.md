@@ -31,7 +31,24 @@ You don't have to use form tag helpers to submit data from forms but it makes th
 
 - `params['movie']` is a hash of movie attribute names and values that can be passed directly to `Movie.create!(params['movie'])`
 	- Controller action can inspect `params[]`
+		- Like `params[:query]`
+
+Ex in controller:
+
+```Ruby
+class BookController < ApplicationController
+	def index
+		@books = Book.all
+		if params[:query]
+			@books = @books.where("title LIKE ?", "%#{params[:query]}")
+		end
+	end
+end
+```
+
 
 - When creating or updating a model, for user friendliness it's common to 	`redirect_to` a view such as `index` rather than rendering a dedicated view
 `flash[]`: special object that quacks like a hash but whose contents only persist from the current request to the next
+
+
 
