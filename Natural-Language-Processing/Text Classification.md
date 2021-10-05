@@ -5,14 +5,14 @@
 #concept
 %%
 **Related:**
--  [[Naive Bayes Classifiers]]
+-  [[Naive Bayes' Classifiers]]
 
 ---
 
 ==Text Categorization:== Assigning a label or category to an entire text or document
 ==Sentiment Analysis:== Extraction of sentiment from text
 
-[[Naive Bayes Classifiers]] was created for subject category classification
+[[Naive Bayes' Classifiers]] was created for subject category classification
 Most classification is done using [[Machine Learning#Supervised Learning]]
 
 **Process:**
@@ -46,4 +46,4 @@ m(text) = delta_0(text), delta_1(text)... delta_d-1(text)
 | 0   | 0   | 1   | 0   |
 
 ## Naive Bayes with Bag of Word
-[[Naive Bayes Classifiers]]
+[[Naive Bayes' Classifiers]]

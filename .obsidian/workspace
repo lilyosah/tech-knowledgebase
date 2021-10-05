@@ -9,18 +9,51 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Natural-Language-Processing/Naive Bayes Classifiers.md",
+            "file": "Natural-Language-Processing/Naive Bayes' Classifiers.md",
             "mode": "source"
           }
         }
       },
       {
-        "id": "a40e0aa5916bd4af",
+        "id": "60f4d258e9fe8177",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Templates/Coding Project.md",
+            "file": "Software-Engineering/Bayes' Rule.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "659e9f08ddda3611",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Software-Engineering/Probability.md",
+            "mode": "preview"
+          }
+        }
+      },
+      {
+        "id": "c8d7bd387ba11fb0",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Natural-Language-Processing/NLP Table of Contents.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "5dbc710aec396c95",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Natural-Language-Processing/Wald Test.md",
             "mode": "source"
           }
         }
@@ -50,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "bayes",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Natural-Language-Processing/Naive Bayes Classifiers.md",
+                "file": "Natural-Language-Processing/Naive Bayes' Classifiers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Natural-Language-Processing/Naive Bayes Classifiers.md"
+                "file": "Natural-Language-Processing/Naive Bayes' Classifiers.md"
               }
             }
           }
@@ -136,15 +169,15 @@
   },
   "active": "85e8b94f933405f8",
   "lastOpenFiles": [
-    "Natural-Language-Processing/Naive Bayes Classifiers.md",
-    "Natural-Language-Processing/Text Classification.md",
+    "Natural-Language-Processing/Naive Bayes' Classifiers.md",
+    "Natural-Language-Processing/Wald Test.md",
     "Natural-Language-Processing/NLP Table of Contents.md",
     "Natural-Language-Processing/NLP Project.md",
-    "Templates/Coding Project.md",
-    "Natural-Language-Processing/09-14-2021 NLP.md",
-    "Natural-Language-Processing/09-16-2021 NLP.md",
-    "Natural-Language-Processing/09-09-2021 Sentencizer.md",
     "Natural-Language-Processing/Hypothesis Testing.md",
-    "Software-Engineering/Probability.md"
+    "Natural-Language-Processing/Collocations.md",
+    "Software-Engineering/Conditional Probability.md",
+    "Software-Engineering/Probability.md",
+    "Software-Engineering/Bayes' Rule.md",
+    "Templates/Concept.md"
   ]
 }

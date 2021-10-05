@@ -16,7 +16,7 @@
 ### Supervised Learning
 - Have a data set of input observations, each associated with some correct output ("supervision signal")
 
-[[Naive Bayes Classifiers]]
+[[Naive Bayes' Classifiers]]
 
 Representation:
 - Objects in a vector $R$
