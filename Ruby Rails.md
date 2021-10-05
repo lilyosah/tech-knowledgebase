@@ -9,6 +9,7 @@
 -  [[SaaS (Software as a Service)]]
 -  [[Relational Databases]]
 -  [[Model-View-Controller (MVC)]]
+-  [[Rails Migration]]
 
 ---
 
@@ -36,10 +37,7 @@ $ rails server -b [ip]
 	- Default table is model name in all lowercase with an s added at the end
 		- Model `Book` -> BD table `books`
 		- `TimeSheet` -> `time_sheet`
-	- Lets you do everything except create the table, to do that you must create a ==migration:== a [[Ruby]] script describing a set of changes to make to the database schema 
-		- Do this instead of using SQL because Rails defines production environments, you'd have to make three identical SQL calls 
-		- `$ exec rails g(enerate) migration [migration name]`
-		- To add to the table, have to add to the seed
+	- Lets you do everything except create the table, to do that you must create a [[Rails Migration]]
 
 ### In-class
 - New creates git repo, gem file
@@ -77,20 +75,9 @@ graph TD
 - Uses [[Model-View-Controller (MVC)]]
 	- Each Rails [[Models|model]] is a resource type whose instances are rows in a particular table of a relational database 
 
-### Routing
-guides.rubyonrails.org/routing.html
+### [[Routing]]
 
-- Rails routing subsystem maps HTTP routes to code in the app that performs the correct action
-- Adds default routes `new` and `edit`. New displays what is necessary for a `create` request. `edit` shows an editable version of the existing resource in preparation for `update`.
-- Route helpers decouple what the route does from the actual route URI
-- `resources [plural model sylbol or str]` creates whole set of routes
-
-#### Routes
-: Map incoming URLs to controller actions and extract optional parameters 
-- Result of matching a route is calling an instance method in a controller class
-- Wildcard parameters: (e.g. `:id`) + query params are put into `params[]` hash and are accessible in controller actions 
-
-#### Controller actions/methods
+### Controller actions/methods
 : Set instance variables which are visible to views 
 - Controller methods call model's class methods ([[Ruby Rails#SQL Calls in Rails]] and any other additional methods) to retrieve database/model objects
 - Routes created by `resources 'movies'` will expect to find `controllers/movies_controller.rb` what defines c`class MovieController` which descends from `ApplicationController`. This class will be expected to define `index, new, create, show, edit, update, destroy`

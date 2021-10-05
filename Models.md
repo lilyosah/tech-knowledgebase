@@ -9,7 +9,7 @@
 
 ---
 
-Handles business logic in [[Model-View-Controller (MVC)]] architecture
+Handles business logic in [[Model-View-Controller (MVC)]] architecture, 
 
 - 1 [[Relational Databases|Relational Database]] table = 1 model class
 	- **Naming:** snake-case and plural
@@ -34,12 +34,8 @@ Handles business logic in [[Model-View-Controller (MVC)]] architecture
  - Keeping env DBs consistent:
 	 - ==Migrations:==
 
-## Migrations
-: a script describing changes to the database #📌 *This is mentioned somewhere else*
- - Automatable 
- - Creates the tables
+## [[Rails Migration]]
 
-Show help: `rails g model`
 
 ### Creation Option 1
 1. Create table `rails generate migration CreateBooks`
@@ -49,10 +45,6 @@ Show help: `rails g model`
 - `rails generate model`
 - Creates a migration script along with `app/models/model.rb`
 	- Can specify column names/types to generator, and the migration generator
-
-### Migration Code
-Can get table objects to add attributes to 
- 
  
 ## Data Types
 - `int`, `string`, `text`, `'decimal {digits, digits}'` (need single quotes around bc curly braces are special in shell), `blob` (raw binary)
@@ -87,11 +79,9 @@ Rails generally shields us from needing to make actual SQL calls
 
 📝 Can do `[Model].nethods` to see massive list of methods
 
-
 > ⭐ The getters and setters do not modify instance variables, it's data in the table.
 > **So the class is empty, there are no actual instance variables, don't refer to values with `@`**
 > This is why you must save after making changes to the data, otherwise the data is only in memory
-
 
 ### CRUDI Methods
 [[Networks#Representational State Transfer REST|CRUDI]]
@@ -111,6 +101,7 @@ Rails generally shields us from needing to make actual SQL calls
 	- ❗ **Do not use regular string interpolation**, opens app up to SQL injection 
 		- `[Model].where("list_price > #{min_price}")`
 - `[Model].all.order_by("col")`
+- `[Model].where("price < ? DESC", my_price)`
 
 #### Create/INSERT 
 `Model.create(attribute: "The Perks of being a Wallflower", year: 1999)
@@ -128,6 +119,23 @@ Rails generally shields us from needing to make actual SQL calls
 
 #### Create and Save 
 `item.create` (adding `!` throws exception)
+
+#### Examples
+```Ruby
+
+class Book < ApplicationRecord
+	def self.cheaper_than(val)
+		Book.where("price < ?", val).orer("price")
+	end
+end
+
+class Book < ApplicationRecord
+	def self.price_between(lower, upper)
+	end
+end
+
+```
+
 
 ### Computations
 Do not do computations in Ruby if possible, should be done in the DB. It's much faster

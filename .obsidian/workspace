@@ -9,7 +9,29 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Views.md",
+            "file": "Models.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "8d84e523d5ac07f2",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Rails Migration.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "eb03f75dda9749ca",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Routing.md",
             "mode": "source"
           }
         }
@@ -39,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "table",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -56,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "4a5f8b203a152342",
@@ -77,8 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "88584f44ddabdce4",
@@ -94,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Views.md",
+                "file": "Models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Views.md"
+                "file": "Models.md"
               }
             }
           }
@@ -124,15 +146,15 @@
   },
   "active": "76ce4ee7dea73001",
   "lastOpenFiles": [
-    "Views.md",
-    "Software-Engineering/SWE Table of Contents.md",
-    "Coding Languages and Frameworks.md",
-    "Data-Structures-and-Algorithms/Data Structures.md",
-    "Design for Delight Rapid Prototyping.md",
-    "Experimentation.md",
-    "IXP.md",
-    "Software-Engineering/09-28-2021 SWE Notes.md",
-    "README.md",
-    "Model-View-Controller (MVC).md"
+    "Models.md",
+    "Rails Migration.md",
+    "Ruby Rails.md",
+    "Migration.md",
+    "Routing.md",
+    "Software-Engineering/Ruby.md",
+    "Software-Engineering/Networks.md",
+    "Model-View-Controller (MVC).md",
+    "Software-Engineering/SQL.md",
+    "Design Patterns.md"
   ]
 }
