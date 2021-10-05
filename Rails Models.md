@@ -7,7 +7,7 @@
 %%
 **Related:**
 -  [[Rails Views]]
--  [[Model-View-Controller MVC]]
+-  [[Model-View-Controller (MVC)]]
 -  [[Rails Migration]]
 
 ---

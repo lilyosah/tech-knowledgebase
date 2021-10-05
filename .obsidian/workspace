@@ -9,31 +9,17 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Natural-Language-Processing/N-grams and Q-grams.md",
+            "file": "Software-Engineering/SWE Table of Contents.md",
             "mode": "source"
           }
         }
       },
       {
-        "id": "ebdd2a584fb4e66e",
+        "id": "06320e76368074ad",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Natural-Language-Processing/Sentence Boundary Detection.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "b14f51553f8afc23",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Natural-Language-Processing/Herdan's, Heaps' Law.md",
-            "mode": "source"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -117,7 +103,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Natural-Language-Processing/N-grams and Q-grams.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Natural-Language-Processing/N-grams and Q-grams.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -145,17 +128,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "873e7d8a7d27b846",
+  "active": "06320e76368074ad",
   "lastOpenFiles": [
-    "Natural-Language-Processing/N-grams and Q-grams.md",
-    "Using-Obisdian/Using Obsidian.md",
-    "Templates/Templates MOC.md",
-    "Using-Obisdian/My Hotkeys.md",
-    "Natural-Language-Processing/NLP Table of Contents.md",
-    "Natural-Language-Processing/Language Models.md",
-    "Natural-Language-Processing/Sentence Boundary Detection.md",
+    "Development Basics.md",
+    "Software-Engineering/SWE Table of Contents.md",
+    "Active Record.md",
+    "Software-Engineering/SQL.md",
+    "Rails Models.md",
+    "Natural-Language-Processing/Hypothesis Testing.md",
     "Natural-Language-Processing/Herdan's, Heaps' Law.md",
-    "Natural-Language-Processing/Herdan's Law  Heaps' Law.md",
-    "Natural-Language-Processing/Language Models and N-grams.md"
+    "Natural-Language-Processing/Collocations.md",
+    "Natural-Language-Processing/NLP Table of Contents.md",
+    "Natural-Language-Processing/N-grams and Q-grams.md"
   ]
 }

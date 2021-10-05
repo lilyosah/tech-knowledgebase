@@ -26,7 +26,7 @@ $x ~ N(mew, sigma)$
 You have a lot of numbers, just guess that one is the mean, then Wald's test is determining if this is true
 
 #### Applications for NLP
-- [[09-07-2021 Collocations, Hypothesis Testing, Wall Testing]]
+- [[Collocations]]
 To tell whether something may be a collocation or not 
 
 Null hypothesis: prob of looking into two words is equal to them being selected independently

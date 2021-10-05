@@ -46,15 +46,23 @@
 	- [[Machine Learning]]
 - 09-23-2021
 	- [[Design Patterns#Client-Server]]
+	- [[Active Record]]
 	- [[SaaS (Software as a Service)]]
 
 ### Week 7
 - 09-28-2021
-	- [[Model-View-Controller MVC]]
+	- [[Model-View-Controller (MVC)]]
+		- [[Rails Views]]
+		- [[Rails Models]]
+		- [[Rails Controllers]]
 	- [[Ruby Rails]]
+		- [[Rails Migration]]
+		- [[Rails Routing]]
 	- [[SaaS (Software as a Service)#Databses and Active Record]]
 	- [[Relational Databases]]
+		- [[SQL]]
 - 9-30-2021
+	- [[Networks]]
 
 ### Week 8
 - 10-5-2021

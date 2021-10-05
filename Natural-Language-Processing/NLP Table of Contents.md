@@ -25,7 +25,8 @@
 - 09-07-2021
 	- [[Language Models]]
 	- [[N-grams and Q-grams]]
-	- [[09-07-2021 Collocations, Hypothesis Testing, Wall Testing]]
+	- [[Collocations]]
+	- [[Hypothesis Testing]]
 
 ### Week 4
 - 09-09-2021

@@ -1,8 +1,8 @@
 # SQL
 #📥 
 %%
-#topic
-#coding 
+#coding
+#concept 
 %%
 **Related:**
 -  [[Relational Databases]]
