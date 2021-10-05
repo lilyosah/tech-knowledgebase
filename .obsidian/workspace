@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Natural-Language-Processing/NLP Table of Contents.md",
+            "file": "Natural-Language-Processing/N-grams and Q-grams.md",
             "mode": "source"
           }
         }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Natural-Language-Processing/Herdan's, Heaps' Law.md",
+                "file": "Natural-Language-Processing/N-grams and Q-grams.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Natural-Language-Processing/Herdan's, Heaps' Law.md"
+                "file": "Natural-Language-Processing/N-grams and Q-grams.md"
               }
             }
           }
@@ -145,17 +145,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b14f51553f8afc23",
+  "active": "873e7d8a7d27b846",
   "lastOpenFiles": [
-    "Natural-Language-Processing/Herdan's Law  Heaps' Law.md",
-    "Natural-Language-Processing/Sentence Boundary Detection.md",
     "Natural-Language-Processing/N-grams and Q-grams.md",
-    "Natural-Language-Processing/Language Models.md",
-    "Natural-Language-Processing/Language Models and N-grams.md",
-    "Natural-Language-Processing/Text Normalization.md",
-    "Software-Engineering/Machine Learning.md",
+    "Using-Obisdian/Using Obsidian.md",
+    "Templates/Templates MOC.md",
+    "Using-Obisdian/My Hotkeys.md",
     "Natural-Language-Processing/NLP Table of Contents.md",
-    "Natural-Language-Processing/08-31-2021 Basic Text Processing.md",
-    "Natural-Language-Processing/Words.md"
+    "Natural-Language-Processing/Language Models.md",
+    "Natural-Language-Processing/Sentence Boundary Detection.md",
+    "Natural-Language-Processing/Herdan's, Heaps' Law.md",
+    "Natural-Language-Processing/Herdan's Law  Heaps' Law.md",
+    "Natural-Language-Processing/Language Models and N-grams.md"
   ]
 }

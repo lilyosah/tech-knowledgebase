@@ -1,15 +1,14 @@
-# Title
+# Herdan's Law / Heaps' Law
 #📥 
 %%
-#topic
+#NLP 
 #concept
 %%
 **Related:**
--  
+-  [[Text Normalization]]
+-  [[Sentence Boundary Detection]]
 
 ---
-
-## 
 
 $|V|=kN^\beta$
 - $V$ = unique tokens or the number of types. Set of all tokens 

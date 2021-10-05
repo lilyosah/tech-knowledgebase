@@ -1,5 +1,4 @@
 # Sentence Boundary Detection
-#📥 
 %%
 #NLP 
 #concept
@@ -59,4 +58,4 @@ return sentence
 	- **Ex: ✏**  `.` may be considered a token
 - Tokens may also be [[N-grams and Q-grams|n-grams or q-grams]]
 
-[[Herdan's, Heaps' Law]]
+ ![[Herdan's, Heaps' Law]]

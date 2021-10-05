@@ -17,17 +17,21 @@
 - 08-30-2021
 	- [[Regular Expressions]]
 	- [[Text Normalization]]
-- [[Sentence Boundary Detection]]
+- 09-01-2021
+	- [[Sentence Boundary Detection]]
+	- [[Herdan's, Heaps' Law]]
 
 ### Week 3
 - 09-07-2021
 	- [[Language Models]]
+	- [[N-grams and Q-grams]]
 	- [[09-07-2021 Collocations, Hypothesis Testing, Wall Testing]]
-	- Concepts that this lecture/reading contributed to
 
 ### Week 4
+- 09-09-2021
 - [[09-09-2021 Sentencizer]]
 	- Concepts that this lecture/reading contributed to
+- 09-16-2021
 - [[09-16-2021 NLP]]
 
 ### Week 5:
