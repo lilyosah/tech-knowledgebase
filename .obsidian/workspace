@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Natural-Language-Processing/NLP Table of Contents.md",
+            "file": "Natural-Language-Processing/10-5-2021 NLP Notes.md",
             "mode": "source"
           }
         }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Natural-Language-Processing/NLP Table of Contents.md",
+                "file": "Natural-Language-Processing/10-5-2021 NLP Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Natural-Language-Processing/NLP Table of Contents.md"
+                "file": "Natural-Language-Processing/10-5-2021 NLP Notes.md"
               }
             }
           }
@@ -125,6 +125,7 @@
   },
   "active": "385542b995161b89",
   "lastOpenFiles": [
+    "Natural-Language-Processing/10-5-2021 NLP Notes.md",
     "Natural-Language-Processing/NLP Table of Contents.md",
     "Software-Engineering/SWE Table of Contents.md",
     "Rails Views.md",
@@ -133,7 +134,6 @@
     "Rails Models.md",
     "Models.md",
     "Views.md",
-    "Rails Migration.md",
-    "Controllers.md"
+    "Rails Migration.md"
   ]
 }
