@@ -4,45 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "76ce4ee7dea73001",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Rails Controllers.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "cd45520cbd2919ce",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Rails Routing.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "8d84e523d5ac07f2",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Rails Views.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
         "id": "385542b995161b89",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software-Engineering/SWE Table of Contents.md",
+            "file": "Natural-Language-Processing/NLP Table of Contents.md",
             "mode": "source"
           }
         }
@@ -128,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rails Views.md",
+                "file": "Natural-Language-Processing/NLP Table of Contents.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rails Views.md"
+                "file": "Natural-Language-Processing/NLP Table of Contents.md"
               }
             }
           }
@@ -156,8 +123,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8d84e523d5ac07f2",
+  "active": "385542b995161b89",
   "lastOpenFiles": [
+    "Natural-Language-Processing/NLP Table of Contents.md",
+    "Software-Engineering/SWE Table of Contents.md",
     "Rails Views.md",
     "Rails Controllers.md",
     "Rails Routing.md",
@@ -165,8 +134,6 @@
     "Models.md",
     "Views.md",
     "Rails Migration.md",
-    "Software-Engineering/SWE Table of Contents.md",
-    "Controllers.md",
-    "Routing.md"
+    "Controllers.md"
   ]
 }
