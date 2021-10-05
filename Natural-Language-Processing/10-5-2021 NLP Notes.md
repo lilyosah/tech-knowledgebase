@@ -10,7 +10,6 @@ Related:
 ---
 
 ## Exam
-
 ### Wald Test
 #🔍 *don't follow this*
 If you have an estimation of a parameter $\theta$, then assuming $\hat{\theta}$ is asymptotically normal than the null hypothesis $H_0 = \hat{\theta} = \theta_0$ can be rejected if $|W| > Z_{a/2}$ where $W = {\hat{\theta}-\theta_0}/{\hat{se}}$ where se is the standard error 
@@ -70,9 +69,21 @@ $P(w_i|w_{1-2}w_{i-1})$
 q-grams: consonants
 n-grams: words
 
-### Classification Problem
+### Classification Problems
+(language models)
+
 $X = {(x_1, y_1), (x_2, y_2) ... (x_{100}, y_{100})}$
 y: classes. 
 $y_i = \in {1, 2, 3}$
+$x_i = R^{10}$ *every x_i is a vector of 10 elements*
+A naive Bayes with Gaussian distribution is trained. How many parameters (for the normal distribution) are estimated?
+for each class, for each dim in vector, calc each parameter 
+3 (y_i) x 10 (x_i) x 2 (normal)
+
+(30 + 30) 60 because each y_i has 3 classes, each x_i has 10 elements 
+- Multiply by 1 for bernoulli, for normal, 2
+- But bernoulli has 2 classes
+- Normal has any number of classes
+
 
 
