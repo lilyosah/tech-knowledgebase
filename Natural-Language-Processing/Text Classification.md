@@ -3,27 +3,37 @@
 %%
 #NLP 
 #concept
-**Related:**
--  
-
 %%
+**Related:**
+-  [[Naive Bayes Classifiers]]
 
-==Text categorization:== Assigning a label or category to an entire text or document
+---
+
+==Text Categorization:== Assigning a label or category to an entire text or document
 ==Sentiment Analysis:== Extraction of sentiment from text
+
 [[Naive Bayes Classifiers]] was created for subject category classification
 Most classification is done using [[Machine Learning#Supervised Learning]]
 
-Input -> classifier -> class label category 
+**Process:**
+```mermaid
+graph LR
+ 1("input") --> 2("classifier")
+ 2 --> 3("class label category")
+ 
+```
 - Inputs are texts
-- You know all the classes
+- Classes are known ahead of time
 - If input is not in the correct dimension (vector), must reformat it (function `m`)
 
-## Creating Text-to-Vector Function
-==Bag of Word model:== id : token -> N
-- Dict to map IDs to a unique token (Like two dicts, keys to vals, vals to keys)
-- Alg, each token gets value that is the size of the dict
+## Creating Text-to-Vector Function m
+==Bag of Word Model:== id : token -> N
+- [[Map|Dict]] to map IDs to a unique token (Like two dicts, keys to values and values to keys)
 
-d (unique tokens) corresponds to max_x id(x)
+### Algorithm
+1. Each token is assigned a value that is the current size of the dict
+
+$d$ (unique tokens) corresponds to $max_x id(x)$
 
 function delta returns 1 if $i \in id(x) | x \in tokens(text)$, 0 otherwise 
 *index\[ID of this token in array] = 1*

@@ -23,6 +23,7 @@ I'd **highly** recommend navigating these files with [Obsidian](https://obsidian
 	- Open graph view with `ctrl + g`
 - If you ever need help, the help button at the bottom left opens an extremely useful vault about how to use Obsidian
 - If you want to switch themes or use light mode, this can be accessed through settings -> appearance. The one I'm using now is a version of [Cybertron](https://github.com/nickmilo/Cybertron) that I've modified 
+- If you're curious about my Obsidian process, check out [[Using Obsidian]] (Using-Obsidian/Using Obsidian)
 
 ### Why I love Obsidian
 Obsidian is really awesome, I've loved using it for notes and learning thus far. I found it a little overwhelming at the beginning, so here are some of it's coolest feature and how to use them.

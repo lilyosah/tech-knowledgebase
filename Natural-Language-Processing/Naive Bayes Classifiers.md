@@ -3,10 +3,11 @@
 %%
 #NLP 
 #concept
-**Related:**
--  
-
 %%
+**Related:**
+-  [[Text Classification]]
+
+---
 
 Created for [[Text Classification|category classification]]
 

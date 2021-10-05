@@ -1,18 +1,20 @@
 # Probability
 #📥 
 %%
-#topic
+#NLP 
+#algo 
 #concept
+%%
 **Related:**
 -  [[Algo MOC]]
 -  [[NLP Table of Contents]]
 
-%%
+---
 
 Conditional Probability
-P(A|B) = P(A, B)/P(B)
+$$P(A|B) = {P(A, B) \over P(B)}$$
 
-Let C -> Aand x -> B
+Let C -> A and x -> B
 
 Bayes rule
 $class(x) = arg max\dfrac{(P(ci, x))}{P(x))}$

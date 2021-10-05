@@ -30,13 +30,11 @@
 
 ### Week 4
 - 09-09-2021
-- [[09-09-2021 Sentencizer]]
-	- Concepts that this lecture/reading contributed to
+	- Talked about [[HW2 Sentenciser]]
 - 09-16-2021
-- [[09-16-2021 NLP]]
 
 ### Week 5:
-- [[09-14-2021 NLP]]
+- [[NLP Project]]
 - [[Naive Bayes Classifiers]]
 - [[Text Classification]]
 

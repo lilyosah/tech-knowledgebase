@@ -5,7 +5,6 @@
 #concept
 %%
 **Related:**
--  [[Textbook Regular Expressions]]
 -  [[Ruby#Regular Expressions in Ruby]]
 
 ---
