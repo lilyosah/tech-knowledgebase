@@ -70,7 +70,7 @@ q-grams: consonants
 n-grams: words
 
 ### Classification Problems
-(language models)
+(language models )
 
 $X = {(x_1, y_1), (x_2, y_2) ... (x_{100}, y_{100})}$
 y: classes. 

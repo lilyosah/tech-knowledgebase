@@ -4,23 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "385542b995161b89",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Natural-Language-Processing/Naive Bayes Classifiers.md",
-            "mode": "preview"
-          }
-        }
-      },
-      {
         "id": "de579d2b7e4d8d4e",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Natural-Language-Processing/10-5-2021 NLP Notes.md",
+            "file": "Natural-Language-Processing/Regular Expressions.md",
             "mode": "source"
           }
         }
@@ -106,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Natural-Language-Processing/10-5-2021 NLP Notes.md",
+                "file": "Natural-Language-Processing/Regular Expressions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Natural-Language-Processing/10-5-2021 NLP Notes.md"
+                "file": "Natural-Language-Processing/Regular Expressions.md"
               }
             }
           }
@@ -136,15 +125,15 @@
   },
   "active": "de579d2b7e4d8d4e",
   "lastOpenFiles": [
+    "Natural-Language-Processing/Regular Expressions.md",
+    "Natural-Language-Processing/NLP Table of Contents.md",
     "Natural-Language-Processing/10-5-2021 NLP Notes.md",
     "Natural-Language-Processing/Naive Bayes Classifiers.md",
     "Natural-Language-Processing/Text Classification.md",
     "Natural-Language-Processing/08-31-2021 Basic Text Processing.md",
-    "Natural-Language-Processing/NLP Table of Contents.md",
     "Natural-Language-Processing/09-07-2021 Collocations, Hypothesis Testing, Wall Testing.md",
     "Software-Engineering/SWE Table of Contents.md",
     "Rails Views.md",
-    "Rails Controllers.md",
-    "Rails Routing.md"
+    "Rails Controllers.md"
   ]
 }

@@ -1,18 +1,19 @@
 # Regular Expressions
-#topic
+%%
+#NLP
+#coding 
 #concept
+%%
 **Related:**
 -  [[Textbook Regular Expressions]]
 -  [[Ruby#Regular Expressions in Ruby]]
 
 ---
 
-Special language for efficient string comparisons
-- letter at the end of the slashes indicates something. i is case-insensitive 
-
-==Regular expression (RE):== a language for specifying text search strings. An algebraic notation for characterizing a set of strings. 
+==Regular expression (RE):== a language for specifying efficient text search strings -- an algebraic notation for characterizing a set of strings. 
 ==Pattern:== what you search for
 ==Corpus:== what you search in
+- Letter at the end of the slashes indicates something. Ex: `i` is case-insensitive 
 
 - Case-sensitive
 - By default, uses greedy matching: matches as much of a sequence as possible
