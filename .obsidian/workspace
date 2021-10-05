@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rails Controllers.md",
+                "file": "Rails Views.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rails Controllers.md"
+                "file": "Rails Views.md"
               }
             }
           }
@@ -156,10 +156,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "76ce4ee7dea73001",
+  "active": "8d84e523d5ac07f2",
   "lastOpenFiles": [
-    "Rails Controllers.md",
     "Rails Views.md",
+    "Rails Controllers.md",
     "Rails Routing.md",
     "Rails Models.md",
     "Models.md",

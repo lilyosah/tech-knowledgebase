@@ -13,7 +13,8 @@
 ## Definition
 
 `params[]` is the parameters from URI, see [[Rails Routing]]
-- There is a render method to show which view you want to use, but bc of naming o
+- There is a render method to show which view you want to use, but bc of naming of method names in controller it will know which view to use
+	- Ex: `def index` in controller will render view `app/views/whatever/index.html.erb`
 
 **Ex: ✏**  
 
@@ -26,13 +27,19 @@ class BooksController < ApplicationController
 	
 	# get one book by id and make it available to the [[Views]] through instance var @book
 	def show
-		@book = Book.find(params[:id])
+		begin
+			@book = Book.find(params[:id])
+		rescue ActiveRecord::RecordNotFound
+			redirect_to books_path
+		end
 	end
 end
 
 
 ```
 
+
+📝 To handle exceptions, can also add `rescue_from AcriveRecord`... *not finished* at the top of a controller file 
 
 ## Creation
 *Creates controller with open and debit [[Rails Views]]*

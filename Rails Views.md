@@ -19,16 +19,32 @@
 	- One [[Rails Controllers]] may have several views
 - Found in `app/views/[plural lowercase model]/index.html.erb`
 
+#📌  *Add bit about which one interpolates and which does not show result of code*
 
 **Ex: ✏**   
 
 ```HTML
-
+<!-- views/whatever/index -->
 <h1>Books index</h1>
 <p>
 	<%= @books.inspect %>
 </p>
 
+<table>
+	<tr>
+		<th>Title</th>
+		<th>Pages</th>
+		<th>Year</th>
+	</tr>
+	<% @books.each do |book| %>
+		<tr>
+			<td><%= book.title %></td>
+			<td><%= book.pages %></td>
+			<td class="price"><%= book.year %></td>
+		</tr>
+	<% end %>
+</table>
+		
 ```
 
 ## Forms
