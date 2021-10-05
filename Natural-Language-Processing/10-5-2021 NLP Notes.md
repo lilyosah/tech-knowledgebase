@@ -28,10 +28,51 @@ You have a lot of numbers, just guess that one is the mean, then Wald's test is 
 
 #### Applications for NLP
 - [[09-07-2021 Collocations, Hypothesis Testing, Wall Testing]]
+To tell whether something may be a collocation or not 
 
 Null hypothesis: prob of looking into two words is equal to them being selected independently
-$H_0 = \hat{\theta} = \theta_0$ 
+
+$H_0 : \hat{\theta} = \theta_0$ 
+
+Other prob: If you reject it, you are saying that they are not independent. Knowing one of the words will tel you something about the other one
+
+$H_1 : \hat{\theta} \ne \theta_0$
+
+$N$ : number of tokens in a corpus 
 $P(w_1 w_2) = P(w_1)P(w_2)$
 $\theta_0 = P(w_1)P(w_2)$
 $P(w_1 w_2) = {c(w_1 w_2)}/{N}$
+
+### Heap's Law
+[[08-31-2021 Basic Text Processing]]
+$|V| = k{N^b}$
+$|V|$ size of vocab
+$k$ param
+$b$ param
+$N$ number of independent values
+
+Q: Can $b$ be equal to one given that $b$ has been trained in a big big big corpus
+No, because in a big corpus there are a lot of repeated words. $|V|$ is the number of unique words, so $b$ would have to be like negative or really small so make the eq. equal. $b$ dominates bc it's bigger
+
+
+### Bernoulli
+$p$
+
+### Normal
+$M(\mu, \sigma)$
+
+### Bigrams
+$P(zx|xy)$ means $zx$ follows $xy$.  Given $zx$, what is the prob second follows it
+
+What about a 3-gram?
+$P(w_i|w_{1-2}w_{i-1})$
+
+q-grams: consonants
+n-grams: words
+
+### Classification Problem
+$X = {(x_1, y_1), (x_2, y_2) ... (x_{100}, y_{100})}$
+y: classes. 
+$y_i = \in {1, 2, 3}$
+
 
