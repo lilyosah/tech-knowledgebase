@@ -1,25 +1,42 @@
-# Views
+# Rails Views
 #📥 
 %%
-#topic
+#SWE 
+#coding 
 #concept
 %%
 **Related:**
 - [[Design Patterns]] 
 - [[Model-View-Controller (MVC)]]
+	- [[Rails Controllers]]
+	- [[Rails Models]]
 
 ---
  
  ## Definition
  The interface between the data and the user in [[Model-View-Controller (MVC)]] architecture. 
-- The user interacts with views and invokes controller action
+- The user interacts with views and invokes [[Rails Controllers]] action
+	- One [[Rails Controllers]] may have several views
+- Found in `app/views/[plural lowercase model]/index.html.erb`
+
+
+**Ex: ✏**   
+
+```HTML
+
+<h1>Books index</h1>
+<p>
+	<%= @books.inspect %>
+</p>
+
+```
 
 ## Forms
 - [[HTML]] forms allow collection of data from the user
 - [[Ruby Rails]] defines a `new` action and route to use this data in a `create` or `update` call
 	- `GET /movies/new` names the action, the helper `new_movie_path` generates the URI portion of the route
 	- Action is handled by the method `MoviesController#new`
-	- By default, the [[Controllers]] action will end by rendering a view `app/views/movies/new.html.erb`
+	- By default, the [[Rails Controllers]] action will end by rendering a view `app/views/movies/new.html.erb`
 - This would need the controller to have some idea of what the form field names are. [[Ruby Rails]] uses tag helper methods that generate [[HTML]] form tags whose names follow particular conventions that make them easy to parse by the controller action
 
 ### Helpers
@@ -34,10 +51,10 @@ Ex for Product:
 `<%= form_tag products_path, :method => :post do %>`
 
 - `params['movie']` is a hash of movie attribute names and values that can be passed directly to `Movie.create!(params['movie'])`
-	- Controller action can inspect `params[]`
+	- [[Rails Controllers]] action can inspect `params[]`
 		- Like `params[:query]`
 
-Ex in controller:
+Ex in controller: #📌  Move to controller somehow
 
 ```Ruby
 class BookController < ApplicationController

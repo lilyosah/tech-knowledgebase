@@ -73,9 +73,9 @@ graph TD
 
 ## Structure / Design Pattern
 - Uses [[Model-View-Controller (MVC)]]
-	- Each Rails [[Models|model]] is a resource type whose instances are rows in a particular table of a relational database 
+	- Each Rails [[Rails Models|model]] is a resource type whose instances are rows in a particular table of a relational database 
 
-### [[Routing]]
+### [[Rails Routing]]
 
 ### Controller actions/methods
 : Set instance variables which are visible to views 
@@ -104,4 +104,4 @@ class BooksController < ApplicationController
 ```
 
 
-## [[Models]]
+## [[Rails Models]]

@@ -6,8 +6,8 @@
 %%
 **Related:**
 -  [[Design Patterns]]
--  [[Views]]
--  [[Models]]
+-  [[Rails Views]]
+-  [[Rails Models]]
 
 ---
 
@@ -17,7 +17,7 @@
 - Way to organize the server application in Client-Server Architecture
 ==Models:== Store data about one entity 
 ==Controllers:== Mediate user actions requesting access to data
-[[Views]]
+[[Rails Views]]
 - Requests come in the form of HTTP routes
 - Must determine which code should be invoked to handle that route
 - [[Ruby Rails]] supports MVC

@@ -58,4 +58,4 @@
 
 ### Week 8
 - 10-5-2021
-	- [[Views#Forms]]
+	- [[Rails Views#Forms]]

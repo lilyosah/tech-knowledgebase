@@ -1,15 +1,18 @@
-# Models
+# Rails Models
 #📥 
 %%
-#topic
+#SWE
+#coding 
 #concept
 %%
 **Related:**
--  
+-  [[Rails Views]]
+-  [[Model-View-Controller MVC]]
+-  [[Rails Migration]]
 
 ---
 
-Handles business logic in [[Model-View-Controller (MVC)]] architecture, 
+Handles business logic in [[Model-View-Controller (MVC)]] architecture. A model class corresponds to a table where each row is one instance of the table. 
 
 - 1 [[Relational Databases|Relational Database]] table = 1 model class
 	- **Naming:** snake-case and plural
@@ -32,10 +35,7 @@ Handles business logic in [[Model-View-Controller (MVC)]] architecture,
 	 - Rails solution: Each env has its own database, and different DB types that are appropriate for each 
 	 - Development, test, production
  - Keeping env DBs consistent:
-	 - ==Migrations:==
-
-## [[Rails Migration]]
-
+	 - [[Rails Migration]]
 
 ### Creation Option 1
 1. Create table `rails generate migration CreateBooks`
@@ -86,6 +86,7 @@ Rails generally shields us from needing to make actual SQL calls
 ### CRUDI Methods
 [[Networks#Representational State Transfer REST|CRUDI]]
 📝`.to_sql` method on any CRUDI method shows the corresponding SQL call at the end of any active record call
+📝 Use the model class name to search through the entire table
 
 #### SELECT 
 `[Model].all`
@@ -101,7 +102,6 @@ Rails generally shields us from needing to make actual SQL calls
 	- ❗ **Do not use regular string interpolation**, opens app up to SQL injection 
 		- `[Model].where("list_price > #{min_price}")`
 - `[Model].all.order_by("col")`
-- `[Model].where("price < ? DESC", my_price)`
 
 #### Create/INSERT 
 `Model.create(attribute: "The Perks of being a Wallflower", year: 1999)
@@ -120,19 +120,25 @@ Rails generally shields us from needing to make actual SQL calls
 #### Create and Save 
 `item.create` (adding `!` throws exception)
 
-#### Examples
+### Examples
 ```Ruby
 
+# Get books cheaper than a given value
 class Book < ApplicationRecord
 	def self.cheaper_than(val)
-		Book.where("price < ?", val).orer("price")
+		# query the whole table
+		Book.where("price < ?", val).order("price ASC") # order by ascending price
 	end
 end
 
+# Get books in-between two given values in descending order
 class Book < ApplicationRecord
 	def self.price_between(lower, upper)
+		Book.where('price > ?', lower).where('price < ?', lower).order('price DESC')
 	end
 end
+
+
 
 ```
 

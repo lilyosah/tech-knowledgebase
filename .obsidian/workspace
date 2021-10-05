@@ -9,7 +9,18 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Models.md",
+            "file": "Rails Controllers.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "cd45520cbd2919ce",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Rails Routing.md",
             "mode": "source"
           }
         }
@@ -20,18 +31,18 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Rails Migration.md",
+            "file": "Rails Views.md",
             "mode": "source"
           }
         }
       },
       {
-        "id": "eb03f75dda9749ca",
+        "id": "385542b995161b89",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Routing.md",
+            "file": "Software-Engineering/SWE Table of Contents.md",
             "mode": "source"
           }
         }
@@ -61,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "table",
+                "query": "params",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -100,7 +111,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "88584f44ddabdce4",
@@ -116,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Models.md",
+                "file": "Rails Controllers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Models.md"
+                "file": "Rails Controllers.md"
               }
             }
           }
@@ -146,15 +158,15 @@
   },
   "active": "76ce4ee7dea73001",
   "lastOpenFiles": [
+    "Rails Controllers.md",
+    "Rails Views.md",
+    "Rails Routing.md",
+    "Rails Models.md",
     "Models.md",
+    "Views.md",
     "Rails Migration.md",
-    "Ruby Rails.md",
-    "Migration.md",
-    "Routing.md",
-    "Software-Engineering/Ruby.md",
-    "Software-Engineering/Networks.md",
-    "Model-View-Controller (MVC).md",
-    "Software-Engineering/SQL.md",
-    "Design Patterns.md"
+    "Software-Engineering/SWE Table of Contents.md",
+    "Controllers.md",
+    "Routing.md"
   ]
 }
