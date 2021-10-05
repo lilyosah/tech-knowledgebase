@@ -12,12 +12,10 @@
 ### Week 1
 - 08-27-2021
 	- [[Regular Expressions]]
-	- Concepts that this lecture/reading contributed to
 
 ### Week 2
 - 08-30-2021
-	- [[Textbook Regular Expressions]]
-	- [[Words]]
+	- [[Regular Expressions]]
 	- [[Text Normalization]]
 	- Concepts that this lecture/reading contributed to
 - [[08-31-2021 Basic Text Processing]]

@@ -14,8 +14,7 @@
 ==Pattern:== what you search for
 ==Corpus:== what you search in
 - Letter at the end of the slashes indicates something. Ex: `i` is case-insensitive 
-
-- Case-sensitive
+	- Default is case-sensitive
 - By default, uses greedy matching: matches as much of a sequence as possible
 
 ## Characters
@@ -64,7 +63,7 @@ Ex: `/the*/` matches theeee but not thethe because counters takes precedence ove
 ## Substitution
 Allows a string characterized by a RE to be replaced by another string
 
-`s/RE/replacement`
+`s/[RE]/replacement`
 
 
 ## Capture groups
@@ -73,7 +72,7 @@ A way to store and represent the values that matches the pattern. Every time a c
 **Ex: ✏**  Find an integer and put angle brackets around it
 `s/([0-9]+/<\1>/`
 
-The `\1` refers to the first matching substring 
+*The `\1` refers to the first matching substring* 
 
 **Ex: ✏** See if something occurs two times in a string
 `/the (.*)er they were, the \1er they will be/`
