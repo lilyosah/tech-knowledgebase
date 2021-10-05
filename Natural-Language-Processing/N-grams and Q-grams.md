@@ -1,21 +1,21 @@
-# Language Models and N-grams
-#topic
+# N-grams and Q-grams
+#📥 
+%%
+#NLP 
 #concept
+%%
 **Related:**
--  
+-  [[Language Models]]
 
 ---
 
-==Language models==: Assign probabilities of occurrences to sequences of words
+## N-grams
+: Breaking a string of words into string of $n$ number of words
+- Words are broken into groups based on their original ordering
+**Ex: ✏**  `Good morning friends` --> `{Good morning, morning friends}`
 
+--- 
 
-Conditional probability
-$P(A|B) = {P(A, B)}/{P(B)}$
-
-$P(.|B)$ satisfies the axioms of probability 
-
-
-## N gram
 $A = learn$
 $B = you still have much to$
 $P(learn|you still have much to) = {count(you still have much to learn)}/{count(you still have much to}$
@@ -42,3 +42,8 @@ Bigram: Looking one word into the past
 
 Extrinsic evaluation: using data models in an application and measuring how much it improves
 Intrinsic evaluation: measure the quality of a model independent of an app
+
+## Q-grams 
+: Breaking a string of words into string of $q$ number of characters
+**Ex: ✏**  `Good morning` --> ` {Goo, ood, od, d m, mo, mor,...}`
+

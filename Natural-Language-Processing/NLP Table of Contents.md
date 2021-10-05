@@ -17,12 +17,11 @@
 - 08-30-2021
 	- [[Regular Expressions]]
 	- [[Text Normalization]]
-	- Concepts that this lecture/reading contributed to
-- [[08-31-2021 Basic Text Processing]]
+- [[Sentence Boundary Detection]]
 
 ### Week 3
 - 09-07-2021
-	- [[Language Models and N-grams]]
+	- [[Language Models]]
 	- [[09-07-2021 Collocations, Hypothesis Testing, Wall Testing]]
 	- Concepts that this lecture/reading contributed to
 

@@ -6,7 +6,7 @@ Class: #NLP
 - [Class Notion page]()
 - [Description](https://moodle.colgate.edu/mod/page/view.php?id=532477&inpopup=1)
 Related notes:
-- [[Language Models and N-grams]]
+- [[Language Models]]
 
 ## TODO
 - [x] Compute Log P probability

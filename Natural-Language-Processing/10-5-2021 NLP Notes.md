@@ -43,7 +43,7 @@ $\theta_0 = P(w_1)P(w_2)$
 $P(w_1 w_2) = {c(w_1 w_2)}/{N}$
 
 ### Heap's Law
-[[08-31-2021 Basic Text Processing]]
+[[Sentence Boundary Detection]]
 $|V| = k{N^b}$
 $|V|$ size of vocab
 $k$ param

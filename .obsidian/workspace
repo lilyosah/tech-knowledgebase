@@ -9,7 +9,29 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Natural-Language-Processing/Text Normalization.md",
+            "file": "Natural-Language-Processing/NLP Table of Contents.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "ebdd2a584fb4e66e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Natural-Language-Processing/Sentence Boundary Detection.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "b14f51553f8afc23",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Natural-Language-Processing/Herdan's, Heaps' Law.md",
             "mode": "source"
           }
         }
@@ -95,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Natural-Language-Processing/Text Normalization.md",
+                "file": "Natural-Language-Processing/Herdan's, Heaps' Law.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Natural-Language-Processing/Text Normalization.md"
+                "file": "Natural-Language-Processing/Herdan's, Heaps' Law.md"
               }
             }
           }
@@ -123,17 +145,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "873e7d8a7d27b846",
+  "active": "b14f51553f8afc23",
   "lastOpenFiles": [
+    "Natural-Language-Processing/Herdan's Law  Heaps' Law.md",
+    "Natural-Language-Processing/Sentence Boundary Detection.md",
+    "Natural-Language-Processing/N-grams and Q-grams.md",
+    "Natural-Language-Processing/Language Models.md",
+    "Natural-Language-Processing/Language Models and N-grams.md",
     "Natural-Language-Processing/Text Normalization.md",
+    "Software-Engineering/Machine Learning.md",
     "Natural-Language-Processing/NLP Table of Contents.md",
-    "Natural-Language-Processing/Words.md",
-    "Natural-Language-Processing/Textbook Regular Expressions.md",
-    "Natural-Language-Processing/Regular Expressions.md",
-    "Natural-Language-Processing/10-5-2021 NLP Notes.md",
-    "Natural-Language-Processing/Naive Bayes Classifiers.md",
-    "Natural-Language-Processing/Text Classification.md",
     "Natural-Language-Processing/08-31-2021 Basic Text Processing.md",
-    "Natural-Language-Processing/09-07-2021 Collocations, Hypothesis Testing, Wall Testing.md"
+    "Natural-Language-Processing/Words.md"
   ]
 }
