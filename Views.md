@@ -29,6 +29,10 @@ You don't have to use form tag helpers to submit data from forms but it makes th
 - URI to which the form should submit (EX: RESTful Route helper)
 - Hash of optional arguments, one of which may be the HTTP method that should be used to submit the form
 
+Ex for Product:
+*products_path is the name of the route helper*
+`<%= form_tag products_path, :method => :post do %>`
+
 - `params['movie']` is a hash of movie attribute names and values that can be passed directly to `Movie.create!(params['movie'])`
 	- Controller action can inspect `params[]`
 		- Like `params[:query]`
@@ -49,6 +53,10 @@ end
 
 - When creating or updating a model, for user friendliness it's common to 	`redirect_to` a view such as `index` rather than rendering a dedicated view
 `flash[]`: special object that quacks like a hash but whose contents only persist from the current request to the next
+- If you put something in flash during a controller action, you can only access it during the very next action
+- `flash[:notice]` is used for info messages
+- `flash[:alert]` is used for messages about things going wrong
+`session[]` is used to persist contents "forever" across requests from the same browser
 
 
 
