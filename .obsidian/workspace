@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software-Engineering/Machine Learning.md",
-            "mode": "source"
+            "file": "Software-Engineering/Supervised Learning.md",
+            "mode": "preview"
           }
         }
       },
@@ -20,8 +20,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software-Engineering/Supervised Learning.md",
-            "mode": "source"
+            "file": "Software-Engineering/Probability.md",
+            "mode": "preview"
           }
         }
       },
@@ -31,7 +31,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Natural-Language-Processing/Text Classification.md",
+            "file": "Natural-Language-Processing/10-5-2021 NLP Notes.md",
             "mode": "source"
           }
         }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Natural-Language-Processing/Text Classification.md",
+                "file": "Natural-Language-Processing/10-5-2021 NLP Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Natural-Language-Processing/Text Classification.md"
+                "file": "Natural-Language-Processing/10-5-2021 NLP Notes.md"
               }
             }
           }
@@ -147,15 +147,15 @@
   },
   "active": "8166053cb7d89e07",
   "lastOpenFiles": [
+    "Natural-Language-Processing/10-5-2021 NLP Notes.md",
+    "Natural-Language-Processing/NLP Table of Contents.md",
     "Natural-Language-Processing/Text Classification.md",
     "Software-Engineering/Supervised Learning.md",
     "Software-Engineering/Machine Learning.md",
-    "Natural-Language-Processing/10-5-2021 NLP Notes.md",
-    "Natural-Language-Processing/NLP Table of Contents.md",
+    "Software-Engineering/Probability.md",
     "Natural-Language-Processing/Naive Bayes' Classifiers.md",
     "Natural-Language-Processing/Collocations.md",
     "Natural-Language-Processing/N-grams and Q-grams.md",
-    "Natural-Language-Processing/Language Models.md",
-    "Natural-Language-Processing/NLP Project.md"
+    "Natural-Language-Processing/Language Models.md"
   ]
 }
