@@ -32,9 +32,8 @@ $R$ is a $d$ dimensional vector (like arrays, 2d arrays, 3d)
 They used dimensions of particular parts of the flowers 
 Ex: \[2.1, 3.4, 2.3]
 
-
-
-Have a set of pairs, $X = {(x1, y1)...}$
+Have a set of pairs, $X = {(x_1, y_1)...}$
+- Where $x \in R^D$ and $y \in {c_1, .. c_k}$
 Assumption that xi within R^d
 There is another vector V associated with R
 
