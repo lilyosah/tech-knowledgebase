@@ -13,6 +13,17 @@
             "mode": "preview"
           }
         }
+      },
+      {
+        "id": "61fc336bc946b806",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Natural-Language-Processing/Naive Bayes' Classifiers.md",
+            "mode": "preview"
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -95,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software-Engineering/Bayes' Rule.md",
+                "file": "Natural-Language-Processing/Naive Bayes' Classifiers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software-Engineering/Bayes' Rule.md"
+                "file": "Natural-Language-Processing/Naive Bayes' Classifiers.md"
               }
             }
           }
@@ -123,17 +134,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "60f4d258e9fe8177",
+  "active": "61fc336bc946b806",
   "lastOpenFiles": [
-    "Software-Engineering/Bayes' Rule.md",
+    "Natural-Language-Processing/Naive Bayes' Classifiers.md",
     "Natural-Language-Processing/NLP Table of Contents.md",
+    "Natural-Language-Processing/Collocations.md",
+    "Natural-Language-Processing/N-grams and Q-grams.md",
+    "Natural-Language-Processing/Language Models.md",
+    "Natural-Language-Processing/NLP Project.md",
+    "Software-Engineering/Bayes' Rule.md",
     "Natural-Language-Processing/Hypothesis Testing.md",
     "Natural-Language-Processing/Wald Test.md",
-    "Natural-Language-Processing/Naive Bayes' Classifiers.md",
-    "Software-Engineering/Conditional Probability.md",
-    "Software-Engineering/Probability.md",
-    "Natural-Language-Processing/NLP Project.md",
-    "Natural-Language-Processing/Collocations.md",
-    "Templates/Concept.md"
+    "Software-Engineering/Conditional Probability.md"
   ]
 }

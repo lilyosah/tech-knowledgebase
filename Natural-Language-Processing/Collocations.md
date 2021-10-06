@@ -2,12 +2,11 @@
 %%
 #NLP
 #concept
-%%
 **Related:**
 -  [[N-grams and Q-grams]]
 -  [[Hypothesis Testing]]
 
----
+%%
 
 : Statements of the customary placements of that word
 - The meaning of the  expression does not equal the sum of the parts

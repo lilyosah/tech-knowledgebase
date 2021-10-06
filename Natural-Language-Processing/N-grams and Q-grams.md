@@ -2,12 +2,11 @@
 %%
 #NLP 
 #concept
-%%
 **Related:**
 -  [[Language Models]]
 -  [[Collocations#N-grams and Q-grams N-grams]]
 
----
+%%
 
 ## N-grams
 Looking at the probabilities of seeing small groupings of words one after another

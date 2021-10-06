@@ -36,6 +36,7 @@
 ### Week 5:
 - [[NLP Project]]
 - [[Naive Bayes' Classifiers]]
+	- [[Bayes' Rule]]
 - [[Text Classification]]
 
 ### Week 6:

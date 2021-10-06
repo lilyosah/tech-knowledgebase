@@ -3,13 +3,12 @@
 %%
 #NLP 
 #concept
-%%
+
 **Related:**
 -  [[Text Classification]]
+%%
 
----
-
-![[Bayes' Rule]]
+[[Bayes' Rule]]
 
 ==Precision:== The percentage of items that the system detected that are in fact positive 
 ==Recall:== The percentage of items actually present in the input that were correctly identified by the system 
