@@ -58,10 +58,14 @@ No, because in a big corpus there are a lot of repeated words. $|V|$ is the numb
 $p$
 
 ### Normal
+Gaussian and normal distribution are the stats bellcurve, normal distribution
+
 $M(\mu, \sigma)$
 
 $\mu$ is the line in the middle of the standard deviation bell curve 
-$\sigma$ are the 
+$\sigma$ are the standard deviations along the x axis 
+
+- Two values tell you everything you need to know in normal distribution, $\mu$ and $\sigma$. Therefore $\mu$ and $\sigma$ are the two parameters needed when dealing with normal distribution?
 
 ### Bigrams
 $P(zx|xy)$ means $zx$ follows $xy$.  Given $zx$, what is the prob second follows it
