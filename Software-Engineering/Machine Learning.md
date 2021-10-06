@@ -11,46 +11,6 @@
 
 ## Types
 
-### Unsupervised Learning
-
-### Supervised Learning
-- Have a data set of input observations, each associated with some correct output ("supervision signal")
-
-[[Naive Bayes' Classifiers]]
-
-Representation:
-- Objects in a vector $R$
-- Can be coordinates in a space
-
-Function $m$ takes an object and turns it into a vector of data
-- Depends on how your represent it. May use the dimensions, etc. 
-- $d$ is the length of the array
-
-**Ex: ✏**  Putting different types of irises into a data set
-$m(\text{flower}) -> R^d$
-$R$ is a $d$ dimensional vector (like arrays, 2d arrays, 3d)
-They used dimensions of particular parts of the flowers 
-Ex: \[2.1, 3.4, 2.3]
-
-Have a set of pairs, $X = {(x_1, y_1)...}$
-- Where $x \in R^D$ and $y \in {c_1, .. c_k}$
-Assumption that xi within R^d
-There is another vector V associated with R
-
-#### Applications
-Both use [[Probability]]
-
-##### Classification
-- For an input $x$, and a fixed set of output classes, return a predicted output in from that set
-
-==Probabilistic classifier:== In addition to outputting the most likely class, outputs the probability of it
-
-yi within C where C = {c1, c2, ... cl}
-
-
-##### Regression
-yi within R
-Where does this thing best fit
-
-
-### Reinforcement Learning
+-  Unsupervised Learning
+- [[Supervised Learning]]
+-  Reinforcement Learning

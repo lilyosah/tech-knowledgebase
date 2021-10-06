@@ -6,6 +6,7 @@
 %%
 **Related:**
 -  [[Bayes' Rule]]
+-  [[Machine Learning#Supervised Learning]]
 
 ---
 
@@ -13,7 +14,7 @@
 ==Sentiment Analysis:== Extraction of sentiment from text
 
 Naive Bayes' Classifiers were created for subject category classification
-Most classification is done using [[Machine Learning#Supervised Learning]]
+Most classification is done using [[Machine Learning#Supervised Learning]] (this would be good to review)
 
 **Process:**
 ```mermaid
@@ -27,19 +28,38 @@ graph LR
 - Classes are known ahead of time
 - If input is not in the correct dimension (vector), must reformat it (function `m`)
 
-## Creating Text-to-Vector Function m
-==Bag of Word Model:== id : token -> N
+## **Ex: ✏**  Putting different types of irises into a data set
+They used dimensions of particular parts of the flowers 
+$m(\text{flower}) -> R^d$
+- $R$ is a $d$ dimensional vector (like arrays, 2d arrays, 3d)
+	- **Ex: ✏**   \[2.1, 3.4, 2.3]
+
+### Creating Text-to-Vector Function m
+If input data is not formatted correctly in a vector, must put into the right format using $m$
+
+==Bag of Word Model:== Map $id : token -> N$
 - [[Map|Dict]] to map IDs to a unique token (Like two dicts, keys to values and values to keys)
 
-### Algorithm
+#### Algorithm
 1. Each token is assigned a value that is the current size of the dict
 
 $d$ (unique tokens) corresponds to $max_x id(x)$
 
-function delta returns 1 if $i \in id(x) | x \in tokens(text)$, 0 otherwise 
+$$
+\text{function } \delta = \begin{cases}
+1 &\text{if } i \in \text{id}(x) | x \in \text{tokens}(\text{text}) \\
+0 &\text{otherwise}
+\end{cases}
+$$
+
+Have a set of pairs, $X = {(x_1, y_1)...}$ that shows the classification? #NLP/❓
+- Where $x \in R^D$ and 
+- $y \in {c_1, ... c_k}$ (for classification, where each $c$ is one of the pre-defined classes)
+
 *index\[ID of this token in array] = 1*
-m(text) = delta_0(text), delta_1(text)... delta_d-1(text)
-**Creates a boolean mask of all of the tokens**
+$m(\text{text}) = \delta_0(\text{text}), \delta_1(\text{text})... \delta_d-1(\text{text})$
+
+**Creates a boolean mask of all of the tokens, if **
 
 
 |     |     |     |     |

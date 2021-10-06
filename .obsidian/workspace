@@ -15,12 +15,34 @@
         }
       },
       {
-        "id": "08979a5cb4700d5b",
+        "id": "795e6a0738cbb356",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Natural-Language-Processing/10-5-2021 NLP Notes.md",
+            "mode": "preview"
+          }
+        }
+      },
+      {
+        "id": "43fbad02f46b15c5",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "Software-Engineering/Machine Learning.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "0c7ce67408bbc923",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Software-Engineering/Supervised Learning.md",
             "mode": "source"
           }
         }
@@ -106,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software-Engineering/Machine Learning.md",
+                "file": "Software-Engineering/Supervised Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software-Engineering/Machine Learning.md"
+                "file": "Software-Engineering/Supervised Learning.md"
               }
             }
           }
@@ -134,17 +156,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "08979a5cb4700d5b",
+  "active": "0c7ce67408bbc923",
   "lastOpenFiles": [
+    "Software-Engineering/Supervised Learning.md",
     "Software-Engineering/Machine Learning.md",
+    "Natural-Language-Processing/10-5-2021 NLP Notes.md",
+    "Natural-Language-Processing/NLP Table of Contents.md",
     "Natural-Language-Processing/Text Classification.md",
     "Natural-Language-Processing/Naive Bayes' Classifiers.md",
-    "Natural-Language-Processing/NLP Table of Contents.md",
     "Natural-Language-Processing/Collocations.md",
     "Natural-Language-Processing/N-grams and Q-grams.md",
     "Natural-Language-Processing/Language Models.md",
-    "Natural-Language-Processing/NLP Project.md",
-    "Software-Engineering/Bayes' Rule.md",
-    "Natural-Language-Processing/Hypothesis Testing.md"
+    "Natural-Language-Processing/NLP Project.md"
   ]
 }
