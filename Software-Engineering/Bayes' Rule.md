@@ -19,7 +19,9 @@ $$P(x|y) = \frac{P(y|x)P(x)}{P(y)}$$
 
 After some substitution:
 
-$$\hat{c} = {argmax P(c|d) \atop {c \in C}} = {argmax P(d|c)P(c) \atop {c \in C}}$$
+$$
+\hat{c} = {\text{argmax} P(c|d) \atop {c \in C}} = {\text{argmax} P(d|c)P(c) \atop {c \in C}}
+$$
 
 Liklihood of the document: $P(c|d)$
 Prior probability: $P(c)$

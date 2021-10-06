@@ -4,17 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "85e8b94f933405f8",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Natural-Language-Processing/Hypothesis Testing.md",
-            "mode": "preview"
-          }
-        }
-      },
-      {
         "id": "60f4d258e9fe8177",
         "type": "leaf",
         "state": {
@@ -22,17 +11,6 @@
           "state": {
             "file": "Software-Engineering/Bayes' Rule.md",
             "mode": "preview"
-          }
-        }
-      },
-      {
-        "id": "c8d7bd387ba11fb0",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Natural-Language-Processing/NLP Table of Contents.md",
-            "mode": "source"
           }
         }
       }
@@ -117,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Natural-Language-Processing/Hypothesis Testing.md",
+                "file": "Software-Engineering/Bayes' Rule.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Natural-Language-Processing/Hypothesis Testing.md"
+                "file": "Software-Engineering/Bayes' Rule.md"
               }
             }
           }
@@ -145,13 +123,13 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "85e8b94f933405f8",
+  "active": "60f4d258e9fe8177",
   "lastOpenFiles": [
+    "Software-Engineering/Bayes' Rule.md",
+    "Natural-Language-Processing/NLP Table of Contents.md",
     "Natural-Language-Processing/Hypothesis Testing.md",
     "Natural-Language-Processing/Wald Test.md",
     "Natural-Language-Processing/Naive Bayes' Classifiers.md",
-    "Natural-Language-Processing/NLP Table of Contents.md",
-    "Software-Engineering/Bayes' Rule.md",
     "Software-Engineering/Conditional Probability.md",
     "Software-Engineering/Probability.md",
     "Natural-Language-Processing/NLP Project.md",
