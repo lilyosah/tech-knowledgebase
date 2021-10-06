@@ -1,3 +1,6 @@
+Press `ctlr + shift + d` to insert a template 
+
+
 # Note Templates
 #MOC
 [[{{date}} Note Header]]

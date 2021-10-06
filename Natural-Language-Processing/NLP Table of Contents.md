@@ -35,13 +35,11 @@
 
 ### Week 5:
 - [[NLP Project]]
-- [[Naive Bayes' Classifiers]]
 	- [[Bayes' Rule]]
 - [[Text Classification]]
 
 ### Week 6:
 09-28-2021
-- [[09-28-2021 NLP Notes]]
 - [[09-30-2021 NLP Notes]]
 - [[10-5-2021 NLP Notes]]
 - [[Wald Test]]

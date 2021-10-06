@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "43fbad02f46b15c5",
+        "id": "5572bc156936110e",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Natural-Language-Processing/NLP Table of Contents.md",
-            "mode": "preview"
+            "file": "Natural-Language-Processing/09-30-2021 NLP Notes.md",
+            "mode": "source"
           }
         }
       }
@@ -95,8 +95,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Natural-Language-Processing/NLP Table of Contents.md",
-                "collapseAll": false,
+                "file": "Natural-Language-Processing/09-30-2021 NLP Notes.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -112,28 +112,28 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Natural-Language-Processing/NLP Table of Contents.md"
+                "file": "Natural-Language-Processing/09-30-2021 NLP Notes.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "43fbad02f46b15c5",
+  "active": "5572bc156936110e",
   "lastOpenFiles": [
+    "Natural-Language-Processing/09-30-2021 NLP Notes.md",
     "Natural-Language-Processing/NLP Table of Contents.md",
-    "Natural-Language-Processing/Text Normalization.md",
-    "Software-Engineering/Supervised Learning.md",
-    "Natural-Language-Processing/10-5-2021 NLP Notes.md",
-    "Natural-Language-Processing/Text Classification.md",
-    "Software-Engineering/Machine Learning.md",
-    "Software-Engineering/Probability.md",
-    "Natural-Language-Processing/Naive Bayes' Classifiers.md",
-    "Natural-Language-Processing/Collocations.md",
-    "Natural-Language-Processing/N-grams and Q-grams.md"
+    "Natural-Language-Processing/09-28-2021 NLP Notes.md",
+    "Using-Obisdian/My Obsidian Process.md",
+    "Using-Obisdian/Using Obsidian.md",
+    "Model-View-Controller (MVC).md",
+    "Data-Structures-and-Algorithms/Algo MOC.md",
+    "Templates/Templates MOC.md",
+    "Natural-Language-Processing/N-grams and Q-grams.md",
+    "Natural-Language-Processing/Collocations.md"
   ]
 }
