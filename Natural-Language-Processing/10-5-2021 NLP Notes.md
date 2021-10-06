@@ -68,7 +68,7 @@ $\sigma$ are the standard deviations along the x axis
 - Two values tell you everything you need to know in normal distribution, $\mu$ and $\sigma$. Therefore $\mu$ and $\sigma$ are the two parameters needed when dealing with normal distribution?
 
 ### Bigrams
-$P(zx|xy)$ means $zx$ follows $xy$.  Given $zx$, what is the prob second follows it
+$P(zx|xy)$ means $zx$ follows $xy$.  Given $xy$, what is the prob $zx$ follows it
 
 What about a 3-gram?
 $P(w_i|w_{1-2}w_{i-1})$

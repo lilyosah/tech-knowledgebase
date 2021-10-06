@@ -32,7 +32,7 @@
           "type": "markdown",
           "state": {
             "file": "Natural-Language-Processing/10-5-2021 NLP Notes.md",
-            "mode": "preview"
+            "mode": "source"
           }
         }
       }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software-Engineering/Supervised Learning.md",
+                "file": "Natural-Language-Processing/10-5-2021 NLP Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software-Engineering/Supervised Learning.md"
+                "file": "Natural-Language-Processing/10-5-2021 NLP Notes.md"
               }
             }
           }
@@ -145,10 +145,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "43fbad02f46b15c5",
+  "active": "8166053cb7d89e07",
   "lastOpenFiles": [
-    "Software-Engineering/Supervised Learning.md",
     "Natural-Language-Processing/10-5-2021 NLP Notes.md",
+    "Software-Engineering/Supervised Learning.md",
     "Natural-Language-Processing/NLP Table of Contents.md",
     "Natural-Language-Processing/Text Classification.md",
     "Software-Engineering/Machine Learning.md",
