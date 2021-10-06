@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Natural-Language-Processing/Wald Test.md",
+            "file": "Natural-Language-Processing/Hypothesis Testing.md",
             "mode": "preview"
           }
         }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Natural-Language-Processing/Wald Test.md",
+                "file": "Natural-Language-Processing/Hypothesis Testing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Natural-Language-Processing/Wald Test.md"
+                "file": "Natural-Language-Processing/Hypothesis Testing.md"
               }
             }
           }
@@ -147,6 +147,7 @@
   },
   "active": "85e8b94f933405f8",
   "lastOpenFiles": [
+    "Natural-Language-Processing/Hypothesis Testing.md",
     "Natural-Language-Processing/Wald Test.md",
     "Natural-Language-Processing/Naive Bayes' Classifiers.md",
     "Natural-Language-Processing/NLP Table of Contents.md",
@@ -154,7 +155,6 @@
     "Software-Engineering/Conditional Probability.md",
     "Software-Engineering/Probability.md",
     "Natural-Language-Processing/NLP Project.md",
-    "Natural-Language-Processing/Hypothesis Testing.md",
     "Natural-Language-Processing/Collocations.md",
     "Templates/Concept.md"
   ]
