@@ -6,7 +6,7 @@
 %%
 **Related:**
 -  [[Bayes' Rule]]
--  [[Machine Learning#Supervised Learning]]
+-  [[Supervised Learning]]
 
 ---
 
@@ -14,7 +14,7 @@
 ==Sentiment Analysis:== Extraction of sentiment from text
 
 Naive Bayes' Classifiers were created for subject category classification
-Most classification is done using [[Machine Learning#Supervised Learning]] (this would be good to review)
+Most classification is done using [[Supervised Learning]] (this would be good to review)
 
 **Process:**
 ```mermaid
@@ -31,8 +31,8 @@ graph LR
 ## **Ex: ✏**  Putting different types of irises into a data set
 They used dimensions of particular parts of the flowers 
 $m(\text{flower}) -> R^d$
-- $R$ is a $d$ dimensional vector (like arrays, 2d arrays, 3d)
-	- **Ex: ✏**   \[2.1, 3.4, 2.3]
+- $R$ is a $d$ dimensional vector (like arrays, 2d arrays, 3d), see representation in [[Supervised Learning]]
+	
 
 ### Creating Text-to-Vector Function m
 If input data is not formatted correctly in a vector, must put into the right format using $m$
