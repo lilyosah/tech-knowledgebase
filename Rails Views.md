@@ -74,11 +74,43 @@ Use [[Rails Routing#URI Helpers]]
 ### Helpers
 You don't have to use form tag helpers to submit data from forms but it makes things easier 
 
-`form_tag` helper takes two arguments
+#### form_with
+✨ Go-to form helper
+
+**Arguments:**
+- `local`: for regular URIs, must specify local is true. Otherwise, makes an AJAX call
+
+**Ex: ✏**  For Books
+*View*
+```HTML
+<!-- 
+You don't need to specify the URI path to controller but you can if you want -->
+
+<%= form_with model: @book, (method: post,) local: true do |book_form %>
+	<%= book_forn.label :title %>
+		...
+
+
+```
+
+*In controller*
+```Ruby
+def new 
+	@book = book.new
+end
+```
+
+
+#### form_tag
+❗ **form_with is easier most of the time if you have a clear model you want it to relate to**
+- Use `form_tag` if you don't have a clear model
+	- **Ex: ✏**  A search form
+
+**Arguments:**
 - URI to which the form should submit (EX: RESTful Route helper)
 - Hash of optional arguments, one of which may be the HTTP method that should be used to submit the form
 
-Ex for Product:
+**Ex: ✏**   for Product:
 *products_path is the name of the route helper*
 `<%= form_tag products_path, :method => :post do %>`
 
@@ -86,7 +118,7 @@ Ex for Product:
 	- [[Rails Controllers]] action can inspect `params[]`
 		- Like `params[:query]`
 
-Ex in controller: #📌  Move to controller somehow
+Code using `params` in [[Rails Controllers]]
 
 ```Ruby
 class BookController < ApplicationController
@@ -100,6 +132,7 @@ end
 ```
 
 
+## Saving Data
 - When creating or updating a model, for user friendliness it's common to 	`redirect_to` a view such as `index` rather than rendering a dedicated view
 `flash[]`: special object that quacks like a hash but whose contents only persist from the current request to the next
 - If you put something in flash during a controller action, you can only access it during the very next action

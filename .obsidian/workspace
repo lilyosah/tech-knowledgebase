@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rails Routing.md",
+                "file": "Rails Views.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rails Routing.md"
+                "file": "Rails Views.md"
               }
             }
           }
@@ -157,12 +157,12 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f7213cc776c33fca",
+  "active": "ab01901a815c5cd7",
   "lastOpenFiles": [
-    "Rails Routing.md",
-    "Rails Models.md",
     "Rails Views.md",
     "Rails Controllers.md",
+    "Rails Routing.md",
+    "Rails Models.md",
     "Software-Engineering/SWE Table of Contents.md",
     "Data-Structures-and-Algorithms/Project 3 - Divide and Conquer.md",
     "Data-Structures-and-Algorithms/Project 4 - Ranking Similarity.md",

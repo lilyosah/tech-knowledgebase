@@ -51,4 +51,4 @@ Connect to one of these routes in the [[Rails Views]] using `link_to(link text, 
 **Ex: ✏**  `link_to book.title, book_path(book)` *Creates link to books (prefix) route to link to individual book show pages*
 **Ex: ✏**  `link_to "Go back", books_path` *Link back to books table from show page*
 
-❕ You may have to specify the entire method bc 
+❕ You may have to specify the entire method bc prefixes, etc. may be shared
