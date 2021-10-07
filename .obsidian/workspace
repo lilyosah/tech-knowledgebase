@@ -12,7 +12,8 @@
             "file": "Natural-Language-Processing/Wald Test.md",
             "mode": "preview"
           }
-        }
+        },
+        "group": "650d1d0adeb95d81"
       },
       {
         "id": "7e4a6a2479bcb167",
@@ -23,7 +24,8 @@
             "file": "Natural-Language-Processing/Wald Test.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "650d1d0adeb95d81"
       }
     ],
     "direction": "vertical"
@@ -135,13 +137,13 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "7d9ae3b6b96f9d87",
+  "active": "7e4a6a2479bcb167",
   "lastOpenFiles": [
     "Natural-Language-Processing/Wald Test.md",
+    "Natural-Language-Processing/Hypothesis Testing.md",
     "Natural-Language-Processing/Collocations.md",
     "Natural-Language-Processing/10-5-2021 NLP Notes.md",
     "Natural-Language-Processing/NLP Table of Contents.md",
-    "Natural-Language-Processing/Hypothesis Testing.md",
     "Software-Engineering/Conditional Probability.md",
     "Software-Engineering/Probability.md",
     "Natural-Language-Processing/NLP Project.md",
