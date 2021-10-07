@@ -67,3 +67,8 @@
 ### Week 8
 - 10-5-2021
 	- [[Rails Views#Forms]]
+- 10-7-2021
+	- [[Rails Routing#URI Helpers]]
+	- [[Ruby Rails#Debugging]]
+	- [[Rails Views#Forms]]
+	- [[Rails Views#Saving Data]]

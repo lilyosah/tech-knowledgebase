@@ -4,45 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "f7213cc776c33fca",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Rails Routing.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "57611c60d8f0751d",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Rails Controllers.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "ab01901a815c5cd7",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Rails Views.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
         "id": "7d9ae3b6b96f9d87",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Rails Models.md",
+            "file": "Natural-Language-Processing/Wald Test.md",
+            "mode": "preview"
+          }
+        }
+      },
+      {
+        "id": "7e4a6a2479bcb167",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Natural-Language-Processing/Wald Test.md",
             "mode": "source"
           }
         }
@@ -128,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rails Views.md",
+                "file": "Natural-Language-Processing/Wald Test.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rails Views.md"
+                "file": "Natural-Language-Processing/Wald Test.md"
               }
             }
           }
@@ -157,17 +135,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ab01901a815c5cd7",
+  "active": "7d9ae3b6b96f9d87",
   "lastOpenFiles": [
-    "Rails Views.md",
-    "Rails Controllers.md",
-    "Rails Routing.md",
+    "Natural-Language-Processing/Wald Test.md",
+    "Natural-Language-Processing/Collocations.md",
+    "Natural-Language-Processing/10-5-2021 NLP Notes.md",
+    "Natural-Language-Processing/NLP Table of Contents.md",
+    "Natural-Language-Processing/Hypothesis Testing.md",
+    "Software-Engineering/Conditional Probability.md",
+    "Software-Engineering/Probability.md",
+    "Natural-Language-Processing/NLP Project.md",
     "Rails Models.md",
-    "Software-Engineering/SWE Table of Contents.md",
-    "Data-Structures-and-Algorithms/Project 3 - Divide and Conquer.md",
-    "Data-Structures-and-Algorithms/Project 4 - Ranking Similarity.md",
-    "Data-Structures-and-Algorithms/Project 9 - Interval Consistency.md",
-    "Data-Structures-and-Algorithms/Project 5 - Line Segment Intersection.md",
-    "Data-Structures-and-Algorithms/Project 8 - Pretty Printing.md"
+    "Ruby Rails.md"
   ]
 }

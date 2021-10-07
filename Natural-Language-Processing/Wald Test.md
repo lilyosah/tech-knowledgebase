@@ -14,6 +14,7 @@
 - $\theta$: a scalar parameter, a vector of all true input parameters considered under null hypothesis
 - $\hat{\theta}$: an estimate of $\theta$, vector of all parameters estimated by the maximum likelihood
 - $\hat{se}$ estimated standard error of $\hat{\theta}$
+- $|W|$ is wald test
 
 $H_0 : \theta = \theta_0$ VS $H_1 : \theta \ne \theta_0$ 
 Assuming $\hat\theta$ is asymptotically normal
@@ -23,14 +24,19 @@ Should we move forward with the input parameters or reject them?
 - Smaller difference between vals -> larger Wald estimate -> do not reject null hypothesis
 
 Reject $H_0$ when $|W| > z_{a \over 2}$
+If $|W|$ is outside of the two thingies 
+
+Hat is the prediction, \_0 is the model, actual val
+
 
 
 ### From Class
 #🔍 *don't follow this*
 If you have an estimation of a parameter $\theta$, then assuming $\hat{\theta}$ is asymptotically normal than the null hypothesis $H_0 = \hat{\theta} = \theta_0$ can be rejected if $|W| > Z_{a/2}$ where $W = {\hat{\theta}-\theta_0}/{\hat{se}}$ where $se$ is the standard error 
+Each section is 2.5% so that's why the alpha is divided by 2, the chance that the sample mean (hat) is equal to the population mean (no hat)
 
 - Compute $W$
-	- $W$ is like an area under part of a s-dev curve... the probability of the thing??? happening??????
+	- $W$ is like an area under part of a s-dev curve... the probability of the thing??? happening?????? 95% chance that they're different 
 
 If you want to test a particular parameter to see if it is different from another, hypothesis 0 is that they are equal, H1 is that they are not
 

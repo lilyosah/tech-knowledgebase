@@ -105,3 +105,8 @@ class BooksController < ApplicationController
 
 
 ## [[Rails Models]]
+
+## Debugging
+Byebug!
+
+- Adding byebug line in ruby opens interactive debugger

@@ -140,5 +140,21 @@ end
 - `flash[:alert]` is used for messages about things going wrong
 `session[]` is used to persist contents "forever" across requests from the same browser
 
+```Ruby
+
+def create
+	b = Book.new(:book)
+	if b.save # If save succeeds
+		flash[:notice] = "Saved!"
+		redirect_to book_path(b)
+	else # If save fails
+		flash[:warning] = "Book couldn't be created"
+		redirect_to new_book_path
+end
+	
+```
+
+This will fail! Ruby does not allow mass assignment of attributes. Use `require` and `permit` methods on params
+
 
 
