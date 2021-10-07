@@ -15,6 +15,7 @@
 `params[]` is the parameters from URI, see [[Rails Routing]]
 - There is a render method to show which view you want to use, but bc of naming of method names in controller it will know which view to use
 	- Ex: `def index` in controller will render view `app/views/whatever/index.html.erb`
+- Each method in controller has a [[Rails Views]] named after it?
 
 **Ex: ✏**  
 
@@ -40,6 +41,14 @@ end
 
 
 📝 To handle exceptions, can also add `rescue_from AcriveRecord`... *not finished* at the top of a controller file 
+
+### Naming
+
+ |             | Case  | Convention | Number | Example           |
+ | ----------- | ----- | ---------- | ------ | ----------------- |
+ | **Class**   | Upper | 🐫         | Plural | `BooksController` |
+ | **Methods** | lower | 🐍         |        |                   |
+
 
 ## Creation
 *Creates controller with open and debit [[Rails Views]]*

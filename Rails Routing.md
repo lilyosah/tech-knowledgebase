@@ -41,3 +41,14 @@ end
 
 ```
 
+### URI Helpers
+Prefixes are given for each route. You can use the prefix instead of the whole path and add `_path` after
+See using `$ rails routes -c [ControllerName]`
+- 📝 In the table, if there is no prefix it uses the same as the above prefix
+
+Connect to one of these routes in the [[Rails Views]] using `link_to(link text, URI path, ...config stuff)`
+
+**Ex: ✏**  `link_to book.title, book_path(book)` *Creates link to books (prefix) route to link to individual book show pages*
+**Ex: ✏**  `link_to "Go back", books_path` *Link back to books table from show page*
+
+❕ You may have to specify the entire method bc 

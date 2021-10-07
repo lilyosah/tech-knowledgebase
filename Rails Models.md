@@ -12,6 +12,7 @@
 
 ---
 
+## Definition
 Handles business logic in [[Model-View-Controller (MVC)]] architecture. A model class corresponds to a table where each row is one instance of the table. 
 
 - 1 [[Relational Databases|Relational Database]] table = 1 model class
@@ -30,12 +31,25 @@ Handles business logic in [[Model-View-Controller (MVC)]] architecture. A model 
 
  [[Design Patterns#Active Record]] 
  
+
+### Naming
+ - singular, upper-camel-case
+
+| Case  | Convention | Number   | Example         |
+| ----- | ---------- | -------- | --------------- |
+| Upper | 🐫         | Singular |  |
+
+ 
  ## The Database
+ 
  - Don't destroy real user data!
 	 - Rails solution: Each env has its own database, and different DB types that are appropriate for each 
 	 - Development, test, production
  - Keeping env DBs consistent:
 	 - [[Rails Migration]]
+
+### Naming
+- snake-case, plural
 
 ### Creation Option 1
 1. Create table `rails generate migration CreateBooks`

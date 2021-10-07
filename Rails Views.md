@@ -15,11 +15,13 @@
  
  ## Definition
  The interface between the data and the user in [[Model-View-Controller (MVC)]] architecture. 
-- The user interacts with views and invokes [[Rails Controllers]] action
-	- One [[Rails Controllers]] may have several views
+- The user interacts with views and invokes [[Rails Controllers]] actions
+	- One [[Rails Controllers]] may have several views, named after the controller methods
 - Found in `app/views/[plural lowercase model]/index.html.erb`
 
 #📌  *Add bit about which one interpolates and which does not show result of code*
+
+
 
 **Ex: ✏**   
 
@@ -46,6 +48,20 @@
 </table>
 		
 ```
+
+
+### Naming
+
+| Case  | Convention | Number | Example           |
+| ----- | ---------- | ------ | ----------------- |
+| Lower | #❓         | Singular | `show.html.erb` |
+
+## Partials?
+- Blocks exist in views and render more of the page?
+
+## Linking Views
+Use [[Rails Routing#URI Helpers]]
+
 
 ## Forms
 - [[HTML]] forms allow collection of data from the user

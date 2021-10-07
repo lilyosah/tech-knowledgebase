@@ -9,7 +9,40 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Natural-Language-Processing/10-5-2021 NLP Notes.md",
+            "file": "Rails Routing.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "57611c60d8f0751d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Rails Controllers.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "ab01901a815c5cd7",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Rails Views.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "7d9ae3b6b96f9d87",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Rails Models.md",
             "mode": "source"
           }
         }
@@ -39,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "wald test",
+                "query": "uri helper",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Natural-Language-Processing/10-5-2021 NLP Notes.md",
+                "file": "Rails Routing.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Natural-Language-Processing/10-5-2021 NLP Notes.md"
+                "file": "Rails Routing.md"
               }
             }
           }
@@ -126,15 +159,15 @@
   },
   "active": "f7213cc776c33fca",
   "lastOpenFiles": [
-    "Natural-Language-Processing/10-5-2021 NLP Notes.md",
-    "Natural-Language-Processing/NLP Table of Contents.md",
-    "Natural-Language-Processing/Herdan's, Heaps' Law.md",
-    "Natural-Language-Processing/Sentence Boundary Detection.md",
-    "Natural-Language-Processing/Wald Test.md",
-    "Natural-Language-Processing/HW2 Sentenciser.md",
-    "Natural-Language-Processing/Text Classification.md",
-    "Using-Obisdian/My Obsidian Process.md",
-    "Natural-Language-Processing/09-30-2021 NLP Notes.md",
-    "Natural-Language-Processing/09-28-2021 NLP Notes.md"
+    "Rails Routing.md",
+    "Rails Models.md",
+    "Rails Views.md",
+    "Rails Controllers.md",
+    "Software-Engineering/SWE Table of Contents.md",
+    "Data-Structures-and-Algorithms/Project 3 - Divide and Conquer.md",
+    "Data-Structures-and-Algorithms/Project 4 - Ranking Similarity.md",
+    "Data-Structures-and-Algorithms/Project 9 - Interval Consistency.md",
+    "Data-Structures-and-Algorithms/Project 5 - Line Segment Intersection.md",
+    "Data-Structures-and-Algorithms/Project 8 - Pretty Printing.md"
   ]
 }
