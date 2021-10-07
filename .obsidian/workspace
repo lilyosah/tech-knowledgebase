@@ -13,17 +13,6 @@
             "mode": "source"
           }
         }
-      },
-      {
-        "id": "335d44939c428240",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Natural-Language-Processing/NLP Table of Contents.md",
-            "mode": "source"
-          }
-        }
       }
     ],
     "direction": "vertical"
@@ -50,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "bayes",
+                "query": "wald test",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +57,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "4a5f8b203a152342",
@@ -106,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Natural-Language-Processing/NLP Table of Contents.md",
+                "file": "Natural-Language-Processing/10-5-2021 NLP Notes.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Natural-Language-Processing/NLP Table of Contents.md"
+                "file": "Natural-Language-Processing/10-5-2021 NLP Notes.md"
               }
             }
           }
@@ -132,19 +121,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "335d44939c428240",
+  "active": "f7213cc776c33fca",
   "lastOpenFiles": [
-    "Natural-Language-Processing/NLP Table of Contents.md",
-    "Natural-Language-Processing/HW2 Sentenciser.md",
     "Natural-Language-Processing/10-5-2021 NLP Notes.md",
+    "Natural-Language-Processing/NLP Table of Contents.md",
+    "Natural-Language-Processing/Herdan's, Heaps' Law.md",
+    "Natural-Language-Processing/Sentence Boundary Detection.md",
+    "Natural-Language-Processing/Wald Test.md",
+    "Natural-Language-Processing/HW2 Sentenciser.md",
     "Natural-Language-Processing/Text Classification.md",
     "Using-Obisdian/My Obsidian Process.md",
     "Natural-Language-Processing/09-30-2021 NLP Notes.md",
-    "Natural-Language-Processing/09-28-2021 NLP Notes.md",
-    "Using-Obisdian/Using Obsidian.md",
-    "Model-View-Controller (MVC).md",
-    "Data-Structures-and-Algorithms/Algo MOC.md"
+    "Natural-Language-Processing/09-28-2021 NLP Notes.md"
   ]
 }
