@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Rails Migration.md",
+            "file": "Rails Models.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Rails Migration.md",
+            "file": "Rails Models.md",
             "mode": "source"
           }
         },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rails Migration.md",
+                "file": "Rails Models.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rails Migration.md"
+                "file": "Rails Models.md"
               }
             }
           }
@@ -139,10 +139,10 @@
   },
   "active": "7d9ae3b6b96f9d87",
   "lastOpenFiles": [
+    "Rails Models.md",
     "Rails Migration.md",
     "Ruby Rails.md",
     "Rails Routing.md",
-    "Rails Models.md",
     "Software-Engineering/SWE Table of Contents.md",
     "Natural-Language-Processing/10-5-2021 NLP Notes.md",
     "Natural-Language-Processing/NLP Table of Contents.md",
