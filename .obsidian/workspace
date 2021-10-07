@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Rails Models.md",
-            "mode": "source"
+            "file": "Rails Migration.md",
+            "mode": "preview"
           }
         },
         "group": "650d1d0adeb95d81"
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Rails Models.md",
+            "file": "Rails Migration.md",
             "mode": "source"
           }
         },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rails Models.md",
+                "file": "Rails Migration.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rails Models.md"
+                "file": "Rails Migration.md"
               }
             }
           }
@@ -139,8 +139,8 @@
   },
   "active": "7d9ae3b6b96f9d87",
   "lastOpenFiles": [
-    "Rails Models.md",
     "Rails Migration.md",
+    "Rails Models.md",
     "Ruby Rails.md",
     "Rails Routing.md",
     "Software-Engineering/SWE Table of Contents.md",
