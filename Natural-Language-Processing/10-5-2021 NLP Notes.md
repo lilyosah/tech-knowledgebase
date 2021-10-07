@@ -48,8 +48,12 @@ for each class, for each dim in vector, calc each parameter
 $3 (y_i) * 10 (x_i) * 2$ (normal)
 
 $(30 + 30) 60$ because each $y_i$ has 3 classes, each $x_i$ has 10 elements 
-- Multiply by 1 for bernoulli, for normal, 2
-- But bernoulli has 2 classes
+- Multiply by 1 for Bernoulli, for normal, 2
+
+
+
+
+- But Bernoulli has 2 classes
 - Normal has any number of classes
 
 

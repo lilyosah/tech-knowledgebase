@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Natural-Language-Processing/Wald Test.md",
+            "file": "Natural-Language-Processing/10-5-2021 NLP Notes.md",
             "mode": "preview"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Natural-Language-Processing/Wald Test.md",
+            "file": "Natural-Language-Processing/10-5-2021 NLP Notes.md",
             "mode": "source"
           }
         },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Natural-Language-Processing/Wald Test.md",
+                "file": "Natural-Language-Processing/10-5-2021 NLP Notes.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Natural-Language-Processing/Wald Test.md"
+                "file": "Natural-Language-Processing/10-5-2021 NLP Notes.md"
               }
             }
           }
@@ -139,11 +139,11 @@
   },
   "active": "7e4a6a2479bcb167",
   "lastOpenFiles": [
+    "Natural-Language-Processing/10-5-2021 NLP Notes.md",
+    "Natural-Language-Processing/NLP Table of Contents.md",
     "Natural-Language-Processing/Wald Test.md",
     "Natural-Language-Processing/Hypothesis Testing.md",
     "Natural-Language-Processing/Collocations.md",
-    "Natural-Language-Processing/10-5-2021 NLP Notes.md",
-    "Natural-Language-Processing/NLP Table of Contents.md",
     "Software-Engineering/Conditional Probability.md",
     "Software-Engineering/Probability.md",
     "Natural-Language-Processing/NLP Project.md",
