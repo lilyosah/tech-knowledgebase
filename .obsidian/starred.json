@@ -39,6 +39,11 @@
       "type": "file",
       "title": "SWE Table of Contents",
       "path": "Software-Engineering/SWE Table of Contents.md"
+    },
+    {
+      "type": "file",
+      "title": "NLP Table of Contents",
+      "path": "Natural-Language-Processing/NLP Table of Contents.md"
     }
   ]
 }

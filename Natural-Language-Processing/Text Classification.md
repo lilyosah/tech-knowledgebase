@@ -28,6 +28,13 @@ graph LR
 - Classes are known ahead of time
 - If input is not in the correct dimension (vector), must reformat it (function `m`)
 
+**Performance**
+*Given several classes in a universe,*
+- **Recall** the number of things in a class that were correctly predicted to be in that class divided by the total number of things actually in that class
+	- have a set of documents, recall is which ones with one prediction within all of them
+	- Empty set divided by the # is 0
+- **Precision** the number of things in a class that were correctly predicted to be in that class divided by all the things you predicted to be of that class, correct or not 
+
 ## **Ex: ✏**  Putting different types of irises into a data set
 They used dimensions of particular parts of the flowers 
 $m(\text{flower}) -> R^d$

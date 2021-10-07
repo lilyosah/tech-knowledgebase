@@ -12,7 +12,7 @@ Related:
 ## Exam
 ### Wald Test
 #🔍 *don't follow this*
-If you have an estimation of a parameter $\theta$, then assuming $\hat{\theta}$ is asymptotically normal than the null hypothesis $H_0 = \hat{\theta} = \theta_0$ can be rejected if $|W| > Z_{a/2}$ where $W = {\hat{\theta}-\theta_0}/{\hat{se}}$ where se is the standard error 
+If you have an estimation of a parameter $\theta$, then assuming $\hat{\theta}$ is asymptotically normal than the null hypothesis $H_0 = \hat{\theta} = \theta_0$ can be rejected if $|W| > Z_{a/2}$ where $W = {\hat{\theta}-\theta_0}/{\hat{se}}$ where $se$ is the standard error 
 
 - Compute $W$
 	- $W$ is like an area under part of a s-dev curve... the probability of the thing??? happening??????

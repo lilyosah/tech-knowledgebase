@@ -40,7 +40,6 @@
 
 ### Week 6:
 09-28-2021
-- [[09-30-2021 NLP Notes]]
 - [[10-5-2021 NLP Notes]]
 - [[Wald Test]]
 
