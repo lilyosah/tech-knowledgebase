@@ -35,11 +35,13 @@ guides.rubyonrails.org/routing.html
 ```Ruby
 
 Rails.application.routes.draw do
+	# books is table name
 	resources :books, only: [:index, :show]
 end
 
 
 ```
+
 
 ### URI Helpers
 Prefixes are given for each route. You can use the prefix instead of the whole path and add `_path` after
