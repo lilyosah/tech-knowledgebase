@@ -15,6 +15,7 @@
  - Automatable 
 - `$ exec rails g(enerate) migration [migration name]`
 - Run migration from migration file: `rails db:migrate`
+	- 📝 It usually runs the migration in every environment, but if it doesn't you can run `rails db:[env]:prepare`
 - To add to the table, have to add to the seed: `rails db:seed`
 
 📝 If you want, you can change the col names and types etc before you run the migration for the first time, AFTER generating the migration file. After you run it for the first time, you would be better off scrapping the bd in a low-stakes app (`rails db:drop`), in a higher stakes situation, use methods to change the table attribute

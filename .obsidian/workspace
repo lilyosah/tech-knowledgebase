@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Rails Routing.md",
+            "file": "Rails Migration.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Rails Routing.md",
+            "file": "Rails Migration.md",
             "mode": "source"
           }
         },
@@ -91,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "88584f44ddabdce4",
@@ -107,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rails Routing.md",
+                "file": "Rails Migration.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rails Routing.md"
+                "file": "Rails Migration.md"
               }
             }
           }
@@ -138,15 +139,15 @@
   },
   "active": "7d9ae3b6b96f9d87",
   "lastOpenFiles": [
-    "Rails Routing.md",
     "Rails Migration.md",
+    "Ruby Rails.md",
+    "Rails Routing.md",
     "Rails Models.md",
     "Software-Engineering/SWE Table of Contents.md",
     "Natural-Language-Processing/10-5-2021 NLP Notes.md",
     "Natural-Language-Processing/NLP Table of Contents.md",
     "Natural-Language-Processing/Wald Test.md",
     "Natural-Language-Processing/Hypothesis Testing.md",
-    "Natural-Language-Processing/Collocations.md",
-    "Software-Engineering/Conditional Probability.md"
+    "Natural-Language-Processing/Collocations.md"
   ]
 }
