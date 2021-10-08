@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software-Engineering/Debugging.md",
+            "file": "Rails Views.md",
             "mode": "preview"
           }
         },
@@ -21,22 +21,11 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software-Engineering/Debugging.md",
+            "file": "Rails Views.md",
             "mode": "source"
           }
         },
         "group": "650d1d0adeb95d81"
-      },
-      {
-        "id": "e229c01fe8fe26a9",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Model-View-Controller (MVC).md",
-            "mode": "source"
-          }
-        }
       }
     ],
     "direction": "vertical"
@@ -119,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Model-View-Controller (MVC).md",
+                "file": "Rails Views.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Model-View-Controller (MVC).md"
+                "file": "Rails Views.md"
               }
             }
           }
@@ -148,17 +137,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e229c01fe8fe26a9",
+  "active": "7e4a6a2479bcb167",
   "lastOpenFiles": [
+    "Rails Views.md",
+    "Rails Routing.md",
+    "Rails Controllers.md",
+    "Software-Engineering/Ruby.md",
+    "Software-Engineering/Debugging.md",
     "Model-View-Controller (MVC).md",
     "Rails Models.md",
     "Software-Engineering/Relational Databases.md",
-    "Rails Routing.md",
-    "Software-Engineering/Ruby.md",
-    "Software-Engineering/Debugging.md",
     "Software-Engineering/SWE Table of Contents.md",
-    "Rails Migration.md",
-    "Ruby Rails.md",
-    "Natural-Language-Processing/10-5-2021 NLP Notes.md"
+    "Rails Migration.md"
   ]
 }

@@ -19,6 +19,8 @@
 	- One [[Rails Controllers]] may have several views, named after the controller methods
 - Found in `app/views/[plural lowercase model]/index.html.erb`
 
+
+❗ Make sure to not do too much code here, it should be handled in the [[Rails Controllers]]
 #📌  *Add bit about which one interpolates and which does not show result of code*
 
 
@@ -139,6 +141,7 @@ end
 - `flash[:notice]` is used for info messages
 - `flash[:alert]` is used for messages about things going wrong
 `session[]` is used to persist contents "forever" across requests from the same browser
+	- ❗ Do not overstuff `session[]`! Because it is made into a cookie with a limited size
 
 ```Ruby
 

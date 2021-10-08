@@ -5,7 +5,7 @@
 #concept
 
 **Related:**
--  
+-  [[Ruby#Debugging]]
 
 %%
 
@@ -24,3 +24,5 @@
 4. Explore question boards for similar bugs 
 	- Look carefully for similar questions first
 	- If you post a question, be specific about the title, what went wrong, the environment, and how to reproduce the problem 
+
+📝 In production, no bug may be closed out without a test. 

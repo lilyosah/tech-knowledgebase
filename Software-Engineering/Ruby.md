@@ -453,6 +453,7 @@ How to meet [[Testing#Testing practices|FIRST]] principles
 
 📝 If you write `it` and then the string and nothing else, the test is pending
 ## [[Debugging]]
-- Display a desc. of and object in a view `<%= debug(@movie.inspect)%>` or `<@movieinspect%>`
+- Display a desc. of and object in a view `<%= debug(@movie.inspect)%>` or `<@movie.inspect%>`
 - Raise an exception whose message is a rep. of the value you want to inspect `raise params.inspect`
 - `Rails.logger.debug([message])`
+- Add `byebug` in a controller method
