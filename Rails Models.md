@@ -41,12 +41,10 @@ Handles business logic in [[Model-View-Controller (MVC)]] architecture. A model 
 
  
  ## The Database
- 
  - Don't destroy real user data!
 	 - Rails solution: Each env has its own database, and different DB types that are appropriate for each 
 	 - Development, test, production
- - Keeping env DBs consistent:
-	 - [[Rails Migration]]
+ - ❗ Use [[Rails Migration]]s to keep the DB consistent, do not just manually edit the DB!
 
 ### Naming
 - snake-case, plural

@@ -18,6 +18,8 @@ guides.rubyonrails.org/routing.html
 - ⭐ **Result of matching a route is calling an instance method in a controller class**
 - Wildcard parameters: (e.g. `:id`) + query params are put into `params[]` hash and are accessible in controller actions
 
+❗ Make sure each route that has a view also has a [[Rails Controllers]] action. If it has a view but not a controller action, [[Ruby Rails]] will behave as if the action exists but is empty
+
 ## Route helpers
 - Route helpers decouple what the route does from the actual route URI
 - Creates a whole set of routes 
