@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Rails Views.md",
+            "file": "Data-Structures-and-Algorithms/Sorting Algorithms.md",
             "mode": "preview"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Rails Views.md",
+            "file": "Data-Structures-and-Algorithms/Sorting Algorithms.md",
             "mode": "source"
           }
         },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rails Views.md",
+                "file": "Data-Structures-and-Algorithms/Sorting Algorithms.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rails Views.md"
+                "file": "Data-Structures-and-Algorithms/Sorting Algorithms.md"
               }
             }
           }
@@ -139,6 +139,7 @@
   },
   "active": "7e4a6a2479bcb167",
   "lastOpenFiles": [
+    "Data-Structures-and-Algorithms/Sorting Algorithms.md",
     "Rails Views.md",
     "Rails Routing.md",
     "Rails Controllers.md",
@@ -147,7 +148,6 @@
     "Model-View-Controller (MVC).md",
     "Rails Models.md",
     "Software-Engineering/Relational Databases.md",
-    "Software-Engineering/SWE Table of Contents.md",
-    "Rails Migration.md"
+    "Software-Engineering/SWE Table of Contents.md"
   ]
 }
