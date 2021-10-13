@@ -89,7 +89,7 @@ Rails generally shields us from needing to make actual SQL calls
 - This is great because if different databases are used for each env you don't need to change your code
 - These are provided when descending from [[Design Patterns#Active Record]] 
 
-📝 Can do `[Model].nethods` to see massive list of methods
+📝 Can do `[Model].methods` to see massive list of methods
 
 > ⭐ The getters and setters do not modify instance variables, it's data in the table.
 > **So the class is empty, there are no actual instance variables, don't refer to values with `@`**
