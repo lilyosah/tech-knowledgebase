@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "Rails Models.md",
-            "mode": "source"
+            "mode": "preview"
           }
         },
         "group": "650d1d0adeb95d81"
@@ -137,15 +137,15 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "7d9ae3b6b96f9d87",
+  "active": "7e4a6a2479bcb167",
   "lastOpenFiles": [
     "Rails Models.md",
+    "Software-Engineering/Ruby.md",
     "Model-View-Controller (MVC).md",
     "Data-Structures-and-Algorithms/Sorting Algorithms.md",
     "Rails Views.md",
     "Rails Routing.md",
     "Rails Controllers.md",
-    "Software-Engineering/Ruby.md",
     "Software-Engineering/Debugging.md",
     "Software-Engineering/Relational Databases.md",
     "Software-Engineering/SWE Table of Contents.md"

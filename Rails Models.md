@@ -91,7 +91,7 @@ Rails generally shields us from needing to make actual SQL calls
 
 📝 Can do `[Model].methods` to see massive list of methods
 
-> ⭐ The getters and setters do not modify instance variables, it's data in the table.
+> ⭐ The getters and setters do not modify instance variables, it's data in the db table.
 > **So the class is empty, there are no actual instance variables, don't refer to values with `@`**
 > This is why you must save after making changes to the data, otherwise the data is only in memory
 
@@ -116,7 +116,7 @@ Rails generally shields us from needing to make actual SQL calls
 - `[Model].all.order_by("col")`
 
 #### Create/INSERT 
-`Model.create(attribute: "The Perks of being a Wallflower", year: 1999)
+`Model.create(attribute: "The Perks of being a Wallflower", year: 1999)`
 - If you don't specify attributes, default to `nil`/`null` (for databases)
 
 #### Update/Read 
