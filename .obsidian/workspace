@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Data-Structures-and-Algorithms/Sorting Algorithms.md",
+            "file": "Rails Models.md",
             "mode": "preview"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Data-Structures-and-Algorithms/Sorting Algorithms.md",
+            "file": "Rails Models.md",
             "mode": "source"
           }
         },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data-Structures-and-Algorithms/Sorting Algorithms.md",
+                "file": "Rails Models.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data-Structures-and-Algorithms/Sorting Algorithms.md"
+                "file": "Rails Models.md"
               }
             }
           }
@@ -137,16 +137,16 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "7e4a6a2479bcb167",
+  "active": "7d9ae3b6b96f9d87",
   "lastOpenFiles": [
+    "Rails Models.md",
+    "Model-View-Controller (MVC).md",
     "Data-Structures-and-Algorithms/Sorting Algorithms.md",
     "Rails Views.md",
     "Rails Routing.md",
     "Rails Controllers.md",
     "Software-Engineering/Ruby.md",
     "Software-Engineering/Debugging.md",
-    "Model-View-Controller (MVC).md",
-    "Rails Models.md",
     "Software-Engineering/Relational Databases.md",
     "Software-Engineering/SWE Table of Contents.md"
   ]
