@@ -92,7 +92,7 @@ Rails generally shields us from needing to make actual SQL calls
 📝 Can do `[Model].methods` to see massive list of methods
 
 > ⭐ The getters and setters do not modify instance variables, it's data in the db table.
-> **So the class is empty, there are no actual instance variables, don't refer to values with `@`**
+> **So the class is empty, there are no actual instance variables, don't refer to values with `@`**, use 
 > This is why you must save after making changes to the data, otherwise the data is only in memory
 
 ### CRUDI Methods
