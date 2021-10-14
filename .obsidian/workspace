@@ -7,11 +7,8 @@
         "id": "11b528c30936a4ab",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Natural-Language-Processing/NLP Table of Contents.md",
-            "mode": "source"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -95,7 +92,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Natural-Language-Processing/NLP Table of Contents.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,9 +107,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Natural-Language-Processing/NLP Table of Contents.md"
-              }
+              "state": {}
             }
           }
         ],
