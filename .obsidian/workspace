@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Rails Models.md",
+            "file": "Rails Views.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Rails Models.md",
+            "file": "Rails Views.md",
             "mode": "preview"
           }
         },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rails Models.md",
+                "file": "Rails Views.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rails Models.md"
+                "file": "Rails Views.md"
               }
             }
           }
@@ -139,13 +139,13 @@
   },
   "active": "11b528c30936a4ab",
   "lastOpenFiles": [
+    "Rails Views.md",
     "Rails Models.md",
     "Software-Engineering/Ruby.md",
     "Natural-Language-Processing/Text Classification.md",
     "Natural-Language-Processing/NLP Table of Contents.md",
     "Natural-Language-Processing/Sentence Boundary Detection.md",
     "Natural-Language-Processing/NLP Project.md",
-    "Rails Views.md",
     "Ruby Rails.md",
     "Rails Controllers.md",
     "Model-View-Controller (MVC).md"
