@@ -84,7 +84,7 @@ You don't have to use form tag helpers to submit data from forms but it makes th
 
 **Ex: ✏**  For Books
 *View*
-```HTML
+```html
 <!-- 
 You don't need to specify the URI path to controller but you can if you want -->
 

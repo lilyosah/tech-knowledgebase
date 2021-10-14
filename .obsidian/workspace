@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "text transform",
+                "query": "view",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -137,9 +137,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "11b528c30936a4ab",
+  "active": "6f79f776fda279f0",
   "lastOpenFiles": [
     "Rails Views.md",
+    "Rails Routing.md",
     "Rails Models.md",
     "Software-Engineering/Ruby.md",
     "Natural-Language-Processing/Text Classification.md",
@@ -147,7 +148,6 @@
     "Natural-Language-Processing/Sentence Boundary Detection.md",
     "Natural-Language-Processing/NLP Project.md",
     "Ruby Rails.md",
-    "Rails Controllers.md",
-    "Model-View-Controller (MVC).md"
+    "Rails Controllers.md"
   ]
 }
