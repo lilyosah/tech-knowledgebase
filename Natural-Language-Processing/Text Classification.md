@@ -41,8 +41,13 @@ $m(\text{flower}) -> R^d$
 - $R$ is a $d$ dimensional vector (like arrays, 2d arrays, 3d), see representation in [[Supervised Learning]]
 	
 
-### Creating Text-to-Vector Function m
-If input data is not formatted correctly in a vector, must put into the right format using $m$
+### Creating Text-to-Vector Function $m$
+
+$X = \{(x, y)\} => \{m(x),y\}$
+
+$m:\text{text} -> R^d$
+If input data is not formatted correctly in a vector, must put into the right format using $m$ to format in a $d$ dimensional space. 
+
 
 ==Bag of Word Model:== Map $id : token -> N$
 - [[Map|Dict]] to map IDs to a unique token (Like two dicts, keys to values and values to keys)
