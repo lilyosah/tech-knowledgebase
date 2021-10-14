@@ -75,6 +75,8 @@ graph TD
 - Uses [[Model-View-Controller (MVC)]]
 	- Each Rails [[Rails Models|model]] is a resource type whose instances are rows in a particular table of a relational database 
 
+#📌 *Just show how they relate to eachother*
+
 ### [[Rails Routing]]
 
 ### Controller actions/methods
@@ -107,6 +109,17 @@ class BooksController < ApplicationController
 ## [[Rails Models]]
 
 ## Debugging
-Byebug!
+### Byebug
+- Adding byebug line in ruby opens interactive debugger, you can then view objects
+- ⭐ Typing help give you information about what you can do
 
-- Adding byebug line in ruby opens interactive debugger
+### Logger
+Instead of using `puts`, use `logger`
+- `logger.debug(string)`
+- `logger.info(string)`
+- `logger.fatal(string)`
+	- Go into log directory 
+
+
+### In Views
+`<%= debug(@book) =%>`

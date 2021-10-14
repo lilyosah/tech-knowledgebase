@@ -100,6 +100,20 @@ You don't need to specify the URI path to controller but you can if you want -->
 def new 
 	@book = book.new
 end
+
+def edit
+	@book = Book.find params[:id]
+	@book.update(create_params)
+	flash[:notice]
+	#📌 
+end
+
+def destroy
+	@book = Book.find params[:id]
+	book.destroy
+	flash[:notice] = "book '#{@book.title}' deleted."
+	redirect_to books_path
+end
 ```
 
 
@@ -205,7 +219,7 @@ end
 
 ### Session
 `session[]` is used to persist contents "forever" across requests from the same browser. Like a hash
-	- ❗ Do not overstuff `session[]`! Because it is made into a cookie with a limited size
+	- ❗ Do not over-stuff `session[]`! Because it is made into a cookie with a limited size - backed by cookies
 
 This is how you track people... 
 `reset_session` empties session
@@ -213,4 +227,5 @@ This is how you track people...
 
 ### Cookies
 Behaves the same as `session` 
+- Can be a separate thing
 - Can only contain up to 4 KiB limit

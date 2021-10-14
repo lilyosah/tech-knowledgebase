@@ -14,6 +14,7 @@
 The connection between [[Rails Views]] and [[Rails Models]]
 
 
+
 > **Some** methods in controllers have a [[Rails Views]] named after them and render things, some do not
 - There is a render method to show which view you want to use, but because of naming of method names in controller it will know which view to use
 	- **Ex: ✏**  `def index` in controller will render view `app/views/whatever/index.html.erb`
