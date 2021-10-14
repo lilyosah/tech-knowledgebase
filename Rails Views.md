@@ -135,18 +135,25 @@ end
 
 
 ## Saving Data
+### Redirecting
 - When creating or updating a model, for user friendliness it's common to 	`redirect_to` a view such as `index` rather than rendering a dedicated view
+	- Annotates a response object so it know's what to show?
+- ❗ This does not return from the controller method, it continues to execute
+- ❗ If you redirect more than once, you'll get a multiple render error
+	- So you can do something like `redirect_to books_path and return`
+- ⭐ If there is an error after rendering a template, you still have to return that rendered view to the browser
+
+### Flash
 `flash[]`: special object that quacks like a hash but whose contents only persist from the current request to the next
 - If you put something in flash during a controller action, you can only access it during the very next action
 - `flash[:notice]` is used for info messages
 - `flash[:alert]` is used for messages about things going wrong
-`session[]` is used to persist contents "forever" across requests from the same browser
-	- ❗ Do not overstuff `session[]`! Because it is made into a cookie with a limited size
+	- **Ex: ✏**   Save failed, fix yr stuff
 
 ```Ruby
 
 def create
-	b = Book.new(:book)
+	b = Book.new(:book) # mass assignment of attributes
 	if b.save # If save succeeds
 		flash[:notice] = "Saved!"
 		redirect_to book_path(b)
@@ -158,6 +165,52 @@ end
 ```
 
 This will fail! Ruby does not allow mass assignment of attributes. Use `require` and `permit` methods on params
+- `require`: verify that expected info is present
+- `permit`: permit particular info
+
+Better:
+```Ruby
+
+def create
+	b = Book.new(create_params)
+	if b.save # If save succeeds
+		flash[:notice] = "Saved!"
+		redirect_to book_path(b)
+	else # If save fails
+		flash[:warning] = "Book couldn't be created"
+		redirect_to new_book_path
+end
+	
+private
+	
+def create_params
+	params.require(:book).permit(:title, :publisher, :year, :list_price, :pages)
+	
+end
+	
+```
+
+*Getting the flash messages to show*
+- To put them (redners of flash messages) all in one place, add in `app/views/layouts/application.html.erb`
+
+```HTML
+
+<% if flash[:notice] %>
+	<div>
+		??? #📌 add this code
+	</div>
 
 
+```
 
+### Session
+`session[]` is used to persist contents "forever" across requests from the same browser. Like a hash
+	- ❗ Do not overstuff `session[]`! Because it is made into a cookie with a limited size
+
+This is how you track people... 
+`reset_session` empties session
+`session.delete(:some_key)` removes some key
+
+### Cookies
+Behaves the same as `session` 
+- Can only contain up to 4 KiB limit
