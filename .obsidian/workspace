@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Rails Routing.md",
+            "file": "Rails Views.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Rails Routing.md",
+            "file": "Rails Views.md",
             "mode": "preview"
           }
         },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rails Routing.md",
+                "file": "Rails Views.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rails Routing.md"
+                "file": "Rails Views.md"
               }
             }
           }
@@ -139,9 +139,9 @@
   },
   "active": "15bbb8465a3d0003",
   "lastOpenFiles": [
-    "Rails Routing.md",
-    "Rails Models.md",
     "Rails Views.md",
+    "Rails Models.md",
+    "Rails Routing.md",
     "Rails Controllers.md",
     "Software-Engineering/Ruby.md",
     "Natural-Language-Processing/Text Classification.md",
