@@ -48,7 +48,7 @@ end
 ```
 
 📝 Instance methods in controllers are only retained for one call, would need to use `sessions` I think to retain them longer #📌, see [[Rails Views]]
-📝 To handle exceptions, can also add `rescue_from AcriveRecord`... *not finished* at the top of a controller file 
+📝 To handle exceptions, can also add `rescue_from ActiveRecord`... *not finished* at the top of a controller file 
 
 ### Naming
 

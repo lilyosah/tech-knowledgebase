@@ -137,9 +137,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "6f79f776fda279f0",
+  "active": "11b528c30936a4ab",
   "lastOpenFiles": [
     "Rails Views.md",
+    "Rails Controllers.md",
     "Rails Routing.md",
     "Rails Models.md",
     "Software-Engineering/Ruby.md",
@@ -147,7 +148,6 @@
     "Natural-Language-Processing/NLP Table of Contents.md",
     "Natural-Language-Processing/Sentence Boundary Detection.md",
     "Natural-Language-Processing/NLP Project.md",
-    "Ruby Rails.md",
-    "Rails Controllers.md"
+    "Ruby Rails.md"
   ]
 }

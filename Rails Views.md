@@ -118,7 +118,7 @@ end
 
 
 #### form_tag
-❗ **form_with is easier most of the time if you have a clear model you want it to relate to**
+❗ **[[Rails Views#form_with]] is easier most of the time if you have a clear model you want it to relate to**
 - Use `form_tag` if you don't have a clear model
 	- **Ex: ✏**  A search form
 
@@ -205,7 +205,7 @@ end
 ```
 
 *Getting the flash messages to show*
-- To put them (redners of flash messages) all in one place, add in `app/views/layouts/application.html.erb`
+- To put them (renders of flash messages) all in one place, add in `app/views/layouts/application.html.erb`
 
 ```HTML
 
@@ -219,9 +219,11 @@ end
 
 ### Session
 `session[]` is used to persist contents "forever" across requests from the same browser. Like a hash
-	- ❗ Do not over-stuff `session[]`! Because it is made into a cookie with a limited size - backed by cookies
+- ❗ Do not over-stuff `session[]`! Because it is made into a cookie with a limited size
+	- Supported/backed by cookies
+	- 🌎 This is how you track people... 
 
-This is how you track people... 
+
 `reset_session` empties session
 `session.delete(:some_key)` removes some key
 
