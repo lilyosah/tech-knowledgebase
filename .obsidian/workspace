@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Rails Routing.md",
+            "file": "GitHub.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Rails Routing.md",
+            "file": "GitHub.md",
             "mode": "preview"
           }
         },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rails Routing.md",
+                "file": "GitHub.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rails Routing.md"
+                "file": "GitHub.md"
               }
             }
           }
@@ -139,6 +139,8 @@
   },
   "active": "11b528c30936a4ab",
   "lastOpenFiles": [
+    "GitHub.md",
+    "Coding Languages and Frameworks.md",
     "Rails Routing.md",
     "Rails Views.md",
     "Rails Models.md",
@@ -146,8 +148,6 @@
     "Software-Engineering/Ruby.md",
     "Natural-Language-Processing/Text Classification.md",
     "Natural-Language-Processing/NLP Table of Contents.md",
-    "Natural-Language-Processing/Sentence Boundary Detection.md",
-    "Natural-Language-Processing/NLP Project.md",
-    "Ruby Rails.md"
+    "Natural-Language-Processing/Sentence Boundary Detection.md"
   ]
 }
