@@ -10,7 +10,8 @@
 
 
 Focuses mainly on improving existing code.
-Practices center around successive refinement a working but incomplete software prototype until the customer is happy with the result. Uses ==Behavior-Driven Design:== The customer offers feedback on each iteration, and each iteration is short.
+Practices center around successive refinement a working but incomplete software prototype until the customer is happy with the result. The customer offers feedback on each iteration, and each iteration is short.
+Uses ==Behavior-Driven Design:== concentrates on the behavior of the app in conversation with the stakeholders before and during development.
 
 ## Manifesto
 Do the important things more:
@@ -22,6 +23,8 @@ Do the important things more:
 - [[Testing#Testing practices|Test driven development]]
 - New versions every week or so, continuously improve a working prototype
 - User stories instead of documentation
+
+==User stories:== 1-3 sentences written in non-tech language written jointly by customers and devs describing a use case/feature 
 
 
 ## XP Variant 
