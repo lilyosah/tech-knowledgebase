@@ -1,15 +1,16 @@
 # Agile
 %%
-#topic
+#coding 
 #concept
 **Related:**
 -  [[Plan-document Models]]
+-  
 
 %%
 
 
 Focuses mainly on improving existing code.
-Practices center around successive refinement a working but incomplete software prototype until the customer is happy with the result. The customer offers feedback on each iteration, and each iteration is short.
+Practices center around successive refinement a working but incomplete software prototype until the customer is happy with the result. Uses ==Behavior-Driven Design:== The customer offers feedback on each iteration, and each iteration is short.
 
 ## Manifesto
 Do the important things more:
