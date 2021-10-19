@@ -71,12 +71,14 @@ Have a set of pairs, $X = {(x_1, y_1)...}$ that shows the classification? #NLP/â
 *index\[ID of this token in array] = 1*
 $m(\text{text}) = \delta_0(\text{text}), \delta_1(\text{text})... \delta_d-1(\text{text})$
 
-**Creates a boolean mask of all of the tokens, if **
+**Creates a boolean mask of all of the unique tokens, if a token is in a set then a 1 appears in its index**
 
 
-|     |     |     |     |
-| --- | --- | --- | --- |
-| 0   | 0   | 1   | 0   |
+| token1 | token2 | token3 | token4 |
+| ------ | ------ | ------ | ------ |
+| 0      | 0      | 1      | 0      |
+
+Token3 appears in the sentence
 
 ## Naive Bayes with Bag of Word
 
@@ -134,6 +136,22 @@ If you have a matrix and you want to add up columns, have to specify which axis 
 - Axis 1 is horizontal/x
 
 So if we have something of shape (50, 4), Axis 0 is 50 numbers, axis 1 is 4
+
+## Support vector machines
+Given items in classes, a plane between two of them in different classes is formed from example items. The items used are called support vectors
+
+### Linear SVM
+A linear combination of weights
+$w_i$ = weight (coefficient of classifier)
+$x_i$ = value
+$y = \sum w_iw_i + w_0$
+
+To do a classification between three classes with a method which only accepts two classes, you have to compare each class with each-other in groups of three. This would mean that you're making three comparisons. Treat one as the positive class and the other two as the negative class.
+
+To find out which class something is in, put it through each classifier and go with the one with the highest percentage.
+
+
+
 
 ### Prediction 
 Now that we have a model, we can use it for prediction to determine which class it is in
