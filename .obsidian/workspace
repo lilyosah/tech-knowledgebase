@@ -9,10 +9,23 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Rails Controllers.md",
+            "file": "Software-Engineering/Agile.md",
             "mode": "preview"
           }
-        }
+        },
+        "group": "77997153d14a5a65"
+      },
+      {
+        "id": "2894b8c3e8f58ae3",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Software-Engineering/Agile.md",
+            "mode": "source"
+          }
+        },
+        "group": "77997153d14a5a65"
       }
     ],
     "direction": "vertical"
@@ -39,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#week",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "88584f44ddabdce4",
@@ -94,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rails Controllers.md",
+                "file": "Software-Engineering/Agile.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rails Controllers.md"
+                "file": "Software-Engineering/Agile.md"
               }
             }
           }
@@ -123,11 +137,11 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "11b528c30936a4ab",
+  "active": "2894b8c3e8f58ae3",
   "lastOpenFiles": [
+    "Software-Engineering/Agile.md",
     "Rails Controllers.md",
     "Software-Engineering/Testing.md",
-    "Software-Engineering/Agile.md",
     "GitHub.md",
     "Coding Languages and Frameworks.md",
     "Rails Routing.md",

@@ -87,7 +87,8 @@
     "resends",
     "Sentencizer",
     "metaprogramming",
-    "params"
+    "params",
+    "Connextra"
   ],
   "newFileLocation": "current",
   "attachmentFolderPath": "./",
