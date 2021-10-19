@@ -26,6 +26,10 @@ Do the important things more:
 
 ==User stories:== 1-3 sentences written in non-tech language written jointly by customers and devs describing a use case/feature 
 
+### Details
+==Story points:== numbers indicating how long a story is expected to take. If it exceeds a certain agreed upon number it should be broken down into sub-stories
+==Spikes:== a short investigation into a technique or problem that the team wants explored before sitting down to do serious coding 
+
 
 ## XP Variant 
 Extreme programming
