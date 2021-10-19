@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Rails Controllers.md",
+            "file": "Rails Views.md",
             "mode": "preview"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Rails Controllers.md",
+            "file": "Rails Views.md",
             "mode": "source"
           }
         },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rails Controllers.md",
+                "file": "Rails Views.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rails Controllers.md"
+                "file": "Rails Views.md"
               }
             }
           }
@@ -139,6 +139,7 @@
   },
   "active": "11b528c30936a4ab",
   "lastOpenFiles": [
+    "Rails Views.md",
     "Rails Controllers.md",
     "Natural-Language-Processing/Text Classification.md",
     "Software-Engineering/Agile.md",
@@ -146,7 +147,6 @@
     "GitHub.md",
     "Coding Languages and Frameworks.md",
     "Rails Routing.md",
-    "Rails Views.md",
     "Rails Models.md",
     "Software-Engineering/Ruby.md"
   ]
