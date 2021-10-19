@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software-Engineering/Testing.md",
-            "mode": "source"
+            "file": "Rails Controllers.md",
+            "mode": "preview"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "verification",
+                "query": "tag:#week",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software-Engineering/Testing.md",
+                "file": "Rails Controllers.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software-Engineering/Testing.md"
+                "file": "Rails Controllers.md"
               }
             }
           }
@@ -125,6 +125,7 @@
   },
   "active": "11b528c30936a4ab",
   "lastOpenFiles": [
+    "Rails Controllers.md",
     "Software-Engineering/Testing.md",
     "Software-Engineering/Agile.md",
     "GitHub.md",
@@ -132,7 +133,6 @@
     "Rails Routing.md",
     "Rails Views.md",
     "Rails Models.md",
-    "Rails Controllers.md",
     "Software-Engineering/Ruby.md",
     "Natural-Language-Processing/Text Classification.md"
   ]
