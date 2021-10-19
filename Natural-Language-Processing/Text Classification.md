@@ -146,10 +146,15 @@ $w_i$ = weight (coefficient of classifier)
 $x_i$ = value
 $y = \sum w_iw_i + w_0$
 
-To do a classification between three classes with a method which only accepts two classes, you have to compare each class with each-other in groups of three. This would mean that you're making three comparisons. Treat one as the positive class and the other two as the negative class.
+To do a classification between three classes with a method which only accepts two classes, you have to compare each class with each-other in groups of three. This would mean that you're making three classifiers between two classes. Treat one class as the positive class and the other two classes as the negative class.
 
 To find out which class something is in, put it through each classifier and go with the one with the highest percentage.
 
+In the coding implementation, # rows = # classes. Each row is filled with weights.
+
+
+> If you must re-use a data set, 
+> ❗ **Do not test any of the classifiers with the same data.** (KFold cross-validation)
 
 
 
