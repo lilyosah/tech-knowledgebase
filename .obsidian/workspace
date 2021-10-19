@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software-Engineering/Agile.md",
+            "file": "Natural-Language-Processing/Text Classification.md",
             "mode": "preview"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software-Engineering/Agile.md",
+            "file": "Natural-Language-Processing/Text Classification.md",
             "mode": "source"
           }
         },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software-Engineering/Agile.md",
+                "file": "Natural-Language-Processing/Text Classification.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software-Engineering/Agile.md"
+                "file": "Natural-Language-Processing/Text Classification.md"
               }
             }
           }
@@ -139,6 +139,7 @@
   },
   "active": "2894b8c3e8f58ae3",
   "lastOpenFiles": [
+    "Natural-Language-Processing/Text Classification.md",
     "Software-Engineering/Agile.md",
     "Rails Controllers.md",
     "Software-Engineering/Testing.md",
@@ -147,7 +148,6 @@
     "Rails Routing.md",
     "Rails Views.md",
     "Rails Models.md",
-    "Software-Engineering/Ruby.md",
-    "Natural-Language-Processing/Text Classification.md"
+    "Software-Engineering/Ruby.md"
   ]
 }
