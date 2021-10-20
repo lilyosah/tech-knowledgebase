@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Data-Structures-and-Algorithms/Project 7 - Tile Puzzle.md",
+            "file": "Software-Engineering/Ruby.md",
             "mode": "preview"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Data-Structures-and-Algorithms/Project 7 - Tile Puzzle.md",
+            "file": "Software-Engineering/Ruby.md",
             "mode": "source"
           }
         },
@@ -91,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "88584f44ddabdce4",
@@ -107,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data-Structures-and-Algorithms/Project 7 - Tile Puzzle.md",
+                "file": "Software-Engineering/Ruby.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data-Structures-and-Algorithms/Project 7 - Tile Puzzle.md"
+                "file": "Software-Engineering/Ruby.md"
               }
             }
           }
@@ -138,6 +139,7 @@
   },
   "active": "11b528c30936a4ab",
   "lastOpenFiles": [
+    "Software-Engineering/Ruby.md",
     "Data-Structures-and-Algorithms/Project 7 - Tile Puzzle.md",
     "Rails Views.md",
     "Rails Controllers.md",
@@ -146,7 +148,6 @@
     "Software-Engineering/Testing.md",
     "GitHub.md",
     "Coding Languages and Frameworks.md",
-    "Rails Routing.md",
-    "Rails Models.md"
+    "Rails Routing.md"
   ]
 }
