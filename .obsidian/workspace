@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Rails Views.md",
+            "file": "Data-Structures-and-Algorithms/Project 7 - Tile Puzzle.md",
             "mode": "preview"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Rails Views.md",
+            "file": "Data-Structures-and-Algorithms/Project 7 - Tile Puzzle.md",
             "mode": "source"
           }
         },
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "distance",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -91,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "88584f44ddabdce4",
@@ -108,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rails Views.md",
+                "file": "Data-Structures-and-Algorithms/Project 7 - Tile Puzzle.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rails Views.md"
+                "file": "Data-Structures-and-Algorithms/Project 7 - Tile Puzzle.md"
               }
             }
           }
@@ -139,6 +138,7 @@
   },
   "active": "11b528c30936a4ab",
   "lastOpenFiles": [
+    "Data-Structures-and-Algorithms/Project 7 - Tile Puzzle.md",
     "Rails Views.md",
     "Rails Controllers.md",
     "Natural-Language-Processing/Text Classification.md",
@@ -147,7 +147,6 @@
     "GitHub.md",
     "Coding Languages and Frameworks.md",
     "Rails Routing.md",
-    "Rails Models.md",
-    "Software-Engineering/Ruby.md"
+    "Rails Models.md"
   ]
 }
