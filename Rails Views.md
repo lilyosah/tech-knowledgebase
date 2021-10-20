@@ -89,7 +89,7 @@ You don't have to use form tag helpers to submit data from forms but it makes th
 You don't need to specify the URI path to controller but you can if you want -->
 
 <%= form_with model: @book, (method: post,) local: true do |book_form %>
-	<%= book_forn.label :title %>
+	<%= book_form.label :title %>
 		...
 
 
@@ -134,7 +134,7 @@ end
 	- [[Rails Controllers]] action can inspect `params[]`
 		- Like `params[:query]`
 
-Code using `params` in [[Rails Controllers]]
+*Code using `params` in [[Rails Controllers]]*
 
 ```Ruby
 class BookController < ApplicationController
