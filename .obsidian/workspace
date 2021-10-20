@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software-Engineering/Ruby.md",
+            "file": "Rails Routing.md",
             "mode": "preview"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software-Engineering/Ruby.md",
+            "file": "Rails Routing.md",
             "mode": "source"
           }
         },
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "distance",
+                "query": "routi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -91,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "88584f44ddabdce4",
@@ -108,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software-Engineering/Ruby.md",
+                "file": "Rails Routing.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software-Engineering/Ruby.md"
+                "file": "Rails Routing.md"
               }
             }
           }
@@ -139,15 +138,15 @@
   },
   "active": "11b528c30936a4ab",
   "lastOpenFiles": [
+    "Rails Routing.md",
+    "Model-View-Controller (MVC).md",
+    "Rails Models.md",
+    "Rails Views.md",
     "Software-Engineering/Ruby.md",
     "Data-Structures-and-Algorithms/Project 7 - Tile Puzzle.md",
-    "Rails Views.md",
     "Rails Controllers.md",
     "Natural-Language-Processing/Text Classification.md",
     "Software-Engineering/Agile.md",
-    "Software-Engineering/Testing.md",
-    "GitHub.md",
-    "Coding Languages and Frameworks.md",
-    "Rails Routing.md"
+    "Software-Engineering/Testing.md"
   ]
 }
