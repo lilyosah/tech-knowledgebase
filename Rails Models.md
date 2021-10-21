@@ -1,5 +1,4 @@
 # Rails Models
-#📥 
 %%
 #SWE
 #coding 
@@ -60,7 +59,7 @@ Inherits from [[Active Record]] which provides abstracted CRUDI methods for rela
  
 ## Data Types
 `int`, `string`, `text`, `'decimal {digits, digits}'` (need single quotes around decimal because curly braces are special in shell), `blob` (raw binary)
-📝Can't have array 
+📝 Can't have array 
  
 **Ex: ✏ Model for a product and user**  
 Model for a product:
@@ -87,10 +86,10 @@ Model for a user:
 
 ## Methods
 Rails generally shields us from needing to make actual SQL calls
-- This is great because if different databases are used for each env you don't need to change your code
 - These are provided when descending from [[Design Patterns#Active Record]] 
+>📝 Can do `[Model].methods` to see massive list of methods
+- This is great because if different databases are used for each environment you don't need to change your code
 
-📝 Can do `[Model].methods` to see massive list of methods
 
 > ⭐ The getters and setters do not modify instance variables, it's data in the db table.
 > **So the class is empty, there are no actual instance variables, don't refer to values with `@`**, use 
@@ -98,8 +97,10 @@ Rails generally shields us from needing to make actual SQL calls
 
 ### CRUDI Methods
 [[Networks#Representational State Transfer REST|CRUDI]]
-📝`.to_sql` method on any CRUDI method shows the corresponding SQL call at the end of any active record call
+> 📝`.to_sql` method on any CRUDI method shows the corresponding SQL call at the end of any active record call
+
 📝 Use the model class name to search through the entire table
+**Ex: ✏**  `RentalProperty.find(id)`
 
 #### SELECT 
 `[Model].all`
@@ -113,8 +114,7 @@ Rails generally shields us from needing to make actual SQL calls
 	- `[Model].where("list_price < ?", "%#{match_str}%")` interpolates `match_str` into `?`
 	- 📝 This does not return an array, it's an array-like thing [[Ruby#Duck typing]]
 	- ❗ **Do not use regular string interpolation**, opens app up to SQL injection 
-		- `[Model].where("list_price > #{min_price}")`
-- `[Model].all.order_by("col")`
+		- Bad!: `[Model].where("list_price > #{min_price}")`
 
 #### Create/INSERT 
 `Model.create(attribute: "The Perks of being a Wallflower", year: 1999)`
@@ -126,6 +126,9 @@ Rails generally shields us from needing to make actual SQL calls
 	- `[Model instance].persisted?` checks if it's in the DB
 - `[Model].find_by(key: "value")`
 - `[Model].update_all("list_price = list_price * .9")`
+
+#### Order
+`[Model].all.order_by("col")`
 
 #### Delete
 `item.destroy`
