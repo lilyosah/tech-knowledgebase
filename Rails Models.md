@@ -14,6 +14,7 @@
 
 ## Definition
 Handles business logic in [[Model-View-Controller (MVC)]] architecture. A model class corresponds to a table where each row is one instance of the table. 
+Inherits from [[Active Record]] which provides abstracted CRUDI methods for relational databases.
 
 - 1 [[Relational Databases|Relational Database]] table = 1 model class
 	- **Naming:** snake-case and plural
@@ -29,10 +30,8 @@ Handles business logic in [[Model-View-Controller (MVC)]] architecture. A model 
 
 ==Schema:== Collection of their tables and their structure 
 
- [[Design Patterns#Active Record]] 
- 
 
-### Naming
+### Model Naming
  - singular, upper-camel-case
 
 | Case  | Convention | Number   | Case  | Example          |
@@ -46,35 +45,35 @@ Handles business logic in [[Model-View-Controller (MVC)]] architecture. A model 
 	 - Development, test, production
  - ❗ Use [[Rails Migration]]s to keep the DB consistent, do not just manually edit the DB!
 
-### Naming
+### Database Naming
 | Case  | Convention | Number | Case | Example             |
 | ----- | ---------- | ------ | ---- | ------------------- |
 | Upper | 🐍         | Plural | ?    | `rental_properties` |
 
 ### Creation Option 1
-1. Create table `rails generate migration CreateBooks`
-2. Apply migrations `rails db:migrate`
+![[Rails Migration#Process]]
 
 ### Creation Option 2 (Preferred)
-- `rails generate model`
+- `$ rails generate model`
 - Creates a migration script along with `app/models/model.rb`
 	- Can specify column names/types to generator, and the migration generator
  
 ## Data Types
-- `int`, `string`, `text`, `'decimal {digits, digits}'` (need single quotes around bc curly braces are special in shell), `blob` (raw binary)
-- Can't have array 
+`int`, `string`, `text`, `'decimal {digits, digits}'` (need single quotes around decimal because curly braces are special in shell), `blob` (raw binary)
+📝Can't have array 
  
- **Ex: ✏ Model for a product and user**  
- Model for a product:
- - `int` ID
- - `int` Quantity
- - `string` Image URL
- - `string` Name
- - `decimal` Price
- - `text` Description
- - `string` Manufacturer, maybe in another model
- - `string` Category/tags - probably in another model
- - Reviews - probably in another model
+**Ex: ✏ Model for a product and user**  
+Model for a product:
+- `int` ID
+- `int` Quantity
+- `string` Image URL
+- `string` Name
+- `decimal` Price
+- `text` Description
+- `string` Manufacturer, maybe in another model
+- `string` Category/tags - probably in another model
+- Reviews - probably in another model
+
 
 Model for a user:
 - `int` ID

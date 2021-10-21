@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Model-View-Controller (MVC).md",
+            "file": "Rails Models.md",
             "mode": "preview"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Model-View-Controller (MVC).md",
+            "file": "Rails Models.md",
             "mode": "source"
           }
         },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Model-View-Controller (MVC).md",
+                "file": "Rails Models.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Model-View-Controller (MVC).md"
+                "file": "Rails Models.md"
               }
             }
           }
@@ -139,15 +139,15 @@
   },
   "active": "5c0325df149e5c9c",
   "lastOpenFiles": [
-    "Model-View-Controller (MVC).md",
     "Rails Models.md",
-    "Rails Migration.md",
+    "Active Record.md",
+    "Software-Engineering/Relational Databases.md",
     "Rails Routing.md",
+    "Design Patterns.md",
+    "Model-View-Controller (MVC).md",
+    "Rails Migration.md",
     "Rails Views.md",
     "Rails Controllers.md",
-    "Software-Engineering/Ruby.md",
-    "Data-Structures-and-Algorithms/Project 7 - Tile Puzzle.md",
-    "Natural-Language-Processing/Text Classification.md",
-    "Software-Engineering/Agile.md"
+    "Software-Engineering/Ruby.md"
   ]
 }

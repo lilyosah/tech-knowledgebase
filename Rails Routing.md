@@ -1,5 +1,4 @@
 # Rails Routing
-#📥 
 %%
 #SWE 
 #concept
@@ -22,22 +21,21 @@ guides.rubyonrails.org/routing.html
 ❗ Make sure each route that has a view also has a [[Rails Controllers]] action. If it has a view but not a controller action, [[Ruby Rails]] will behave as if the action exists but is empty
 
 
-
 ## Route helpers
+*In config file*
 > Use 🐍 case in config file
 
-
-- **Create a whole set of routes** 
+- **Create a whole set of CRUDI routes** 
 	- `resources [plural model symbol or str]` 
-	- Can limit with `only`
+	- Can limit to a subset with `only`
 		- `resources :books, only: [:index, :show]`
 	- Can create exceptions with `except`
 		- `resources :books, except: []`
 - **Create one route**
 	- `resource [singular model instance name]`
 		- **Ex: ✏**  `resource :book`
-
-Root: specifies the home page.
+- **Root** URI route: `/` specifies the home page
+	- `root to: [controller#method]`
 
 **Ex: ✏**  In config file
 
