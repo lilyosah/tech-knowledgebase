@@ -21,13 +21,17 @@
 ==Models:== Store data about one entity
 - Business logic work goes here
 - [[Rails Models]]
+
+
 ==Controllers:== Mediate user actions requesting access to data
 - Mediator between view and model
 - Requests come in the form of [[Networks|HTTP routes]]
 - Must determine which code should be invoked to handle that route
 - [[Rails Controllers]]
+
+
 ==Views:== Display data from models which has been manipulated by controllers on a webpage
-- Code should really not go here. .If you absolutely need it, you can use `app/helpers`
+- Code should really not go here... If you absolutely need it, you can use `app/helpers`
 - [[Rails Views]]
 
 ## Where errors may happen

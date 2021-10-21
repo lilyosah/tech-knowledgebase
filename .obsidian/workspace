@@ -9,10 +9,23 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Rails Routing.md",
+            "file": "Model-View-Controller (MVC).md",
             "mode": "preview"
           }
-        }
+        },
+        "group": "4ea77e2c27a544e1"
+      },
+      {
+        "id": "5c0325df149e5c9c",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Model-View-Controller (MVC).md",
+            "mode": "source"
+          }
+        },
+        "group": "4ea77e2c27a544e1"
       }
     ],
     "direction": "vertical"
@@ -95,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rails Routing.md",
+                "file": "Model-View-Controller (MVC).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rails Routing.md"
+                "file": "Model-View-Controller (MVC).md"
               }
             }
           }
@@ -124,12 +137,12 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "2894b8c3e8f58ae3",
+  "active": "5c0325df149e5c9c",
   "lastOpenFiles": [
+    "Model-View-Controller (MVC).md",
     "Rails Routing.md",
     "Rails Views.md",
     "Rails Controllers.md",
-    "Model-View-Controller (MVC).md",
     "Rails Models.md",
     "Software-Engineering/Ruby.md",
     "Data-Structures-and-Algorithms/Project 7 - Tile Puzzle.md",
