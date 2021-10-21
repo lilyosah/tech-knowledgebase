@@ -1,5 +1,4 @@
 # Rails Migration
-#📥 
 %%
 #SWE 
 #concept
@@ -11,18 +10,23 @@
 ---
 
 : A [[Ruby]] script describing a set of changes to make to the database schema 
+
+
+## Benefits
 - Do this instead of using [[SQL]] because Rails defines production environments, you'd have to make three identical [[SQL]] calls 
- - Automatable 
-- `$ exec rails g(enerate) migration [migration name]`
-- Run migration from migration file: `rails db:migrate`
-	- 📝 It usually runs the migration in every environment, but if it doesn't you can run `rails db:[env]:prepare`
-- To add to the table, have to add to the seed: `rails db:seed`
+ - Automated == reliably repeatable
+ - Can identify each migration and know which have been applied and when
+	 - Often designed to be reversible 
+ - Can manage with version control 
 
-📝 If you want, you can change the col names and types etc before you run the migration for the first time, AFTER generating the migration file. After you run it for the first time, you would be better off scrapping the bd in a low-stakes app (`rails db:drop`), in a higher stakes situation, use methods to change the table attribute
+## Process
+> Show help: `$ rails g model`
 
-Show help: `rails g model`
 
-## Creating the table
+### 1) Creating the migration file
+On command line run `$ rails g migration [migration name]` (migration name is upper 🐫 case)
+In the file it generates, add your changes.
+
 ```Ruby
 
 class CreateBooks < ActiveRecord::Migration[5.1]
@@ -35,3 +39,12 @@ class CreateBooks < ActiveRecord::Migration[5.1]
 end
 
 ```
+
+### 2) Run the migration
+- Run migration in development from migration file: `$ rails db:migrate`
+	- 📝 It usually runs the migration in every environment, but if it doesn't you can run `$ rails db:[env]:prepare`
+	- To run in production: `$ heroku run:detached rails db:migrate`
+- To add to the table, have to add to the seed (that you've created!): `$ rails db:seed`
+
+📝 If you want, you can change the column names and types, etc. before you run the migration for the first time, AFTER generating the migration file. After you run it for the first time, you would be better off scrapping the database in a low-stakes app (`$ rails db:drop`), in a higher stakes situation, use methods to change the table attribute
+

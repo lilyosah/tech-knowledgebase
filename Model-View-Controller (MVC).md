@@ -34,6 +34,17 @@
 - Code should really not go here... If you absolutely need it, you can use `app/helpers`
 - [[Rails Views]]
 
+
+```mermaid
+graph TD
+ c("Controller") -- Update and change model through CRUDI --> m("Model")
+ 
+ classDef blueFill fill:#122e6b;
+ classDef redBorder stroke:#f21e02;
+ classDef greenBorder stroke:#02fc66;
+ classDef hidden display:none;
+```
+
 ## Where errors may happen
 Request
 v 

@@ -35,9 +35,9 @@ Handles business logic in [[Model-View-Controller (MVC)]] architecture. A model 
 ### Naming
  - singular, upper-camel-case
 
-| Case  | Convention | Number   | Example         |
-| ----- | ---------- | -------- | --------------- |
-| Upper | 🐫         | Singular |  |
+| Case  | Convention | Number   | Case  | Example          |
+| ----- | ---------- | -------- | ----- | ---------------- |
+| Upper | 🐫         | Singular | Upper | `RentalProperty` |
 
  
  ## The Database
@@ -47,7 +47,9 @@ Handles business logic in [[Model-View-Controller (MVC)]] architecture. A model 
  - ❗ Use [[Rails Migration]]s to keep the DB consistent, do not just manually edit the DB!
 
 ### Naming
-- snake-case, plural
+| Case  | Convention | Number | Case | Example             |
+| ----- | ---------- | ------ | ---- | ------------------- |
+| Upper | 🐍         | Plural | ?    | `rental_properties` |
 
 ### Creation Option 1
 1. Create table `rails generate migration CreateBooks`
