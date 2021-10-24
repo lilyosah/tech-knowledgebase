@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software-Engineering/Ruby.md",
+            "file": "Model-View-Controller (MVC).md",
             "mode": "preview"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software-Engineering/Ruby.md",
+            "file": "Model-View-Controller (MVC).md",
             "mode": "source"
           }
         },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software-Engineering/Ruby.md",
+                "file": "Model-View-Controller (MVC).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software-Engineering/Ruby.md"
+                "file": "Model-View-Controller (MVC).md"
               }
             }
           }
@@ -137,15 +137,15 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "5c0325df149e5c9c",
+  "active": "2894b8c3e8f58ae3",
   "lastOpenFiles": [
+    "Model-View-Controller (MVC).md",
+    "Rails Routing.md",
     "Software-Engineering/Ruby.md",
     "Rails Models.md",
     "Active Record.md",
     "Software-Engineering/Relational Databases.md",
-    "Rails Routing.md",
     "Design Patterns.md",
-    "Model-View-Controller (MVC).md",
     "Rails Migration.md",
     "Rails Views.md",
     "Rails Controllers.md"
