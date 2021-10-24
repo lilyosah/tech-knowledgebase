@@ -23,7 +23,7 @@ guides.rubyonrails.org/routing.html
 
 ## Route helpers
 *In config file*
-> Use 🐍 case in config file
+> Use lower 🐍 case in config file
 
 - **Create a whole set of [[Networks#Representational State Transfer REST|CRUDI]] routes** 
 	- `resources [plural model symbol or str]` 

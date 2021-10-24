@@ -26,6 +26,28 @@
           }
         },
         "group": "4ea77e2c27a544e1"
+      },
+      {
+        "id": "88fccbf09cbb9131",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Rails Controllers.md",
+            "mode": "preview"
+          }
+        }
+      },
+      {
+        "id": "264f1b191d1e9dc7",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Rails Controllers.md",
+            "mode": "preview"
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -108,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software-Engineering/Testing.md",
+                "file": "Rails Controllers.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software-Engineering/Testing.md"
+                "file": "Rails Controllers.md"
               }
             }
           }
@@ -137,17 +159,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "5c0325df149e5c9c",
+  "active": "264f1b191d1e9dc7",
   "lastOpenFiles": [
-    "Software-Engineering/Testing.md",
-    "Software-Engineering/Ruby.md",
-    "Rails Views.md",
+    "Rails Controllers.md",
     "Rails Routing.md",
-    "Software-Engineering/Networks.md",
-    "Data-Structures-and-Algorithms/Data Structures.md",
+    "Rails Views.md",
+    "Software-Engineering/Ruby.md",
     "Rails Models.md",
+    "Software-Engineering/SWE Table of Contents.md",
     "Model-View-Controller (MVC).md",
-    "Active Record.md",
-    "Software-Engineering/Relational Databases.md"
+    "Software-Engineering/Networks.md",
+    "Software-Engineering/SaaS (Software as a Service).md",
+    "Software-Engineering/Testing.md"
   ]
 }

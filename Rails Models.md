@@ -45,9 +45,9 @@ Inherits from [[Active Record]] which provides abstracted CRUDI methods for rela
  - ❗ Use [[Rails Migration]]s to keep the DB consistent, do not just manually edit the DB!
 
 ### Database Naming
-| Case  | Convention | Number | Case | Example             |
-| ----- | ---------- | ------ | ---- | ------------------- |
-| Upper | 🐍         | Plural | ?    | `rental_properties` |
+| Case  | Convention | Number | Case  | Example             |
+| ----- | ---------- | ------ | ----- | ------------------- |
+| Upper | 🐍         | Plural | lower | `rental_properties` |
 
 ### Creation Option 1
 ![[Rails Migration#Process]]

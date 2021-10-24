@@ -52,10 +52,10 @@ end
 
 ### Naming
 
- |             | Case  | Convention | Number | Example           |
- | ----------- | ----- | ---------- | ------ | ----------------- |
- | **Class**   | Upper | 🐫         | Plural | `BooksController` |
- | **Methods** | lower | 🐍         |        |                   |
+ |             | Case  | Convention | Number   | Example           |
+ | ----------- | ----- | ---------- | -------- | ----------------- |
+ | **Class**   | Upper | 🐫         | Plural   | `BooksController` |
+ | **Methods** | lower | 🐍         | Singular | `sale_items`      |
 
 
 ## Creation

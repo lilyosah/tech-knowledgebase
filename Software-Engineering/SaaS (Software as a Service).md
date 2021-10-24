@@ -24,9 +24,10 @@
 - App divided into sub-parts with a clear external interface
 - Sub-parts cannot access eachother's data without an interface (API)
 
-
-==Microservice:== A standalone service that performs just one type of task
+==Microservice:== A standalone service that performs just one type of task. EXTREME SOA
 - Dividing service components into their smallest possible parts
+
+
 - Pros: Each sub-component is independent and easy to evolve, components may be reused by multiple services 
 - Cons: Performance is lower, complexity is higher
 
