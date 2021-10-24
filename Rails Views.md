@@ -88,7 +88,7 @@ You don't have to use form tag helpers to submit data from forms but it makes th
 <!-- 
 You don't need to specify the URI path to controller but you can if you want -->
 
-<%= form_with model: @book, (method: post,) local: true do |book_form %>
+<%= form_with model: @book, (method: post) local: true do |book_form %>
 	<%= book_form.label :title %>
 		...
 

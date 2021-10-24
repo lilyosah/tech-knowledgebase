@@ -25,7 +25,7 @@ guides.rubyonrails.org/routing.html
 *In config file*
 > Use 🐍 case in config file
 
-- **Create a whole set of CRUDI routes** 
+- **Create a whole set of [[Networks#Representational State Transfer REST|CRUDI]] routes** 
 	- `resources [plural model symbol or str]` 
 	- Can limit to a subset with `only`
 		- `resources :books, only: [:index, :show]`
