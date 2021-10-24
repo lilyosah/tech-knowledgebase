@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Model-View-Controller (MVC).md",
+            "file": "Rails Models.md",
             "mode": "preview"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Model-View-Controller (MVC).md",
+            "file": "Rails Models.md",
             "mode": "source"
           }
         },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Model-View-Controller (MVC).md",
+                "file": "Rails Models.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Model-View-Controller (MVC).md"
+                "file": "Rails Models.md"
               }
             }
           }
@@ -139,10 +139,10 @@
   },
   "active": "2894b8c3e8f58ae3",
   "lastOpenFiles": [
+    "Rails Models.md",
     "Model-View-Controller (MVC).md",
     "Rails Routing.md",
     "Software-Engineering/Ruby.md",
-    "Rails Models.md",
     "Active Record.md",
     "Software-Engineering/Relational Databases.md",
     "Design Patterns.md",

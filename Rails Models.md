@@ -25,7 +25,7 @@ Inherits from [[Active Record]] which provides abstracted CRUDI methods for rela
 - Each row has a unique primary key, automatically assigned by Rails
 	- By convention, and integer called `id`
 
-- `[Model].new` creates new model instance?
+- `[Model].new` creates new model instance, but this does NOT save it. You need to do `save` after to actually save it, or just do `create` instead of the two step process. 
 
 ==Schema:== Collection of their tables and their structure 
 
