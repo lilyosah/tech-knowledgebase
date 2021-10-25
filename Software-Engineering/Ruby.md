@@ -457,6 +457,10 @@ How to meet [[Testing#Testing practices|FIRST]] principles
 A tool to turn user stories into acceptance tests and integration tests ([[Testing]])
 Use keywords: 
 - **Given** describes the current state 
+- **When** describes user actions
+- **Then** describes the intended consequences
+
+Eventually you can you a domain language for you app to reuse declarative statements/scenarios that are less verbose and more simple
 
 ### Capybara
 Pretends to be a user by interacting with a simulated web browser to use the product in different scenarios 
