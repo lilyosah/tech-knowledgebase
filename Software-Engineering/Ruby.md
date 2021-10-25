@@ -455,6 +455,12 @@ How to meet [[Testing#Testing practices|FIRST]] principles
 
 ### Cucumber
 A tool to turn user stories into acceptance tests and integration tests ([[Testing]])
+Use keywords: 
+- **Given** describes the current state 
+
+### Capybara
+Pretends to be a user by interacting with a simulated web browser to use the product in different scenarios 
+- Need to describe both "happy paths" when things go right and "sad paths" when things go wrong
 
 
 
