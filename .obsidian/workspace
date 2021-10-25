@@ -4,59 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "2894b8c3e8f58ae3",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Software-Engineering/Testing.md",
-            "mode": "preview"
-          }
-        },
-        "group": "4ea77e2c27a544e1"
-      },
-      {
-        "id": "5c0325df149e5c9c",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Software-Engineering/Testing.md",
-            "mode": "source"
-          }
-        },
-        "group": "4ea77e2c27a544e1"
-      },
-      {
-        "id": "88fccbf09cbb9131",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Rails Views.md",
-            "mode": "preview"
-          }
-        }
-      },
-      {
-        "id": "264f1b191d1e9dc7",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Rails Models.md",
-            "mode": "preview"
-          }
-        }
-      },
-      {
         "id": "11c7f7791ba0e77a",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Rails Controllers.md",
-            "mode": "preview"
+            "file": "Software-Engineering/Ruby.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "287d5278fc833176",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Software-Engineering/SWE Table of Contents.md",
+            "mode": "source"
           }
         }
       }
@@ -141,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rails Models.md",
+                "file": "Software-Engineering/Ruby.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rails Models.md"
+                "file": "Software-Engineering/Ruby.md"
               }
             }
           }
@@ -170,17 +135,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "264f1b191d1e9dc7",
+  "active": "11c7f7791ba0e77a",
   "lastOpenFiles": [
-    "Rails Models.md",
-    "Rails Controllers.md",
-    "Model-View-Controller (MVC).md",
     "Software-Engineering/Ruby.md",
+    "Software-Engineering/SWE Table of Contents.md",
+    "Software-Engineering/SWE Final Project.md",
+    "Rails Controllers.md",
+    "Rails Models.md",
+    "Model-View-Controller (MVC).md",
     "Rails Views.md",
     "Software-Engineering/Testing.md",
     "Rails Routing.md",
-    "Software-Engineering/SWE Table of Contents.md",
-    "Software-Engineering/Networks.md",
-    "Software-Engineering/SaaS (Software as a Service).md"
+    "Software-Engineering/Networks.md"
   ]
 }

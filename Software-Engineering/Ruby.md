@@ -452,6 +452,12 @@ How to meet [[Testing#Testing practices|FIRST]] principles
 - **Timely:** We'll be using TDD
 
 📝 If you write `it` and then the string and nothing else, the test is pending
+
+### Cucumber
+A tool to turn user stories into acceptance tests and integration tests ([[Testing]])
+
+
+
 ## [[Debugging]]
 - Display a desc. of and object in a view `<%= debug(@movie.inspect)%>` or `<@movie.inspect%>`
 - Raise an exception whose message is a rep. of the value you want to inspect `raise params.inspect`
