@@ -9,10 +9,23 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software-Engineering/Ruby.md",
+            "file": "Natural-Language-Processing/Masked Language Models.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "aea2753ab9ab4d2e"
+      },
+      {
+        "id": "928e3df4bae23004",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Natural-Language-Processing/Masked Language Models.md",
+            "mode": "preview"
+          }
+        },
+        "group": "aea2753ab9ab4d2e"
       }
     ],
     "direction": "vertical"
@@ -95,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software-Engineering/Ruby.md",
+                "file": "Natural-Language-Processing/Masked Language Models.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software-Engineering/Ruby.md"
+                "file": "Natural-Language-Processing/Masked Language Models.md"
               }
             }
           }
@@ -126,15 +139,15 @@
   },
   "active": "a81a096fc60d8611",
   "lastOpenFiles": [
+    "Natural-Language-Processing/Masked Language Models.md",
+    "Natural-Language-Processing/NLP Table of Contents.md",
+    "Natural-Language-Processing/NLP Project.md",
     "Software-Engineering/Ruby.md",
     "Ruby Rails.md",
     "Software-Engineering/Agile.md",
     "Software-Engineering/Behavior Driven Design.md",
     "Templates/Concept.md",
     "Software-Engineering/SWE Table of Contents.md",
-    "Natural-Language-Processing/Text Normalization.md",
-    "Software-Engineering/SWE Final Project.md",
-    "Rails Controllers.md",
-    "Rails Models.md"
+    "Natural-Language-Processing/Text Normalization.md"
   ]
 }
