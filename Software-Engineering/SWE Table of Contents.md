@@ -81,4 +81,5 @@
 ### Week 10
 - 10-25-2021
 	- [[Ruby#Cucumber]]
+	- [[Ruby#Capybara]]
 	- 

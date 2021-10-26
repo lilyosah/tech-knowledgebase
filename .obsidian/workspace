@@ -4,23 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "11c7f7791ba0e77a",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Software-Engineering/Ruby.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
         "id": "287d5278fc833176",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software-Engineering/SWE Table of Contents.md",
+            "file": "Software-Engineering/Ruby.md",
             "mode": "source"
           }
         }
@@ -50,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "routi",
+                "query": "lemma",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -135,17 +124,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "11c7f7791ba0e77a",
+  "active": "287d5278fc833176",
   "lastOpenFiles": [
     "Software-Engineering/Ruby.md",
     "Software-Engineering/SWE Table of Contents.md",
+    "Natural-Language-Processing/Text Normalization.md",
     "Software-Engineering/SWE Final Project.md",
     "Rails Controllers.md",
     "Rails Models.md",
     "Model-View-Controller (MVC).md",
     "Rails Views.md",
     "Software-Engineering/Testing.md",
-    "Rails Routing.md",
-    "Software-Engineering/Networks.md"
+    "Rails Routing.md"
   ]
 }

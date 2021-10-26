@@ -455,12 +455,32 @@ How to meet [[Testing#Testing practices|FIRST]] principles
 
 ### Cucumber
 A tool to turn user stories into acceptance tests and integration tests ([[Testing]])
-Use keywords: 
+- Scenarios describe features
+	- Each scenario has 3-8 steps
+	- Scenarios are matches with step definitions
+
+Use keywords in scenarios: 
 - **Given** describes the current state 
 - **When** describes user actions
 - **Then** describes the intended consequences
 
 Eventually you can you a domain language for you app to reuse declarative statements/scenarios that are less verbose and more simple
+
+**Ex: ✏**  
+```
+Feature: customer can search for books by title
+	As a book store customer,
+	So that I can easily find a book I'm looking for, 
+	I want to seach for books by title
+	
+Scenario:
+	Given I am on the books page
+	When I fill in "Search for book" with "manifesto"
+	And I press "Search"
+	Then I should be on the books page
+	And I should see "Manifesto"
+
+```
 
 ### Capybara
 Pretends to be a user by interacting with a simulated web browser to use the product in different scenarios 
