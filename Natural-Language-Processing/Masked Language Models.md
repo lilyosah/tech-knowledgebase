@@ -12,6 +12,8 @@ Related:
 
 : assigns prbabilities to words such that it is possible to measure hte probability of the next word given the history. Sometimes you don't need a prob function and can have a func that sorts tokens st the most probable is first
 - Can map 64 chars into 64 dim vector space
+	- More parameters => easier to learn something
+	- Fewer => faster, testing
 
 $P(w_k|w_1, w_2, ... w_k)$
 
@@ -35,3 +37,12 @@ Converting a dataset without labels into one with labels is called self-supervis
 
 
 In the vector you make, each emoji will be represented by a number between -1 and some number above one, it's optimized around 1 though so higher is more likely
+
+
+## BOW vs ...
+
+$f_\text{BoW} => R^k$ where k is the number of classes
+$f_\text{emoji} => R^k$ where k is the number of classes
+
+$(f_\text{BoW}, f_\text{emoji})$
+$\text{text (good morning, night)} => [.01, .2, .5, 1.4, 1.0, .3]$
