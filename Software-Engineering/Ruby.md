@@ -403,9 +403,6 @@ e.instance_eval :private # allows you to override private, access these methods
 ```
 
 
-
-
-
 ## Testing
 > `.to be` or `!.to be`, that is the question
 
@@ -453,6 +450,27 @@ How to meet [[Testing#Testing practices|FIRST]] principles
 
 📝 If you write `it` and then the string and nothing else, the test is pending
 
+#### Mocking and Stubbing
+==Stub:== A "fake" method that returns a pre-configured value
+==Double:== fake object that stands in for some other object in the context of a test
+==Mock object:== Provides stubs as well as expectations on how those stub methods are called
+==Test stub:== test double that only supports stub methods
+
+**Ex: ✏**  
+
+```Ruby
+example = RSpec.describe "stub exmaple" do
+	it "should show the effect of a test double" do
+		# arrange
+		d = double("person")
+		# act / assert
+		expect(d).to receive(:eat).with("food").and_return("yum")
+		puts(d.eat("food"))
+	end
+end
+
+```
+
 ### Cucumber
 A tool to turn user stories into acceptance tests and integration tests ([[Testing]])
 - Scenarios describe features
@@ -474,7 +492,7 @@ Feature: customer can search for books by title
 	So that I can easily find a book I'm looking for, 
 	I want to seach for books by title
 	
-	
+# background will persist for the whle feature file
 Background: the book store has several books
 	Given these books:
 		| title               | list_price | year |
@@ -490,6 +508,8 @@ Scenario:
 	And I should not see "bogus"
 
 ```
+
+If you have this and run cucumber, it will generate step stubs that you can then fill in with capybara stuff
 
 *In search_steps*
 

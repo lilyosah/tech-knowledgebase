@@ -64,13 +64,6 @@ launches in localhost:3000
 
 - Server usually live-updates, if you change routes or server configurations you must relaunch the server 
 
-
-```mermaid
-graph TD
- Controller("Access model, assign to instance var") --> Model("Model (Database)")
- Controller --> View("View - Render HTML")
-```
-
 ## Structure / Design Pattern
 - Uses [[Model-View-Controller (MVC)]]
 	- Each Rails [[Rails Models|model]] is a resource type whose instances are rows in a particular table of a relational database 
@@ -79,7 +72,7 @@ graph TD
 
 ### [[Rails Routing]]
 
-### Controller actions/methods
+### Controller actions/methods #📌 *should go in controller*
 : Set instance variables which are visible to views 
 - Controller methods call model's class methods ([[Ruby Rails#SQL Calls in Rails]] and any other additional methods) to retrieve database/model objects
 - Routes created by `resources 'movies'` will expect to find `controllers/movies_controller.rb` what defines c`class MovieController` which descends from `ApplicationController`. This class will be expected to define `index, new, create, show, edit, update, destroy`
@@ -123,3 +116,9 @@ Instead of using `puts`, use `logger`
 
 ### In Views
 `<%= debug(@book) =%>`
+
+## Testing
+[[Ruby#Capybara]]
+[[Ruby#Cucumber]]
+
+Making tests repeatable:

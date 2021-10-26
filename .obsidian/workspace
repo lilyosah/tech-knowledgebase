@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "287d5278fc833176",
+        "id": "a81a096fc60d8611",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -124,17 +124,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "287d5278fc833176",
+  "active": "a81a096fc60d8611",
   "lastOpenFiles": [
     "Software-Engineering/Ruby.md",
+    "Ruby Rails.md",
+    "Software-Engineering/Agile.md",
+    "Software-Engineering/Behavior Driven Design.md",
+    "Templates/Concept.md",
     "Software-Engineering/SWE Table of Contents.md",
     "Natural-Language-Processing/Text Normalization.md",
     "Software-Engineering/SWE Final Project.md",
     "Rails Controllers.md",
-    "Rails Models.md",
-    "Model-View-Controller (MVC).md",
-    "Rails Views.md",
-    "Software-Engineering/Testing.md",
-    "Rails Routing.md"
+    "Rails Models.md"
   ]
 }
