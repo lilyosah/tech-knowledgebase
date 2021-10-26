@@ -458,6 +458,7 @@ A tool to turn user stories into acceptance tests and integration tests ([[Testi
 - Scenarios describe features
 	- Each scenario has 3-8 steps
 	- Scenarios are matches with step definitions
+	- Step definitions are implemented in `features/step_definitions/`
 
 Use keywords in scenarios: 
 - **Given** describes the current state 
@@ -467,24 +468,77 @@ Use keywords in scenarios:
 Eventually you can you a domain language for you app to reuse declarative statements/scenarios that are less verbose and more simple
 
 **Ex: ✏**  
-```
+```Ruby
 Feature: customer can search for books by title
 	As a book store customer,
 	So that I can easily find a book I'm looking for, 
 	I want to seach for books by title
 	
+	
+Background: the book store has several books
+	Given these books:
+		| title               | list_price | year |
+		| communist manifesto | 3.49       | 1848 |
+		| bogus book title    | 5.00       | 1999 | 
+	
 Scenario:
 	Given I am on the books page
-	When I fill in "Search for book" with "manifesto"
+	When I fill in "Title search" with "manifesto"
 	And I press "Search"
 	Then I should be on the books page
-	And I should see "Manifesto"
+	And I should see "manifesto"
+	And I should not see "bogus"
 
 ```
 
+*In search_steps*
+
+```Ruby
+Given('I am on the books page')
+	visit(books_path)
+end
+
+When('I fill in {string} with {string}') do |form_entry, value|
+	fill_in(form_entry, with: value)
+end
+
+...
+	
+Given('these Books:') dp |table|
+	table.hashes.each do |h|
+		Book.create!(h)
+	end
+end
+
+Then('I should not see {string}') do |string|
+	expect(page).not_to have.content("bogus")
+end
+
+```
+
+
+
 ### Capybara
+[Documentation](https://rubydoc.info/github/teamcapybara/capybara/master)
 Pretends to be a user by interacting with a simulated web browser to use the product in different scenarios 
+- Works well with [[Ruby#Cucumber]]
 - Need to describe both "happy paths" when things go right and "sad paths" when things go wrong
+
+**Ex: ✏**  
+```
+
+visit(books)
+sign_in
+click_link('Create new book')
+fill_in('Title', with: 'Communist manifesto')
+fill_in('List price', with: '0.00')
+click_on('Create new book')
+expect(page).to have_content('New book "Communist manifesto" created')
+arr = []
+all('td.booktitle').each { |title| arr << title }
+expect(arr).to eq(arr.sort)
+
+```
 
 
 
