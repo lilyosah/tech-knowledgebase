@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Rails Models.md",
+            "file": "Rails Controllers.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Rails Models.md",
+            "file": "Rails Controllers.md",
             "mode": "preview"
           }
         },
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rails Models.md",
+                "file": "Rails Controllers.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rails Models.md"
+                "file": "Rails Controllers.md"
               }
             }
           }
@@ -150,6 +150,7 @@
   },
   "active": "a81a096fc60d8611",
   "lastOpenFiles": [
+    "Rails Controllers.md",
     "Rails Models.md",
     "Software-Engineering/SWE Table of Contents.md",
     "Rails Views.md",
@@ -158,7 +159,6 @@
     "Natural-Language-Processing/NLP Table of Contents.md",
     "Natural-Language-Processing/NLP Project.md",
     "Software-Engineering/Ruby.md",
-    "Software-Engineering/Agile.md",
-    "Software-Engineering/Behavior Driven Design.md"
+    "Software-Engineering/Agile.md"
   ]
 }

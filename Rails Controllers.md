@@ -64,3 +64,6 @@ end
 
 ## Forms
 ![[Rails Views#Forms]]
+
+## Validation
+- You can use filters to ensure that some qualifications are met before continuing 
