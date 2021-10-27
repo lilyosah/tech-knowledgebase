@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Rails Views.md",
+            "file": "Rails Models.md",
             "mode": "source"
           }
         },
@@ -21,11 +21,22 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Rails Views.md",
+            "file": "Rails Models.md",
             "mode": "preview"
           }
         },
         "group": "aea2753ab9ab4d2e"
+      },
+      {
+        "id": "b80a7badf111f970",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Software-Engineering/SWE Table of Contents.md",
+            "mode": "source"
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -108,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rails Views.md",
+                "file": "Rails Models.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rails Views.md"
+                "file": "Rails Models.md"
               }
             }
           }
@@ -139,15 +150,15 @@
   },
   "active": "a81a096fc60d8611",
   "lastOpenFiles": [
+    "Rails Models.md",
+    "Software-Engineering/SWE Table of Contents.md",
     "Rails Views.md",
+    "Ruby Rails.md",
     "Natural-Language-Processing/Masked Language Models.md",
     "Natural-Language-Processing/NLP Table of Contents.md",
     "Natural-Language-Processing/NLP Project.md",
     "Software-Engineering/Ruby.md",
-    "Ruby Rails.md",
     "Software-Engineering/Agile.md",
-    "Software-Engineering/Behavior Driven Design.md",
-    "Templates/Concept.md",
-    "Software-Engineering/SWE Table of Contents.md"
+    "Software-Engineering/Behavior Driven Design.md"
   ]
 }

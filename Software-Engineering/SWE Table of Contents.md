@@ -82,4 +82,6 @@
 - 10-25-2021
 	- [[Ruby#Cucumber]]
 	- [[Ruby#Capybara]]
-	- 
+- 10-28-2021
+	- [[Rails Views#Partials]]
+	- [[Rails Models#Model Validation]]

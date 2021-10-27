@@ -170,3 +170,7 @@ Do not do computations in Ruby if possible, should be done in the DB. It's much 
 ### Model Attributes
 To change column data, `self.title.capitalize` DO NOT CALL ON INSTANCE VARIABLES
 
+## Model Validation
+: used to verify that inputs are valid
+- Triggered by `valid?` instance method
+- Validation errors are returned in `ActiveModel::Errors` object returned by `errors`

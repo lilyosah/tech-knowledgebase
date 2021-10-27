@@ -231,3 +231,10 @@ end
 Behaves the same as `session` 
 - Can be a separate thing
 - Can only contain up to 4 KiB limit
+
+
+## Partials
+: a resuable chunk of a view
+- Might be in a different directory than the view it's featured in
+- Can access all controller variables of the view it's in but this is usually not done 
+- File name is prefaced by `_`
