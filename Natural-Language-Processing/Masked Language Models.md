@@ -10,7 +10,7 @@ Related:
 
 ---
 
-: assigns prbabilities to words such that it is possible to measure hte probability of the next word given the history. Sometimes you don't need a prob function and can have a func that sorts tokens st the most probable is first
+: assigns prbabilities to words such that it is possible to measure the probability of the next word given the history. Sometimes you don't need a prob function and can have a func that sorts tokens st the most probable is first
 - Can map 64 chars into 64 dim vector space
 	- More parameters => easier to learn something
 	- Fewer => faster, testing

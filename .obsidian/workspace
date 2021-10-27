@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Natural-Language-Processing/Masked Language Models.md",
+            "file": "Rails Views.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Natural-Language-Processing/Masked Language Models.md",
+            "file": "Rails Views.md",
             "mode": "preview"
           }
         },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Natural-Language-Processing/Masked Language Models.md",
+                "file": "Rails Views.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Natural-Language-Processing/Masked Language Models.md"
+                "file": "Rails Views.md"
               }
             }
           }
@@ -139,6 +139,7 @@
   },
   "active": "a81a096fc60d8611",
   "lastOpenFiles": [
+    "Rails Views.md",
     "Natural-Language-Processing/Masked Language Models.md",
     "Natural-Language-Processing/NLP Table of Contents.md",
     "Natural-Language-Processing/NLP Project.md",
@@ -147,7 +148,6 @@
     "Software-Engineering/Agile.md",
     "Software-Engineering/Behavior Driven Design.md",
     "Templates/Concept.md",
-    "Software-Engineering/SWE Table of Contents.md",
-    "Natural-Language-Processing/Text Normalization.md"
+    "Software-Engineering/SWE Table of Contents.md"
   ]
 }
