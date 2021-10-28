@@ -118,9 +118,27 @@ Instead of using `puts`, use `logger`
 `<%= debug(@book) =%>`
 
 ## Testing
-[[Ruby#Capybara]]
-[[Ruby#Cucumber]]
+[[Ruby#Testing]]
 
-Making tests repeatable:
+## [[Aspect-Oriented Programming]]
+Specify declaratively in [[Rails Models]] method
 
+[[Rails Models#Model Validation|Validations]] add to errors hash `obj.errors`
+
+
+```Ruby
+validate :age_range_is_valid # custom validator method
+
+private 
+def age_range_is_valid
+	if min...
+			...
+			
+			errors
+	
+end
+
+
+
+```
 

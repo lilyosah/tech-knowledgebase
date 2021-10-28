@@ -48,4 +48,6 @@
 
 - 10-26-2021
 	- [[Masked Language Models]]
+- 10-28-2021
+	- [[Embeddings]]
 

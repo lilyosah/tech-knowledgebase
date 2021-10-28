@@ -87,3 +87,5 @@
 	- [[Rails Models#Model Validation]]
 	- [[Ruby#Mocking and Stubbing]]
 	- [[Rails Views#Partials]]
+	- [[Aspect-Oriented Programming]]
+	- 

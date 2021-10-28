@@ -185,7 +185,7 @@ To change column data, `self.title.capitalize` DO NOT CALL ON INSTANCE VARIABLES
 	- If you need to avoid default, use `unscoped` method
 		- `Product.unscoped`
 - Can be chained
-	- `Product.min_age(0).max_age(5)`
+	- `Product.min_age(0).max_age()`
 - Lazily evaluated: query is not executed until you try to iterate the resulting Enumerable
 - ✨ Use `to_sql` method to dump query code from a complicated stacked query for debugging
 
