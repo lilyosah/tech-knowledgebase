@@ -9,10 +9,23 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software-Engineering/Git Commands.md",
+            "file": "Software-Engineering/Ruby.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "dd50c69ba70f85b3"
+      },
+      {
+        "id": "632d2838c1795463",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Software-Engineering/Ruby.md",
+            "mode": "preview"
+          }
+        },
+        "group": "dd50c69ba70f85b3"
       }
     ],
     "direction": "vertical"
@@ -39,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "lemma",
+                "query": "mock",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software-Engineering/Git Commands.md",
+                "file": "Software-Engineering/Ruby.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software-Engineering/Git Commands.md"
+                "file": "Software-Engineering/Ruby.md"
               }
             }
           }
@@ -126,15 +139,15 @@
   },
   "active": "928e3df4bae23004",
   "lastOpenFiles": [
+    "Software-Engineering/Ruby.md",
+    "Software-Engineering/Testing.md",
+    "Software-Engineering/SWE Table of Contents.md",
     "Software-Engineering/Git Commands.md",
     "Data-Structures-and-Algorithms/Shortest Path Algorithms.md",
     "GitHub.md",
     "Rails Models.md",
-    "Software-Engineering/SWE Table of Contents.md",
     "Rails Controllers.md",
     "Rails Views.md",
-    "Ruby Rails.md",
-    "Natural-Language-Processing/Masked Language Models.md",
-    "Natural-Language-Processing/NLP Table of Contents.md"
+    "Ruby Rails.md"
   ]
 }

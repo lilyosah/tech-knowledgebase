@@ -409,6 +409,8 @@ e.instance_eval :private # allows you to override private, access these methods
 [[Testing]] in Ruby uses the RSpec test framework
 Great for [[Testing#Test-Driven Development TDD]]
 
+Within one testing context, does not save new objects to the actual DB, saves to a testing DB if you do a create/save which is wiped outside of the context. 
+
 - Tests are under `spec/` folder
 - Test files are in Ruby and should require the Rspec library `require 'rspec'`
 - `it` method describes what the test does
@@ -453,10 +455,23 @@ How to meet [[Testing#Testing practices|FIRST]] principles
 #### Mocking and Stubbing
 ==Stub:== A "fake" method that returns a pre-configured value
 ==Double:== fake object that stands in for some other object in the context of a test
-==Mock object:== Provides stubs as well as expectations on how those stub methods are called
-==Test stub:== test double that only supports stub methods
+- If you create a double object you'd need to stub every method you want it to have because double objects have no methods
 
 **Ex: ✏**  
+```Ruby
+b = mock('book')
+b.stub(:save).and_return(true)
+expect(b).to recieve(:new).and_return(true)
+```
+
+==Mock object:== Provides stubs as well as expectations on how those stub methods are called.
+Alternatives:
+- ==Fixtures:== statically preload some known data into BD tables
+- ==Factory:== create only what you need per test
+
+==Test stub:== test double that only supports stub methods
+
+**Ex: ✏**
 
 ```Ruby
 example = RSpec.describe "stub exmaple" do
@@ -464,6 +479,7 @@ example = RSpec.describe "stub exmaple" do
 		# arrange
 		d = double("person")
 		# act / assert
+		# v a method stub
 		expect(d).to receive(:eat).with("food").and_return("yum")
 		puts(d.eat("food"))
 	end
@@ -509,7 +525,7 @@ Scenario:
 
 ```
 
-If you have this and run cucumber, it will generate step stubs that you can then fill in with capybara stuff
+If you have this and run cucumber, it will generate step stubs that you can then fill in with Capybara stuff
 
 *In search_steps*
 
@@ -544,7 +560,8 @@ Pretends to be a user by interacting with a simulated web browser to use the pro
 - Works well with [[Ruby#Cucumber]]
 - Need to describe both "happy paths" when things go right and "sad paths" when things go wrong
 
-**Ex: ✏**  
+**Ex: ✏** 
+
 ```
 
 visit(books)
@@ -559,8 +576,6 @@ all('td.booktitle').each { |title| arr << title }
 expect(arr).to eq(arr.sort)
 
 ```
-
-
 
 ## [[Debugging]]
 - Display a desc. of and object in a view `<%= debug(@movie.inspect)%>` or `<@movie.inspect%>`
