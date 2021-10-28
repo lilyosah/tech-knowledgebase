@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software-Engineering/Ruby.md",
+            "file": "Rails Models.md",
             "mode": "source"
           }
         },
@@ -21,11 +21,22 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software-Engineering/Ruby.md",
+            "file": "Rails Models.md",
             "mode": "preview"
           }
         },
         "group": "dd50c69ba70f85b3"
+      },
+      {
+        "id": "abd7bf619b5e9997",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Software-Engineering/SWE Table of Contents.md",
+            "mode": "source"
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -52,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mock",
+                "query": "partial",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -108,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software-Engineering/Ruby.md",
+                "file": "Rails Models.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software-Engineering/Ruby.md"
+                "file": "Rails Models.md"
               }
             }
           }
@@ -139,15 +150,15 @@
   },
   "active": "928e3df4bae23004",
   "lastOpenFiles": [
+    "Rails Models.md",
+    "Rails Views.md",
+    "Software-Engineering/SWE Table of Contents.md",
+    "Ruby Rails.md",
     "Software-Engineering/Ruby.md",
     "Software-Engineering/Testing.md",
-    "Software-Engineering/SWE Table of Contents.md",
     "Software-Engineering/Git Commands.md",
     "Data-Structures-and-Algorithms/Shortest Path Algorithms.md",
     "GitHub.md",
-    "Rails Models.md",
-    "Rails Controllers.md",
-    "Rails Views.md",
-    "Ruby Rails.md"
+    "Rails Controllers.md"
   ]
 }

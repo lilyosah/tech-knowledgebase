@@ -85,3 +85,5 @@
 - 10-28-2021
 	- [[Rails Views#Partials]]
 	- [[Rails Models#Model Validation]]
+	- [[Ruby#Mocking and Stubbing]]
+	- [[Rails Views#Partials]]

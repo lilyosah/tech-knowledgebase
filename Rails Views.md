@@ -58,9 +58,6 @@
 | ----- | ---------- | ------ | ----------------- |
 | Lower | #❓         | Singular | `show.html.erb` |
 
-## Partials?
-- Blocks exist in views and render more of the page?
-
 ## Linking Views
 Use [[Rails Routing#URI Helpers]]
 
@@ -234,7 +231,28 @@ Behaves the same as `session`
 
 
 ## Partials
-: a resuable chunk of a view
-- Might be in a different directory than the view it's featured in
+: a reusable chunk of a view. Help to DRY out template code
 - Can access all controller variables of the view it's in but this is usually not done 
+- Implemented like a block
+- Can pass values into templates for rending
 - File name is prefaced by `_`
+- Might be in a different directory than the view it's featured in
+	- `app/views/resource/_another_template.html.erb`
+- In another view template, say `render 'another_template'` to render the partial called `another_template`
+
+**Ex: ✏**  
+
+*In outer view*
+```
+<%= form_with model: @book .... do |f| %>
+	<%= render 'form_fields', form: f, submit_text: 'Update book' %>
+
+```
+
+*In inner view _form_fields*
+```
+
+<% field whatever, f %> 
+<% button submit_text %>
+
+```

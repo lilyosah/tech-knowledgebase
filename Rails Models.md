@@ -174,3 +174,31 @@ To change column data, `self.title.capitalize` DO NOT CALL ON INSTANCE VARIABLES
 : used to verify that inputs are valid
 - Triggered by `valid?` instance method
 - Validation errors are returned in `ActiveModel::Errors` object returned by `errors`
+
+
+## Scopes 	#📌 
+: pre-defined queries that are lazily evaluated
+- Reusable
+- Obviates the need to define a lot of class methods on models
+- Can set  default scope to apply to all queries
+	- `default_scope {order('name')}`
+	- If you need to avoid default, use `unscoped` method
+		- `Product.unscoped`
+- Can be chained
+	- `Product.min_age(0).max_age(5)`
+- Lazily evaluated: query is not executed until you try to iterate the resulting Enumerable
+- ✨ Use `to_sql` method to dump query code from a complicated stacked query for debugging
+
+**Ex: ✏**  
+```Ruby
+scope :scopename, -> { query_fragment }
+# With param
+scope :scopename, ->(parm) { query_fragment using param }
+```
+
+```Ruby
+class Product < ApplicationRecord 
+	scope :for_infants, -> {where('...')}
+
+
+```

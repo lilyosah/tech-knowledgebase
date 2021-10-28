@@ -466,8 +466,16 @@ expect(b).to recieve(:new).and_return(true)
 
 ==Mock object:== Provides stubs as well as expectations on how those stub methods are called.
 Alternatives:
-- ==Fixtures:== statically preload some known data into BD tables
+- ==Fixtures:== statically pre-load some known data into BD tables
+	- Database wiped and reloaded before each spec
+	- add `fixtures: :products` at the beg on `describe`
+	- `spec/fictures/products.yml` are added to products table
+	- Pros/usages: truly static 
+	- Cons: introduces dependencies on data
 - ==Factory:== create only what you need per test
+	-  set up "helpers" to quickly create objects with default attributes, as-needed per test
+	-  pros: tests are independent
+	-  cons: relationships may he complicated to set up
 
 ==Test stub:== test double that only supports stub methods
 
