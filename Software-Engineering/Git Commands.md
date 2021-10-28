@@ -13,6 +13,12 @@
 - `git push [upstream] [branch]`: Push branch to upstream
 
 
+## Push to Remote
+- git pull
+- git merge
+- git push 
+- Create pull request
+
 ## To see who changes which files when
 - `git blame [file]`: Annotate each line of a file to show who changed it last and when.
 - `git diff [file]`: Show differences between current working version of file and last committed  

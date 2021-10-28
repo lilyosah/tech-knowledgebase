@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Rails Models.md",
-            "mode": "preview"
+            "file": "Software-Engineering/Git Commands.md",
+            "mode": "source"
           }
         }
       }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rails Models.md",
+                "file": "Software-Engineering/Git Commands.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rails Models.md"
+                "file": "Software-Engineering/Git Commands.md"
               }
             }
           }
@@ -126,15 +126,15 @@
   },
   "active": "928e3df4bae23004",
   "lastOpenFiles": [
+    "Software-Engineering/Git Commands.md",
+    "Data-Structures-and-Algorithms/Shortest Path Algorithms.md",
+    "GitHub.md",
     "Rails Models.md",
     "Software-Engineering/SWE Table of Contents.md",
     "Rails Controllers.md",
     "Rails Views.md",
     "Ruby Rails.md",
     "Natural-Language-Processing/Masked Language Models.md",
-    "Natural-Language-Processing/NLP Table of Contents.md",
-    "Natural-Language-Processing/NLP Project.md",
-    "Software-Engineering/Ruby.md",
-    "Software-Engineering/Agile.md"
+    "Natural-Language-Processing/NLP Table of Contents.md"
   ]
 }
