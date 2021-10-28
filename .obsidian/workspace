@@ -4,37 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "a81a096fc60d8611",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Rails Controllers.md",
-            "mode": "source"
-          }
-        },
-        "group": "aea2753ab9ab4d2e"
-      },
-      {
         "id": "928e3df4bae23004",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Rails Controllers.md",
+            "file": "Rails Models.md",
             "mode": "preview"
-          }
-        },
-        "group": "aea2753ab9ab4d2e"
-      },
-      {
-        "id": "b80a7badf111f970",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Software-Engineering/SWE Table of Contents.md",
-            "mode": "source"
           }
         }
       }
@@ -119,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rails Controllers.md",
+                "file": "Rails Models.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rails Controllers.md"
+                "file": "Rails Models.md"
               }
             }
           }
@@ -148,11 +124,11 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "a81a096fc60d8611",
+  "active": "928e3df4bae23004",
   "lastOpenFiles": [
-    "Rails Controllers.md",
     "Rails Models.md",
     "Software-Engineering/SWE Table of Contents.md",
+    "Rails Controllers.md",
     "Rails Views.md",
     "Ruby Rails.md",
     "Natural-Language-Processing/Masked Language Models.md",
