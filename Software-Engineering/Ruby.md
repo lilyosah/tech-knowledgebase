@@ -548,14 +548,14 @@ end
 
 ...
 	
-Given('these Books:') dp |table|
+Given('these Books:') do |table|
 	table.hashes.each do |h|
 		Book.create!(h)
 	end
 end
 
 Then('I should not see {string}') do |string|
-	expect(page).not_to have.content("bogus")
+	expect(page).not_to have_content("bogus")
 end
 
 ```

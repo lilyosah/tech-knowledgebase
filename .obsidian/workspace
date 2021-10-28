@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Natural-Language-Processing/Embeddings.md",
+            "file": "Software-Engineering/Ruby.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Natural-Language-Processing/Embeddings.md",
+            "file": "Software-Engineering/Ruby.md",
             "mode": "preview"
           }
         },
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Natural-Language-Processing/Embeddings.md",
+                "file": "Software-Engineering/Ruby.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Natural-Language-Processing/Embeddings.md"
+                "file": "Software-Engineering/Ruby.md"
               }
             }
           }
@@ -145,11 +145,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "928e3df4bae23004",
   "lastOpenFiles": [
+    "Software-Engineering/Ruby.md",
     "Natural-Language-Processing/Embeddings.md",
     "Natural-Language-Processing/NLP Table of Contents.md",
     "Ruby Rails.md",
@@ -157,7 +157,6 @@
     "Software-Engineering/Aspect-Oriented Programming.md",
     "Rails Models.md",
     "Rails Views.md",
-    "Software-Engineering/Ruby.md",
     "Software-Engineering/Testing.md",
     "Software-Engineering/Git Commands.md"
   ]
