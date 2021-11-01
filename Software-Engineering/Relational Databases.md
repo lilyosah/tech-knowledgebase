@@ -16,5 +16,7 @@ Standard language used: [[SQL]]
 
 One standard of interacting with relational databases: [[Active Record]]
 
+## Associations and Foreign Keys
+
 
 

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software-Engineering/Ruby.md",
+            "file": "Software-Engineering/Relational Databases.md",
             "mode": "source"
           }
         },
@@ -21,22 +21,11 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software-Engineering/Ruby.md",
+            "file": "Software-Engineering/Relational Databases.md",
             "mode": "preview"
           }
         },
         "group": "dd50c69ba70f85b3"
-      },
-      {
-        "id": "abd7bf619b5e9997",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Software-Engineering/SWE Table of Contents.md",
-            "mode": "source"
-          }
-        }
       }
     ],
     "direction": "vertical"
@@ -119,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software-Engineering/Ruby.md",
+                "file": "Software-Engineering/Relational Databases.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software-Engineering/Ruby.md"
+                "file": "Software-Engineering/Relational Databases.md"
               }
             }
           }
@@ -145,19 +134,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "928e3df4bae23004",
   "lastOpenFiles": [
+    "Software-Engineering/Relational Databases.md",
+    "Ruby Rails.md",
+    "Software-Engineering/SWE Table of Contents.md",
     "Software-Engineering/Ruby.md",
     "Natural-Language-Processing/Embeddings.md",
     "Natural-Language-Processing/NLP Table of Contents.md",
-    "Ruby Rails.md",
-    "Software-Engineering/SWE Table of Contents.md",
     "Software-Engineering/Aspect-Oriented Programming.md",
     "Rails Models.md",
     "Rails Views.md",
-    "Software-Engineering/Testing.md",
-    "Software-Engineering/Git Commands.md"
+    "Software-Engineering/Testing.md"
   ]
 }

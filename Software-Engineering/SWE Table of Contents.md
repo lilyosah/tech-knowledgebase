@@ -88,4 +88,6 @@
 	- [[Ruby#Mocking and Stubbing]]
 	- [[Rails Views#Partials]]
 	- [[Aspect-Oriented Programming]]
-	- 
+- 11-2-2021
+	- Rails associations
+	- [[Ruby Rails]]
