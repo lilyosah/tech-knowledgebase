@@ -13,6 +13,17 @@
             "mode": "source"
           }
         }
+      },
+      {
+        "id": "645c53428b8f2912",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Rails Models.md",
+            "mode": "source"
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -95,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software-Engineering/Relational Databases.md",
+                "file": "Rails Models.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software-Engineering/Relational Databases.md"
+                "file": "Rails Models.md"
               }
             }
           }
@@ -124,13 +135,13 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "928e3df4bae23004",
+  "active": "645c53428b8f2912",
   "lastOpenFiles": [
-    "Software-Engineering/Relational Databases.md",
-    "Software-Engineering/SWE Table of Contents.md",
     "Rails Models.md",
     "Model-View-Controller (MVC).md",
     "Ruby Rails.md",
+    "Software-Engineering/Relational Databases.md",
+    "Software-Engineering/SWE Table of Contents.md",
     "Software-Engineering/Ruby.md",
     "Natural-Language-Processing/Embeddings.md",
     "Natural-Language-Processing/NLP Table of Contents.md",

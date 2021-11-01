@@ -57,6 +57,28 @@ Inherits from [[Active Record]] which provides abstracted CRUDI methods for rela
 - Creates a migration script along with `app/models/model.rb`
 	- Can specify column names/types to generator, and the migration generator
  
+ ### Associations
+ [[Relational Databases#Associations and Foreign Keys]]
+ Declare in model classes that are pointed to in other DBs:
+ 
+ ```Ruby
+class Review < ActiveRecord ::Base  
+	belongs_to :movie
+	belongs_to :moviegoer
+end
+
+# In Movie and Moviegoer:
+has_many :reviews
+
+```
+ 
+ Doing this will give many helper methods to traverse and use associations
+ 
+ #### Through Relations
+Connecting two indirectly related DBs. 
+
+> "When two models A and B each have a has-one or has-many relationship to a common third model C, a many-to-many association between A and B can be established through C.""
+ 
 ## Data Types
 `int`, `string`, `text`, `'decimal {digits, digits}'` (need single quotes around decimal because curly braces are special in shell), `blob` (raw binary)
 📝 Can't have array 
