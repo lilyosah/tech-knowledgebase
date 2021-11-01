@@ -174,6 +174,7 @@ To change column data, `self.title.capitalize` DO NOT CALL ON INSTANCE VARIABLES
 : used to verify that inputs are valid
 - Triggered by `valid?` instance method
 - Validation errors are returned in `ActiveModel::Errors` object returned by `errors`
+- Lots of helper methods are built in to rails, look up ActiveRecord validations to see
 
 
 ## Scopes 	#📌 
