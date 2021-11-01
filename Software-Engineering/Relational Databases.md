@@ -17,6 +17,8 @@ Standard language used: [[SQL]]
 One standard of interacting with relational databases: [[Active Record]]
 
 ## Associations and Foreign Keys
+==Foreign keys:== A column in one table whose job is to reference the primary key of another table
+
 
 
 
