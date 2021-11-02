@@ -72,9 +72,21 @@ has_many :reviews
 
 ```
  
- Doing this will give many helper methods to traverse and use associations
+ - Doing this will give many helper methods to traverse and use associations.
+ - If something `belongs_to` something, it has to specify which book it belongs to before saving
+ - In rails, foreign keys must be named after `[owning obj. singular]_id`
+	 - **Ex: ✏**  `book_id`
+
+### Adding owned objects using owner
+- `create`, `new`, `build`, `<<` method on owning object
  
- #### Through Relations
+ ### One-to-many associations
+1. Add `has_many` to owning class
+2. Ass `belongs_to` to the owned class
+3. Create a DB migration to add the foreign key to the owned table if it doesn't already exist 
+	- With `t.references :book, foreign_key: true` in migration file if you didn't specify via command line
+ 
+ ### Through Relations
 Connecting two indirectly related DBs. 
 
 > "When two models A and B each have a has-one or has-many relationship to a common third model C, a many-to-many association between A and B can be established through C.""

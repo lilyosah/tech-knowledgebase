@@ -26,4 +26,3 @@ Associations are mapped through [[SQL]] joins: does a Cartesian product between 
 
 
 
-
