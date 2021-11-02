@@ -12,7 +12,8 @@
             "file": "Software-Engineering/Relational Databases.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "9b80dc511abd33e8"
       },
       {
         "id": "645c53428b8f2912",
@@ -20,10 +21,11 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Rails Models.md",
-            "mode": "source"
+            "file": "Software-Engineering/Relational Databases.md",
+            "mode": "preview"
           }
-        }
+        },
+        "group": "9b80dc511abd33e8"
       }
     ],
     "direction": "vertical"
@@ -50,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "partial",
+                "query": "SQL",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rails Models.md",
+                "file": "Software-Engineering/Relational Databases.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rails Models.md"
+                "file": "Software-Engineering/Relational Databases.md"
               }
             }
           }
@@ -135,17 +137,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "645c53428b8f2912",
+  "active": "928e3df4bae23004",
   "lastOpenFiles": [
+    "Software-Engineering/Relational Databases.md",
+    "Software-Engineering/SQL.md",
+    "Software-Engineering/Authentication.md",
+    "Software-Engineering/Networks.md",
     "Rails Models.md",
+    "Software-Engineering/Aspect-Oriented Programming.md",
     "Model-View-Controller (MVC).md",
     "Ruby Rails.md",
-    "Software-Engineering/Relational Databases.md",
     "Software-Engineering/SWE Table of Contents.md",
-    "Software-Engineering/Ruby.md",
-    "Natural-Language-Processing/Embeddings.md",
-    "Natural-Language-Processing/NLP Table of Contents.md",
-    "Software-Engineering/Aspect-Oriented Programming.md",
-    "Rails Views.md"
+    "Software-Engineering/Ruby.md"
   ]
 }

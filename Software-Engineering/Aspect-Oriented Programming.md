@@ -11,8 +11,8 @@
 
 %%
 
-Advice: a specific piece of code that implements a cross-cutting conern
-Pointcuts: where you want to inject code at runtime
+==Advice:== a specific piece of code that implements a cross-cutting concern
+==Pointcuts:== where you want to inject code at runtime
 Advice+pointcut = aspect
 Pro: DRY out your code
 Con: can feel a bit like GOTO

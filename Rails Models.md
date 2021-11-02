@@ -194,9 +194,23 @@ To change column data, `self.title.capitalize` DO NOT CALL ON INSTANCE VARIABLES
 
 ## Model Validation
 : used to verify that inputs are valid
-- Triggered by `valid?` instance method
+- Add `validates :field, whatever_method: true` at the top of the model class
 - Validation errors are returned in `ActiveModel::Errors` object returned by `errors`
-- Lots of helper methods are built in to rails, look up ActiveRecord validations to see
+- Lots of helper methods are built in to rails, look up `ActiveRecord` validations to see
+
+> ❗ You need to do do both server side AND form validation (when you specify the type of input [[Rails Views#Forms]]) because someone could try to post garbage directly to the DB using the URL and not the form
+
+
+You can also specify that suctom code should be injected at a certain point [[Aspect-Oriented Programming]]
+
+```Ruby
+after_save :my_method
+
+
+def my_method
+	# code!
+end
+```
 
 
 ## Scopes 	#📌 

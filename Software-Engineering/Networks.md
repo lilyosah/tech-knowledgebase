@@ -40,7 +40,7 @@
 - Key value
 - Used to store info about requests
 - Used for tracking
-- Authentication (logged in or not)
+- [[Authentication]] (logged in or not)
 
 ### Requests
 Include:

@@ -89,7 +89,9 @@
     "metaprogramming",
     "params",
     "Connextra",
-    "Capybara"
+    "Capybara",
+    "decrypt",
+    "crypto"
   ],
   "newFileLocation": "current",
   "attachmentFolderPath": "./",

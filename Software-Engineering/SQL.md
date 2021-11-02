@@ -81,6 +81,7 @@ Output is one col of the values in `member_type`, other is the count of how many
 
 ## Joining
 Joining data from two tables together by some common column (in most cases)
+- Also can do cartesian product? See [[Relational Databases#Associations and Foreign Keys]]
 
 *Matching start_station from trip_data with station_id from bikeshare_stations, this value exists in both*
 ```SQL
