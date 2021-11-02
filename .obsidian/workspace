@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Rails Models.md",
+            "file": "Data-Structures-and-Algorithms/01-28-2021 Intro. to Algorithmic Runtime.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Rails Models.md",
+            "file": "Data-Structures-and-Algorithms/01-28-2021 Intro. to Algorithmic Runtime.md",
             "mode": "preview"
           }
         },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rails Models.md",
+                "file": "Data-Structures-and-Algorithms/01-28-2021 Intro. to Algorithmic Runtime.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rails Models.md"
+                "file": "Data-Structures-and-Algorithms/01-28-2021 Intro. to Algorithmic Runtime.md"
               }
             }
           }
@@ -137,8 +137,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "928e3df4bae23004",
+  "active": "645c53428b8f2912",
   "lastOpenFiles": [
+    "Data-Structures-and-Algorithms/01-28-2021 Intro. to Algorithmic Runtime.md",
+    "Data-Structures-and-Algorithms/Algo MOC.md",
     "Rails Models.md",
     "Software-Engineering/Relational Databases.md",
     "Software-Engineering/SQL.md",
@@ -146,8 +148,6 @@
     "Software-Engineering/Networks.md",
     "Software-Engineering/Aspect-Oriented Programming.md",
     "Model-View-Controller (MVC).md",
-    "Ruby Rails.md",
-    "Software-Engineering/SWE Table of Contents.md",
-    "Software-Engineering/Ruby.md"
+    "Ruby Rails.md"
   ]
 }
