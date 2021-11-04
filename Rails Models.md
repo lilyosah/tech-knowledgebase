@@ -161,7 +161,8 @@ Can define `has_many` and `has_one` scopes
 
 ```Ruby
 class Book < ActiveRecord::Base
-	has_many :best_reviews ... #📌 
+	has_many :best_reviews -> {where('stars = 5')}
+	has_many :best_reviews -> {Book.joins(:authos).where('authors.dod is NULL')}
 		...
 		
 		
