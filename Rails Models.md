@@ -49,10 +49,11 @@ Inherits from [[Active Record]] which provides abstracted CRUDI methods for rela
 | ----- | ---------- | ------ | ----- | ------------------- |
 | Upper | 🐍         | Plural | lower | `rental_properties` |
 
-### Creation Option 1
+### Creation
+####  Option 1
 ![[Rails Migration#Process]]
 
-### Creation Option 2 (Preferred)
+#### Option 2 (Preferred)
 - `$ rails generate model`
 - Creates a migration script along with `app/models/model.rb`
 	- Can specify column names/types to generator, and the migration generator
@@ -74,7 +75,7 @@ has_many :reviews
  
  - Doing this will give many helper methods to traverse and use associations.
  - If something `belongs_to` something, it has to specify which book it belongs to before saving
- - In rails, foreign keys must be named after `[owning obj. singular]_id`
+ - Foreign keys must be named after `[owning obj. singular]_id`
 	 - **Ex: ✏**  `book_id`
 
 #### Association methods
@@ -92,7 +93,11 @@ b.reviews.maximum(:stars)
 
 #### Adding owned objects using owner
 - `create`, `new`, `build`, `<<` method on owning object
- 
+
+#### One-to-one associations
+Owning: `has_one`
+Owned: `belongs_to`
+
  #### One-to-many associations
  📝 If you don't include both `has` and `belongs` in the correct place, you could still go from one with the correct relation to the other, but not the other way
  
@@ -113,11 +118,55 @@ graph LR
  
 ```
  
+ ##### Has-and-belongs-to-many (HABTM)
+ A different way to implement many-to-many, largely superceded by `has_many: through` but if the middle table doesn't have any meaningful attributes you may want to use this
+ - Uses a join table
+
+Join tables:
+- Lower, plural of each model in alpha order
+
+**Ex: ✏**  
+Genre: `has_and_belongs_to_many: books`
+Book: `has_and_belongs_to_many: genres`
+Join table of `Genre` + `books` = `books_genres`
+**Doesn't need it's own model**
+
+##### Add to routes
+Will add nested CRUDI under books route.
+**Ex: ✏**   `/books/:book_id/reviews/post`
+```Ruby
+resources :books do
+	resources :reviews
+end
+
+```
  
  #### Through Relations
-Connecting two indirectly related DBs. 
+Connecting two indirectly related DBs. Say that it has many of the third table and specify which column it should go through 
 
 > "When two models A and B each have a has-one or has-many relationship to a common third model C, a many-to-many association between A and B can be established through C.""
+
+**Ex: ✏**  
+
+```Ruby
+class Review < ApplicationRecord 
+	has_many :reviews
+	has_many :books, through: :reviews
+	belongs_to :user
+end
+```
+
+#### Scopes
+Can define `has_many` and `has_one` scopes
+
+```Ruby
+class Book < ActiveRecord::Base
+	has_many :best_reviews ... #📌 
+		...
+		
+		
+end
+```
  
 ## Data Types
 `int`, `string`, `text`, `'decimal {digits, digits}'` (need single quotes around decimal because curly braces are special in shell), `blob` (raw binary)
