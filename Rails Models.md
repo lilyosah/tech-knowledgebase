@@ -77,16 +77,44 @@ has_many :reviews
  - In rails, foreign keys must be named after `[owning obj. singular]_id`
 	 - **Ex: ✏**  `book_id`
 
-### Adding owned objects using owner
+#### Association methods
+- `find`:  find object by ID
+- `select`: select specific attribute from owned objects
+- `minumum`, `maximum`, `average`, `sum`: same methods avail on `ActiveRecord` objects
+
+**Ex: ✏**  
+```Ruby
+b = Book.find(1)
+b.reviews.find(1)
+b.reviews.select(:stars)
+b.reviews.maximum(:stars)
+```
+
+#### Adding owned objects using owner
 - `create`, `new`, `build`, `<<` method on owning object
  
- ### One-to-many associations
+ #### One-to-many associations
+ 📝 If you don't include both `has` and `belongs` in the correct place, you could still go from one with the correct relation to the other, but not the other way
+ 
 1. Add `has_many` to owning class
 2. Ass `belongs_to` to the owned class
 3. Create a DB migration to add the foreign key to the owned table if it doesn't already exist 
 	- With `t.references :book, foreign_key: true` in migration file if you didn't specify via command line
  
- ### Through Relations
+ #### Many-to-many
+ **Ex: ✏**  
+ 
+ ```mermaid
+graph LR
+ Author <-- M - M --> Book
+ Book <-- 1 - M --> R[Review: review_author_id, book_id]
+ RA[Review Author: user_id] <-- 1 - M --> R
+ User <-- 1 - 1 --> RA
+ 
+```
+ 
+ 
+ #### Through Relations
 Connecting two indirectly related DBs. 
 
 > "When two models A and B each have a has-one or has-many relationship to a common third model C, a many-to-many association between A and B can be established through C.""

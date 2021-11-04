@@ -43,7 +43,7 @@ $T(n) = [$num of sub-problems$] * T([$size of sub-problems$]) + [$time to divide
 ---
 
 #### Strategy 1: Solving the Recurrence Relation 
-==**Solving a recurrence relation**==: Finding a closed-form expression that doesn't involve recursive calls to that function
+==Solving a recurrence relation==: Finding a closed-form expression that doesn't involve recursive calls to that function
 
 **Steps:**
 1. Find a generalized pattern of the recurrence rel. in terms of its depth/level, $k$

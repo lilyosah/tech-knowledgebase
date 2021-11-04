@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "928e3df4bae23004",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Data-Structures-and-Algorithms/01-28-2021 Intro. to Algorithmic Runtime.md",
-            "mode": "source"
-          }
-        },
-        "group": "9b80dc511abd33e8"
-      },
-      {
         "id": "645c53428b8f2912",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Data-Structures-and-Algorithms/01-28-2021 Intro. to Algorithmic Runtime.md",
+            "file": "Rails Models.md",
+            "mode": "source"
+          }
+        },
+        "group": "e5ca2267ffe3ec38"
+      },
+      {
+        "id": "968c64e9bb8978fd",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Rails Models.md",
             "mode": "preview"
           }
         },
-        "group": "9b80dc511abd33e8"
+        "group": "e5ca2267ffe3ec38"
       }
     ],
     "direction": "vertical"
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "SQL",
+                "query": "recursion",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data-Structures-and-Algorithms/01-28-2021 Intro. to Algorithmic Runtime.md",
+                "file": "Rails Models.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data-Structures-and-Algorithms/01-28-2021 Intro. to Algorithmic Runtime.md"
+                "file": "Rails Models.md"
               }
             }
           }
@@ -139,15 +139,15 @@
   },
   "active": "645c53428b8f2912",
   "lastOpenFiles": [
-    "Data-Structures-and-Algorithms/01-28-2021 Intro. to Algorithmic Runtime.md",
-    "Data-Structures-and-Algorithms/Algo MOC.md",
     "Rails Models.md",
+    "Software-Engineering/SWE Table of Contents.md",
     "Software-Engineering/Relational Databases.md",
-    "Software-Engineering/SQL.md",
-    "Software-Engineering/Authentication.md",
-    "Software-Engineering/Networks.md",
-    "Software-Engineering/Aspect-Oriented Programming.md",
-    "Model-View-Controller (MVC).md",
-    "Ruby Rails.md"
+    "Data-Structures-and-Algorithms/02-11-2021 Divide and Conquer.md",
+    "Data-Structures-and-Algorithms/Sorting Algorithms.md",
+    "Data-Structures-and-Algorithms/Algo MOC.md",
+    "Data-Structures-and-Algorithms/03-04-2021 String Sorting.md",
+    "Data-Structures-and-Algorithms/Project 2 - Algorithmic complexity Union-Find.md",
+    "Data-Structures-and-Algorithms/01-28-2021 Intro. to Algorithmic Runtime.md",
+    "Software-Engineering/SQL.md"
   ]
 }
