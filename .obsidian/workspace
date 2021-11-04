@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Rails Models.md",
+            "file": "Natural-Language-Processing/NLP Project.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Rails Models.md",
+            "file": "Natural-Language-Processing/NLP Project.md",
             "mode": "preview"
           }
         },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rails Models.md",
+                "file": "Natural-Language-Processing/NLP Project.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rails Models.md"
+                "file": "Natural-Language-Processing/NLP Project.md"
               }
             }
           }
@@ -139,6 +139,7 @@
   },
   "active": "645c53428b8f2912",
   "lastOpenFiles": [
+    "Natural-Language-Processing/NLP Project.md",
     "Rails Models.md",
     "Software-Engineering/SWE Table of Contents.md",
     "Software-Engineering/Relational Databases.md",
@@ -147,7 +148,6 @@
     "Data-Structures-and-Algorithms/Algo MOC.md",
     "Data-Structures-and-Algorithms/03-04-2021 String Sorting.md",
     "Data-Structures-and-Algorithms/Project 2 - Algorithmic complexity Union-Find.md",
-    "Data-Structures-and-Algorithms/01-28-2021 Intro. to Algorithmic Runtime.md",
-    "Software-Engineering/SQL.md"
+    "Data-Structures-and-Algorithms/01-28-2021 Intro. to Algorithmic Runtime.md"
   ]
 }

@@ -24,6 +24,17 @@ Semeval is a competition, we could submit a thing for our project if we want to
 	- Detect sarcasm
 	- Image processing one
 
+Datetime parsing:
+- If we're not training something then we don't need a huge data set
+- Spacey entity recognition
+	- Wouldn't be able to translate this into Ruby 
+	- Could use this to recognize group too 
+		- Do computer science reading on Friday
+			- -> Computer science
+			- -> Friday
+			- -> reading 
+
+
 
 ### Data Structures:
 - 
