@@ -170,13 +170,13 @@ end
 ```
  
 ## Data Types
-`int`, `string`, `text`, `'decimal {digits, digits}'` (need single quotes around decimal because curly braces are special in shell), `blob` (raw binary)
+`integer`, `string`, `text`, `'decimal {digits, digits}', references` (need single quotes around decimal because curly braces are special in shell), `blob` (raw binary)
 📝 Can't have array 
  
 **Ex: ✏ Model for a product and user**  
 Model for a product:
-- `int` ID
-- `int` Quantity
+- `integer` ID
+- `integer` Quantity
 - `string` Image URL
 - `string` Name
 - `decimal` Price
@@ -184,6 +184,7 @@ Model for a product:
 - `string` Manufacturer, maybe in another model
 - `string` Category/tags - probably in another model
 - Reviews - probably in another model
+- `reference`
 
 
 Model for a user:
