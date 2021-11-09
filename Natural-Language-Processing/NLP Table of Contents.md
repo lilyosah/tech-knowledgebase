@@ -6,7 +6,7 @@
 ## Projects
 - [[HW2 Sentenciser]]
 - [[HW3 N-Grams]]
-- [[HW5 Information Retrieval]]
+- [[HW5, HW6]]
 
 
 ## Units

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Natural-Language-Processing/HW5 Information Retrieval.md",
+            "file": "Natural-Language-Processing/HW5, HW6.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Natural-Language-Processing/HW5 Information Retrieval.md",
+            "file": "Natural-Language-Processing/HW5, HW6.md",
             "mode": "preview"
           }
         },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Natural-Language-Processing/HW5 Information Retrieval.md",
+                "file": "Natural-Language-Processing/HW5, HW6.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Natural-Language-Processing/HW5 Information Retrieval.md"
+                "file": "Natural-Language-Processing/HW5, HW6.md"
               }
             }
           }
@@ -137,9 +137,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "645c53428b8f2912",
+  "active": "968c64e9bb8978fd",
   "lastOpenFiles": [
-    "Natural-Language-Processing/HW5 Information Retrieval.md",
+    "Natural-Language-Processing/HW5, HW6.md",
     "Natural-Language-Processing/NLP Table of Contents.md",
     "Natural-Language-Processing/NLP Project.md",
     "Software-Engineering/Javascript.md",
