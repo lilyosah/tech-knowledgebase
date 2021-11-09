@@ -16,4 +16,5 @@
 - [[CSS]]
 - [[HTML]]
 	- [[React]]
+- [[Javascript]]
 - [[Python]]

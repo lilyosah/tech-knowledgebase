@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software-Engineering/Ruby.md",
+            "file": "Software-Engineering/Javascript.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software-Engineering/Ruby.md",
+            "file": "Software-Engineering/Javascript.md",
             "mode": "preview"
           }
         },
@@ -91,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "88584f44ddabdce4",
@@ -107,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software-Engineering/Ruby.md",
+                "file": "Software-Engineering/Javascript.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software-Engineering/Ruby.md"
+                "file": "Software-Engineering/Javascript.md"
               }
             }
           }
@@ -138,15 +139,15 @@
   },
   "active": "645c53428b8f2912",
   "lastOpenFiles": [
+    "Software-Engineering/Javascript.md",
+    "Coding Languages and Frameworks.md",
+    "Software-Engineering/SWE Table of Contents.md",
     "Software-Engineering/Ruby.md",
     "Rails Models.md",
     "Natural-Language-Processing/NLP Project.md",
-    "Software-Engineering/SWE Table of Contents.md",
     "Software-Engineering/Relational Databases.md",
     "Data-Structures-and-Algorithms/02-11-2021 Divide and Conquer.md",
     "Data-Structures-and-Algorithms/Sorting Algorithms.md",
-    "Data-Structures-and-Algorithms/Algo MOC.md",
-    "Data-Structures-and-Algorithms/03-04-2021 String Sorting.md",
-    "Data-Structures-and-Algorithms/Project 2 - Algorithmic complexity Union-Find.md"
+    "Data-Structures-and-Algorithms/Algo MOC.md"
   ]
 }

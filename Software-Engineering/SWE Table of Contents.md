@@ -94,3 +94,4 @@
 - 11-4-2021
 	- [[Relational Databases#Associations and Foreign Keys]]
 	- [[Rails Models#Associations]]
+	- [[Javascript]]
