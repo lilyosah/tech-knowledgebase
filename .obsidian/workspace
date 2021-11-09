@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Rails Models.md",
+            "file": "Software-Engineering/Ruby.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Rails Models.md",
+            "file": "Software-Engineering/Ruby.md",
             "mode": "preview"
           }
         },
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "recursion",
+                "query": "capybara",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -91,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "88584f44ddabdce4",
@@ -108,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rails Models.md",
+                "file": "Software-Engineering/Ruby.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rails Models.md"
+                "file": "Software-Engineering/Ruby.md"
               }
             }
           }
@@ -139,6 +138,7 @@
   },
   "active": "645c53428b8f2912",
   "lastOpenFiles": [
+    "Software-Engineering/Ruby.md",
     "Rails Models.md",
     "Natural-Language-Processing/NLP Project.md",
     "Software-Engineering/SWE Table of Contents.md",
@@ -147,7 +147,6 @@
     "Data-Structures-and-Algorithms/Sorting Algorithms.md",
     "Data-Structures-and-Algorithms/Algo MOC.md",
     "Data-Structures-and-Algorithms/03-04-2021 String Sorting.md",
-    "Data-Structures-and-Algorithms/Project 2 - Algorithmic complexity Union-Find.md",
-    "Data-Structures-and-Algorithms/01-28-2021 Intro. to Algorithmic Runtime.md"
+    "Data-Structures-and-Algorithms/Project 2 - Algorithmic complexity Union-Find.md"
   ]
 }
