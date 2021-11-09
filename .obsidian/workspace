@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software-Engineering/Javascript.md",
+            "file": "Natural-Language-Processing/HW5 Information Retrieval.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software-Engineering/Javascript.md",
+            "file": "Natural-Language-Processing/HW5 Information Retrieval.md",
             "mode": "preview"
           }
         },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software-Engineering/Javascript.md",
+                "file": "Natural-Language-Processing/HW5 Information Retrieval.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software-Engineering/Javascript.md"
+                "file": "Natural-Language-Processing/HW5 Information Retrieval.md"
               }
             }
           }
@@ -139,15 +139,15 @@
   },
   "active": "645c53428b8f2912",
   "lastOpenFiles": [
+    "Natural-Language-Processing/HW5 Information Retrieval.md",
+    "Natural-Language-Processing/NLP Table of Contents.md",
+    "Natural-Language-Processing/NLP Project.md",
     "Software-Engineering/Javascript.md",
     "Coding Languages and Frameworks.md",
     "Software-Engineering/SWE Table of Contents.md",
     "Software-Engineering/Ruby.md",
     "Rails Models.md",
-    "Natural-Language-Processing/NLP Project.md",
     "Software-Engineering/Relational Databases.md",
-    "Data-Structures-and-Algorithms/02-11-2021 Divide and Conquer.md",
-    "Data-Structures-and-Algorithms/Sorting Algorithms.md",
-    "Data-Structures-and-Algorithms/Algo MOC.md"
+    "Data-Structures-and-Algorithms/02-11-2021 Divide and Conquer.md"
   ]
 }
