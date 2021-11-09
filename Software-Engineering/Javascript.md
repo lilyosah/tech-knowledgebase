@@ -81,3 +81,16 @@ Can access using brackets or `.`
 
 #### Idiomatic type conversion
 `"13"` to string: `+"13"`
+
+#### Functions
+- First class objects and closures, you can pass references to functions
+
+Two ways to create: function statements or function expressions
+
+```JS
+// Declared
+function sum(a, b) {}
+
+// Function expressions, can be passed
+var sum = function(a, b) {}
+```
