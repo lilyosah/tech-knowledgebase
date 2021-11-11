@@ -120,8 +120,14 @@ Instead of using `puts`, use `logger`
 ## [[Javascript]] in Rails
 Can link, button, form helper can take optional parameter `remote: true` to make it an [[AJAX]] request instead of HTTP 
 
-If controller method responds to the format that is requested, to send back js it defaults to sending the name of that controller method 
+If controller method responds to the format that is requested, to send back JS it defaults to sending `app/views/[model]/[controller name].js.erb`
 
+
+```Ruby
+def create
+	@book = Book.create
+end
+```
 
 
 
