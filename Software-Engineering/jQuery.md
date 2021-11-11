@@ -9,6 +9,7 @@
 -  [[Javascript]]
 -  [[HTML]]
 -  [[CSS]]
+-  [[AJAX]]
 
 %%
 
@@ -28,10 +29,13 @@ May be called 4 ways:
 ## Manipulating selected elements
 Can change styling, hide/show things, etc.
 `e.show()`, `e.fadeOut('slow')`, `e.css('background: green')`
+`e.text`, `e:ischecked`?
 
 ### Event handlers
 - Links and buttons that are clickable without JS run handler first, if handler returns false, no other action is taken. Otherwise, other actions follow handler
+- If you CAN do something with [[CSS]], you should
 
+**Ex: ✏**  Click handler
 ```JS
 jQuery('#myButton').on("click", function () {
 	console.log("I love to be clicked.");

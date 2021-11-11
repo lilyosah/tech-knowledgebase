@@ -117,6 +117,10 @@ Instead of using `puts`, use `logger`
 ### In Views
 `<%= debug(@book) =%>`
 
+## [[Javascript]] in Rails
+Can link, button, form helper can take optional parameter `remote: true` to make it an [[AJAX]] request instead of HTTP 
+
+
 ## Testing
 [[Ruby#Testing]]
 
