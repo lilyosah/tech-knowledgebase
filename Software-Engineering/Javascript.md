@@ -47,6 +47,10 @@ Can use `new RegExp("whatever")` or `/whatever/`
 **Ex: ✏**  
 ```Js
 "13346-9999".match(/^\d{5}-\d{4}/);
+// or
+let regex = new RegExp("^\\d{5}-\\d{4}")
+"13346-9999".match(regex)
+
 ```
 
 ### Arrays
@@ -64,11 +68,28 @@ arr1.push(new Date());
 ```
 
 ### Objects (Hashes)
+There are no classes - only objects. Every object has a prototype that it inherits from. 
+
 ```JS
 let student = {name: 'JS', classes: [class1, class2]}
 ```
 
 Can access using brackets or `.`
+
+**Ex: ✏**  Count words
+```JS
+function CountWords(str) {
+	let hash = {};
+	let words = str.toLowerCase().split(/\S+/);
+	for (let i = 0; i < words.length; i++) {
+		if (hash[words[i]] === undefined) {
+			hash[words[i]] = 0;
+		}
+		hash[words[i]]++;
+	}
+	return hash;
+}
+```
 
 ### Other weird shit
 #### Two types of equality
