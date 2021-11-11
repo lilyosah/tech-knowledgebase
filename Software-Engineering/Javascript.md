@@ -7,6 +7,7 @@
 
 **Related:**
 -  [[Coding Languages and Frameworks]]
+-  [[jQuery]]
 
 %%
 
@@ -14,9 +15,7 @@
 - JSAPI gives it power to script browsers 
 - Single-threaded, all interactions with browser must be non-blocking
 
-==Document Object Model (DOM):== Hierarchical, language-independent representation of [[HTML]]
-- Browser parses HTML/XML -> Creates DOM
-- Some incompatibility between browsers, but [[jQuery]] can help mask the differences
+![[Document Object Model (DOM)]]
 
 Separation of concerns: Do not embed JS directly in HTML, link to another script 
 `<noscript>` tags happen when the browser does not support JS
@@ -68,7 +67,7 @@ arr1.push(new Date());
 ```
 
 ### Objects (Hashes)
-There are no classes - only objects. Every object has a prototype that it inherits from. 
+There are no classes - only objects. Every object has a prototype that it inherits from. When some lookup fails in that objects, consults the parent prototype, so it inherits functions and values. 
 
 ```JS
 let student = {name: 'JS', classes: [class1, class2]}
@@ -90,6 +89,59 @@ function CountWords(str) {
 	return hash;
 }
 ```
+
+#### Prototype inheritance
+❗ **Must use `this` keyword to make new object.** If you don't, `this` refers to the global object. To avoid this, include `"use strict";` at the top 
+
+**Ex: ✏**  Square "class"
+```JS
+"use strict";
+// "class" square is capitalized by conventoin
+function Square(side_length) {
+	this.side = side_length;
+	this.area = function() {
+		return this.side_length * this.side_length
+	};
+}
+
+// "instance"
+var someSquare = new Square
+
+// --- OR, better ---
+
+function Square(side_length) {
+	this.side = side_length
+}
+
+Square.prototype.area = function() {
+	return this.side_length * this.side_length}
+}
+
+
+```
+
+**Ex: ✏**  Dessert
+```JS
+"use strict";
+
+function Dessert(name, calories) {
+	this.name = name;
+	this.calories = calories;
+}
+
+Dessert.prototype.isDelicious() {
+	return !/licorice/i.test(this.name);
+}
+
+Dessert.prototype.isHealthy() {
+	return this.calories < 200;
+}
+
+
+var d = new Dessert("pudding", 600);
+d.isHealthy // => False
+```
+
 
 ### Other weird shit
 #### Two types of equality
@@ -114,4 +166,33 @@ function sum(a, b) {}
 
 // Function expressions, can be passed
 var sum = function(a, b) {}
+```
+
+## Module pattern
+Define functions that execute in-place
+Used to avoid adding more than you need to to the global namespace, only the module gets added and not all of its vars
+- Creates variable scope
+- Executed in-place
+
+```JS
+var mymodule(function() {
+	var count; // this variable is "private"
+	
+	return {
+		init: function() {
+			count = 0;
+		},
+		click: function() {
+			count++;
+		},
+		getCount: function() {
+			return count
+		}
+	}
+	
+}());
+
+mymodule.init();
+for (var i = 0; i < 3; i++) { mymodule.click(); }
+
 ```
