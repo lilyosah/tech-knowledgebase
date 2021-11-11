@@ -50,6 +50,9 @@ end
 
 ```
 
+**Ex: ✏**  In controller
+Can do `books_path`, `book_path(book_obj)`
+
 ### URI Helpers
 Prefixes are given for each route. You can use the prefix instead of the whole path and add `_path` after
 See using `$ rails routes -c [ControllerName]`

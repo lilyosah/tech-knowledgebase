@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Ruby Rails.md",
+            "file": "Rails Routing.md",
             "mode": "source"
           }
         },
@@ -21,8 +21,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Ruby Rails.md",
-            "mode": "preview"
+            "file": "Rails Routing.md",
+            "mode": "source"
           }
         },
         "group": "e5ca2267ffe3ec38"
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ruby Rails.md",
+                "file": "Rails Routing.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ruby Rails.md"
+                "file": "Rails Routing.md"
               }
             }
           }
@@ -134,20 +134,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "645c53428b8f2912",
+  "active": "968c64e9bb8978fd",
   "lastOpenFiles": [
+    "Rails Routing.md",
+    "Rails Models.md",
+    "Rails Controllers.md",
     "Ruby Rails.md",
     "Natural-Language-Processing/NLP Table of Contents.md",
     "Natural-Language-Processing/NLP Project.md",
     "Software-Engineering/Javascript.md",
     "Software-Engineering/jQuery.md",
     "Software-Engineering/AJAX.md",
-    "Software-Engineering/Document Object Model (DOM).md",
-    "Natural-Language-Processing/HW5, HW6.md",
-    "Natural-Language-Processing/Language Models.md",
-    "Coding Languages and Frameworks.md"
+    "Software-Engineering/Document Object Model (DOM).md"
   ]
 }
