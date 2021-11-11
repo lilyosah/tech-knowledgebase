@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Ruby Rails.md",
+            "file": "Natural-Language-Processing/NLP Table of Contents.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Ruby Rails.md",
+            "file": "Natural-Language-Processing/NLP Table of Contents.md",
             "mode": "preview"
           }
         },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ruby Rails.md",
+                "file": "Natural-Language-Processing/NLP Table of Contents.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ruby Rails.md"
+                "file": "Natural-Language-Processing/NLP Table of Contents.md"
               }
             }
           }
@@ -139,6 +139,8 @@
   },
   "active": "645c53428b8f2912",
   "lastOpenFiles": [
+    "Natural-Language-Processing/NLP Table of Contents.md",
+    "Natural-Language-Processing/NLP Project.md",
     "Ruby Rails.md",
     "Software-Engineering/Javascript.md",
     "Software-Engineering/jQuery.md",
@@ -146,8 +148,6 @@
     "Software-Engineering/Document Object Model (DOM).md",
     "Natural-Language-Processing/HW5, HW6.md",
     "Natural-Language-Processing/Language Models.md",
-    "Natural-Language-Processing/NLP Table of Contents.md",
-    "Natural-Language-Processing/NLP Project.md",
     "Coding Languages and Frameworks.md"
   ]
 }
