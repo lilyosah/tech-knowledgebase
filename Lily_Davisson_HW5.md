@@ -5,20 +5,22 @@ from sklearn.metrics import pairwise_distances
 from EvoMSA.utils import load_model, download
 
 def process_json_file(name):
+	lines = []
 	with open(name) as q:
- 	lines = q.readlines()
- 	return lines
+		for line in q.readlines():
+			lines.append(json.loads(line))
+	return lines
 
 def get_closest(queries, dataset, tm):
 	data = tm.transform(dataset)
+	queries = tm.transform(queries)
+	dis = pairwise_distances(data, queries, metric='cosine')
+	
  	results = []
- 	for query in queries:
-		q_parsed = json.loads(query)
-		q_text = q_parsed['text']
-		q_transformed = tm.transform(q_text)
-		dis = pairwise_distances(data, q_transformed, metric='cosine')
 
- 		results.append(str({"query": q_parsed['query'], "knn": dis[:, 0].argsort()[:5].tolist()}))
+	for i in range(queries.shape[0]):
+		ranked = dis[:, i].argsort()[:5]
+		results.append(str({"query": i, "knn": [d for d in ranked]}).replace("'", '"'))
 
 	return results
 
@@ -34,7 +36,6 @@ emo = get_closest(queries, dataset, emo_tm)
 
 with open('tfidf.json', "w") as f:
 	f.write("\n".join(tf))
-
 with open('emoji.json', "w") as f:
 	f.write("\n".join(emo))
 ```
