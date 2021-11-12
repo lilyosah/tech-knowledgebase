@@ -33,7 +33,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Lily_Davisson_HW5.md",
+            "file": "Software-Engineering/SQL.md",
             "mode": "preview"
           }
         }
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lily_Davisson_HW5.md",
+                "file": "Software-Engineering/SQL.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lily_Davisson_HW5.md"
+                "file": "Software-Engineering/SQL.md"
               }
             }
           }
@@ -149,6 +149,8 @@
   },
   "active": "4f4424af92006eee",
   "lastOpenFiles": [
+    "Software-Engineering/SQL.md",
+    "Software-Engineering/Relational Databases.md",
     "Lily_Davisson_HW5.md",
     "Rails Routing.md",
     "Rails Models.md",
@@ -156,8 +158,6 @@
     "Ruby Rails.md",
     "Natural-Language-Processing/NLP Table of Contents.md",
     "Natural-Language-Processing/NLP Project.md",
-    "Software-Engineering/Javascript.md",
-    "Software-Engineering/jQuery.md",
-    "Software-Engineering/AJAX.md"
+    "Software-Engineering/Javascript.md"
   ]
 }
