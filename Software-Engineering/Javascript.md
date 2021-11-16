@@ -171,7 +171,7 @@ var sum = function(a, b) {}
 ## Module pattern
 Define functions that execute in-place
 Used to avoid adding more than you need to to the global namespace, only the module gets added and not all of its vars
-- Creates variable scope
+- Creates variable scope, these variables and their values are maintained as long as the obj exists. 
 - Executed in-place
 
 ```JS
