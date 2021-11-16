@@ -196,3 +196,6 @@ mymodule.init();
 for (var i = 0; i < 3; i++) { mymodule.click(); }
 
 ```
+
+## Testing
+Jasmine!

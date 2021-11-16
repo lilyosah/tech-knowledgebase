@@ -120,7 +120,8 @@ graph LR
  
  ##### Has-and-belongs-to-many (HABTM)
  A different way to implement many-to-many, largely superceded by `has_many: through` but if the middle table doesn't have any meaningful attributes you may want to use this
- - Uses a join table
+ - Uses a join table, doesn't say anything about the data other than that they are related
+ 
 
 Join tables:
 - Lower, plural of each model in alpha order

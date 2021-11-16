@@ -156,3 +156,6 @@ end
 
 ```
 
+## Web sockets and ActionCable
+Allows [[Javascript]] to create a socket to have a long-lived communication channel with any server. Rails supports web sockets through the `ActionCable` gem
+- Good for things like games, chat, etc. 

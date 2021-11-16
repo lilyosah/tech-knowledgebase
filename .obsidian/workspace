@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software-Engineering/Javascript.md",
+            "file": "Rails Models.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software-Engineering/Javascript.md",
+            "file": "Rails Models.md",
             "mode": "preview"
           }
         },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software-Engineering/Javascript.md",
+                "file": "Rails Models.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software-Engineering/Javascript.md"
+                "file": "Rails Models.md"
               }
             }
           }
@@ -137,17 +137,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "4f4424af92006eee",
+  "active": "a26ab4beb6891d12",
   "lastOpenFiles": [
+    "Rails Models.md",
+    "Software-Engineering/Ruby.md",
+    "Ruby Rails.md",
     "Software-Engineering/Javascript.md",
     "Software-Engineering/Document Object Model (DOM).md",
     "Rails Routing.md",
     "Software-Engineering/SWE Table of Contents.md",
     "Software-Engineering/SWE Final Project.md",
     "Software-Engineering/SQL.md",
-    "Software-Engineering/Relational Databases.md",
-    "Lily_Davisson_HW5.md",
-    "Rails Models.md",
-    "Rails Controllers.md"
+    "Software-Engineering/Relational Databases.md"
   ]
 }

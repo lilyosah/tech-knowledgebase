@@ -462,6 +462,13 @@ How to meet [[Testing#Testing practices|FIRST]] principles
 b = mock('book')
 b.stub(:save).and_return(true)
 expect(b).to recieve(:new).and_return(true)
+
+# Ex 2
+# Arrange
+allow(Temperate).to receive(:get).and_return(30)
+# act/assert
+get :index
+expect(response.to render('index.html'))
 ```
 
 ==Mock object:== Provides stubs as well as expectations on how those stub methods are called.
