@@ -102,11 +102,14 @@ Owned: `belongs_to`
  📝 If you don't include both `has` and `belongs` in the correct place, you could still go from one with the correct relation to the other, but not the other way
  
 1. Add `has_many` to owning class
-2. Ass `belongs_to` to the owned class
+2. Add `belongs_to` to the owned class
+ 	- Creates a foreign key in the belongs_to DB
 3. Create a DB migration to add the foreign key to the owned table if it doesn't already exist 
 	- With `t.references :book, foreign_key: true` in migration file if you didn't specify via command line
  
  #### Many-to-many
+ Has two flavors: Through relations and join tables.
+ 
  **Ex: ✏**  
  
  ```mermaid
@@ -118,21 +121,34 @@ graph LR
  
 ```
  
- ##### Has-and-belongs-to-many (HABTM)
+ ##### Has-and-belongs-to-many (HABTM) (Join tables)
  A different way to implement many-to-many, largely superceded by `has_many: through` but if the middle table doesn't have any meaningful attributes you may want to use this
- - Uses a join table, doesn't say anything about the data other than that they are related
+ - Uses a join table
  
-
-Join tables:
-- Lower, plural of each model in alpha order
+###### Join tables
+- A third table that only stored foreign keys of the two other tables, doesn't say anything about the data other than that they are related
+- Contains two foreign keys which map to IDs in the two tables it joins
+- **Naming:** lower, plural of each model in alpha order
 
 **Ex: ✏**  
 Genre: `has_and_belongs_to_many: books`
 Book: `has_and_belongs_to_many: genres`
-Join table of `Genre` + `books` = `books_genres`
-**Doesn't need it's own model**
+Join table of `Genre` + `books` = `books_genres` join tbale which has keys `book_id`, `genre_id`
 
-##### Add to routes
+**Ex: ✏**  
+For pizza and toppings, 
+`pizzas_toppings` join table with `pizza_id` and `topping_id`
+
+Table may look like 
+
+| P_id | t_id |
+| ---- | ---- |
+| 1    | 1    |
+| 1    | 2    |
+
+To specify that one pizza has two toppings
+
+###### Add to routes
 Will add nested CRUDI under books route.
 **Ex: ✏**   `/books/:book_id/reviews/post`
 ```Ruby
@@ -142,10 +158,10 @@ end
 
 ```
  
- #### Through Relations
-Connecting two indirectly related DBs. Say that it has many of the third table and specify which column it should go through 
+ ##### Through Relations
+Connecting two indirectly related DBs. Say that it has many of the third table and specify which column it should go through. Probably has something else meaningful in this table to say about connecting the data. Otherwise, you can use a join table.
 
-> "When two models A and B each have a has-one or has-many relationship to a common third model C, a many-to-many association between A and B can be established through C.""
+> "When two models A and B each have a has-one or has-many relationship to a common third model C, a many-to-many association between A and B can be established through C."
 
 **Ex: ✏**  
 
