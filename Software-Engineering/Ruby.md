@@ -577,8 +577,7 @@ Pretends to be a user by interacting with a simulated web browser to use the pro
 
 **Ex: ✏** 
 
-```
-
+```Ruby
 visit(books)
 sign_in
 click_link('Create new book')
