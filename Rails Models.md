@@ -1,4 +1,4 @@
-# Rails Models
+``# Rails Models
 %%
 #SWE
 #coding 
@@ -104,7 +104,20 @@ Owned: `belongs_to`
 1. Add `has_many` to owning class
 2. Add `belongs_to` to the owned class
  	- Creates a foreign key in the belongs_to DB
-3. Create a DB migration to add the foreign key to the owned table if it doesn't already exist 
+```Ruby 
+class Book < ApplicationRecord  
+	has_many :reviews  
+	# this is the "owning" class  
+end  
+
+class Review < ApplicationRecord  
+	belongs_to :book  
+	# this is the "owned" class  
+	# the foreign key goes here  
+end
+
+```
+1. Create a DB migration to add the foreign key to the owned table if it doesn't already exist 
 	- With `t.references :book, foreign_key: true` in migration file if you didn't specify via command line
  
  #### Many-to-many
@@ -126,14 +139,14 @@ graph LR
  - Uses a join table
  
 ###### Join tables
-- A third table that only stored foreign keys of the two other tables, doesn't say anything about the data other than that they are related
+- A third table that only stores foreign keys of the two other tables, doesn't say anything about the data other than that they are related
 - Contains two foreign keys which map to IDs in the two tables it joins
 - **Naming:** lower, plural of each model in alpha order
 
 **Ex: ✏**  
 Genre: `has_and_belongs_to_many: books`
 Book: `has_and_belongs_to_many: genres`
-Join table of `Genre` + `books` = `books_genres` join tbale which has keys `book_id`, `genre_id`
+Join table of `Genre` + `books` = `books_genres` join table which has keys `book_id`, `genre_id`
 
 **Ex: ✏**  
 For pizza and toppings, 
@@ -148,16 +161,6 @@ Table may look like
 
 To specify that one pizza has two toppings
 
-###### Add to routes
-Will add nested CRUDI under books route.
-**Ex: ✏**   `/books/:book_id/reviews/post`
-```Ruby
-resources :books do
-	resources :reviews
-end
-
-```
- 
  ##### Through Relations
 Connecting two indirectly related DBs. Say that it has many of the third table and specify which column it should go through. Probably has something else meaningful in this table to say about connecting the data. Otherwise, you can use a join table.
 
@@ -171,6 +174,16 @@ class Review < ApplicationRecord
 	has_many :books, through: :reviews
 	belongs_to :user
 end
+```
+
+###### Add to routes
+Will add nested CRUDI under books route.
+**Ex: ✏**   `/books/:book_id/reviews/post`
+```Ruby
+resources :books do
+	resources :reviews
+end
+
 ```
 
 #### Scopes
@@ -309,7 +322,7 @@ To change column data, `self.title.capitalize` DO NOT CALL ON INSTANCE VARIABLES
 > ❗ You need to do do both server side AND form validation (when you specify the type of input [[Rails Views#Forms]]) because someone could try to post garbage directly to the DB using the URL and not the form
 
 
-You can also specify that suctom code should be injected at a certain point [[Aspect-Oriented Programming]]
+You can also specify that custom code should be injected at a certain point [[Aspect-Oriented Programming]]
 
 ```Ruby
 after_save :my_method

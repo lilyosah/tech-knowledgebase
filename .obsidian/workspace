@@ -4,24 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "a26ab4beb6891d12",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Software-Engineering/Ruby.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
         "id": "53ca32c69fda6e82",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software-Engineering/Testing.md",
-            "mode": "source"
+            "file": "Rails Models.md",
+            "mode": "preview"
           }
         }
       }
@@ -106,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software-Engineering/Testing.md",
+                "file": "Rails Models.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software-Engineering/Testing.md"
+                "file": "Rails Models.md"
               }
             }
           }
@@ -137,15 +126,15 @@
   },
   "active": "53ca32c69fda6e82",
   "lastOpenFiles": [
-    "Software-Engineering/Testing.md",
-    "Software-Engineering/Ruby.md",
-    "Software-Engineering/Behavior Driven Design.md",
     "Rails Models.md",
+    "Software-Engineering/Relational Databases.md",
+    "Software-Engineering/Ruby.md",
+    "Software-Engineering/Testing.md",
+    "Software-Engineering/Behavior Driven Design.md",
     "Ruby Rails.md",
     "Software-Engineering/Javascript.md",
     "Software-Engineering/Document Object Model (DOM).md",
     "Rails Routing.md",
-    "Software-Engineering/SWE Table of Contents.md",
-    "Software-Engineering/SWE Final Project.md"
+    "Software-Engineering/SWE Table of Contents.md"
   ]
 }
