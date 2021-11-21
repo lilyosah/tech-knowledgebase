@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "4f4424af92006eee",
+        "id": "a26ab4beb6891d12",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -12,20 +12,18 @@
             "file": "Software-Engineering/Ruby.md",
             "mode": "source"
           }
-        },
-        "group": "cc38ec04da028d59"
+        }
       },
       {
-        "id": "a26ab4beb6891d12",
+        "id": "53ca32c69fda6e82",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software-Engineering/Ruby.md",
-            "mode": "preview"
+            "file": "Software-Engineering/Testing.md",
+            "mode": "source"
           }
-        },
-        "group": "cc38ec04da028d59"
+        }
       }
     ],
     "direction": "vertical"
@@ -108,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software-Engineering/Ruby.md",
+                "file": "Software-Engineering/Testing.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software-Engineering/Ruby.md"
+                "file": "Software-Engineering/Testing.md"
               }
             }
           }
@@ -137,17 +135,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "4f4424af92006eee",
+  "active": "53ca32c69fda6e82",
   "lastOpenFiles": [
+    "Software-Engineering/Testing.md",
     "Software-Engineering/Ruby.md",
+    "Software-Engineering/Behavior Driven Design.md",
     "Rails Models.md",
     "Ruby Rails.md",
     "Software-Engineering/Javascript.md",
     "Software-Engineering/Document Object Model (DOM).md",
     "Rails Routing.md",
     "Software-Engineering/SWE Table of Contents.md",
-    "Software-Engineering/SWE Final Project.md",
-    "Software-Engineering/SQL.md",
-    "Software-Engineering/Relational Databases.md"
+    "Software-Engineering/SWE Final Project.md"
   ]
 }

@@ -3,7 +3,8 @@
 #topic
 #concept
 **Related:**
--  
+-  [[Behavior Driven Design]]
+-  [[Ruby#Testing]]
 
 %%
 
@@ -55,6 +56,12 @@ Tests should be "FIRST:"
 ==Regression testing:== automatically rerunning old tests so that changes don't break what used to work
 ==Continuous integration testing:== continuous regression testing vs. later phases
 
+### Mocking and Stubbing
+==Stub:== A "fake" method that returns a pre-configured value
+==Double:== fake object that stands in for some other object in the context of a test
+- If you create a double object you'd need to stub every method you want it to have because double objects have no methods
+
+
 ### How much testing is enough?
 (lines of code)/(lines of test)
 code-to-test ratio 1.2-1.5 is not unreasonable
@@ -84,3 +91,4 @@ Steps that must be followed to set up a test:
 2. **Red:** Run the test to verify it fails
 3. **Green:** Write the most simple code that causes this test to pass without breaking existing tests
 4. **Refactor:** Look for opportunities to refactor your code or your tests 
+

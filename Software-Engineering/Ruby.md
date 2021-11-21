@@ -453,17 +453,16 @@ How to meet [[Testing#Testing practices|FIRST]] principles
 📝 If you write `it` and then the string and nothing else, the test is pending
 
 #### Mocking and Stubbing
-==Stub:== A "fake" method that returns a pre-configured value
-==Double:== fake object that stands in for some other object in the context of a test
-- If you create a double object you'd need to stub every method you want it to have because double objects have no methods
+
 
 **Ex: ✏**  
 ```Ruby
 b = mock('book')
 b.stub(:save).and_return(true)
 expect(b).to recieve(:new).and_return(true)
-
-# Ex 2
+```
+**Ex: ✏**  
+```Ruby
 # Arrange
 allow(Temperate).to receive(:get).and_return(30)
 # act/assert
@@ -473,16 +472,16 @@ expect(response.to render('index.html'))
 
 ==Mock object:== Provides stubs as well as expectations on how those stub methods are called.
 Alternatives:
-- ==Fixtures:== statically pre-load some known data into BD tables
-	- Database wiped and reloaded before each spec
-	- add `fixtures: :products` at the beg on `describe`
+- ==Fixtures:== statically pre-load some known data into DB tables
+	- Database is wiped and reloaded before each spec
+	- add `fixtures: :products` at the beginning of `describe`
 	- `spec/fictures/products.yml` are added to products table
-	- Pros/usages: truly static 
-	- Cons: introduces dependencies on data
+	- **Pros/usages:** truly static 
+	- **Cons:** introduces dependencies on data
 - ==Factory:== create only what you need per test
 	-  set up "helpers" to quickly create objects with default attributes, as-needed per test
-	-  pros: tests are independent
-	-  cons: relationships may he complicated to set up
+	-  **Pros:** tests are independent
+	-  **Cons:** relationships may he complicated to set up
 
 ==Test stub:== test double that only supports stub methods
 

@@ -21,6 +21,10 @@
 
 ==Story points:== numbers indicating how long a story is expected to take. If it exceeds a certain agreed upon number it should be broken down into sub-stories
 ==Spikes:== a short investigation into a technique or problem that the team wants explored before sitting down to do serious coding 
+==Features:== a feature to implement
+==Scenario:== describe different ways a feature may be used 
+==Steps:== what make up scenarios 
+	- "Given x, when y, then z"
 
 ## User Stories
 : 1-3 sentences written in non-tech language written jointly by customers and devs describing a use case/feature 
@@ -31,12 +35,12 @@
 - I want to \[do some task]
 
 ==SMART stories:== 
-- specific
-- measurable (characterized with an acceptance test)
-- achievable (w/in one iteration)
+- **specific**
+- **measurable** (characterized with an acceptance test)
+- **achievable** (w/in one iteration)
 	- If you can't deliver it in one iteration, break it into smaller sub-tasks w/ fewer story points
-- relevant ("5 whys")
-- time-boxed (know when to give up)
+- **relevant** ("5 whys")
+- **time-boxed** (know when to give up)
 
 ## UI Design
 - ALL stakeholders should be involved in the UI
