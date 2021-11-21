@@ -133,7 +133,32 @@ graph LR
  User <-- 1 - 1 --> RA
  
 ```
- 
+
+  ##### Through Relations
+Connecting two indirectly related DBs. Say that it has many of the third table and specify which column it should go through. Probably has something else meaningful in this table to say about connecting the data. Otherwise, you can use a join table.
+
+> "When two models A and B each have a has-one or has-many relationship to a common third model C, a many-to-many association between A and B can be established through C."
+
+**Ex: ✏**  
+
+```Ruby
+class Review < ApplicationRecord 
+	has_many :reviews
+	has_many :books, through: :reviews
+	belongs_to :user
+end
+```
+
+###### Add to routes
+Will add nested CRUDI under books route.
+**Ex: ✏**   `/books/:book_id/reviews/post`
+```Ruby
+resources :books do
+	resources :reviews
+end
+
+```
+
  ##### Has-and-belongs-to-many (HABTM) (Join tables)
  A different way to implement many-to-many, largely superceded by `has_many: through` but if the middle table doesn't have any meaningful attributes you may want to use this
  - Uses a join table
@@ -160,31 +185,6 @@ Table may look like
 | 1    | 2    |
 
 To specify that one pizza has two toppings
-
- ##### Through Relations
-Connecting two indirectly related DBs. Say that it has many of the third table and specify which column it should go through. Probably has something else meaningful in this table to say about connecting the data. Otherwise, you can use a join table.
-
-> "When two models A and B each have a has-one or has-many relationship to a common third model C, a many-to-many association between A and B can be established through C."
-
-**Ex: ✏**  
-
-```Ruby
-class Review < ApplicationRecord 
-	has_many :reviews
-	has_many :books, through: :reviews
-	belongs_to :user
-end
-```
-
-###### Add to routes
-Will add nested CRUDI under books route.
-**Ex: ✏**   `/books/:book_id/reviews/post`
-```Ruby
-resources :books do
-	resources :reviews
-end
-
-```
 
 #### Scopes
 Can define `has_many` and `has_one` scopes
