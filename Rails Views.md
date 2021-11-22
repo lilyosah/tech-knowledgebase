@@ -238,7 +238,7 @@ Behaves the same as `session`
 - File name is prefaced by `_`
 - Might be in a different directory than the view it's featured in
 	- `app/views/resource/_another_template.html.erb`
-- In another view template, say `render 'another_template'` to render the partial called `another_template`
+- In another view template, say `render 'another_template'` to render the partial called `_another_template.html.erb`
 
 **Ex: ✏**  
 

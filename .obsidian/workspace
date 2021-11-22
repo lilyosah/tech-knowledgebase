@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software-Engineering/Ruby.md",
+            "file": "Rails Views.md",
             "mode": "preview"
           }
         }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software-Engineering/Ruby.md",
+                "file": "Rails Views.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software-Engineering/Ruby.md"
+                "file": "Rails Views.md"
               }
             }
           }
@@ -121,20 +121,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "53ca32c69fda6e82",
   "lastOpenFiles": [
+    "Rails Views.md",
+    "Rails Models.md",
     "Software-Engineering/Ruby.md",
     "Software-Engineering/Testing.md",
     "Software-Engineering/Behavior Driven Design.md",
-    "Rails Models.md",
     "Software-Engineering/Relational Databases.md",
     "Ruby Rails.md",
     "Software-Engineering/Javascript.md",
     "Software-Engineering/Document Object Model (DOM).md",
-    "Rails Routing.md",
-    "Software-Engineering/SWE Table of Contents.md"
+    "Rails Routing.md"
   ]
 }
