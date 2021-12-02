@@ -11,6 +11,27 @@
 #📌 Break these into different files
 
 : Reusable structure, behavior, strategy, or technique that captures a proven solution to a collection of similar problems by separating the things that change form the things that stay the same
+- Blueprint for a design
+
+==Antipattern:== Code that looks like it should follow a pattern but doesn't. Not DRY, needless repetition 
+
+
+## SOLID Principles
+**SOLID** OOP Design Patterns:
+- **S:** Single responsibility principle (per class) (SRP)
+- **O:** Open-closed principle (OCP)
+- **L:** Liskou substitution principle 
+- **I:** Injection of dependencies
+- **D:** Demeter principle
+
+### SRP
+Rule: A class should have only one reason to change
+- Each responsibility is an axis of change, changes to one axis shouldn't affect others
+- Ex: In a [[Rails Models]], one user model might be a customer, auth principle, social network member, etc.
+	- These should be converted to separate models with 1-1 relationships 
+
+Lack of cohesion of methods: LCOM score
+- Should be between 0 and 1, if it's high it should be split into multiple methods
 
 ## Singleton
 - Can only be one of a class. Like a driver

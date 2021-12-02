@@ -9,10 +9,23 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software-Engineering/Git Commands.md",
+            "file": "Design Patterns.md",
+            "mode": "source"
+          }
+        },
+        "group": "1f0cf0533cd6d5d5"
+      },
+      {
+        "id": "93059b7f5ae986bc",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Design Patterns.md",
             "mode": "preview"
           }
-        }
+        },
+        "group": "1f0cf0533cd6d5d5"
       }
     ],
     "direction": "vertical"
@@ -78,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "88584f44ddabdce4",
@@ -94,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software-Engineering/Git Commands.md",
+                "file": "Design Patterns.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software-Engineering/Git Commands.md"
+                "file": "Design Patterns.md"
               }
             }
           }
@@ -120,19 +134,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "53ca32c69fda6e82",
   "lastOpenFiles": [
-    "Software-Engineering/Git Commands.md",
+    "Design Patterns.md",
     "Software-Engineering/SWE Table of Contents.md",
+    "Software-Engineering/Git Commands.md",
     "Data-Structures-and-Algorithms/Dynamic Programming.md",
     "Data-Structures-and-Algorithms/Algo MOC.md",
     "Data-Structures-and-Algorithms/Data Structures.md",
     "Data-Structures-and-Algorithms/Priority Queue.md",
     "Data-Structures-and-Algorithms/Heap.md",
     "Data-Structures-and-Algorithms/Map.md",
-    "Rails Views.md",
-    "Rails Models.md"
+    "Rails Views.md"
   ]
 }

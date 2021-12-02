@@ -95,3 +95,5 @@
 	- [[Relational Databases#Associations and Foreign Keys]]
 	- [[Rails Models#Associations]]
 	- [[Javascript]]
+- 12-2-2021
+	- [[Design Patterns]]
