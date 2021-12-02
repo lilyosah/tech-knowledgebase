@@ -41,3 +41,27 @@ jQuery('#myButton').on("click", function () {
 	console.log("I love to be clicked.");
 });.
 ```
+
+## Dealing with Ajax
+### To execute after several calls
+`when`
+
+```JS
+function getData1 (){ 
+ return $.get('/page1.php');
+}
+
+function getData2 (){ 
+ return $.get('/page2.php');
+}
+
+function getData3 (){ 
+ return $.get('/page3.php');
+}
+
+$.when(getData1(),getData2(),getData3()).done(function(r1,r2,r3){
+ console.log(r1) //[data, status, xhrObj]
+ console.log(r2) //[data, status, xhrObj]
+ console.log(r3) //[data, status, xhrObj]
+})
+```

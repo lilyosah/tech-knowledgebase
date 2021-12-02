@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Design Patterns.md",
+            "file": "Software-Engineering/jQuery.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Design Patterns.md",
+            "file": "Software-Engineering/jQuery.md",
             "mode": "preview"
           }
         },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Design Patterns.md",
+                "file": "Software-Engineering/jQuery.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Design Patterns.md"
+                "file": "Software-Engineering/jQuery.md"
               }
             }
           }
@@ -139,6 +139,8 @@
   },
   "active": "53ca32c69fda6e82",
   "lastOpenFiles": [
+    "Software-Engineering/jQuery.md",
+    "Software-Engineering/Javascript.md",
     "Design Patterns.md",
     "Software-Engineering/SWE Table of Contents.md",
     "Software-Engineering/Git Commands.md",
@@ -146,8 +148,6 @@
     "Data-Structures-and-Algorithms/Algo MOC.md",
     "Data-Structures-and-Algorithms/Data Structures.md",
     "Data-Structures-and-Algorithms/Priority Queue.md",
-    "Data-Structures-and-Algorithms/Heap.md",
-    "Data-Structures-and-Algorithms/Map.md",
-    "Rails Views.md"
+    "Data-Structures-and-Algorithms/Heap.md"
   ]
 }
