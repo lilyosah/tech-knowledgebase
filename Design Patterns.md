@@ -18,20 +18,55 @@
 
 ## SOLID Principles
 **SOLID** OOP Design Patterns:
-- **S:** Single responsibility principle (per class) (SRP)
-- **O:** Open-closed principle (OCP)
+- **S:** [[Design Patterns#Single responsibility principle SRP]]
+- **O:** [[Design Patterns#Open-closed principle OCP|Open-closed principle (OCP)]]
 - **L:** Liskou substitution principle 
 - **I:** Injection of dependencies
 - **D:** Demeter principle
 
-### SRP
+### Single responsibility principle (SRP)
 Rule: A class should have only one reason to change
 - Each responsibility is an axis of change, changes to one axis shouldn't affect others
-- Ex: In a [[Rails Models]], one user model might be a customer, auth principle, social network member, etc.
+- **Ex: ✏**  In a [[Rails Models]], one user model might be a customer, auth principle, social network member, etc.
 	- These should be converted to separate models with 1-1 relationships 
+	- You woulnd't necessarily need to build a new controller for this model 
 
 Lack of cohesion of methods: LCOM score
+$$\text{LCOM}_1 = 1 - \frac{\sum M(V_i)}{V*M}$$
+$V$ = num instance vars
+$M$ = # instance methods
+$V_i$ = # instance variables used by a method (if the same 3 vars are used in 2 methods, 6)
+
 - Should be between 0 and 1, if it's high it should be split into multiple methods
+
+###  Open-closed principle (OCP)
+#### Abstract Factory Pattern 
+DRYing out construction in cases where you don't know the type beforehand??
+
+#### Template Method Pattern
+- Set of steps is the same, implementation of steps is different
+
+#### Strategy Pattern
+Task is the same, but many ways to do it
+
+```Ruby
+class Report
+	attr_accessor :title. :text, :formatter
+	def output_report
+		@formatter.output_report
+	end
+end
+```
+
+#### Decorator Pattern
+- Solving with just inheritance can get complicated
+Decorator: subclass delegates original functionality and adds it's own
+
+**Ex: ✏**  [[Ruby Rails]] scopes
+```Ruby
+Movie.for_kids.with_good_reviews(3)
+Move.has_many_fans.recently_viewed
+```
 
 ## Singleton
 - Can only be one of a class. Like a driver
