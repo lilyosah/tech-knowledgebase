@@ -7,8 +7,11 @@
         "id": "53ca32c69fda6e82",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Software-Engineering/Git Commands.md",
+            "mode": "preview"
+          }
         }
       }
     ],
@@ -36,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "capybara",
+                "query": "reflog",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "88584f44ddabdce4",
@@ -92,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Software-Engineering/Git Commands.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +110,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Software-Engineering/Git Commands.md"
+              }
             }
           }
         ],
@@ -119,6 +124,7 @@
   },
   "active": "53ca32c69fda6e82",
   "lastOpenFiles": [
+    "Software-Engineering/Git Commands.md",
     "Software-Engineering/SWE Table of Contents.md",
     "Data-Structures-and-Algorithms/Dynamic Programming.md",
     "Data-Structures-and-Algorithms/Algo MOC.md",
@@ -127,7 +133,6 @@
     "Data-Structures-and-Algorithms/Heap.md",
     "Data-Structures-and-Algorithms/Map.md",
     "Rails Views.md",
-    "Rails Models.md",
-    "Software-Engineering/Ruby.md"
+    "Rails Models.md"
   ]
 }
