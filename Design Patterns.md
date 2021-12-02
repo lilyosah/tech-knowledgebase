@@ -68,6 +68,12 @@ Movie.for_kids.with_good_reviews(3)
 Move.has_many_fans.recently_viewed
 ```
 
+### Liskou substitution principle
+Rule: If s is a subtype of T, the objects of type T can be replaced by objects of type S. 
+If this is not the case, then it is a violation
+
+- Not strictly about inheritance, if you can't ensure that all objects will respond the same way to an operation it is a violation
+
 ## Singleton
 - Can only be one of a class. Like a driver
 
