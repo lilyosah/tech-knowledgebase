@@ -40,6 +40,8 @@ $V_i$ = # instance variables used by a method (if the same 3 vars are used in 2 
 - Should be between 0 and 1, if it's high it should be split into multiple methods
 
 ###  Open-closed principle (OCP)
+Code should be open for extension but not for source modification
+
 #### Abstract Factory Pattern 
 DRYing out construction in cases where you don't know the type beforehand??
 
@@ -87,8 +89,18 @@ Can call methods on yourself and your own instance variables but not the results
 **+:** Code is more manageable and adptable 
 **-:** Usually uses a lot of abstraction which can bloat classes
 
+Friend/friend of a friend principle
+```mermaid
+graph LR
+ a --> b
+ a -. "messages okay" -.-> b
+ b --> c
+ a -. "messages not okay" -.-> c
+
+```
+
 ## Singleton
-- Can only be one of a class. Like a driver
+- Can only be one instance of a class that anyone can access
 
 ## Facade
 - Hiding the details behind a nice interface. Isn't this the same as abstraction?
