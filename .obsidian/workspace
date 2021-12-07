@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software-Engineering/jQuery.md",
+            "file": "Design Patterns.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software-Engineering/jQuery.md",
+            "file": "Design Patterns.md",
             "mode": "preview"
           }
         },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software-Engineering/jQuery.md",
+                "file": "Design Patterns.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software-Engineering/jQuery.md"
+                "file": "Design Patterns.md"
               }
             }
           }
@@ -139,9 +139,9 @@
   },
   "active": "53ca32c69fda6e82",
   "lastOpenFiles": [
+    "Design Patterns.md",
     "Software-Engineering/jQuery.md",
     "Software-Engineering/Javascript.md",
-    "Design Patterns.md",
     "Software-Engineering/SWE Table of Contents.md",
     "Software-Engineering/Git Commands.md",
     "Data-Structures-and-Algorithms/Dynamic Programming.md",

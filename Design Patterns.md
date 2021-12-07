@@ -73,6 +73,19 @@ Rule: If s is a subtype of T, the objects of type T can be replaced by objects o
 If this is not the case, then it is a violation
 
 - Not strictly about inheritance, if you can't ensure that all objects will respond the same way to an operation it is a violation
+- If a depends on b but b's implementation can change, make an abstract interface that both rely on instead. Injecting dependencies 
+	- **Ex: ✏**  If you use a specific service that you end up changing you'd have to rewrite all of the code that deals with the old API, instead you can write an interface for it (`AbstractMailAgent`), use that, and just change that
+
+#### Adapter / Facade
+#### Null Object
+#### Proxy Pattern
+Implements methods as "real" service objects but intercept each call
+
+### Demeter Principle 
+Can call methods on yourself and your own instance variables but not the results returned by them. Object should not have details of the inner workings of another object it's manipulating
+
+**+:** Code is more manageable and adptable 
+**-:** Usually uses a lot of abstraction which can bloat classes
 
 ## Singleton
 - Can only be one of a class. Like a driver
