@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Design Patterns.md",
-            "mode": "source"
+            "file": "Django.md",
+            "mode": "preview"
           }
         },
         "group": "1f0cf0533cd6d5d5"
@@ -21,8 +21,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Design Patterns.md",
-            "mode": "preview"
+            "file": "Django.md",
+            "mode": "source"
           }
         },
         "group": "1f0cf0533cd6d5d5"
@@ -69,8 +69,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "4a5f8b203a152342",
@@ -108,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Design Patterns.md",
+                "file": "Django.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Design Patterns.md"
+                "file": "Django.md"
               }
             }
           }
@@ -139,6 +138,8 @@
   },
   "active": "93059b7f5ae986bc",
   "lastOpenFiles": [
+    "Django.md",
+    "Helpful set-up guide.md",
     "Design Patterns.md",
     "Software-Engineering/jQuery.md",
     "Software-Engineering/Javascript.md",
@@ -146,8 +147,6 @@
     "Software-Engineering/Git Commands.md",
     "Data-Structures-and-Algorithms/Dynamic Programming.md",
     "Data-Structures-and-Algorithms/Algo MOC.md",
-    "Data-Structures-and-Algorithms/Data Structures.md",
-    "Data-Structures-and-Algorithms/Priority Queue.md",
-    "Data-Structures-and-Algorithms/Heap.md"
+    "Data-Structures-and-Algorithms/Data Structures.md"
   ]
 }
