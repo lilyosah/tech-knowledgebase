@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "Django.md",
-            "mode": "preview"
+            "mode": "source"
           }
         },
         "group": "1f0cf0533cd6d5d5"
@@ -136,7 +136,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "93059b7f5ae986bc",
+  "active": "53ca32c69fda6e82",
   "lastOpenFiles": [
     "Django.md",
     "Helpful set-up guide.md",

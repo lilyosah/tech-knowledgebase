@@ -1,13 +1,101 @@
 # Django
-#📥 
 %%
-#topic
+#coding 
 #concept
 
 **Related:**
--  
+-  [[Model-View-Controller (MVC)]]
+-  [[Rails Views]]
+-  [[Rails Models]]
+-  [[Rails Controllers]]
+-  [[Rails Routing]]
 
 %%
+
+## Structure
+Follows MVT (Model View Template). Like [[Model-View-Controller (MVC)]]
+
+| Rails      | Django   |
+| ---------- | -------- |
+| Model      | Model    |
+| Controller | View     |
+| View       | Template |
+
+### Views 
+Receive HTTP requests from web clients and return HTTP responses. This can involve getting/manipulating database info, rendering templates, etc.
+- All views receive an `HttpRequest` object as a parameter and returns an `HttpResponse` object.
+
+**Ex: ✏**  
+```Python
+# filename: views.py (Django view functions)
+
+from django.http import HttpResponse
+
+def index(request):
+    # Get an HttpRequest - the request parameter
+    # perform operations using information from the request.
+    # Return HttpResponse
+    return HttpResponse('Hello from Django!')
+```
+
+#### Filtering Model Data
+- After importing the model, use `[model].objects.filter()` to query for data
+- Field name and match type are separated by double underscores 
+
+**Ex: ✏**  
+```Python
+## filename: views.py
+
+from django.shortcuts import render
+from .models import Team
+
+def index(request):
+    list_teams = Team.objects.filter(team_level__exact="U09")
+    context = {'youngest_teams': list_teams}
+    return render(request, '/best/index.html', context)
+```
+
+### Models
+Define structure of stored data, including field types and other restrictions. 
+
+**Ex: ✏**  
+```Python
+# filename: models.py
+
+from django.db import models
+
+class Team(models.Model):
+	# team name is a character field w/ 40 max chars
+    team_name = models.CharField(max_length=40)
+
+	# levels can be one of several values so it's a choice field, 
+	# TEAM_LEVELS maps data to be stored and choices to be displayed
+    TEAM_LEVELS = (
+        ('U09', 'Under 09s'),
+        ('U10', 'Under 10s'),
+        ('U11', 'Under 11s'),
+        ...  #list other team levels
+    )
+	#u11 is default
+    team_level = models.CharField(max_length=3, choices=TEAM_LEVELS, default='U11')
+```
+
+## Routing
+URL Mapping is done in `urls.py`. A URL mapper is a list of `paths` or `re_paths` (use [[Regular Expressions]]) that represent URL patterns and corresponding view functions. 
+
+Within the URL, angle brackets define parts of the URL that are captured and passed to the function as named args. 
+
+The second list item is a function that will be called when the pattern is matched. `views.book_detail` means that the `book_detail()` method can be found in a module (file) called `views`.
+
+**Ex: ✏**  
+```Python
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('book/<int:id>/', views.book_detail, name='book_detail'),
+    path('catalog/', include('catalog.urls')),
+    re_path(r'^([0-9]+)/$', views.best),
+]
+```
 
 ## Virtual Environments
 Should develop in a Python virtual env to ease differences between platforms. 
