@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Django.md",
-            "mode": "source"
+            "file": "Software-Engineering/Javascript.md",
+            "mode": "preview"
           }
         },
         "group": "1f0cf0533cd6d5d5"
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Django.md",
+            "file": "Software-Engineering/Javascript.md",
             "mode": "source"
           }
         },
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Django.md",
+                "file": "Software-Engineering/Javascript.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Django.md"
+                "file": "Software-Engineering/Javascript.md"
               }
             }
           }
@@ -138,11 +138,11 @@
   },
   "active": "53ca32c69fda6e82",
   "lastOpenFiles": [
+    "Software-Engineering/Javascript.md",
     "Django.md",
     "Helpful set-up guide.md",
     "Design Patterns.md",
     "Software-Engineering/jQuery.md",
-    "Software-Engineering/Javascript.md",
     "Software-Engineering/SWE Table of Contents.md",
     "Software-Engineering/Git Commands.md",
     "Data-Structures-and-Algorithms/Dynamic Programming.md",
