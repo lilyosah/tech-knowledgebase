@@ -11,6 +11,7 @@
 -  [[Rails Routing]]
 
 %%
+https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Models
 
 ## Structure
 Follows MVT (Model View Template). Like [[Model-View-Controller (MVC)]]
@@ -141,6 +142,10 @@ Useful commands:
 2. To create an app within the project: `py manage.py startapp [name]`
 3. To start the webserver: Be in the right env and directory of project, `py manage.py runserver
 4. Add app to the project in `settings.py`
+5. Set up URLS
+6. Make migration files `python manage.py makemigrations`
+7. Run migrations `python manage.py migrate`
+
 
 ## Forms
 ## User Auth and permissions
