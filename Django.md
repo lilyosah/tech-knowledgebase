@@ -80,6 +80,33 @@ class Team(models.Model):
     team_level = models.CharField(max_length=3, choices=TEAM_LEVELS, default='U11')
 ```
 
+### Templates
+Django has native templating and supports Jinja2
+
+**Ex: ✏**  
+```HTML
+## filename: best/templates/best/index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Home page</title>
+</head>
+<body>
+  {% if youngest_teams %}
+    <ul>
+      {% for team in youngest_teams %}
+        <li>{{ team.team_name }}</li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p>No teams are available.</p>
+  {% endif %}
+</body>
+</html>
+```
+
 ## Routing
 URL Mapping is done in `urls.py`. A URL mapper is a list of `paths` or `re_paths` (use [[Regular Expressions]]) that represent URL patterns and corresponding view functions. 
 
@@ -110,5 +137,15 @@ Useful commands:
 - `workon [name]` switches to that env 
 
 ## Using
-To start the webserver: Be in the right env and directory of project, `py manage.py runserver`
+1. To create a new project: `django-admin startproject [name]` 
+2. To create an app within the project: `py manage.py startapp [name]`
+3. To start the webserver: Be in the right env and directory of project, `py manage.py runserver
+4. Add app to the project in `settings.py`
 
+## Forms
+## User Auth and permissions
+## Caching
+So that you can cache parts of a rendered page so that it doesn't get re-rendered unless necessary
+## Admin site
+## Serialising Data
+Data can be serialised as JSON
