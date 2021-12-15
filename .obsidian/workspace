@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software-Engineering/Javascript.md",
+            "file": "Django.md",
             "mode": "preview"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software-Engineering/Javascript.md",
+            "file": "Django.md",
             "mode": "source"
           }
         },
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software-Engineering/Javascript.md",
+                "file": "Django.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software-Engineering/Javascript.md"
+                "file": "Django.md"
               }
             }
           }
@@ -138,8 +138,8 @@
   },
   "active": "53ca32c69fda6e82",
   "lastOpenFiles": [
-    "Software-Engineering/Javascript.md",
     "Django.md",
+    "Software-Engineering/Javascript.md",
     "Helpful set-up guide.md",
     "Design Patterns.md",
     "Software-Engineering/jQuery.md",
