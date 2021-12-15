@@ -11,7 +11,7 @@
 -  [[Rails Routing]]
 
 %%
-https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Models
+https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Home_page
 
 ## Structure
 Follows MVT (Model View Template). Like [[Model-View-Controller (MVC)]]
