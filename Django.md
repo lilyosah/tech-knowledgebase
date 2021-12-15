@@ -81,6 +81,8 @@ class Team(models.Model):
     team_level = models.CharField(max_length=3, choices=TEAM_LEVELS, default='U11')
 ```
 
+define Meta class within to define more about it like default sorting
+
 ### Templates
 Django has native templating and supports Jinja2
 
