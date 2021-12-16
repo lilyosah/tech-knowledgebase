@@ -22,11 +22,11 @@ GoF (Gang of four design pattern) authors:
 
 ## SOLID Principles
 **SOLID** OOP Design Patterns:
-- **S:** [[Design Patterns#Single Responsibility Principle SRP]]
-- **O:** [[Design Patterns#Open-Closed Principle OCP]]
-- **L:** [[Design Patterns#Liskou Substitution Principle]] 
-- **I:** [[Design Patterns#I Injection of Dependencies]]
-- **D:** Demeter principle
+- **S:** [[Design Patterns#Single Responsibility Principle SRP|Single Responsibility Principle SRP]]
+- **O:** [[Design Patterns#Open-Closed Principle OCP|Open-Closed Principle OCP]]
+- **L:** [[Design Patterns#Liskou Substitution Principle|Liskou Substitution Principle]] 
+- **I:** [[Design Patterns#Injection of Dependencies|Injection of Dependencies]]
+- **D:** [[Design Patterns#Demeter Principle|Demeter Principle]]
 
 ### Single Responsibility Principle (SRP)
 **Rule:** A class should have only one reason to change. Each responsibility is an axis of change, changes to one axis shouldn't affect others
@@ -58,27 +58,43 @@ $V_i$ = # instance variables used by a method (if the same 3 vars are used in 2 
 
 #### Address using:
 - [[Design Patterns#🐣 Abstract Factory Pattern]]
+- [[Design Patterns#🤹‍ Template Method Pattern]]
+- [[Design Patterns#🏘 Decorator Pattern]]
 
 ### Liskou Substitution Principle
-**Rule:** If s is a subtype of T, the objects of type T can be replaced by objects of type S. 
-If this is not the case, then it is a violation
+**Rule:** If $s$ is a subtype of $T$, the objects of type $T$ can be replaced by objects of type $s$. If this is not the case, then it is a violation.
+
+"Substituting a subclass for a class should preserve correct program behavior"
 
 - Not strictly about inheritance, if you can't ensure that all objects will respond the same way to an operation it is a violation
 - If a depends on b but b's implementation can change, make an abstract interface that both rely on instead. Injecting dependencies 
 	- **Ex: ✏**  If you use a specific service that you end up changing you'd have to rewrite all of the code that deals with the old API, instead you can write an interface for it (`AbstractMailAgent`), use that, and just change that
 
+**Smells:**
+- Subclass destructively overrides an inherited method
+
 #### Address using:
+- Replace inheritance with delegation
+- [[Design Patterns#🏘 Composition]]
 
-### I: Injection of Dependencies 
+### Injection of Dependencies 
+**Problem:** $a$ depends on $b$, but $b$’s interface & implementation can change, even if the functionality is generally stable.
+
+**Ex: ✏**  Web App uses a MySQL database, but because of scaling and pricing issues, you want to migrate to using a PostgreSQL database
 
 #### Address using:
+- Inject an abstract interface than $a$ and $b$ depend on 
+- If not an exact match:
+	- [[Design Patterns#🏘 Facade Adapter Bridge]]
+	- [[Design Patterns#🤹‍ Null Object]]
+	- Proxy
 
 
-### D: Demeter Principle
-Can call methods on yourself and your own instance variables but not the results returned by them. Object should not have details of the inner workings of another object it's manipulating
+### Demeter Principle
+**Rule:** Can call methods on yourself and your own instance variables but not the results returned by them. Object should not have details of the inner workings of another object it's manipulatin.
 
-**+:** Code is more manageable and adptable 
-**-:** Usually uses a lot of abstraction which can bloat classes
+**Pro:** Code is more manageable and adaptable 
+**Con:** Usually uses a lot of abstraction + wrappers which can bloat classes
 
 Friend/friend of a friend principle
 ```mermaid
@@ -91,6 +107,9 @@ graph LR
 ```
 
 #### Address using:
+- Replace method with delegate
+- Separate traversal from computation (Visitor)
+- [[Design Patterns#🤹‍ Observer Pub-sub]]
 
 ---
 
@@ -114,7 +133,7 @@ DRYing out construction in cases where you don't know the type beforehand
 #### 🏘 Composition
 ==Def:== "Provide operations that work on both an individual object and a collection of that type of object"
 
-Instead of inheritance, composition is a class that has a lot of other classes that are a part of it. The main class modifies the other classes. Access a group of objects uniformly. 
+**Typical Implementation:**  Instead of inheritance, composition is a class that has a lot of other classes that are a part of it. The main class modifies the other classes. Access a group of objects uniformly. 
 
 ```Ruby
 class Report
@@ -126,10 +145,9 @@ end
 ```
 
 #### 🏘 Decorator Pattern 
-(Wrapper around class and subclasses)
 ==Def:== "Attach additional responsibilities to an object dynamically, keeping the same interface. Helps with preferring composition or delegation over inheritance."
 
-Subclass delegates original functionality and adds it's own. A wrapper around a class
+**Typical Implementation:** Subclass delegates original functionality and adds it's own. A wrapper around a class
 
 **Ex: ✏**  [[Ruby Rails]] scopes
 ```Ruby
@@ -137,38 +155,50 @@ Movie.for_kids.with_good_reviews(3)
 Move.has_many_fans.recently_viewed
 ```
 
-#### 🏘 Facade
-==Def:== "Convert the programming interface of a class into another (sometimes sim-  
-pler) interface that clients expect, or decouple an abstraction’s interface from its implementation, for dependency injection or performance"
+#### 🏘 Facade, Adapter, Bridge
+==Def:== "Convert the programming interface of a class into another (sometimes simpler) interface that clients expect, or decouple an abstraction’s interface from its implementation, for dependency injection or performance"
 
-Hiding the details behind a nice interface. Isn't this the same as abstraction?
+##### 🏘 Facade
+==Def:== Unifying distinct underlying API’s into a single, simplified API
 - **Con:** Can over-simplify so not usable or only make it work for one use-case
 
+##### 🏘 Adapter
+==Def:== Decoupling an abstractions interface from its implementation
+**Ex: ✏**  Database “adapters” for MySQL, Oracle, PostgreSQL, etc.
+
 ##### 🏘 Bridge
-- Separating the abstraction and the implementation. So you can use several solutions for one problem
+==Def:== Separating the abstraction and the implementation. So you can use several solutions for one problem
 - **Con:** Can overdo it
 
 
 ### 🤹‍ Behavior
-#### 🤹‍ Template Method Pattern (Inheritance)
-==Def:== "Uniformly encapsulate multiple varying strategies for same task"
-- Set of steps is the same, implementation of steps is different
-- **Typical implementation:** inheritance, with sub-classes overriding abstract methods
+#### 🤹‍ Template Method Pattern
+==Def:== "Uniformly encapsulate multiple varying strategies for same task". **Set of steps** is the same, implementation of steps is different
 
-#### 🤹‍ Strategy Pattern (Composition)
-==Def:== "Uniformly encapsulate multiple varying strategies for same task"
-- Task is the same, but many ways to do it
-- Separating different pieces of a problem into different libraries
+**Typical implementation:** Inheritance, with sub-classes overriding abstract methods. Template method stays the same; helpers overridden in subclass
+
+#### 🤹‍ Strategy Pattern
+==Def:== "Uniformly encapsulate multiple varying strategies for same task". **Task** is the same, but many ways to do it
 - Must be good default strategies
-- **Typical implementation:** composition (delegation, delegate to another class to handle?)
+
+**Typical implementation:** Composition, separating different pieces of a problem into different classes/libraries
 
 #### 🤹‍ Null Object
-==Def:== "(Doesn’t appear in GoF catalog) Provide an object with defined neutral behaviors that can be safely called, to take the place of conditionals guarding method call"
+==Def:== "(Doesn’t appear in GoF catalog) Provide an object with defined neutral behaviors that can be safely called, to take the place of conditionals guarding method call". Stand-in on which “important” methods can be called
+
+**Ex: ✏**  All Customers should names, and we should be able to store certain important information about them. But what if we need to accommodate anonymous or guest users? Null object allows us to avoid scattered conditional (if) blocks
 
 #### 🤹‍ Observer (Pub-sub)
 ==Def:== Allows for loose coupling between publisher (creates events) and subscriber (listens for events)
 
-- **Con:** Can go overboard, get into event loops
+**Problem:** entity $O$ (“observer”) wants to know when certain things happen to entity $S$ (“subject”)
+- **Ex: ✏**  Auditor wants to know whenever “sensitive” actions are performed by an admin
+
+**Concerns:**
+- Acting on events is $O$’s concern—don’t want to pollute $S$
+- Any type of object could be an observer or subject—inheritance is awkward
+
+**Con:** Can go overboard, get into event loops
 
 #### 🤹‍ Iterator
 ==Def:== "Separate traversal of a data structure from operations performed on each element of the data structure"
