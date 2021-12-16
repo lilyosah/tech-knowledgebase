@@ -13,6 +13,10 @@
 : Reusable structure, behavior, strategy, or technique that captures a proven solution to a collection of similar problems by separating the things that change form the things that stay the same
 - Blueprint for a design
 
+GoF (Gang of four design pattern) authors:
+> - "Prefer composition and delegation over inheritance"
+> - "Program to an interface, not an implementation"
+
 ==Antipattern:== Code that looks like it should follow a pattern but doesn't. Not DRY, needless repetition 
 
 
@@ -41,15 +45,25 @@ $V_i$ = # instance variables used by a method (if the same 3 vars are used in 2 
 
 ###  Open-closed principle (OCP)
 Code should be open for extension but not for source modification
+"Switch/case statements and run-time type identification can be indicative of OCP violations"
 
+Address using:
 #### Abstract Factory Pattern 
+> "Provide an interface for creating families of related or dependent objects  
+without specifying their concrete classes"
+
 DRYing out construction in cases where you don't know the type beforehand??
 
-#### Template Method Pattern
+#### Template Method Pattern (Inheritance)
 - Set of steps is the same, implementation of steps is different
+- Typical implementation: inheritance, with sub-classes overriding abstract methods
 
-#### Strategy Pattern
-Task is the same, but many ways to do it
+#### Strategy Pattern (Composition)
+- Task is the same, but many ways to do it
+- Typical implementation: composition (delegation, delegate to another class to handle?)
+
+##### Composition
+Instead of inheritance, composition is a class that has a lot of other classes that are a part of it. The main class modifies the other classes. Access a group of objects uniformly. 
 
 ```Ruby
 class Report
@@ -60,9 +74,10 @@ class Report
 end
 ```
 
-#### Decorator Pattern
-- Solving with just inheritance can get complicated
-Decorator: subclass delegates original functionality and adds it's own
+#### Decorator Pattern (Wrapper around class and subclasses)
+> "Attach additional responsibilities to an object dynamically, keeping the same interface. Helps with preferring composition or delegation over inheritance."
+
+Decorator: subclass delegates original functionality and adds it's own. A wrapper around a class
 
 **Ex: ✏**  [[Ruby Rails]] scopes
 ```Ruby
@@ -83,7 +98,7 @@ If this is not the case, then it is a violation
 #### Proxy Pattern
 Implements methods as "real" service objects but intercept each call
 
-### Demeter Principle 
+### Demeter Principle, Injection of Dependencies 
 Can call methods on yourself and your own instance variables but not the results returned by them. Object should not have details of the inner workings of another object it's manipulating
 
 **+:** Code is more manageable and adptable 
@@ -100,13 +115,18 @@ graph LR
 ```
 
 ## Singleton
+> "Ensure a class has only one instance, and provide a global point of access to it"
+
 - Can only be one instance of a class that anyone can access
 
 ## Facade
-- Hiding the details behind a nice interface. Isn't this the same as abstraction?
+"Convert the programming interface of a class into another (sometimes sim-  
+pler) interface that clients expect, or decouple an abstraction’s interface from its implementation, for dependency injection or performance"
+
+Hiding the details behind a nice interface. Isn't this the same as abstraction?
 - Con: Can over-simplify so not usable or only make it work for one use-case
 
-## Bridge
+### Bridge
 - Separating the abstraction and the implementation. So you can use several solutions for one problem
 - Con: Can overdo it
 
