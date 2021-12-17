@@ -24,23 +24,22 @@ Goal: To automate **everything.** You need rollbacks, etc. to be super easy.
 **Logic tier:** where the actual app runs. Supported by an application server 
 **Persistence tier:** store data that must persist across HTTP requests ([[Networks]])
 
-HTTP's statelessness allows the presentation and logic tiers to be shared-nothing
+**Shared-nothing:** HTTP's statelessness allows the presentation and logic tiers to be shared-nothing. Requests are independent when needed, entities in the different layers generally do not communicate
 
-Scaling presentation and application tiers: 
+### Scaling
+**Presentation and application tiers:** 
 - Add virtual machines
 - Reconfigure load balances
 
-Scaling persistence tier: 
-- Hard!
-	- Sharding: Partition data scross multiple indepndent shards
-		- Pros: Scales great if date is evenly divided
-		- Cons: Bad if operations touch more than one table
-	- Replication: replicate all data everywhere
-		- Pros: Multi-table queries are fast 
-		- Cons: Writes have to replicate every replica 
+**Persistence tier:** 
+- ==Sharding:== Partition data across multiple independent shards
+	- **Pros:** Scales great if date is evenly divided
+	- **Cons:** Bad if operations touch more than one table
+- ==Replication:== replicate all data everywhere
+	- **Pros:** Multi-table queries are fast 
+	- **Cons:** Writes have to replicate every replica 
 
-### Alternatives
-Both of these are hard to do!
+Both of these are hard to do! **Alternatives:**
 1. Use caching to reduce number of database accesses  
 2. Avoid "`n+1` queries" problem in associations 
 3. Use indexes judiciously
@@ -90,6 +89,7 @@ What to index:
 
 Why not index every column?  
 - Takes up space (i.e., there’s a space/time trade-off)
+- They need to be updated when rows are updated, added, deleted
 
 ## Availability and Responsiveness
 5 nines: 99.999% uptime
@@ -133,14 +133,15 @@ Feature flags:
 Other uses for [[Feature Flags]] - In file
 
 ### Caching
-Page caching: cache an entire page; request doesn't even hit Rails  
+==Page caching:== cache an entire page; request doesn't even hit Rails  
 - Output of entire controller action is cached to disk  
 - Requires some configuration in the webserver or caching front-end  
 - Requires application to explicitly invalidate cached entries (“sweepers”)
 
-Action caching: Like page caching, but can accommodate before actions on controller methods
+==Action caching:== Like page caching, but can accommodate before actions on controller methods
 
-Fragment caching (“Russian Doll caching”): arbitrary reusable parts of a page’s output are cached to avoid having to re-render them  
+==Fragment caching (“Russian Doll caching”):== arbitrary reusable parts of a page’s output are cached to avoid having to re-render them  
+- In [[Ruby Rails]], fragment caching is done lazily. When the controller method runs and "makes" a query, it actually just makes an object that **can** make the query if it actually needs to be made. The actual query won't be made until the values from the query are needed in the view. 
 - Template rendering is one of the slowest aspects of a Rails app; fragment caching is designed to address this limitation  
 - Termed “Russian Doll” caching because partials and nested partials can easily be cached
 - Routing engine and dispatcher are still involved in requests  
