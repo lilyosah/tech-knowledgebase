@@ -93,7 +93,8 @@
     "decrypt",
     "crypto",
     "superclass",
-    "Preflight"
+    "Preflight",
+    "unsanitized"
   ],
   "newFileLocation": "current",
   "attachmentFolderPath": "./",

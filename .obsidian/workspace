@@ -139,14 +139,14 @@
   "active": "93059b7f5ae986bc",
   "lastOpenFiles": [
     "Software-Engineering/DevOps.md",
+    "Software-Engineering/SQL Injection Attacks.md",
+    "Software-Engineering/SQL.md",
+    "Software-Engineering/CSRF Attacks.md",
+    "Software-Engineering/XSS Attacks.md",
     "Ruby Rails.md",
     "Software-Engineering/Feature Flags.md",
     "Software-Engineering/AB Testing.md",
     "A/B Testing.md",
-    "Development Basics.md",
-    "Software-Engineering/SWE Table of Contents.md",
-    "Dev/Ops.md",
-    "Design Patterns.md",
-    "Django.md"
+    "Development Basics.md"
   ]
 }
