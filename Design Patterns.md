@@ -95,13 +95,15 @@ $V_i$ = # instance variables used by a method (if the same 3 vars are used in 2 
 #### Address using:
 - Inject an abstract interface than $a$ and $b$ depend on 
 - If not an exact match:
-	- [[Design Patterns#🏘 Facade Adapter Bridge]]
+	- [[Design Patterns#🏘 Adapter Facade Bridge Proxy]]
 	- [[Design Patterns#🤹‍ Null Object]]
 	- Proxy
 
 
 ### Demeter Principle
-**Rule:** Can call methods on yourself and your own instance variables but not the results returned by them. Object should not have details of the inner workings of another object it's manipulatin.
+**Rule:** Can call methods on yourself and your own instance variables but not the results returned by them. Object should not have details of the inner workings of another object it's manipulating.
+
+Method can call other methods in its own class, and methods on the classes of its own instance variables; everything else is taboo.
 
 **Pro:** Code is more manageable and adaptable 
 **Con:** Usually uses a lot of abstraction + wrappers which can bloat classes
@@ -117,13 +119,13 @@ graph LR
 ```
 
 **Design smells:**
-- Inappropriate intimacy
-- Feature envy
-- Mock trainwrecks
+- Inappropriate intimacy: Manipulating attributes of another class directly
+- Feature envy: Repeated inappropriate intimacy,  when one class "wishes" it had the features of another
+- Mock trainwrecks: testing code that violates Demeter, requires setting up a chain of mocks that will be used when we call the method under test
 
 #### Address using:
-- Replace method with delegate
-- Separate traversal from computation (Visitor)
+- Replace method with delegate [[Design Patterns#🏘 Composition]]
+- [[Design Patterns#🤹‍ Visitor]]
 - [[Design Patterns#🤹‍ Observer Pub-sub]]
 
 ---
@@ -168,21 +170,30 @@ Movie.for_kids.with_good_reviews(3)
 Move.has_many_fans.recently_viewed
 ```
 
-#### 🏘 Facade, Adapter, Bridge
+#### 🏘 Adapter, Facade, Bridge, Proxy
 ==Def:== "Convert the programming interface of a class into another (sometimes simpler) interface that clients expect, or decouple an abstraction’s interface from its implementation, for dependency injection or performance"
 
-##### 🏘 Facade
-==Def:== Unifying distinct underlying API’s into a single, simplified API
-- **Con:** Can over-simplify so not usable or only make it work for one use-case
 
 ##### 🏘 Adapter
 ==Def:== Decoupling an abstractions interface from its implementation
 **Ex: ✏**  Database “adapters” for MySQL, Oracle, PostgreSQL, etc.
 
+##### 🏘 Facade
+*Variation of adapter*
+
+==Def:== Unifying distinct underlying API’s into a single, simplified API
+- **Con:** Can over-simplify so not usable or only make it work for one use-case
+
 ##### 🏘 Bridge
+#❓
 ==Def:== Separating the abstraction and the implementation. So you can use several solutions for one problem
 - **Con:** Can overdo it
 
+##### 🏘 Proxy
+*Variation of adapter*
+
+==Def:== One object “stands in” for another that has the same AP
+Implements methods as "real" service objects but intercept each call
 
 ### 🤹‍ Behavior
 #### 🤹‍ Template Method Pattern
@@ -203,12 +214,14 @@ many possible variants.*
 **Typical implementation:** Composition, separating different pieces of a problem into different classes/libraries
 
 #### 🤹‍ Null Object
-==Def:== "(Doesn’t appear in GoF catalog) Provide an object with defined neutral behaviors that can be safely called, to take the place of conditionals guarding method call". Stand-in on which “important” methods can be called
+==Def:== "(Doesn’t appear in GoF catalog) Provide an object with defined neutral behaviors that can be safely called, to take the place of conditionals guarding method call". A dummy object that has all the same behaviors as a real object but doesn't do anything when those behaviors are called
 
 **Ex: ✏**  All Customers should names, and we should be able to store certain important information about them. But what if we need to accommodate anonymous or guest users? Null object allows us to avoid scattered conditional (if) blocks
 
 #### 🤹‍ Observer (Pub-sub)
-==Def:== Allows for loose coupling between publisher (creates events) and subscriber (listens for events)
+==Def:== One or more entities need to be notified when something happens to an object.
+
+Provides a canonical way for the subject to maintain a list of its observers and notify them automatically of any state changes in which they have indicated interest, using a narrow interface to separate the concept of observation from the specifics of what each observer does with the information.
 
 **Problem:** entity $O$ (“observer”) wants to know when certain things happen to entity $S$ (“subject”)
 - **Ex: ✏**  Auditor wants to know whenever “sensitive” actions are performed by an admin
@@ -219,7 +232,12 @@ many possible variants.*
 
 **Con:** Can go overboard, get into event loops
 
-#### 🤹‍ Iterator
+#### 🤹‍ Visitor
+==Def:== a data structure is traversed and you provide a callback method to execute for each member of the data structure, allowing you to “visit” each element while remaining ignorant of the way the data structure is organized.
+
+##### 🤹‍ Iterator
+*Visitor pattern subtype*
+
 ==Def:== "Separate traversal of a data structure from operations performed on each element of the data structure"
 
 
@@ -227,10 +245,6 @@ many possible variants.*
 
 
 Needs more info: 
-
-
-#### Proxy Pattern
-Implements methods as "real" service objects but intercept each call
 
 ## Client-Server
 - Distinguishing clients from the server, allowing each type of program to be highly specialized
