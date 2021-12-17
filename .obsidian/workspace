@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software-Engineering/DevOps.md",
-            "mode": "source"
+            "file": "Software-Engineering/Javascript.md",
+            "mode": "preview"
           }
         }
       }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software-Engineering/DevOps.md",
+                "file": "Software-Engineering/Javascript.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software-Engineering/DevOps.md"
+                "file": "Software-Engineering/Javascript.md"
               }
             }
           }
@@ -125,15 +125,15 @@
   },
   "active": "4c25c3490c57ff20",
   "lastOpenFiles": [
+    "Software-Engineering/Javascript.md",
+    "Design Patterns.md",
+    "Rails Models.md",
     "Software-Engineering/DevOps.md",
     "Software-Engineering/Feature Flags.md",
-    "Design Patterns.md",
     "Ruby Rails.md",
     "Software-Engineering/SQL Injection Attacks.md",
     "Software-Engineering/SQL.md",
     "Software-Engineering/CSRF Attacks.md",
-    "Software-Engineering/XSS Attacks.md",
-    "Software-Engineering/AB Testing.md",
-    "A/B Testing.md"
+    "Software-Engineering/XSS Attacks.md"
   ]
 }
