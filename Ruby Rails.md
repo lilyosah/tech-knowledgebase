@@ -159,3 +159,42 @@ end
 ## Web sockets and ActionCable
 Allows [[Javascript]] to create a socket to have a long-lived communication channel with any server. Rails supports web sockets through the `ActionCable` gem
 - Good for things like games, chat, etc. 
+
+## Caching 
+[[DevOps#Caching]]
+
+Caching is not turned on by default in development and test: In config/environments/development.rb, change config line 		`config.action_controller.perform_caching` to `true`
+
+Cache method takes an optional name parameter
+- Parameter is used as a key in the fragment cache  
+- Think of it like a key for a Ruby Hash  
+	- cache method can also take an array of items indicating a compound key  
+- Example: what if we want to cache blog entries and comments, per-user?  
+
+```HTML
+%h1 #{@user.name}'s Journal'  
+%ul.entries  
+ - cache @user do  
+	= render partial: 'entry', collection: @entries  
+- content_for :sidebar do  
+	- cache [@user, :recent_comments] do  
+		= render partial: 'comment', collection: @recent_comments
+```
+
+Industry-strength sites configure Rails to work with memcached to offload caching into memory
+
+### Expiring Caches
+Normally don't need to 
+Set an expiration time: `cache @entry, expire_in: 2.hours do`
+Don’t cache for certain users: `cache_unless current_user.admin?, @entry do`
+Explicitly expire a fragment by key: `expire_fragment(key)`
+Expire by regex on a key: `expire_fragment(%r{@user.cache_key})` (regex match to expire anything related to user)
+
+## Indexing
+[[DevOps#Indexes]]
+- `t.index(:name)`: add index to one column on table `t` in a migration  
+- `t.index([:name, :age])`: add multicolumn index  
+- `t.index([:name, :age], unique: true)`: add multicolumn index with a unique  
+constraint  
+- Use rails_indexes gem to help identify missing indices (and unnecessary ones!) 
+

@@ -33,6 +33,57 @@ Scaling persistence tier:
 		- Pros: Multi-table queries are fast 
 		- Cons: Writes have to replicate every replica 
 
+### Alternatives
+Both of these are hard to do!
+1. Use caching to reduce number of database accesses  
+2. Avoid "`n+1` queries" problem in associations 
+3. Use indexes judiciously
+
+#### n+1 problem
+When you are doing n+1 queries to traverse an association, rather than 1 query.
+
+```Ruby
+# Controller
+# assumes class Customer with has_many :products, :through => :reviews.  
+# in controller method:  
+@buyers = Customer.where("zip = ?", code) # table scan if no index!  
+
+# In the view  
+<% @buyers.each do |buyer| %>  
+	<% buyer.products.each do |product| %>  
+		# BAD: each time thru this loop causes a new database query!
+		<p><%= product.title %></p>
+```
+
+Solution: Eager loading 
+In [[Ruby Rails]], with `.include`
+
+```Ruby
+# Controller
+# Rails automatically traverses the through-association  
+@buyers = Customer.where("zip = ?", code).includes(:products)  
+
+# View
+<% @buyers.each do |buyer| %>  
+	<% buyer.products.each do |product| %>  
+		# GOOD: this code no longer causes additional queries 
+		<p><%= product.title %></p>
+```
+
+#### Indexes
+Speeds up access when searching DB table by column other than primary key
+
+Similar to using a hash table  
+- The alternative is a linear table scan: bad!  
+- Even bigger win if attribute is unique-valued
+
+What to index:
+- Foreign key columns
+- Columns that appear in queries
+- Columns on which you sort/filter 
+
+Why not index every column?  
+- Takes up space (i.e., there’s a space/time trade-off)
 
 ## Availability and Responsiveness
 5 nines: 99.999% uptime
@@ -72,3 +123,50 @@ Feature flags:
 5. Apply migration to remove old columns
 
 Other uses for [[Feature Flags]] - In file
+
+### Caching
+Page caching: cache an entire page; request doesn't even hit Rails  
+- Output of entire controller action is cached to disk  
+- Requires some configuration in the webserver or caching front-end  
+- Requires application to explicitly invalidate cached entries (“sweepers”)
+
+Action caching: Like page caching, but can accommodate before actions on controller methods
+
+Fragment caching (“Russian Doll caching”): arbitrary reusable parts of a page’s output are cached to avoid having to re-render them  
+- Template rendering is one of the slowest aspects of a Rails app; fragment caching is designed to address this limitation  
+- Termed “Russian Doll” caching because partials and nested partials can easily be cached
+- Routing engine and dispatcher are still involved in requests  
+- Generally no need to explicitly “expire” cached fragments  
+- Engine creates a “cache key” based on what is being cached  
+	- When content changes, cached entry will be expired/replaced automatically (but there are corner-cases where this won’t happen)  
+	- This is called generational caching
+
+[[Ruby Rails#Caching]]
+
+## Attacks
+Break into server(s) hosting the application, steal confidential information  
+- Store passwords in encrypted form  
+- Don’t let confidential information leak into application logs (log masking)
+
+Launch man-in-the-middle attacks to hijack application and/or users  
+- Use encryption (Transport Layer Security)  
+- Protect against cross-site request forgery (CSRF/XSRF)
+
+Attempt to corrupt the application or force the app to expose private data  
+- Mass assignment protection (strong parameters)  
+- Protect against SQL injection  
+- Protect against cross-site scripting (XSS)  
+- Escape and sanitize any form data
+
+Harvest information accidentally left in a public code repo  
+- Make sure there is no secret information (e.g., passwords, keys) in Github!
+
+Launch denial of service attacks against a public-facing web server (or network service)
+- Basic idea: hire a botnet or use some other mechanism to direct lots of garbage traﬀic toward a server  
+- The cost is pretty low to launch mid-scale DoS attacks  
+- There’s nothing in the application itself that you can do  
+- Best to use a service such as cloudflare to mitigate the damage  
+- Network service providers may be able to help, to "blackhole" DoS traffic on upstream links
+
+### Storing private info
+Don't store any private info you don't have to (especially credit card info), if hosting provider is compromised it could all be stolen. If you **must** then encrypt it all at the very least  

@@ -12,4 +12,4 @@
 
 Testing between two features to see which performs better.
 
-One group sees new feature, other sees o
+One group sees new feature, other sees old. Interpret data to see which is better.
