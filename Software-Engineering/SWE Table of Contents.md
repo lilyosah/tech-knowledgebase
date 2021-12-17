@@ -97,3 +97,5 @@
 	- [[Javascript]]
 - 12-2-2021
 	- [[Design Patterns]]
+	
+- [[DevOps]]

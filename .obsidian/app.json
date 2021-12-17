@@ -92,7 +92,8 @@
     "Capybara",
     "decrypt",
     "crypto",
-    "superclass"
+    "superclass",
+    "Preflight"
   ],
   "newFileLocation": "current",
   "attachmentFolderPath": "./",

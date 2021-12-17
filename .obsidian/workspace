@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Design Patterns.md",
+            "file": "Software-Engineering/AB Testing.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Design Patterns.md",
+            "file": "Software-Engineering/AB Testing.md",
             "mode": "preview"
           }
         },
@@ -69,8 +69,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "4a5f8b203a152342",
@@ -108,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Design Patterns.md",
+                "file": "Software-Engineering/AB Testing.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Design Patterns.md"
+                "file": "Software-Engineering/AB Testing.md"
               }
             }
           }
@@ -139,15 +138,15 @@
   },
   "active": "93059b7f5ae986bc",
   "lastOpenFiles": [
+    "Software-Engineering/AB Testing.md",
+    "Software-Engineering/Feature Flags.md",
+    "A/B Testing.md",
+    "Software-Engineering/DevOps.md",
+    "Development Basics.md",
+    "Software-Engineering/SWE Table of Contents.md",
+    "Dev/Ops.md",
     "Design Patterns.md",
     "Django.md",
-    "Software-Engineering/Javascript.md",
-    "Helpful set-up guide.md",
-    "Software-Engineering/jQuery.md",
-    "Software-Engineering/SWE Table of Contents.md",
-    "Software-Engineering/Git Commands.md",
-    "Data-Structures-and-Algorithms/Dynamic Programming.md",
-    "Data-Structures-and-Algorithms/Algo MOC.md",
-    "Data-Structures-and-Algorithms/Data Structures.md"
+    "Software-Engineering/Javascript.md"
   ]
 }
