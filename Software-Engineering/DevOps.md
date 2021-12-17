@@ -20,10 +20,11 @@ Goal: To automate **everything.** You need rollbacks, etc. to be super easy.
 ==Data Integrity:== can the app prevent customer data from being tampered with, or at least detect that tampering has occurred or that data may have been compromised?
 
 ## 3-Tiered Shared-Nothing Architecture
-Presentation: web server which accepts HTTP requests from users and handles serving static assets
-- Forwards requests for dynamic content to the logic tier
+**Presentation tier:** web server which accepts HTTP requests from users and handles serving static assets. Forwards requests for dynamic content to the logic tier
+**Logic tier:** where the actual app runs. Supported by an application server 
+**Persistence tier:** store data that must persist across HTTP requests ([[Networks]])
 
-Logic tier:
+HTTP's statelessness allows the presentation and logic tiers to be shared-nothing
 
 Scaling presentation and application tiers: 
 - Add virtual machines

@@ -192,7 +192,7 @@ Move.has_many_fans.recently_viewed
 ##### 🏘 Proxy
 *Variation of adapter*
 
-==Def:== One object “stands in” for another that has the same AP
+==Def:== One object “stands in” for another that has the same API
 Implements methods as "real" service objects but intercept each call
 
 ### 🤹‍ Behavior
