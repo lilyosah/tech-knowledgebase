@@ -32,14 +32,17 @@ GoF (Gang of four design pattern) authors:
 **Rule:** A class should have only one reason to change. Each responsibility is an axis of change, changes to one axis shouldn't affect others
 
 
-**Smells:**
+**Design smells:**
 - High LCOM score
 - Models with many sets of behaviors, large class files
 - **Ex: ✏**  In a [[Rails Models]], one user model might be a customer, auth principle, social network member, etc.
 	- These should be converted to separate models with 1-1 relationships 
 	- You woulnd't necessarily need to build a new controller for this model 
+- Data clumps: vars "travel" together through methods, etc. 
 
 #### LCOM (Lack of Cohesion Of Methods) score
+Warns you if the class consists of multiple “clusters” in which methods within a cluster are related, but methods in one cluster aren’t strongly related to methods in other clusters.
+
 $$\text{LCOM}_1 = 1 - \frac{\sum M(V_i)}{V*M}$$
 $V$ = num instance vars
 $M$ = # instance methods
@@ -52,7 +55,7 @@ $V_i$ = # instance variables used by a method (if the same 3 vars are used in 2 
 
 ###  Open-Closed Principle (OCP)
 **Rule:** Code should be open for extension but not for source modification
-**Smells:** 
+**Design smells:** 
 - Switch/case statements and run-time type identification
 - Can’t extend (add new types) without changing base class
 
@@ -70,17 +73,24 @@ $V_i$ = # instance variables used by a method (if the same 3 vars are used in 2 
 - If a depends on b but b's implementation can change, make an abstract interface that both rely on instead. Injecting dependencies 
 	- **Ex: ✏**  If you use a specific service that you end up changing you'd have to rewrite all of the code that deals with the old API, instead you can write an interface for it (`AbstractMailAgent`), use that, and just change that
 
-**Smells:**
-- Subclass destructively overrides an inherited method
+**Design smells:**
+- Subclass destructively overrides an inherited method. (Refused bequest: not being able to call a method on a subclass in place of super class
+- Forcing changes to the superclass to avoid the problem
 
 #### Address using:
 - Replace inheritance with delegation
 - [[Design Patterns#🏘 Composition]]
 
 ### Injection of Dependencies 
+**Rule:** Collaborating classes whose implementation may vary at runtime should depend on an intermediate “injected” dependency.
+
 **Problem:** $a$ depends on $b$, but $b$’s interface & implementation can change, even if the functionality is generally stable.
 
 **Ex: ✏**  Web App uses a MySQL database, but because of scaling and pricing issues, you want to migrate to using a PostgreSQL database
+
+**Design smells:**
+- Unit tests that require ad hoc stubbing to create seams
+- Constructors that hardwire a call to another class’s constructor, rather than allowing runtime determination of which other class to use
 
 #### Address using:
 - Inject an abstract interface than $a$ and $b$ depend on 
@@ -106,6 +116,11 @@ graph LR
 
 ```
 
+**Design smells:**
+- Inappropriate intimacy
+- Feature envy
+- Mock trainwrecks
+
 #### Address using:
 - Replace method with delegate
 - Separate traversal from computation (Visitor)
@@ -117,9 +132,7 @@ graph LR
 ### 🐣 Creation
 #### 🐣 Abstract Factory Pattern 
 ==Def:== "Provide an interface for creating families of related or dependent objects  
-without specifying their concrete classes"
-
-DRYing out construction in cases where you don't know the type beforehand
+without specifying their concrete classes". A common interface for instantiating an object whose subclass may not be known until runtime.
 
 #### 🐣 Singleton
 ==Def:== "Ensure a class has only one instance, and provide a global point of access to it"
@@ -129,7 +142,7 @@ DRYing out construction in cases where you don't know the type beforehand
 
 ---
 
-### 🏘Structure
+### 🏘 Structure
 #### 🏘 Composition
 ==Def:== "Provide operations that work on both an individual object and a collection of that type of object"
 
@@ -173,11 +186,17 @@ Move.has_many_fans.recently_viewed
 
 ### 🤹‍ Behavior
 #### 🤹‍ Template Method Pattern
+*Supports the case in which there is a general approach to doing a task but  
+many possible variants.*
+
 ==Def:== "Uniformly encapsulate multiple varying strategies for same task". **Set of steps** is the same, implementation of steps is different
 
 **Typical implementation:** Inheritance, with sub-classes overriding abstract methods. Template method stays the same; helpers overridden in subclass
 
 #### 🤹‍ Strategy Pattern
+*Supports the case in which there is a general approach to doing a task but  
+many possible variants.*
+
 ==Def:== "Uniformly encapsulate multiple varying strategies for same task". **Task** is the same, but many ways to do it
 - Must be good default strategies
 
