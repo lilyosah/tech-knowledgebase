@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software-Engineering/Javascript.md",
+            "file": "Design Patterns.md",
             "mode": "preview"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "decorator",
+                "query": "local = false",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -56,7 +56,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "4a5f8b203a152342",
@@ -94,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software-Engineering/Javascript.md",
+                "file": "Design Patterns.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software-Engineering/Javascript.md"
+                "file": "Design Patterns.md"
               }
             }
           }
@@ -125,8 +126,8 @@
   },
   "active": "4c25c3490c57ff20",
   "lastOpenFiles": [
-    "Software-Engineering/Javascript.md",
     "Design Patterns.md",
+    "Software-Engineering/Javascript.md",
     "Rails Models.md",
     "Software-Engineering/DevOps.md",
     "Software-Engineering/Feature Flags.md",

@@ -169,7 +169,7 @@ end
 **Ex: ✏**  [[Ruby Rails]] scopes
 ```Ruby
 Movie.for_kids.with_good_reviews(3)
-Move.has_many_fans.recently_viewed
+Movie.has_many_fans.recently_viewed
 ```
 
 #### 🏘 Adapter, Facade, Bridge, Proxy
