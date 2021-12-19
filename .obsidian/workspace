@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Rails Models.md",
+            "file": "Django.md",
             "mode": "preview"
           }
         }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rails Models.md",
+                "file": "Django.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rails Models.md"
+                "file": "Django.md"
               }
             }
           }
@@ -126,6 +126,7 @@
   },
   "active": "4c25c3490c57ff20",
   "lastOpenFiles": [
+    "Django.md",
     "Rails Models.md",
     "Software-Engineering/DevOps.md",
     "Design Patterns.md",
@@ -134,7 +135,6 @@
     "Ruby Rails.md",
     "Software-Engineering/SQL Injection Attacks.md",
     "Software-Engineering/SQL.md",
-    "Software-Engineering/CSRF Attacks.md",
-    "Software-Engineering/XSS Attacks.md"
+    "Software-Engineering/CSRF Attacks.md"
   ]
 }
