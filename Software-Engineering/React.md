@@ -1,11 +1,10 @@
-# Title
+# React
 #📥 
 %%
 #topic
 #concept
 
 **Related:**
--  
+-  [[MobX]]
 
 %%
-

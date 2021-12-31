@@ -9,8 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Django.md",
-            "mode": "source"
+            "file": "Software-Engineering/MobX.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -95,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Django.md",
+                "file": "Software-Engineering/MobX.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Django.md"
+                "file": "Software-Engineering/MobX.md"
               }
             }
           }
@@ -126,15 +127,15 @@
   },
   "active": "4c25c3490c57ff20",
   "lastOpenFiles": [
+    "Software-Engineering/MobX.md",
+    "Templates/Concept.md",
+    "Software-Engineering/React.md",
+    "Software-Engineering/Javascript.md",
     "Django.md",
     "Rails Models.md",
     "Software-Engineering/DevOps.md",
     "Design Patterns.md",
-    "Software-Engineering/Javascript.md",
     "Software-Engineering/Feature Flags.md",
-    "Ruby Rails.md",
-    "Software-Engineering/SQL Injection Attacks.md",
-    "Software-Engineering/SQL.md",
-    "Software-Engineering/CSRF Attacks.md"
+    "Ruby Rails.md"
   ]
 }
