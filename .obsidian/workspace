@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Django.md",
+            "file": "Software-Engineering/Git Commands.md",
             "mode": "source",
             "source": false
           }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Django.md",
+                "file": "Software-Engineering/Git Commands.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Django.md"
+                "file": "Software-Engineering/Git Commands.md"
               }
             }
           }
@@ -127,6 +127,8 @@
   },
   "active": "4c25c3490c57ff20",
   "lastOpenFiles": [
+    "Software-Engineering/Git Commands.md",
+    "GitHub.md",
     "Django.md",
     "Software-Engineering/MobX.md",
     "Templates/Concept.md",
@@ -134,8 +136,6 @@
     "Software-Engineering/Javascript.md",
     "Rails Models.md",
     "Software-Engineering/DevOps.md",
-    "Design Patterns.md",
-    "Software-Engineering/Feature Flags.md",
-    "Ruby Rails.md"
+    "Design Patterns.md"
   ]
 }
