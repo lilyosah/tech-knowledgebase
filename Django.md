@@ -156,3 +156,6 @@ So that you can cache parts of a rendered page so that it doesn't get re-rendere
 ## Admin site
 ## Serialising Data
 Data can be serialised as JSON
+
+## Sessions
+Supports sessions, access via `sessions` attribute in request parameter for view methods
