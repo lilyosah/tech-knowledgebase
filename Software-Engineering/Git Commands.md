@@ -1,4 +1,4 @@
-# Git commands
+o# Git commands
 #concept
 **Related:**
 -  
@@ -25,7 +25,7 @@
 version.  
 - `git diff [branch] [file]`: Show differences between current version of file and the way it appears in the most recent commit on branch (see Section 10.2).  
 - `git log [ref ..ref] [files]`: Show log entries affecting all files between the two commits specified by the refs (which must be separated by exactly two dots), or if omitted, entire log history affecting those files.  
-- `git log --since="[date]" [files]`: Show the log entries affecting all files since the given date (examples: "25-Dec-2019", "2 weeks ago"
+- `git log --since="[date]" [files]`: Show the log entries apffecting all files since the given date (examples: "25-Dec-2019", "2 weeks ago"
 
 ## Ways to refer to commits
 - `HEAD`: The most recently committed version on the current branch. 
