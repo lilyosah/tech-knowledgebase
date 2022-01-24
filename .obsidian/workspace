@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "4c25c3490c57ff20",
+        "id": "a36d89ee1114ccf2",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software-Engineering/React.md",
+            "file": "HCI 1/24/2022 First Half Day.md",
             "mode": "source"
           }
         }
@@ -56,8 +56,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "4a5f8b203a152342",
@@ -95,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software-Engineering/React.md",
+                "file": "HCI 1/24/2022 First Half Day.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software-Engineering/React.md"
+                "file": "HCI 1/24/2022 First Half Day.md"
               }
             }
           }
@@ -124,17 +123,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "4c25c3490c57ff20",
+  "active": "a36d89ee1114ccf2",
   "lastOpenFiles": [
+    "HCI 1/24/2022 First Half Day.md",
+    "Human Computer Interaction/HCI MOC.md",
+    "Untitled.md",
     "Software-Engineering/React.md",
     "Software-Engineering/Git Commands.md",
     "GitHub.md",
     "Django.md",
     "Software-Engineering/MobX.md",
     "Templates/Concept.md",
-    "Software-Engineering/Javascript.md",
-    "Rails Models.md",
-    "Software-Engineering/DevOps.md",
-    "Design Patterns.md"
+    "Software-Engineering/Javascript.md"
   ]
 }
