@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "HCI 1/24/2022 First Half Day.md",
+            "file": "Human Computer Interaction/History of HCI.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "local = false",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -56,7 +56,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "4a5f8b203a152342",
@@ -94,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HCI 1/24/2022 First Half Day.md",
+                "file": "Human Computer Interaction/History of HCI.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HCI 1/24/2022 First Half Day.md"
+                "file": "Human Computer Interaction/History of HCI.md"
               }
             }
           }
@@ -125,15 +126,15 @@
   },
   "active": "a36d89ee1114ccf2",
   "lastOpenFiles": [
-    "HCI 1/24/2022 First Half Day.md",
+    "Human Computer Interaction/History of HCI.md",
     "Human Computer Interaction/HCI MOC.md",
+    "HCI 1/24/2022 First Half Day.md",
     "Untitled.md",
     "Software-Engineering/React.md",
     "Software-Engineering/Git Commands.md",
     "GitHub.md",
     "Django.md",
     "Software-Engineering/MobX.md",
-    "Templates/Concept.md",
-    "Software-Engineering/Javascript.md"
+    "Templates/Concept.md"
   ]
 }
