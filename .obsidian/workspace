@@ -7,8 +7,11 @@
         "id": "a36d89ee1114ccf2",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Accessibility/Independent Study Plan.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -90,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Accessibility/Independent Study Plan.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +109,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Accessibility/Independent Study Plan.md"
+              }
             }
           }
         ],
@@ -118,10 +124,10 @@
   },
   "active": "a36d89ee1114ccf2",
   "lastOpenFiles": [
+    "Accessibility/Independent Study Plan.md",
     "Human Computer Interaction/History of HCI.md",
     "Human Computer Interaction/HCI MOC.md",
     "HCI 1/24/2022 First Half Day.md",
-    "Untitled.md",
     "Software-Engineering/React.md",
     "Software-Engineering/Git Commands.md",
     "GitHub.md",
