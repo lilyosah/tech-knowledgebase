@@ -13,6 +13,8 @@
 	- [[HCI 1/24/2022 First Half Day]]
 - 1/26/2022
 	- [[History of HCI]]
+- 1/28/2022
+	- [[Future of HCI]]
 
 ### Week 2: Topic
 - {date} Title

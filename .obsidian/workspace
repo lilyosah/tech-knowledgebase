@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Accessibility/Independent Study Plan.md",
+            "file": "Human Computer Interaction/Future of HCI.md",
             "mode": "source"
           }
         }
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "88584f44ddabdce4",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Accessibility/Independent Study Plan.md",
+                "file": "Human Computer Interaction/Future of HCI.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Accessibility/Independent Study Plan.md"
+                "file": "Human Computer Interaction/Future of HCI.md"
               }
             }
           }
@@ -124,15 +125,15 @@
   },
   "active": "a36d89ee1114ccf2",
   "lastOpenFiles": [
+    "Human Computer Interaction/Future of HCI.md",
+    "Human Computer Interaction/HCI MOC.md",
     "Accessibility/Independent Study Plan.md",
     "Human Computer Interaction/History of HCI.md",
-    "Human Computer Interaction/HCI MOC.md",
     "HCI 1/24/2022 First Half Day.md",
     "Software-Engineering/React.md",
     "Software-Engineering/Git Commands.md",
     "GitHub.md",
     "Django.md",
-    "Software-Engineering/MobX.md",
-    "Templates/Concept.md"
+    "Software-Engineering/MobX.md"
   ]
 }
