@@ -9,7 +9,18 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Human Computer Interaction/Future of HCI.md",
+            "file": "Human Computer Interaction/HCI MOC.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "27de47e531fa9018",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Human Computer Interaction/Psychology of HCI.md",
             "mode": "source"
           }
         }
@@ -94,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Human Computer Interaction/Future of HCI.md",
+                "file": "Human Computer Interaction/HCI MOC.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Human Computer Interaction/Future of HCI.md"
+                "file": "Human Computer Interaction/HCI MOC.md"
               }
             }
           }
@@ -125,15 +136,15 @@
   },
   "active": "a36d89ee1114ccf2",
   "lastOpenFiles": [
-    "Human Computer Interaction/Future of HCI.md",
     "Human Computer Interaction/HCI MOC.md",
+    "Human Computer Interaction/Psychology of HCI.md",
+    "Human Computer Interaction/Future of HCI.md",
+    "Templates/Concept.md",
+    "Human Computer Interaction/Blurring Lines Between Physical and Remote Spaces.md",
     "Accessibility/Independent Study Plan.md",
     "Human Computer Interaction/History of HCI.md",
     "HCI 1/24/2022 First Half Day.md",
     "Software-Engineering/React.md",
-    "Software-Engineering/Git Commands.md",
-    "GitHub.md",
-    "Django.md",
-    "Software-Engineering/MobX.md"
+    "Software-Engineering/Git Commands.md"
   ]
 }

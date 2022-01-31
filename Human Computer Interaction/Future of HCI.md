@@ -9,8 +9,6 @@
 
 %%
 
-Counter: 9
-
 ## Indirect and Direct Manipulation
 ==Indirect manipulation:==
 - command line
@@ -37,4 +35,7 @@ Trajectory: From indirect manipulation to direct. From **artificial** and unintu
 ### Blurring lines between physical and digital spaces
 - 45% of teens say that they are online almost constantly
 - Augmented/virtual reality
+	- Lumilo telling statuses of students work in AR
+	- Brain sensor things to control robotic limbs
+
 
