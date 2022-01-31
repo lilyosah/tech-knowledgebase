@@ -17,7 +17,7 @@
 	- [[Future of HCI]]
 
 ### Week 2: Topic
-- 1/21/2022 Counter: 6
+- 1/21/2022 Counter: 10
 	- [[Psychology of HCI]]
 
 ### Week 3: Topic
