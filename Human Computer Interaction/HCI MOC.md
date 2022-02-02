@@ -3,9 +3,10 @@
 
 ---
 
+Record: 11
+
 ## Projects
 - Link to projects
-
 
 ## Units
 ### Week 1: Topic
@@ -19,7 +20,7 @@
 ### Week 2: Topic
 - 1/21/2022 Counter: 10
 	- [[Psychology of HCI]]
-- 2/2/2022 Counter: 6
+- 2/2/2022 Counter: 11
 	- [[Psychology of HCI]]
 	- [[Design in HCI]]
 

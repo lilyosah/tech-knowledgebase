@@ -94,7 +94,8 @@
     "crypto",
     "superclass",
     "Preflight",
-    "unsanitized"
+    "unsanitized",
+    "Abductive"
   ],
   "newFileLocation": "current",
   "attachmentFolderPath": "./",
