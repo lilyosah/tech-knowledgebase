@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Human Computer Interaction/HCI MOC.md",
+            "file": "Human Computer Interaction/Design in HCI.md",
             "mode": "source"
           }
         }
@@ -20,7 +20,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Human Computer Interaction/Psychology of HCI.md",
+            "file": "Human Computer Interaction/HCI MOC.md",
             "mode": "source"
           }
         }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Human Computer Interaction/Psychology of HCI.md",
+                "file": "Human Computer Interaction/Design in HCI.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Human Computer Interaction/Psychology of HCI.md"
+                "file": "Human Computer Interaction/Design in HCI.md"
               }
             }
           }
@@ -134,17 +134,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "27de47e531fa9018",
+  "active": "a36d89ee1114ccf2",
   "lastOpenFiles": [
-    "Human Computer Interaction/Psychology of HCI.md",
+    "Human Computer Interaction/Design in HCI.md",
     "Human Computer Interaction/HCI MOC.md",
+    "Human Computer Interaction/Psychology of HCI.md",
     "Human Computer Interaction/Future of HCI.md",
     "Templates/Concept.md",
     "Human Computer Interaction/Blurring Lines Between Physical and Remote Spaces.md",
     "Accessibility/Independent Study Plan.md",
     "Human Computer Interaction/History of HCI.md",
     "HCI 1/24/2022 First Half Day.md",
-    "Software-Engineering/React.md",
-    "Software-Engineering/Git Commands.md"
+    "Software-Engineering/React.md"
   ]
 }

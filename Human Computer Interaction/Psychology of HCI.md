@@ -12,6 +12,14 @@
 ==Psychology:== The scientific study of mind and behavior
 - Exists because people are terrible at understanding how their own mind works
 
+
+```mermaid
+graph LR
+ comp["Computer"] -- Output -- "Input (Vision)" --> user["User"]
+ user -- Output --> comp
+ 
+```
+
 ## Marr's Theory of Vision
 : Raw, retinal image is 2D
 - Edge processing determines depth, 2 1/2 D
@@ -58,6 +66,18 @@ Three times:
 2. Extraneous:
 3. 
 
+## Dual Process Theory
+Emotions will always be faster and more powerful than logic 
+- Happen automatically 
+- Very important to consider emotions in UX design
+- Functionality is no longer enough
 
+### System 1
+: Fast, automatic problem solver
+**Ex:** 2+2
+
+### System 2
+: Slow, deliberate
+**Ex:** 53-17
 
 

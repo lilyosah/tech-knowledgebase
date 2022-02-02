@@ -19,6 +19,9 @@
 ### Week 2: Topic
 - 1/21/2022 Counter: 10
 	- [[Psychology of HCI]]
+- 2/2/2022 Counter: 6
+	- [[Psychology of HCI]]
+	- [[Design in HCI]]
 
 ### Week 3: Topic
 - {date} Title
