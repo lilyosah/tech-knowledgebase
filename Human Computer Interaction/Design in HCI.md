@@ -70,7 +70,43 @@ Ensure that the designs match the needs of the people for whom they are intended
 
 ## Human-centered design
 
-## 
+## Three levels of processing:
+
+```mermaid
+graph BT
+ Behavioral --> Reflective
+ Visceral --> Behavioral
+ 
+ classDef blueFill fill:#122e6b;
+ classDef redBorder stroke:#f21e02;
+ classDef greenBorder stroke:#02fc66;
+ classDef hidden display:none;
+```
+
+Good design addressed all three levels at once
+
+### 🦎 Visceral
+> "Design for the way people are, not for the way you want them to be"
+
+- Reptile brain processing 
+- Good/bad, safe/dangerous
+- Fast, subconscious
+- Immediate perception, all about attraction or repulsion 
+- Not about usability
+- Should leverage visceral responses
+
+### 🐒 Behavioral 
+- Learned skills, pattern and schema matching
+- Largely unconscious, but **associated with expectations**
+- Meeting expectations -> satisfaction and relief
+- Failing to met them -> disappointment and frustration
+- Feelings of control
+
+### 🧠 Reflective
+- Deep understanding is developed 
+- Reflection happens after you've had the interaction
+
+
 
 
 

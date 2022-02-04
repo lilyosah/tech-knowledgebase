@@ -23,6 +23,9 @@ Record: 11
 - 2/2/2022 Counter: 11
 	- [[Psychology of HCI]]
 	- [[Design in HCI]]
+- 2/4/2022 Counter: 6
+	- [[Design in HCI]]
+	- [[UI and UX]]
 
 ### Week 3: Topic
 - {date} Title
