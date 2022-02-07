@@ -28,8 +28,8 @@ Record: 11
 	- [[UI and UX]]
 
 ### Week 3: Topic
-- {date} Title
-	- Concepts that this lecture/reading contributed to
+- 2/7/2022 Counter: 3
+	- [[Principles of Interaction]]
 
 ### Week 4: Topic
 - {date} Title

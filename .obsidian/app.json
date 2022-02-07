@@ -95,7 +95,14 @@
     "superclass",
     "Preflight",
     "unsanitized",
-    "Abductive"
+    "Abductive",
+    "Discoverability",
+    "Affordances",
+    "Signifiers",
+    "discoverability",
+    "affordances",
+    "affordance",
+    "discoverable"
   ],
   "newFileLocation": "current",
   "attachmentFolderPath": "./",
