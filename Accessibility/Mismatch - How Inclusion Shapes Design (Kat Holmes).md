@@ -24,3 +24,14 @@ Solve for one, extend to many: Focus on what's universally important to all huma
 - Excluded leaders can recognize exclusion, finding solutions
 
 ## Chapter 2: Shut In, Shut Out
+
+- "A solution becomes a barrier when it's designed only for people with certain abilitie. The brainpower and ingenuity of anyone who doesn’t match that design are simply   untapped. When we create new ways for people to contribute their talents, their contributions influence everyone."
+- Less expensive to build inclusive designs from the get-go
+
+Cycle framework to show how mismatched designs mare made and can be remedied:
+
+- Why we make: The motivations that are innate to the problem solver
+- Who makes the solution: The problem solver
+- How we make: Methods and resources
+- Who uses it: Assumptions the problem solver will make about the people who will interact with or benefit from the solution
+- What we make
