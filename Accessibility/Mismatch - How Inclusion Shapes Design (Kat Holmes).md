@@ -16,3 +16,11 @@ By Kat Holmes
 - 4 "Treating inclusion as a benevolent mission increases the separation between people."
 - 9 "There is no single answer that suits everyone. Accessible solutions are always, inevitably, accessible to some but not all people", this should not stop you from trying to design accessible products.
 - Inclusion requires humility.
+
+Recognize exclusion: Solving problems using our own biases leads to exclusion
+Learn from human diversity
+Solve for one, extend to many: Focus on what's universally important to all humans
+
+- Excluded leaders can recognize exclusion, finding solutions
+
+## Chapter 2: Shut In, Shut Out
