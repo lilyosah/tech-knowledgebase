@@ -28,7 +28,7 @@ Record: 11
 	- [[UI and UX]]
 
 ### Week 3: Topic
-- 2/7/2022 Counter: 3
+- 2/7/2022 Counter: 4
 	- [[Principles of Interaction]]
 
 ### Week 4: Topic

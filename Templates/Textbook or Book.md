@@ -1,5 +1,5 @@
 # Title
-### By author
+By author
 
 %%
 #reading 

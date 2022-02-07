@@ -7,5 +7,6 @@
 - Narrow down topic
 - Maybe come up with a question
 
-## 
+## Reading
+- [[Mismatch - How Inclusion Shapes Design (Kat Holmes)]]
 

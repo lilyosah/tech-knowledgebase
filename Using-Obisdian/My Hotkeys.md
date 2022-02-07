@@ -31,3 +31,4 @@ Templates: `ctrl + shift + d`
 Create new note from selection with header as title: `ctrl + shift + n`
 Search and Replace in Current File: `ctrl + h`
 To select a line: `alt + shift + move cursor in direction`
+To move a line up or down: ` alt + up or down arrow key`

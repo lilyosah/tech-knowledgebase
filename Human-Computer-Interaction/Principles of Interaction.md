@@ -57,5 +57,14 @@ Does the digital interaction "map" to an analogous physical interaction
 : Communication of the result of an action
 
 Every action must have feedback
-Must be appropriate, can have too much 
+Must be appropriate, can have too much
+
+Sometimes delaying feedback can be valuable 
+
+## Conceptual Models
+
+: A simplified explanation of how something works
+A good conceptual model allows us to predict the effects of our actions 
+
+**Ex: ✏** Files and folders no a desktop create a conceptual model
 

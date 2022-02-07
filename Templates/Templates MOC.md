@@ -10,7 +10,7 @@ Press `ctlr + shift + d` to insert a template
 [[Assignment]]
 [[Concept]]
 [[Study Guide]]
-[[Textbook]]
+[[Textbook or Book]]
 [[Table of Contents Template]]
 [[Reference]]
 
