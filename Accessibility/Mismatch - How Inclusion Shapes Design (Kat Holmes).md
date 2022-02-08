@@ -35,3 +35,9 @@ Cycle framework to show how mismatched designs mare made and can be remedied:
 - How we make: Methods and resources
 - Who uses it: Assumptions the problem solver will make about the people who will interact with or benefit from the solution
 - What we make
+
+## Chapter 3: Why it's Time to Kick the Habit
+
+Exclusion leads to invisibility of certain groups. 
+Being excluded by an object can be more painful than rejection by a person and can even approximate physical pain.
+"Exclusion habits stem from a belief that we can’t change aspects of society that were originally set into motion by someone other than ourselves"
