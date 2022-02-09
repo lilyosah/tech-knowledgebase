@@ -9,7 +9,18 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Human-Computer-Interaction/Stages of Action.md",
+            "file": "Human-Computer-Interaction/Design in HCI.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "1f8c0ed1fa1bf4ec",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Human-Computer-Interaction/HCI MOC.md",
             "mode": "source"
           }
         }
@@ -39,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "visceral",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -56,7 +67,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "4a5f8b203a152342",
@@ -94,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Human-Computer-Interaction/Stages of Action.md",
+                "file": "Human-Computer-Interaction/Design in HCI.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Human-Computer-Interaction/Stages of Action.md"
+                "file": "Human-Computer-Interaction/Design in HCI.md"
               }
             }
           }
@@ -125,15 +137,15 @@
   },
   "active": "2c46c52a3b53fc6d",
   "lastOpenFiles": [
-    "Human-Computer-Interaction/Stages of Action.md",
+    "Human-Computer-Interaction/Design in HCI.md",
     "Human-Computer-Interaction/HCI MOC.md",
+    "Human-Computer-Interaction/Stages of Action.md",
+    "Human-Computer-Interaction/Psychology of HCI.md",
     "Human-Computer-Interaction/Principles of Interaction.md",
     "Accessibility/Mismatch - How Inclusion Shapes Design (Kat Holmes).md",
     "Templates/Textbook or Book.md",
     "Accessibility/Independent Study Plan.md",
     "Templates/{{date}} Note Header.md",
-    "Templates/Array Table.md",
-    "Templates/Assignment.md",
-    "Templates/Essay.md"
+    "Templates/Array Table.md"
   ]
 }

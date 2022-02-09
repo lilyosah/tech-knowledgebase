@@ -30,7 +30,7 @@ Record: 11
 ### Week 3: Topic
 - 2/7/2022 Counter: 4
 	- [[Principles of Interaction]]
-- 2/9/2022
+- 2/9/2022 Counter: 3
 	- [[Stages of Action]]
 		- 
 

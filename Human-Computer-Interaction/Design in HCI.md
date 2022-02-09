@@ -94,6 +94,9 @@ Good design addressed all three levels at once
 - Immediate perception, all about attraction or repulsion 
 - Not about usability
 - Should leverage visceral responses
+- Calmness vs. anxiety, attraction or repulsion
+
+Stages of action: Perform and perceive
 
 ### 🐒 Behavioral 
 - Learned skills, pattern and schema matching
@@ -101,13 +104,58 @@ Good design addressed all three levels at once
 - Meeting expectations -> satisfaction and relief
 - Failing to met them -> disappointment and frustration
 - Feelings of control
+- Hope vs. fear, relief vs. despair
+
+Stage of action:  Specify and interpret
 
 ### 🧠 Reflective
 - Deep understanding is developed 
 - Reflection happens after you've had the interaction
+- satisfaction and pride vs blame and anger
+
+Stages of action: Plan and compare
 
 
+### Corresponding Actions and questions 
+Two bridges from the goal and the world to use things: bridge of execution and bridge of evaluation.
 
+Have corresponding actions to cross them and questions to answer. A program should be able to answer every question.
+
+
+#### Gulf of execution 
+Feedforward
+1. Plan
+	- Reflective
+	- What are alternatives?
+2. Specify
+	- What can I do?
+3. Perform
+	- How do I do it?
+#### Gulf of evaluation: 
+Feedback
+1. Perceive
+	- What happened?
+2. Interpret
+	-  What does it mean?
+3. Compare
+	- Reflective
+	- Is this okay?
+
+**Ex: ✏** Trying to take a photo when your space is full.
+
+Plan: Can I take the photo with another app?
+Specify:
+Perform:
+
+
+## The State of Flow
+
+==Flow:== complete immersion in an activity
+- Lose track of difficulty
+- At just the right level of difficulty 
+	- Challenging enough to require continued attention, not so difficult that you don't want to do it
+
+**Ex: ✏** Video games, reading music
 
 
 

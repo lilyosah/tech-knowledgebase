@@ -42,6 +42,11 @@ to be useful affordances must be discoverable
 :Signal the presence of an affordance of anti-affordance
 **Ex: ✏** A sign indicating which way to turn something to lock it 
 
+## Constraints
+Used to limit ... something.
+
+Ex: Validations to make sure a password is vlaid
+
 
 ## Mapping
 
