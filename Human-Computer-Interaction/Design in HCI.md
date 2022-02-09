@@ -116,13 +116,13 @@ Stage of action:  Specify and interpret
 Stages of action: Plan and compare
 
 
-### Corresponding Actions and questions 
+### Corresponding Actions and Questions 
 Two bridges from the goal and the world to use things: bridge of execution and bridge of evaluation.
 
 Have corresponding actions to cross them and questions to answer. A program should be able to answer every question.
 
 
-#### Gulf of execution 
+#### Gulf of execution
 Feedforward
 1. Plan
 	- Reflective
@@ -131,7 +131,7 @@ Feedforward
 	- What can I do?
 3. Perform
 	- How do I do it?
-#### Gulf of evaluation: 
+#### Gulf of evaluation
 Feedback
 1. Perceive
 	- What happened?
@@ -144,8 +144,11 @@ Feedback
 **Ex: ✏** Trying to take a photo when your space is full.
 
 Plan: Can I take the photo with another app?
-Specify:
-Perform:
+Specify: (The warning pop-up is not very descriptive. This one is not accomplished)
+Perform: You can give up or go to settings and manage storage
+Perceive: ?
+Interpret: ?
+Compare: ?
 
 
 ## The State of Flow

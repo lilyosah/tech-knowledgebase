@@ -30,9 +30,8 @@ Record: 11
 ### Week 3: Topic
 - 2/7/2022 Counter: 4
 	- [[Principles of Interaction]]
-- 2/9/2022 Counter: 3
-	- [[Stages of Action]]
-		- 
+- 2/9/2022 Counter: 5
+	- [[Design in HCI#Corresponding Actions and Questions]]
 
 ### Week 4: Topic
 - {date} Title
