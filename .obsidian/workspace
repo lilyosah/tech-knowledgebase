@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Human-Computer-Interaction/HCI MOC.md",
+            "file": "Human-Computer-Interaction/Design in HCI.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "visceral",
+                "query": "affordance",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 538,
-    "collapsed": true
+    "width": 538
   },
   "right": {
     "id": "88584f44ddabdce4",
@@ -95,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Human-Computer-Interaction/HCI MOC.md",
+                "file": "Human-Computer-Interaction/Design in HCI.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Human-Computer-Interaction/HCI MOC.md"
+                "file": "Human-Computer-Interaction/Design in HCI.md"
               }
             }
           }
@@ -126,15 +125,15 @@
   },
   "active": "2c46c52a3b53fc6d",
   "lastOpenFiles": [
-    "Human-Computer-Interaction/HCI MOC.md",
     "Human-Computer-Interaction/Design in HCI.md",
+    "Human-Computer-Interaction/HCI MOC.md",
+    "Human-Computer-Interaction/UI and UX.md",
+    "Human-Computer-Interaction/Principles of Interaction.md",
     "Human-Computer-Interaction/Stages of Action.md",
     "Human-Computer-Interaction/Psychology of HCI.md",
-    "Human-Computer-Interaction/Principles of Interaction.md",
     "Accessibility/Mismatch - How Inclusion Shapes Design (Kat Holmes).md",
     "Templates/Textbook or Book.md",
     "Accessibility/Independent Study Plan.md",
-    "Templates/{{date}} Note Header.md",
-    "Templates/Array Table.md"
+    "Templates/{{date}} Note Header.md"
   ]
 }
