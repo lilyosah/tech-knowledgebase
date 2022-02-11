@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Human-Computer-Interaction/Design in HCI.md",
+            "file": "Accessibility/Mismatch - How Inclusion Shapes Design (Kat Holmes).md",
             "mode": "source"
           }
         }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Human-Computer-Interaction/Design in HCI.md",
+                "file": "Accessibility/Mismatch - How Inclusion Shapes Design (Kat Holmes).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Human-Computer-Interaction/Design in HCI.md"
+                "file": "Accessibility/Mismatch - How Inclusion Shapes Design (Kat Holmes).md"
               }
             }
           }
@@ -125,15 +125,15 @@
   },
   "active": "2c46c52a3b53fc6d",
   "lastOpenFiles": [
+    "Accessibility/Mismatch - How Inclusion Shapes Design (Kat Holmes).md",
+    "Accessibility/Independent Study Plan.md",
     "Human-Computer-Interaction/Design in HCI.md",
     "Human-Computer-Interaction/HCI MOC.md",
     "Human-Computer-Interaction/UI and UX.md",
     "Human-Computer-Interaction/Principles of Interaction.md",
     "Human-Computer-Interaction/Stages of Action.md",
     "Human-Computer-Interaction/Psychology of HCI.md",
-    "Accessibility/Mismatch - How Inclusion Shapes Design (Kat Holmes).md",
     "Templates/Textbook or Book.md",
-    "Accessibility/Independent Study Plan.md",
     "Templates/{{date}} Note Header.md"
   ]
 }
