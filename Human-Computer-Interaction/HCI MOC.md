@@ -32,6 +32,8 @@ Record: 11
 	- [[Principles of Interaction]]
 - 2/9/2022 Counter: 5
 	- [[Design in HCI#Corresponding Actions and Questions]]
+- 2/11/2022
+	- [[HCI Finding Principles of interaction]]
 
 ### Week 4: Topic
 - {date} Title
