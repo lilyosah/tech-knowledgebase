@@ -36,6 +36,10 @@ Cycle framework to show how mismatched designs mare made and can be remedied:
 - Who uses it: Assumptions the problem solver will make about the people who will interact with or benefit from the solution
 - What we make
 
+Discussion:
+How do you realistically do this at each stage?
+Maybe strive against exclusivity instead of strive for inclusivity 
+
 ## Chapter 3: Why it's Time to Kick the Habit
 
 Exclusion leads to invisibility of certain groups. 
