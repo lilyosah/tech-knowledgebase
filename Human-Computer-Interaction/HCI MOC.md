@@ -6,7 +6,7 @@
 Record: 11
 
 ## Projects
-- Link to projects
+- [[HCI Course Project]]
 
 ## Units
 ### Week 1: Topic
