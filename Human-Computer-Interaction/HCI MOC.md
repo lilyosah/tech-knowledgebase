@@ -36,5 +36,5 @@ Record: 11
 	- [[HCI Finding Principles of interaction]]
 
 ### Week 4: Topic
-- {date} Title
-	- Concepts that this lecture/reading contributed to
+- 2/14/2022
+	- [[Conceptual Design]]

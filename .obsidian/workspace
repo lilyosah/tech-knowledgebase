@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Accessibility/Mismatch - How Inclusion Shapes Design (Kat Holmes).md",
+            "file": "Human-Computer-Interaction/Conceptual Design.md",
             "mode": "source"
           }
         }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Accessibility/Mismatch - How Inclusion Shapes Design (Kat Holmes).md",
+                "file": "Human-Computer-Interaction/Conceptual Design.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Accessibility/Mismatch - How Inclusion Shapes Design (Kat Holmes).md"
+                "file": "Human-Computer-Interaction/Conceptual Design.md"
               }
             }
           }
@@ -126,15 +126,15 @@
   },
   "active": "2c46c52a3b53fc6d",
   "lastOpenFiles": [
+    "Human-Computer-Interaction/Conceptual Design.md",
+    "Human-Computer-Interaction/HCI MOC.md",
     "Accessibility/Mismatch - How Inclusion Shapes Design (Kat Holmes).md",
     "Accessibility/Independent Study Plan.md",
     "Human-Computer-Interaction/HCI Finding Principles of interaction.md",
-    "Human-Computer-Interaction/HCI MOC.md",
     "Human-Computer-Interaction/Design in HCI.md",
     "Human-Computer-Interaction/export.md",
     "Human-Computer-Interaction/Principles of Interaction.md",
     "Human-Computer-Interaction/UI and UX.md",
-    "Human-Computer-Interaction/Stages of Action.md",
-    "Human-Computer-Interaction/Psychology of HCI.md"
+    "Human-Computer-Interaction/Stages of Action.md"
   ]
 }
