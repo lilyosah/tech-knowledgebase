@@ -1,6 +1,10 @@
 # Conceptual Design
 
-: User-centered design process built upon in-depth field research to drive innovative design
+: User-centered design process built upon in-depth field research to drive innovative design - well-structured opportunities for immersion into the lives of users, allow us to continuously tun our intuitions
+- Needfinding, modeling, ideation, prototyping
+
+
+Many failures are due to a mismatch between what the designers think the users want and what they actually want 
 
 - Usability testing doesn't really help to create innovative products 
 - Must design for life: consider how a product fits into all of the contexts of everyday life
@@ -26,3 +30,8 @@ When the designed sits in the user's environment and finds out firsthand what th
 "Explicit, articulated user data gathered through well-defined public process ensures the data is trustworthy, avoiding arguments about what is best for the users"
 
 We do not ask what the users **want** (they can't tell you),  understand the **lives** of the users so that you can invent the product that will transform their lives.
+
+
+---
+
+
