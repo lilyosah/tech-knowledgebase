@@ -57,6 +57,10 @@ We do not ask what the users **want** (they can't tell you),  understand the **l
 ==Tacit data:== behaviors that have become so habitual that users don't realize they are doing them or can't explain why they are doing them
 - If you're not there with the user in the context they're doing them in you're miss tacit data
 
+##### In Practice 
+- One-on-one two hour interview
+- 
+
 ##### Hierarchy of Competence
 Competence
 Consciousness
