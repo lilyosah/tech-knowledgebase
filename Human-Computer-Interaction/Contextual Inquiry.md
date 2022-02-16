@@ -53,14 +53,28 @@ We do not ask what the users **want** (they can't tell you),  understand the **l
 	1. Generally when conducting research, you want to consider risks
 	2. All your data for this should be anonymous
 
-Ask open-ended questions:
+#### Do ask:
+- open-ended questions:
 Behavioral questions
 - Can you describe an occasion when... and what you did
 Feeling Questions
+- Maybe ask these at the end 
+- Make sure you're asking about things they're currently doing, not hypotheticals.
 
-Don't ask:
+- Wait for them to respond
+- Ask "why" until you get an interesting answer or the subject gets frustrated 
+- Ask for more details on anything that sounds interesting
+- Repeat, rephrase, summarize to make sure you understand
+- Clarify terms
+- Ask for step-by-step actions 
+- If there's silence, ask them what they're doing. Make them verbalize it
+
+#### Don't ask:
 - Hypothetical
-- 
+- Features
+- What others might like
+- How to design an interface
+- Double-barrel questions
 
 #### Context
 - One-on-one two hour interview
@@ -82,6 +96,14 @@ Don't ask:
 - Stick to your focus and share your focus with them - ignore details that are not relevant but pursue anything that surprises you 
 
 - You should end up with 10-20 pages of handwritten notes
+
+
+### Ending the interview
+Leave background for last
+- Least important
+Use a questionnaire
+Ask for suggestions, last thoughts, things we did not discuss
+**Thank them** and provide contact details if they have any questions
 
 ## Hierarchy of Competence
 Competence

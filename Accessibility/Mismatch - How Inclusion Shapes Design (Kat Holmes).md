@@ -48,3 +48,4 @@ Being excluded by an object can be more painful than rejection by a person and c
 
 ## Chapter 4: Inclusive Designers
 
+- Porter uses a wheelchair and must have some mobility issues and is a gamer who uses hardware and software hacks to get around obstacles to playing games, which he usually makes auditorily?
