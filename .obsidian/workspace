@@ -42,7 +42,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Accessibility/Mismatch - How Inclusion Shapes Design (Kat Holmes).md",
+            "file": "Human-Computer-Interaction/HCI Course Project.md",
             "mode": "source"
           }
         }
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Accessibility/Mismatch - How Inclusion Shapes Design (Kat Holmes).md",
+                "file": "Human-Computer-Interaction/HCI Course Project.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Accessibility/Mismatch - How Inclusion Shapes Design (Kat Holmes).md"
+                "file": "Human-Computer-Interaction/HCI Course Project.md"
               }
             }
           }
@@ -159,9 +159,9 @@
   },
   "active": "91de735e885c10f1",
   "lastOpenFiles": [
+    "Human-Computer-Interaction/HCI Course Project.md",
     "Accessibility/Mismatch - How Inclusion Shapes Design (Kat Holmes).md",
     "Accessibility/Independent Study Plan.md",
-    "Human-Computer-Interaction/HCI Course Project.md",
     "Human-Computer-Interaction/Contextual Inquiry.md",
     "Human-Computer-Interaction/HCI MOC.md",
     "Human-Computer-Interaction/Conceptual Design.md",
