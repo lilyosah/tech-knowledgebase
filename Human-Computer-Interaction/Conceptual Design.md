@@ -59,7 +59,8 @@ We do not ask what the users **want** (they can't tell you),  understand the **l
 
 ##### In Practice 
 - One-on-one two hour interview
-- 
+- Tell them your interpretations and they will probably correct them if they are wrong
+- Look out for 
 
 ##### Hierarchy of Competence
 Competence

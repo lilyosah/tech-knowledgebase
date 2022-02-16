@@ -38,3 +38,5 @@ Record: 11
 ### Week 4: Topic
 - 2/14/2022
 	- [[Conceptual Design]]
+- 2/16/2022
+	- 

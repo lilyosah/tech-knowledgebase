@@ -45,3 +45,6 @@ Maybe strive against exclusivity instead of strive for inclusivity
 Exclusion leads to invisibility of certain groups. 
 Being excluded by an object can be more painful than rejection by a person and can even approximate physical pain.
 "Exclusion habits stem from a belief that we can’t change aspects of society that were originally set into motion by someone other than ourselves"
+
+## Chapter 4: Inclusive Designers
+

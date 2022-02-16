@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Human-Computer-Interaction/Conceptual Design.md",
+            "file": "Human-Computer-Interaction/HCI MOC.md",
             "mode": "source"
           }
         }
@@ -20,7 +20,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Human-Computer-Interaction/HCI Course Project.md",
+            "file": "Human-Computer-Interaction/Conceptual Design.md",
             "mode": "source"
           }
         }
@@ -135,7 +135,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "2c46c52a3b53fc6d",
+  "active": "540cab4ce5cbc06d",
   "lastOpenFiles": [
     "Human-Computer-Interaction/Conceptual Design.md",
     "Human-Computer-Interaction/HCI Course Project.md",
