@@ -39,6 +39,6 @@ Building without checking with users relies on an intuition of the users, and no
 - To design for the customers, a team must be steeped in the life context of the users they are supporting
 - Contextual design includes a well-defined set of immersion activities 
 
-[[!Contextual Inquiry]]
+![[Contextual Inquiry]]
 
 
