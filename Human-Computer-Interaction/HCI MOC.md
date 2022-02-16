@@ -39,4 +39,4 @@ Record: 11
 - 2/14/2022
 	- [[Conceptual Design]]
 - 2/16/2022
-	- 
+	- [[Contextual Inquiry]]
