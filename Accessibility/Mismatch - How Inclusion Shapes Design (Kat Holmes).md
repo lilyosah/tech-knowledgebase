@@ -49,3 +49,37 @@ Being excluded by an object can be more painful than rejection by a person and c
 ## Chapter 4: Inclusive Designers
 
 - Porter uses a wheelchair and must have some mobility issues and is a gamer who uses hardware and software hacks to get around obstacles to playing games, which he usually makes auditorily?
+- WOW is inclusive bc although some people can't react fast enough to do a lot of combat, they engage with the economic part of the gaem
+- Figuring out **how** to game becomes a part of gaming for him. Not really like a great thing but considers it a metagame
+- Today games are able to be made by disabled people as well as huge companies with the resources
+- "It’s important to define the specific design skills that contribute to inclusion, so that more people can become practitioners."
+
+**Skills of successful inclusive designers:** 
+- Identify biases and mismatched interactions between people and world
+- Create a diversity of ways to participate in an experience
+- Design for interdependence and bring complementary skills together 
+
+
+- Making human ability the first consideration means that we start from a universal common ground. Ability is something that is present across all cultures
+- Ability biases are very sneaky
+
+
+==Disability:== a complex phenomenon, reflecting the **interaction** between features of a person’s body and features of the society in which they live.
+- Not about a personal health condition
+- These points of interaction are where mismatches can happen
+
+==Inclusive design:== A methodology that enables and draws on the full range of human diversity
+- A method
+- Focuses on how a designer arrived at a solution
+- One-size-fits-one #❓ 
+
+==Universal design:== the design of an environment so that it might be accessed and used in the widest possible range of situations without the need for adaption
+- Emphasizes the end solution and its attributes
+- One-size-fits-all
+
+==Accessibility:== The qualities that make an experience open to all
+- An attribute
+- Focused on making things accessible
+
+### Making accessibility accessible
+- You don't need to know how to do everything, just recognize issues and know when to bring in someone who does and design solutions that work well with assistive technology
