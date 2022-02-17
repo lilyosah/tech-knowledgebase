@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Human-Computer-Interaction/HCI MOC.md",
-            "mode": "preview"
+            "file": "Human-Computer-Interaction/HCI Course Project.md",
+            "mode": "source"
           }
         }
       },
@@ -23,14 +23,6 @@
             "file": "Accessibility/Mismatch - How Inclusion Shapes Design (Kat Holmes).md",
             "mode": "source"
           }
-        }
-      },
-      {
-        "id": "91de735e885c10f1",
-        "type": "leaf",
-        "state": {
-          "type": "graph",
-          "state": {}
         }
       }
     ],
@@ -114,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Accessibility/Mismatch - How Inclusion Shapes Design (Kat Holmes).md",
+                "file": "Human-Computer-Interaction/HCI Course Project.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Accessibility/Mismatch - How Inclusion Shapes Design (Kat Holmes).md"
+                "file": "Human-Computer-Interaction/HCI Course Project.md"
               }
             }
           }
@@ -143,13 +135,13 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "540cab4ce5cbc06d",
+  "active": "2c46c52a3b53fc6d",
   "lastOpenFiles": [
-    "Accessibility/Mismatch - How Inclusion Shapes Design (Kat Holmes).md",
-    "Human-Computer-Interaction/Conceptual Design.md",
-    "Human-Computer-Interaction/HCI MOC.md",
     "Human-Computer-Interaction/HCI Course Project.md",
+    "Human-Computer-Interaction/HCI MOC.md",
+    "Human-Computer-Interaction/Conceptual Design.md",
     "Human-Computer-Interaction/Contextual Inquiry.md",
+    "Accessibility/Mismatch - How Inclusion Shapes Design (Kat Holmes).md",
     "Accessibility/Independent Study Plan.md",
     "Human-Computer-Interaction/HCI Finding Principles of interaction.md",
     "Human-Computer-Interaction/Design in HCI.md",
