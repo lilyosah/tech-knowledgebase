@@ -83,3 +83,8 @@ Being excluded by an object can be more painful than rejection by a person and c
 
 ### Making accessibility accessible
 - You don't need to know how to do everything, just recognize issues and know when to bring in someone who does and design solutions that work well with assistive technology
+
+Interdependence:
+- "An inclusive designer thinks in terms of interdependent systems. They study human relationships. They observe the ways that people bring their skills together to complement each other. Inclusive designers seek out a diversity of ways that people build collective accomplishments
+
+## Chapter 5: With and For
