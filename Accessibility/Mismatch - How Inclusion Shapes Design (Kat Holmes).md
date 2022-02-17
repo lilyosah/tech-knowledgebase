@@ -88,3 +88,8 @@ Interdependence:
 - "An inclusive designer thinks in terms of interdependent systems. They study human relationships. They observe the ways that people bring their skills together to complement each other. Inclusive designers seek out a diversity of ways that people build collective accomplishments
 
 ## Chapter 5: With and For
+- Designing for and not with people can lead to exclusion
+- Moses was an architect in NYC in 1950s, made things WORSE for marginalized groups by razing their communities, lowering overpasses so that buses couldn't go under them. This top-down architecture planning was replicated across the U.S.
+- Brown is an architect designing for buildings in areas she grew up in Detroit's inner city
+	- "Nothing about us, without us"
+- 
