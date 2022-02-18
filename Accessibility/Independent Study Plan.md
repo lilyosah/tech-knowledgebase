@@ -7,6 +7,8 @@
 - Narrow down topic
 - Maybe come up with a question
 
+Reading papers:
+- Come in with a question
 - Abstract, sometimes don't need to go beyond this
 - For reading research papers, skip results, go to discussion. 
 
