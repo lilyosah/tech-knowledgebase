@@ -9,7 +9,8 @@
 
 %%
 
-Going to where users do the thing you're interested in, watching them while asking questions
+: Going to where users do the thing you're interested in, watching them while asking questions
+
 Being in the context allows us to:
 - Unravel the vital parts from the relevant parts
 - Observe the emotional energy
