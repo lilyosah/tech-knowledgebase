@@ -9,3 +9,5 @@ How has accessibility research evolved over time
 - Median sample size of  3 for disabled and older adult groups
 - Past study on Autism found that there is a focus on corrective, othering approaches. Authors agree 
 - Started with ~500 papers, programatically evaluated
+- Mostly BLV, motor physical, DHH, Cognitive...
+- Autism mostly focused on changing behaviors, BL and motor access focused on increasing digital access
