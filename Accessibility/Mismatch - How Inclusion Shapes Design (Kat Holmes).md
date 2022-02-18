@@ -69,7 +69,9 @@ Being excluded by an object can be more painful than rejection by a person and c
 ==Inclusive design:== A methodology that enables and draws on the full range of human diversity
 - A method
 - Focuses on how a designer arrived at a solution
-- One-size-fits-one #❓ 
+- One-size-fits-one
+	- A pattern of usage corresponds to a particular user
+	- Not one usage for everyone
 
 ==Universal design:== the design of an environment so that it might be accessed and used in the widest possible range of situations without the need for adaption
 - Emphasizes the end solution and its attributes
