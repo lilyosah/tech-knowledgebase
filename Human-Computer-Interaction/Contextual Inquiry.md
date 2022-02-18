@@ -45,12 +45,7 @@ We do not ask what the users **want** (they can't tell you),  understand the **l
 - Who are you going to talk to?
 - How will you record information?
 	- Handwritten notes are probably best, if you're recording then you may not take good enough notes
-- Write tips at the top of your notes:
-	- Follow up on interesting details
-	- Ask for specific examples
-	- Ask why
-	- Be an apprentice
-	- Also focus at the top
+
 
 
 ### During the interview

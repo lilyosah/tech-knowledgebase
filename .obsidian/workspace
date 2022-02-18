@@ -20,7 +20,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Accessibility/Independent Study Plan.md",
+            "file": "Human-Computer-Interaction/Contextual Inquiry.md",
             "mode": "source"
           }
         }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Accessibility/Independent Study Plan.md",
+                "file": "Human-Computer-Interaction/Contextual Inquiry.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Accessibility/Independent Study Plan.md"
+                "file": "Human-Computer-Interaction/Contextual Inquiry.md"
               }
             }
           }
@@ -148,10 +148,10 @@
   },
   "active": "cc7f8e6464cbddd7",
   "lastOpenFiles": [
-    "Accessibility/Independent Study Plan.md",
-    "Accessibility/Mismatch - How Inclusion Shapes Design (Kat Holmes).md",
     "Human-Computer-Interaction/Contextual Inquiry.md",
+    "Accessibility/Independent Study Plan.md",
     "Human-Computer-Interaction/HCI Course Project.md",
+    "Accessibility/Mismatch - How Inclusion Shapes Design (Kat Holmes).md",
     "Using-Obisdian/Emoji and Tag Key.md",
     "Human-Computer-Interaction/HCI MOC.md",
     "Accessibility/What do we Mean by 'Accessibility Research'.md",
