@@ -3,6 +3,8 @@
 Who does accessibility research focus on
 What are the stated goals
 What research methods are used
+- Mainly user studies (94%)
+- Mainly 
 How has accessibility research evolved over time
 
 - Disproportionately focuses on blind or low vision people (BLV)
