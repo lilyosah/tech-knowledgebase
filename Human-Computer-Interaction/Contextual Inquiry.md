@@ -45,34 +45,45 @@ We do not ask what the users **want** (they can't tell you),  understand the **l
 - Who are you going to talk to?
 - How will you record information?
 	- Handwritten notes are probably best, if you're recording then you may not take good enough notes
+- Write tips at the top of your notes:
+	- Follow up on interesting details
+	- Ask for specific examples
+	- Ask why
+	- Be an apprentice
+	- Also focus at the top
 
 
 ### During the interview
 1. Introduce yourself and your role
+	1. "I'm going to follow you around and ask you questions, I may be annoying"
 2. Explain your purpose
 3. Get consent/permission to record
 	1. Generally when conducting research, you want to consider risks
 	2. All your data for this should be anonymous
 
-#### Do ask:
-- open-ended questions:
-Behavioral questions
-- Can you describe an occasion when... and what you did
-Feeling Questions
-- Maybe ask these at the end 
-- Make sure you're asking about things they're currently doing, not hypotheticals.
-
+#### General Do's and Don't's
+##### Do ask:
+- Open-ended questions
+- **Behavioral questions**
+	- Can you describe an occasion when... and what you did
+- **Feeling Questions**
+	- Maybe ask these at the end 
+	- Make sure you're asking about things they're currently doing, not hypothetical
 - Wait for them to respond
-- Ask "why" until you get an interesting answer or the subject gets frustrated 
+- Ask "why" until you get an **interesting answer** or the subject gets **frustrated** 
 - Ask for more details on anything that sounds interesting
+	- Otherwise you'll run out of questions quickly
 - Repeat, rephrase, summarize to make sure you understand
+- Ask about intent
+- Ask for examples
 - Clarify terms
 - Ask for step-by-step actions 
 - If there's silence, ask them what they're doing. Make them verbalize it
 
-#### Don't ask:
+##### Don't ask:
 - Hypothetical
 - Features
+	- If they start talking about it, ask them to wait until the end of the interview
 - What others might like
 - How to design an interface
 - Double-barrel questions
@@ -96,15 +107,15 @@ Feeling Questions
 #### Focus
 - Stick to your focus and share your focus with them - ignore details that are not relevant but pursue anything that surprises you 
 
-- You should end up with 10-20 pages of handwritten notes
-
-
 ### Ending the interview
-Leave background for last
-- Least important
-Use a questionnaire
-Ask for suggestions, last thoughts, things we did not discuss
-**Thank them** and provide contact details if they have any questions
+
+- You should end up with 10-20 pages of handwritten notes
+- Maintain respect
+- Leave background for last
+	- Least important
+	- Use a questionnaire
+- Ask for suggestions, last thoughts, things we did not discuss
+- **Thank them** and provide contact details if they have any questions
 
 ## Hierarchy of Competence
 Competence

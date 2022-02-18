@@ -48,8 +48,8 @@ Being excluded by an object can be more painful than rejection by a person and c
 
 ## Chapter 4: Inclusive Designers
 
-- Porter uses a wheelchair and must have some mobility issues and is a gamer who uses hardware and software hacks to get around obstacles to playing games, which he usually makes auditorily?
-- WOW is inclusive bc although some people can't react fast enough to do a lot of combat, they engage with the economic part of the game
+- Porter uses a wheelchair and must have some mobility issues and is a gamer who uses hardware and software hacks to get around obstacles to playing games, which he usually makes auditory
+- WOW is inclusive because although some people can't react fast enough to do a lot of combat, they engage with the economic part of the game
 - Figuring out **how** to game becomes a part of gaming for him. Not really like a great thing but considers it a meta-game
 - Today games are able to be made by disabled people as well as huge companies with the resources
 - "It’s important to define the specific design skills that contribute to inclusion, so that more people can become practitioners."
@@ -59,10 +59,10 @@ Being excluded by an object can be more painful than rejection by a person and c
 - Create a diversity of ways to participate in an experience
 - Design for interdependence and bring complementary skills together 
 
-- Making human ability the first consideration means that we start from a universal common ground. Ability is something that is present across all cultures
+- ⭐ **Making human ability the first consideration** means that we start from a universal common ground. Ability is something that is present across all cultures
 - Ability biases are very sneaky
 
-==Disability:== a complex phenomenon, reflecting the **interaction** between features of a person’s body and features of the society in which they live.
+==Disability:== A complex phenomenon, reflecting the **interaction** between features of a person’s body and features of the society in which they live.
 - Not about a personal health condition
 - These points of interaction are where mismatches can happen
 
@@ -81,13 +81,14 @@ Being excluded by an object can be more painful than rejection by a person and c
 
 ### Making accessibility accessible
 
-- You don't need to know how to do everything, just recognize issues and know when to bring in someone who does and design solutions that work well with assistive technology
+- **You don't need to know how to do everything**, just recognize issues and know when to bring in someone who does and design solutions that work well with assistive technology
 
 ==Interdependence:==
-- "An inclusive designer thinks in terms of interdependent systems. They study human relationships. They observe the ways that people bring their skills together to complement each other. Inclusive designers seek out a diversity of ways that people build collective accomplishments..."
+- ✨ "An inclusive designer thinks in terms of interdependent systems. They study human relationships. They observe the ways that people bring their skills together to complement each other. Inclusive designers seek out a diversity of ways that people build collective accomplishments..."
+- This is really interesting
 
 ## Chapter 5: With and For
 - Designing for and not with people can lead to exclusion
 - Moses was an architect in NYC in 1950s, made things WORSE for marginalized groups by razing their communities, lowering overpasses so that buses couldn't go under them. This top-down architecture planning was replicated across the U.S.
 - Brown is an architect designing for buildings in areas she grew up in Detroit's inner city
-	- "Nothing about us, without us"
+	- ⭐ "Nothing about us, without us"
