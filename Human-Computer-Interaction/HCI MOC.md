@@ -40,3 +40,7 @@ Record: 11
 	- [[Conceptual Design]]
 - 2/16/2022
 	- [[Contextual Inquiry]]
+
+### Week 5
+- 2/21/2022
+	- [[Interpretation and Modeling]]

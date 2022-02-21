@@ -31,7 +31,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Human-Computer-Interaction/HCI Course Project.md",
+            "file": "Human-Computer-Interaction/Interpretation and Modeling.md",
             "mode": "source"
           }
         }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Human-Computer-Interaction/Contextual Inquiry.md",
+                "file": "Human-Computer-Interaction/Interpretation and Modeling.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Human-Computer-Interaction/Contextual Inquiry.md"
+                "file": "Human-Computer-Interaction/Interpretation and Modeling.md"
               }
             }
           }
@@ -146,17 +146,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "cc7f8e6464cbddd7",
+  "active": "582409fc895a643f",
   "lastOpenFiles": [
+    "Human-Computer-Interaction/Interpretation and Modeling.md",
+    "Human-Computer-Interaction/HCI MOC.md",
+    "Human-Computer-Interaction/HCI Course Project.md",
     "Human-Computer-Interaction/Contextual Inquiry.md",
     "Accessibility/Independent Study Plan.md",
-    "Human-Computer-Interaction/HCI Course Project.md",
     "Accessibility/Mismatch - How Inclusion Shapes Design (Kat Holmes).md",
     "Using-Obisdian/Emoji and Tag Key.md",
-    "Human-Computer-Interaction/HCI MOC.md",
     "Accessibility/What do we Mean by 'Accessibility Research'.md",
     "Human-Computer-Interaction/Conceptual Design.md",
-    "Human-Computer-Interaction/HCI Finding Principles of interaction.md",
-    "Human-Computer-Interaction/Design in HCI.md"
+    "Human-Computer-Interaction/HCI Finding Principles of interaction.md"
   ]
 }
