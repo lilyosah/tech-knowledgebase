@@ -61,3 +61,11 @@ Flow: How work is broken up across people, how do they coordinate
 - Individuals and groups: bubble with group names, annotates with responsibilities
 - Intents: And objective for the individual/group
 - Flow: Communication between individuals, groups, artifacts
+
+Sequence is left to right, flow is up and down
+
+#### Cultural Models
+Represents the influences on a person, group, or organization
+Reveals the cultural context in which the product/system will have to succeed 
+
+Nodes are cultural units, stuff about them are annotations in the bubble
