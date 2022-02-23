@@ -68,4 +68,32 @@ Sequence is left to right, flow is up and down
 Represents the influences on a person, group, or organization
 Reveals the cultural context in which the product/system will have to succeed 
 
+Visual language:
 Nodes are cultural units, stuff about them are annotations in the bubble
+
+#### User Persona
+
+Fake users, fake name, some info about that person
+
+#### Decision Point Model
+
+Decisions are in a sort of column divided in half, positive influences on the left, negative on the right
+
+#### Physical Model
+
+A drawing of the space they are in, can be a map and what happened at each place
+- Red lightning bolt can be used to symbolize breakdowns - when things don't work as expected
+
+#### Artifact Model
+
+Things that are used in the space
+
+#### Day in the Life Model
+
+Small loops show the kind of activities that happen? 
+- Sort of combine sequence-flow and cultural models
+
+
+#### Identity Model
+
+Three segments of the page, I like, I do, I am 

@@ -30,6 +30,14 @@ Interview should start from before they're doing the activity to after
 ### Questions
 
 
+## Modeling
+
+- Are we using the models correctly
+- Are we gathering/modeling rich and interesting data 
+- Only pick two models for each user 
+
+Which two will we use:
+
 
 
 
