@@ -37,6 +37,8 @@ Interview should start from before they're doing the activity to after
 - Only pick two models for each user 
 
 Which two will we use:
+- Identity
+- Cultural, make more about the environment 
 
 
 
