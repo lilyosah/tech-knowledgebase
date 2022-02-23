@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Human-Computer-Interaction/HCI Course Project.md",
+                "file": "Human-Computer-Interaction/Interpretation and Modeling.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Human-Computer-Interaction/HCI Course Project.md"
+                "file": "Human-Computer-Interaction/Interpretation and Modeling.md"
               }
             }
           }
@@ -157,10 +157,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "2c5888e6b21db55e",
+  "active": "582409fc895a643f",
   "lastOpenFiles": [
-    "Human-Computer-Interaction/HCI Course Project.md",
     "Human-Computer-Interaction/Interpretation and Modeling.md",
+    "Human-Computer-Interaction/HCI Course Project.md",
     "Human-Computer-Interaction/HCI MOC.md",
     "Human-Computer-Interaction/Contextual Inquiry.md",
     "Accessibility/Independent Study Plan.md",
