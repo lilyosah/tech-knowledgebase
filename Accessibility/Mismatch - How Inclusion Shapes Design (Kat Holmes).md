@@ -99,6 +99,7 @@ Being excluded by an object can be more painful than rejection by a person and c
 
 - Designing systems to benefit groups can fall victim to the superhero-victim mindset
 - Sometimes products for women designed by men fail because they are stupid
+- Change for the sake of change can be unhelpful and hard for people to pick up. Don't always disregard patterns of familiarity in pursuit of growth
 -  Good inclusion is building a community of "exclusion experts" who contribute to the design process, the people who experience the greatest mismatch when using your solution
 -  Design **with** excluded communities, not for
 -  Restricting how feedback can be submitted can really stifle innovation and lead to people feeling further excluded. 
@@ -109,4 +110,4 @@ Being excluded by an object can be more painful than rejection by a person and c
 	-  Bring people along in the process
 
 
-"It isn’t organic. It doesn’t happen purely through goodwill. It takes intention, planning, and stamina."
+"It isn't organic. It doesn't happen purely through goodwill. It takes intention, planning, and stamina."
