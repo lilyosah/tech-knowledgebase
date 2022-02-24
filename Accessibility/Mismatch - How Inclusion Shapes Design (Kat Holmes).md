@@ -99,4 +99,5 @@ Being excluded by an object can be more painful than rejection by a person and c
 
 - Designing systems to benefit groups can fall victim to the superhero-victim mindset
 - Sometimes products for women designed by men fail because they are stupid
-	-  
+-  Good inclusion is building a community of "exclusion experts" who contribute to the design process, the people who experience the greatest mismatch when using your solution
+-  Design **with** excluded communities, not for
