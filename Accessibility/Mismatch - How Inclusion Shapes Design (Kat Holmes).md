@@ -94,3 +94,9 @@ Being excluded by an object can be more painful than rejection by a person and c
 - Moses was an architect in NYC in 1950s, made things WORSE for marginalized groups by razing their communities, lowering overpasses so that buses couldn't go under them. This top-down architecture planning was replicated across the U.S.
 - Brown is an architect designing for buildings in areas she grew up in Detroit's inner city
 	- ⭐ "Nothing about us, without us"
+
+## Chapter 6: Matchmaking 
+
+- Designing systems to benefit groups can fall victim to the superhero-victim mindset
+- Sometimes products for women designed by men fail because they are stupid
+	-  
