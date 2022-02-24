@@ -101,3 +101,12 @@ Being excluded by an object can be more painful than rejection by a person and c
 - Sometimes products for women designed by men fail because they are stupid
 -  Good inclusion is building a community of "exclusion experts" who contribute to the design process, the people who experience the greatest mismatch when using your solution
 -  Design **with** excluded communities, not for
+-  Restricting how feedback can be submitted can really stifle innovation and lead to people feeling further excluded. 
+-  Leaders can make or break inclusion
+	-  Make promises that you can keep
+	-  Set an expectation that inclusion is a long game
+	-  Create a system of incentives and rewards that will motivate people to make inclusive designs
+	-  Bring people along in the process
+
+
+"It isn’t organic. It doesn’t happen purely through goodwill. It takes intention, planning, and stamina."
