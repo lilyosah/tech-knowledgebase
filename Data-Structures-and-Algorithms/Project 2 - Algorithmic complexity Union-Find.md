@@ -9,7 +9,7 @@
 - [x] Done
 - [x] Submitted
 
-Related notes: [[01-28-2021 Intro. to Algorithmic Runtime]] [[01-28-2021 Intro. to Disjoint Sets]]
+Related notes: [[Algorithmic Runtime]] [[Disjoint Sets]]
 
 --- 
 

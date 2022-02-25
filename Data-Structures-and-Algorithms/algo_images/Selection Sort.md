@@ -47,7 +47,7 @@ To find the minimum: takes time in relation to remaining unsorted portion of lis
 -- | -- | -- | -- | --
 n | n-1 | n-2 | n-3 | ...
 
-- Arithmetic series from $1$ - $n$ items so  $n$ dominates (See [[01-28-2021 Intro. to Algorithmic Runtime#^cfaac9]])
+- Arithmetic series from $1$ - $n$ items so  $n$ dominates (See [[Algorithmic Runtime#^cfaac9]])
 - ~$\frac{n}{2}$ compares and $n$ exchanges
 
 Final runtime is $\varTheta(n^2)$ because $n * ~n$

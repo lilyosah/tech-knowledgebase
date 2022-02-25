@@ -11,8 +11,8 @@
 - [[Project 6 - Spelling Suggestions]]
 
 ## Week 1: Algorithmic Complexity
-- [[01-28-2021 Intro. to Algorithmic Runtime]]
-- [[01-28-2021 Intro. to Disjoint Sets]]
+- [[Algorithmic Runtime]]
+- [[Disjoint Sets]]
 
  <br/>
 

@@ -11,7 +11,7 @@ Related: [[Project 2 - Algorithmic complexity Union-Find]]
 ---
 
 
-==**Disjoint set:**== data structure that shows connections and reachability
+==Disjoint set:== data structure that shows connections and reachability
 - The element → set map is stored in a map/dictionary
 
 **Functions:**

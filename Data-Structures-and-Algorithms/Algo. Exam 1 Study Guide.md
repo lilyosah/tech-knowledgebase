@@ -21,7 +21,7 @@ Format:
 --- 
 
 ## Week 2 - Complexity
-- [x] Concepts [[01-28-2021 Intro. to Algorithmic Runtime]] [[01-28-2021 Intro. to Disjoint Sets]] 
+- [x] Concepts [[Algorithmic Runtime]] [[Disjoint Sets]] 
 	- ❕ Tight bound requires showing the upper and lower bounds
 - [x] [Lab](https://www.notion.so/Topic-1-Lab-Questions-and-Solutions-6df4fa6fc95347d8b044ee82b85bcc35)
 	- Array Sums:

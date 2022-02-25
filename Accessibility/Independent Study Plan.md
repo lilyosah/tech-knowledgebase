@@ -12,6 +12,14 @@ Reading papers:
 - Abstract, sometimes don't need to go beyond this
 - For reading research papers, skip results, go to discussion. 
 
+Maybe look at certain guidelines in particular
+- Is is the framework's responsibility 
+	- Maybe look at different frameworks
+		- JS and UI/UX (Bootstrap)
+	- Dynamic webpage and accessibility
+- Semantic web
+	- Might be current work in this
+
 ## Discussion
 - Is there a software solution or something for people willing to provide their labor to make things more accessible 
 	- You can kind of go to literature for other design cases, not so much for this

@@ -10,6 +10,17 @@
           "type": "markdown",
           "state": {
             "file": "Accessibility/Mismatch - How Inclusion Shapes Design (Kat Holmes).md",
+            "mode": "preview"
+          }
+        }
+      },
+      {
+        "id": "6b52f6e864030fb6",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Accessibility/Independent Study Plan.md",
             "mode": "source"
           }
         }
@@ -95,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Accessibility/Mismatch - How Inclusion Shapes Design (Kat Holmes).md",
+                "file": "Accessibility/Independent Study Plan.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Accessibility/Mismatch - How Inclusion Shapes Design (Kat Holmes).md"
+                "file": "Accessibility/Independent Study Plan.md"
               }
             }
           }
@@ -124,17 +135,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "cc7f8e6464cbddd7",
+  "active": "6b52f6e864030fb6",
   "lastOpenFiles": [
-    "Accessibility/Mismatch - How Inclusion Shapes Design (Kat Holmes).md",
-    "Human-Computer-Interaction/Contextual Inquiry.md",
-    "Human-Computer-Interaction/Interpretation and Modeling.md",
-    "Human-Computer-Interaction/HCI Course Project.md",
-    "Human-Computer-Interaction/HCI MOC.md",
     "Accessibility/Independent Study Plan.md",
-    "Using-Obisdian/Emoji and Tag Key.md",
-    "Accessibility/What do we Mean by 'Accessibility Research'.md",
-    "Human-Computer-Interaction/Conceptual Design.md",
-    "Human-Computer-Interaction/HCI Finding Principles of interaction.md"
+    "Accessibility/Mismatch - How Inclusion Shapes Design (Kat Holmes).md",
+    "Data-Structures-and-Algorithms/Binary Search Tree.md",
+    "Data-Structures-and-Algorithms/Data Structures.md",
+    "Data-Structures-and-Algorithms/Algo MOC.md",
+    "Data-Structures-and-Algorithms/Disjoint Sets.md",
+    "Data-Structures-and-Algorithms/Algorithmic Runtime.md",
+    "Data-Structures-and-Algorithms/02-11-2021 Divide and Conquer.md",
+    "Data-Structures-and-Algorithms/Sorting Algorithms.md",
+    "Human-Computer-Interaction/Contextual Inquiry.md"
   ]
 }

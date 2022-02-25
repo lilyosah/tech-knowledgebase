@@ -63,7 +63,7 @@ graph TD
 
 *... Not motivated to fix this*
 
-If you cut something by exponential decay, $n$ dominates and will just be $O(n)$ [[01-28-2021 Intro. to Algorithmic Runtime#^cfaac9]]
+If you cut something by exponential decay, $n$ dominates and will just be $O(n)$ [[Algorithmic Runtime#^cfaac9]]
 
 $T(n) = T(\frac{n}{b}) + O(n)$
 => $O(n)$

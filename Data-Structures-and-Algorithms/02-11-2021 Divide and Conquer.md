@@ -60,7 +60,7 @@ $\text{height/depth of the tree}*\text{work done per level of the tree}$
 1. **Determine the height of the tree:** The depth is how many recursive calls can be made before reaching the base case. 
 	Steps:
 	- Determine the base case $b$
-	- Depth can usually be found by solving for $k$ using the base case and what $n$ is being divided by in the situation described in [[01-28-2021 Intro. to Algorithmic Runtime#Logarithms introduction|logarithms introducction]]. Usually $\log_b n$ where $b$ is what the input is being divided by and $n$ is the input
+	- Depth can usually be found by solving for $k$ using the base case and what $n$ is being divided by in the situation described in [[Algorithmic Runtime#Logarithms introduction|logarithms introducction]]. Usually $\log_b n$ where $b$ is what the input is being divided by and $n$ is the input
 
 2. **Determine work per level:** Given by $\text{nodes per level}*\text{work per node}$
 	You can draw out the tree for the recurrence where each node contains the fraction of the original input that is passed if it is helpful to visualize. 
@@ -72,7 +72,7 @@ $\text{height/depth of the tree}*\text{work done per level of the tree}$
 >$n + n/2 + n/4 ... 1$
 >this is a geometric series and **the first term ($n$ in this case) dominates**
 >Similarly, if the pattern is similar to: $n + n-1 + n-2 + n-3 ... 0$ 
->this is an arithmetic series and **the first term ($n$) dominates** [[01-28-2021 Intro. to Algorithmic Runtime#^cfaac9]]
+>this is an arithmetic series and **the first term ($n$) dominates** [[Algorithmic Runtime#^cfaac9]]
 
 ^64b43d
 
@@ -99,7 +99,7 @@ graph TD
 	- **Base case:**  1 
 	- At level/depth $k$, the input is $\frac{n}{2^k}$ ($n$, $\frac{n}{2}$, $\frac{n}{4}$, $\frac{n}{8}$, ... $\frac{n}{2^k}$)
 	-> Solve $\frac{n}{2^k} = 1$ to find the depth ($k$) when you reach the base case
-	$\begin{align}\frac{n}{2^k} &= 1 \\ n &= 2^k \\ k &= \log_2 n\end{align}$ [[01-28-2021 Intro. to Algorithmic Runtime#Logarithms introduction|explanation]]
+	$\begin{align}\frac{n}{2^k} &= 1 \\ n &= 2^k \\ k &= \log_2 n\end{align}$ [[Algorithmic Runtime#Logarithms introduction|explanation]]
 - **Work per level:** $\text{nodes per level}*\text{work per node}$ 
 	- **Nodes per level:** 1 (one recursive call per level)
 	- **Work done per node:** constant ($c$) 
@@ -142,7 +142,7 @@ graph TD
 Total work:
 $\text{depth * work per level} = k * n = \log_2 n * n = O(n\log n)$
  so the total work is 
-		$c(1 + 2 + 4 ... n) \le 2n*c = O(n)$ [[01-28-2021 Intro. to Algorithmic Runtime#Runtime rules of thumb|arithmetic series]]
+		$c(1 + 2 + 4 ... n) \le 2n*c = O(n)$ [[Algorithmic Runtime#Runtime rules of thumb|arithmetic series]]
 
 ---
 
