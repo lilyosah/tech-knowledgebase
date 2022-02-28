@@ -44,3 +44,8 @@ Record: 11
 ### Week 5
 - 2/21/2022
 	- [[Interpretation and Modeling]]
+
+
+### Week 6
+- 2/28/2022
+	- [[Affinity Diagramming]]
