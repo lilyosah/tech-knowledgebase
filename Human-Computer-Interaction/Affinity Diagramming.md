@@ -66,6 +66,12 @@ First person **summary insight** of blue post-its
 Summaries of pink post its
 
 
+# 1
+c1 = null
+c2 = 2001
+c3 = c1
+
+
 
 
 
