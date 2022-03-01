@@ -68,8 +68,28 @@ Summaries of pink post its
 
 # 1
 c1 = null
-c2 = 2001
-c3 = c1
+c2 = 2002
+c3 = 2000
+
+B
+
+# 2
+
+Because then changes could be made to the balance without other possible side-effects of those changes being processed. For example, outside code may directly set a cards balance to be higher than the credit limit, something that code that changes the balance within the CreditCard class should prevent.
+
+# 3
+D 
+
+# 4
+Static: ExtendOnlyExpired
+This must be static because it can't be called on any one particular CreditCard instance in the way that you call non-static methods, it needs to work with several credit cards. 
+
+Non-static: ExtendExpireDate
+I think this *could* be made static but it makes more sense to implement it as a non-static method because you are only extending the expiration date of one CreditCard instance, the one that you are calling it on.
+
+I think there's a possibility that the must keyword here may confuse people but it's probably fine.
+
+
 
 
 
