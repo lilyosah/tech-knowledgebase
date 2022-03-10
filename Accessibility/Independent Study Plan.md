@@ -16,6 +16,7 @@ Maybe look at certain guidelines in particular
 - Is is the framework's responsibility 
 	- Maybe look at different frameworks
 		- JS and UI/UX (Bootstrap)
+			- React relies on basic HTMM stuff for accessibility
 	- Dynamic webpage and accessibility
 - Semantic web
 	- Might be current work in this
@@ -38,4 +39,6 @@ Maybe look at certain guidelines in particular
 ## Reading
 - [[Mismatch - How Inclusion Shapes Design (Kat Holmes)]]
 - [[What do we Mean by 'Accessibility Research']]
+- [[Accessibility Challenges and Tool Features An IBM Web Developer Perspective]]
+- [[Accessibility 2.0 people, policies and processes]]
 

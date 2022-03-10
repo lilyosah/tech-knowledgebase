@@ -29,14 +29,18 @@
 **S1:** Every method from every call site
 **C0:** Every statement
 **C1:** Every branch in both directions
-	- Both parts of if/else
+- Both parts of if/else
+
+
 **C1+decision:** Every sub-expression in conditional
 **C2:** Every path (difficult, and disagreement on how useful)
 
 ### Other
 ==Mutation testing:== deliberately changing code at runtime to make sure that it will fail
 ==Fuzz testing:== Throw random input at the code, tests apps the way it wasn't meant to be used
-	- 🌎 Microsoft found that this found 20% of crash bugs
+- 🌎 Microsoft found that this found 20% of crash bugs
+
+
 ==DU-coverage:== is every pair (`define x/use x`) executed?
 ==Black box vs. white box:== About the kind of assumptions you make during testing
 - Being oblivious of the internals or be aware and try to exploit/break it 
