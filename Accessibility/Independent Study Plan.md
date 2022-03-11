@@ -41,4 +41,5 @@ Maybe look at certain guidelines in particular
 - [[What do we Mean by 'Accessibility Research']]
 - [[Accessibility Challenges and Tool Features An IBM Web Developer Perspective]]
 - [[Accessibility 2.0 people, policies and processes]]
+- [[Adee Bringing Accessibility Right Inside Design Tools]]
 

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Accessibility/Accessibility 2.0 people, policies and processes.md",
+            "file": "Accessibility/Adee Bringing Accessibility Right Inside Design Tools.md",
             "mode": "source"
           }
         }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Accessibility/Accessibility 2.0 people, policies and processes.md",
+                "file": "Accessibility/Adee Bringing Accessibility Right Inside Design Tools.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Accessibility/Accessibility 2.0 people, policies and processes.md"
+                "file": "Accessibility/Adee Bringing Accessibility Right Inside Design Tools.md"
               }
             }
           }
@@ -126,15 +126,15 @@
   },
   "active": "6b52f6e864030fb6",
   "lastOpenFiles": [
-    "Accessibility/Accessibility 2.0 people, policies and processes.md",
+    "Accessibility/Adee Bringing Accessibility Right Inside Design Tools.md",
     "Accessibility/Independent Study Plan.md",
+    "Accessibility/Accessibility 2.0 people, policies and processes.md",
     "Accessibility/Accessibility Challenges and Tool Features An IBM Web Developer Perspective.md",
     "Software-Engineering/Testing.md",
     "Human-Computer-Interaction/Affinity Diagramming.md",
     "Human-Computer-Interaction/HCI MOC.md",
     "Accessibility/Mismatch - How Inclusion Shapes Design (Kat Holmes).md",
     "Data-Structures-and-Algorithms/Binary Search Tree.md",
-    "Data-Structures-and-Algorithms/Data Structures.md",
-    "Data-Structures-and-Algorithms/Algo MOC.md"
+    "Data-Structures-and-Algorithms/Data Structures.md"
   ]
 }
