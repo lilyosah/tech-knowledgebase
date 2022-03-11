@@ -49,3 +49,6 @@ Record: 11
 ### Week 6
 - 2/28/2022
 	- [[Affinity Diagramming]]
+
+- 3/11/2022
+	- [[Designing the Interaction and Designing for Emotion]]
