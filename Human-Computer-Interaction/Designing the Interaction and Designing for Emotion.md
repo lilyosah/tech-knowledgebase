@@ -40,7 +40,7 @@ Breaking rules can let you stand out but it comes with a risk, so be careful
 
 ## Designing for Emotional Needs
 - Satisfaction, meaningfulness, joy
-- Aesthetics
+- Aesthetics, fun, pride of ownership, social identity, connectedness with others
 
 Focuses on emotional impact and value-sensitive aspects of design
 

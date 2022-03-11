@@ -36,6 +36,11 @@ Maybe look at certain guidelines in particular
 	- Keep a list of questions to ask people if I want to talk to disabled people 
 		- Look for first-hand account
 
+
+Levels of responsibility
+No clear responsibilities
+- 
+
 ## Reading
 - [[Mismatch - How Inclusion Shapes Design (Kat Holmes)]]
 - [[What do we Mean by 'Accessibility Research']]
