@@ -25,3 +25,7 @@ In this paper we discuss the open source process as it relates to accessibility 
 	- Altruism \[17]  
 	- Belief in a principle of development \[6,18]  
 	- To fulfil a personal need \[6,19
+- p5 "Coupled to this is the fact that open source software often suffers from usability issues \[33,34]"
+- Has a section on accessibility software
+- p5 "In others, a more subtle interaction of minor ailments may make it difficult to identify a single causative factor and subsequently complicate the search for an appropriate solution."
+- There are a series of sort of fire and forget OS accessibility tools, there also exist some that algorithmically detect issues and attempt to correct them
