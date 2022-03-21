@@ -20,9 +20,17 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Accessibility/Independent Study Plan.md",
+            "file": "Accessibility/Open source and accessibility - advantages and limitations.md",
             "mode": "source"
           }
+        }
+      },
+      {
+        "id": "55066d94a554b0f4",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -106,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Accessibility/Independent Study Plan.md",
+                "file": "Accessibility/Open source and accessibility - advantages and limitations.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Accessibility/Independent Study Plan.md"
+                "file": "Accessibility/Open source and accessibility - advantages and limitations.md"
               }
             }
           }
@@ -137,6 +145,7 @@
   },
   "active": "778e36df84750d14",
   "lastOpenFiles": [
+    "Accessibility/Open source and accessibility - advantages and limitations.md",
     "Accessibility/Independent Study Plan.md",
     "Human-Computer-Interaction/Ideation.md",
     "Human-Computer-Interaction/HCI MOC.md",
@@ -145,7 +154,6 @@
     "Accessibility/Accessibility 2.0 people, policies and processes.md",
     "Accessibility/Adee Bringing Accessibility Right Inside Design Tools.md",
     "Accessibility/Accessibility Challenges and Tool Features An IBM Web Developer Perspective.md",
-    "Software-Engineering/Testing.md",
-    "Human-Computer-Interaction/Affinity Diagramming.md"
+    "Software-Engineering/Testing.md"
   ]
 }

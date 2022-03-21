@@ -36,10 +36,23 @@ Maybe look at certain guidelines in particular
 	- Keep a list of questions to ask people if I want to talk to disabled people 
 		- Look for first-hand account
 
+## Reading
+- [[Mismatch - How Inclusion Shapes Design (Kat Holmes)]]
+- [[What do we Mean by 'Accessibility Research']]
+- [[Accessibility Challenges and Tool Features An IBM Web Developer Perspective]]
+- [[Accessibility 2.0 people, policies and processes]]
+- [[Adee Bringing Accessibility Right Inside Design Tools]]
+- [[Open source and accessibility - advantages and limitations]]
+
+
+
 ### Writing Outline and Plan
 Talk about the levels of accessibility that currently exist. Maybe because there are no clear responsibilities, it is unclear where this work should be done.
 
 - User
+	- Does the user need to download their own tools and make sure it is covered for themselves?
+	- Open-source and inclusivity 
+		- 
 - OS
 	- 
 - Software
@@ -48,12 +61,4 @@ Talk about the levels of accessibility that currently exist. Maybe because there
 
 Levels of responsibility
 No clear responsibilities
-- 
-
-## Reading
-- [[Mismatch - How Inclusion Shapes Design (Kat Holmes)]]
-- [[What do we Mean by 'Accessibility Research']]
-- [[Accessibility Challenges and Tool Features An IBM Web Developer Perspective]]
-- [[Accessibility 2.0 people, policies and processes]]
-- [[Adee Bringing Accessibility Right Inside Design Tools]]
 
