@@ -24,6 +24,17 @@
             "mode": "source"
           }
         }
+      },
+      {
+        "id": "60a2aad11d490ce0",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Human-Computer-Interaction/Ideation.md",
+            "mode": "source"
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -106,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Accessibility/Independent Study Plan.md",
+                "file": "Human-Computer-Interaction/Ideation.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Accessibility/Independent Study Plan.md"
+                "file": "Human-Computer-Interaction/Ideation.md"
               }
             }
           }
@@ -135,17 +146,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "778e36df84750d14",
+  "active": "60a2aad11d490ce0",
   "lastOpenFiles": [
+    "Human-Computer-Interaction/Ideation.md",
+    "Human-Computer-Interaction/HCI MOC.md",
     "Accessibility/Independent Study Plan.md",
     "Human-Computer-Interaction/Designing the Interaction and Designing for Emotion.md",
     "Accessibility/Mismatch - How Inclusion Shapes Design (Kat Holmes).md",
     "Accessibility/Accessibility 2.0 people, policies and processes.md",
     "Accessibility/Adee Bringing Accessibility Right Inside Design Tools.md",
-    "Human-Computer-Interaction/HCI MOC.md",
     "Accessibility/Accessibility Challenges and Tool Features An IBM Web Developer Perspective.md",
     "Software-Engineering/Testing.md",
-    "Human-Computer-Interaction/Affinity Diagramming.md",
-    "Data-Structures-and-Algorithms/Binary Search Tree.md"
+    "Human-Computer-Interaction/Affinity Diagramming.md"
   ]
 }

@@ -52,3 +52,7 @@ Record: 11
 
 - 3/11/2022
 	- [[Designing the Interaction and Designing for Emotion]]
+
+
+- 3/21/2022
+	- [[Ideation]]
