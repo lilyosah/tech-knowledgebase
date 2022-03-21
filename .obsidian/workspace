@@ -20,7 +20,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Human-Computer-Interaction/Designing the Interaction and Designing for Emotion.md",
+            "file": "Accessibility/Independent Study Plan.md",
             "mode": "source"
           }
         }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Accessibility/Mismatch - How Inclusion Shapes Design (Kat Holmes).md",
+                "file": "Accessibility/Independent Study Plan.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Accessibility/Mismatch - How Inclusion Shapes Design (Kat Holmes).md"
+                "file": "Accessibility/Independent Study Plan.md"
               }
             }
           }
@@ -135,12 +135,12 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "6b52f6e864030fb6",
+  "active": "778e36df84750d14",
   "lastOpenFiles": [
-    "Accessibility/Mismatch - How Inclusion Shapes Design (Kat Holmes).md",
     "Accessibility/Independent Study Plan.md",
-    "Accessibility/Accessibility 2.0 people, policies and processes.md",
     "Human-Computer-Interaction/Designing the Interaction and Designing for Emotion.md",
+    "Accessibility/Mismatch - How Inclusion Shapes Design (Kat Holmes).md",
+    "Accessibility/Accessibility 2.0 people, policies and processes.md",
     "Accessibility/Adee Bringing Accessibility Right Inside Design Tools.md",
     "Human-Computer-Interaction/HCI MOC.md",
     "Accessibility/Accessibility Challenges and Tool Features An IBM Web Developer Perspective.md",

@@ -36,6 +36,15 @@ Maybe look at certain guidelines in particular
 	- Keep a list of questions to ask people if I want to talk to disabled people 
 		- Look for first-hand account
 
+### Writing Outline and Plan
+Talk about the levels of accessibility that currently exist. Maybe because there are no clear responsibilities, it is unclear where this work should be done.
+
+- User
+- OS
+	- 
+- Software
+	- 
+- Interface over software, software to use software
 
 Levels of responsibility
 No clear responsibilities
