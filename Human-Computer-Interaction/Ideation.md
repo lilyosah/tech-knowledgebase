@@ -14,6 +14,7 @@ Generating new solutions to problems
 ## Assignment
 - Three abstraction ladders
 - Three statement starters
+- One paragraph
 
 ## Methods
 ### Abstraction Ladders
@@ -44,3 +45,19 @@ Encourage restating problems as invitations for exploration
 3. Pick the best statement starter for each problem
 4. Pick the best starer for each problem
 5. Use the new phrasing
+
+
+### Alternative worlds
+Look at common things in uncommon ways 
+Ask: "What would (someone else) do?"
+- How would a successful organization from another area do? Ex: Starbucks
+
+Think about:
+- Mood, tone, culture, norms, intentions behind objects and interactions
+
+1. Identify a topic for exploration
+2. Create a list of analogous topics
+3. Think about representative orgs
+4. Select a few alternative worlds to explore
+5. Think about key attributes of each world
+6. Use this new alternative world as a jumping off point for new ideas
