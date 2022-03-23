@@ -29,8 +29,11 @@
         "id": "55066d94a554b0f4",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Human-Computer-Interaction/Ideation.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -114,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Accessibility/Open source and accessibility - advantages and limitations.md",
+                "file": "Human-Computer-Interaction/Ideation.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Accessibility/Open source and accessibility - advantages and limitations.md"
+                "file": "Human-Computer-Interaction/Ideation.md"
               }
             }
           }
@@ -143,11 +146,11 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "778e36df84750d14",
+  "active": "55066d94a554b0f4",
   "lastOpenFiles": [
+    "Human-Computer-Interaction/Ideation.md",
     "Accessibility/Open source and accessibility - advantages and limitations.md",
     "Accessibility/Independent Study Plan.md",
-    "Human-Computer-Interaction/Ideation.md",
     "Human-Computer-Interaction/HCI MOC.md",
     "Human-Computer-Interaction/Designing the Interaction and Designing for Emotion.md",
     "Accessibility/Mismatch - How Inclusion Shapes Design (Kat Holmes).md",

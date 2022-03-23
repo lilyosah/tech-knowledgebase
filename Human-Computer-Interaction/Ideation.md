@@ -11,6 +11,10 @@
 
 Generating new solutions to problems
 
+## Assignment
+- Three abstraction ladders
+- Three statement starters
+
 ## Methods
 ### Abstraction Ladders
 1. Identify some problem
@@ -25,3 +29,18 @@ Generating new solutions to problems
 - Initial: Get home cooked meals to people in quarantine
 - Deliver food from other home cooks
 - Drones
+
+### Statement Starters
+Encourage restating problems as invitations for exploration
+- Consider alternatives rather than pre-determined solutions
+
+"We need a device to help people listen to music" -> 
+"How might we help people listen to music"
+
+1. Identify a set of problems or opportunities
+2. State each issue in the form of a short phrase
+	1. How might we...
+	2. How can we best...
+3. Pick the best statement starter for each problem
+4. Pick the best starer for each problem
+5. Use the new phrasing
