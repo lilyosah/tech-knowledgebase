@@ -16,6 +16,7 @@ Related:
 	- Designers can foster accessibility through appropriation
 		- Appropriation of mainstream technologies 
 	- They call this "DIY"
+	- ⭐This kind of "bottom up" engagement indicates the need for and potential of a different kind of assistive technology design process
 
 ## Abstract
 
