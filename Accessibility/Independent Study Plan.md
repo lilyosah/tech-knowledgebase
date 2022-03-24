@@ -37,13 +37,18 @@ Maybe look at certain guidelines in particular
 		- Look for first-hand account
 
 ## Reading
-- [[Mismatch - How Inclusion Shapes Design (Kat Holmes)]]
-- [[What do we Mean by 'Accessibility Research']]
-- [[Accessibility Challenges and Tool Features An IBM Web Developer Perspective]]
-- [[Accessibility 2.0 people, policies and processes]]
-- [[Adee Bringing Accessibility Right Inside Design Tools]]
-- [[Open source and accessibility - advantages and limitations]]
-- [[Would you be Mine]]
+- [x] [[Mismatch - How Inclusion Shapes Design (Kat Holmes)]]
+- [x] [[What do we Mean by 'Accessibility Research']]
+- [ ] [[Accessibility Challenges and Tool Features An IBM Web Developer Perspective]]
+- [ ] [[Accessibility 2.0 people, policies and processes]]
+- [ ] [[Adee Bringing Accessibility Right Inside Design Tools]]
+- [x] [[Open source and accessibility - advantages and limitations]]
+- [x] [[Would you be Mine]]
+- [ ] [[Supporting the Collaborative Appropriation of an Open Software Ecosystem]]
+- [ ] [[Desperately seeking simplicity]]
+- [ ] [[ Empowering individuals with do-it-yourself assistive technology]]
+
+
 
 
 

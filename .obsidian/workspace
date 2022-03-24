@@ -31,8 +31,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Human-Computer-Interaction/Ideation.md",
-            "mode": "source"
+            "file": "Accessibility/Independent Study Plan.md",
+            "mode": "preview"
           }
         }
       }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "affordance",
+                "query": "r",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Accessibility/Would you be Mine.md",
+                "file": "Accessibility/Independent Study Plan.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Accessibility/Would you be Mine.md"
+                "file": "Accessibility/Independent Study Plan.md"
               }
             }
           }
@@ -146,17 +146,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "778e36df84750d14",
+  "active": "55066d94a554b0f4",
   "lastOpenFiles": [
-    "Accessibility/Would you be Mine.md",
     "Accessibility/Independent Study Plan.md",
-    "Accessibility/Open source and accessibility - advantages and limitations.md",
+    "Accessibility/Empowering individuals with do-it-yourself assistive technology.md",
+    "Accessibility/Desperately seeking simplicity.md",
+    "Accessibility/Supporting the Collaborative Appropriation of an Open Software Ecosystem.md",
+    "Accessibility/Would you be Mine.md",
     "Human-Computer-Interaction/Ideation.md",
+    "Accessibility/Open source and accessibility - advantages and limitations.md",
     "Human-Computer-Interaction/HCI MOC.md",
     "Human-Computer-Interaction/Designing the Interaction and Designing for Emotion.md",
-    "Accessibility/Mismatch - How Inclusion Shapes Design (Kat Holmes).md",
-    "Accessibility/Accessibility 2.0 people, policies and processes.md",
-    "Accessibility/Adee Bringing Accessibility Right Inside Design Tools.md",
-    "Accessibility/Accessibility Challenges and Tool Features An IBM Web Developer Perspective.md"
+    "Accessibility/Mismatch - How Inclusion Shapes Design (Kat Holmes).md"
   ]
 }
