@@ -35,6 +35,17 @@
             "mode": "source"
           }
         }
+      },
+      {
+        "id": "e895aac946c548b6",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Accessibility/Independent Study Plan.md",
+            "mode": "source"
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -117,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Accessibility/Would you be Mine.md",
+                "file": "Accessibility/Independent Study Plan.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Accessibility/Would you be Mine.md"
+                "file": "Accessibility/Independent Study Plan.md"
               }
             }
           }
@@ -146,15 +157,15 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "55066d94a554b0f4",
+  "active": "e895aac946c548b6",
   "lastOpenFiles": [
-    "Accessibility/Would you be Mine.md",
     "Accessibility/Independent Study Plan.md",
+    "Accessibility/Supporting the Collaborative Appropriation of an Open Software Ecosystem.md",
+    "Accessibility/Would you be Mine.md",
     "Accessibility/Disability Studies as a Source of Critical inquiry for the field of assistive technology.md",
     "Accessibility/Designing with People with Disabilities - Adapting Best Practices of DIY and Organizational Approaches.md",
     "Accessibility/Empowering individuals with do-it-yourself assistive technology.md",
     "Accessibility/Desperately seeking simplicity.md",
-    "Accessibility/Supporting the Collaborative Appropriation of an Open Software Ecosystem.md",
     "Human-Computer-Interaction/Ideation.md",
     "Accessibility/Open source and accessibility - advantages and limitations.md",
     "Human-Computer-Interaction/HCI MOC.md"

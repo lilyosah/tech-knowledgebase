@@ -52,7 +52,11 @@ Maybe look at certain guidelines in particular
 - [ ] # Living Disability Theory: Reflections on Access, Research, and Design https://dl.acm.org/doi/pdf/10.1145/3373625.3416996
 
 
+
+ 
 ### Writing Outline and Plan
+Make this in the format of a paper, sort of literature review
+
 Talk about the levels of accessibility solutions that currently exist. Maybe because there are no clear responsibilities, it is unclear where this work should be done.
 
 - User
@@ -64,7 +68,10 @@ Talk about the levels of accessibility solutions that currently exist. Maybe bec
 			-  [[Open source and accessibility - advantages and limitations]], [[Supporting the Collaborative Appropriation of an Open Software Ecosystem]]
 - OS
 	- What responsibility does the OS have?
-- Software
+		- Linux does this well, maybe connect to open-source
+- Accessibility software, screen readers
+	- Rely on good webpages
+- Software/browsers
 	- What is the responsibility of the software?
 	- Design
 		- It's hard to bring disabled people in to get feedback (Participatory design)

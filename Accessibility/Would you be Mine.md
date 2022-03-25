@@ -1,6 +1,6 @@
 # Would you be Mine: Appropriating Minecraft as an Assistive Technology for youth with Autism
 Author:
-[Link](https://dl.acm.org/doi/epdf/10.1145/2982142.2982172)
+- [ ] [Link](https://dl.acm.org/doi/epdf/10.1145/2982142.2982172)
 Date:
 Tags:
 Related:
@@ -16,7 +16,7 @@ Related:
 	- Designers can foster accessibility through appropriation
 		- Appropriation of mainstream technologies 
 	- They call this "DIY"
-	- ⭐ This kind of "bottom up" engagement indicates the need for and potential of a different kind of assistive technology design process
+	- [ ] ⭐ This kind of "bottom up" engagement indicates the need for and potential of a different kind of assistive technology design process
 	- Making things moddable is a good way to allow for individual personalization - designing for everyone can make peoples experiences worse
 
 ## Abstract
