@@ -31,8 +31,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Accessibility/Independent Study Plan.md",
-            "mode": "preview"
+            "file": "Accessibility/Designing with People with Disabilities - Adapting Best Practices of DIY and Organizational Approaches.md",
+            "mode": "source"
           }
         }
       }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Accessibility/Independent Study Plan.md",
+                "file": "Accessibility/Would you be Mine.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Accessibility/Independent Study Plan.md"
+                "file": "Accessibility/Would you be Mine.md"
               }
             }
           }
@@ -146,17 +146,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "55066d94a554b0f4",
+  "active": "778e36df84750d14",
   "lastOpenFiles": [
+    "Accessibility/Would you be Mine.md",
+    "Accessibility/Designing with People with Disabilities - Adapting Best Practices of DIY and Organizational Approaches.md",
     "Accessibility/Independent Study Plan.md",
     "Accessibility/Empowering individuals with do-it-yourself assistive technology.md",
     "Accessibility/Desperately seeking simplicity.md",
     "Accessibility/Supporting the Collaborative Appropriation of an Open Software Ecosystem.md",
-    "Accessibility/Would you be Mine.md",
     "Human-Computer-Interaction/Ideation.md",
     "Accessibility/Open source and accessibility - advantages and limitations.md",
     "Human-Computer-Interaction/HCI MOC.md",
-    "Human-Computer-Interaction/Designing the Interaction and Designing for Emotion.md",
-    "Accessibility/Mismatch - How Inclusion Shapes Design (Kat Holmes).md"
+    "Human-Computer-Interaction/Designing the Interaction and Designing for Emotion.md"
   ]
 }

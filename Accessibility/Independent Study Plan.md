@@ -47,6 +47,7 @@ Maybe look at certain guidelines in particular
 - [ ] [[Supporting the Collaborative Appropriation of an Open Software Ecosystem]]
 - [ ] [[Desperately seeking simplicity]]
 - [ ] [[ Empowering individuals with do-it-yourself assistive technology]]
+- [ ] [[Designing with People with Disabilities - Adapting Best Practices of DIY and Organizational Approaches ]]
 
 
 
