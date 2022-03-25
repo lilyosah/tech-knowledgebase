@@ -11,6 +11,8 @@ Related:
 - ⭐3.2 Screen readers only work well if the web pages they are running on are designed with them in mind
 	- This section is very useful - it's difficult for coders to design for accessibility, hard to bring in disabled people for feedback (5), etc.
 	- Tools that test for adherence don't always work (5)
+	- Participatory design brings in disabled people to help (5)
+- Self-advocacy (6)
 
 ## Abstract
 There needs to be more overlap between disability studies and assistive technology design

@@ -49,6 +49,7 @@ Maybe look at certain guidelines in particular
 - [ ] [[ Empowering individuals with do-it-yourself assistive technology]]
 - [ ] [[Designing with People with Disabilities - Adapting Best Practices of DIY and Organizational Approaches ]]
 - [ ] [[Disability Studies as a Source of Critical inquiry for the field of assistive technology]]
+- [ ] # Living Disability Theory: Reflections on Access, Research, and Design https://dl.acm.org/doi/pdf/10.1145/3373625.3416996
 
 
 ### Writing Outline and Plan
@@ -66,7 +67,7 @@ Talk about the levels of accessibility solutions that currently exist. Maybe bec
 - Software
 	- What is the responsibility of the software?
 	- Design
-		- It's hard to bring disabled people in to get feedback
+		- It's hard to bring disabled people in to get feedback (Participatory design)
 			- [[Disability Studies as a Source of Critical inquiry for the field of assistive technology]]
 	- Coding
 		- Challenges for coders here - it's unclear how to implement the solutions that are advocated for on something like W3
