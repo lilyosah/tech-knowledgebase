@@ -20,7 +20,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Accessibility/Would you be Mine.md",
+            "file": "Accessibility/Disability Studies as a Source of Critical inquiry for the field of assistive technology.md",
             "mode": "source"
           }
         }
@@ -31,7 +31,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Accessibility/Designing with People with Disabilities - Adapting Best Practices of DIY and Organizational Approaches.md",
+            "file": "Accessibility/Independent Study Plan.md",
             "mode": "source"
           }
         }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Accessibility/Would you be Mine.md",
+                "file": "Accessibility/Disability Studies as a Source of Critical inquiry for the field of assistive technology.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Accessibility/Would you be Mine.md"
+                "file": "Accessibility/Disability Studies as a Source of Critical inquiry for the field of assistive technology.md"
               }
             }
           }
@@ -148,15 +148,15 @@
   },
   "active": "778e36df84750d14",
   "lastOpenFiles": [
-    "Accessibility/Would you be Mine.md",
-    "Accessibility/Designing with People with Disabilities - Adapting Best Practices of DIY and Organizational Approaches.md",
+    "Accessibility/Disability Studies as a Source of Critical inquiry for the field of assistive technology.md",
     "Accessibility/Independent Study Plan.md",
+    "Accessibility/Designing with People with Disabilities - Adapting Best Practices of DIY and Organizational Approaches.md",
+    "Accessibility/Would you be Mine.md",
     "Accessibility/Empowering individuals with do-it-yourself assistive technology.md",
     "Accessibility/Desperately seeking simplicity.md",
     "Accessibility/Supporting the Collaborative Appropriation of an Open Software Ecosystem.md",
     "Human-Computer-Interaction/Ideation.md",
     "Accessibility/Open source and accessibility - advantages and limitations.md",
-    "Human-Computer-Interaction/HCI MOC.md",
-    "Human-Computer-Interaction/Designing the Interaction and Designing for Emotion.md"
+    "Human-Computer-Interaction/HCI MOC.md"
   ]
 }
