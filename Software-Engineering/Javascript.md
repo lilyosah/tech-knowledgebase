@@ -33,8 +33,8 @@ Data types: `String`, `Array`, `RegExp`, `Object` (Hash)
 `undefined`: assigned to vars that have not been initialized
 
 ### Scoping
-==`let`==: block scope. Local to whatever block they're declared in
-==`var`==: function or global scope. 
+`let`: block scope. Local to whatever block they're declared in
+`var`: function or global scope. 
 - If used in a func, is available anywhere in the function, **even if it hasn't been declared yet,** because they are "hoisted" to the top of the function
 
 ==global:== using neither `let` nor `var` declares global

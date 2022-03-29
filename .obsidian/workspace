@@ -42,8 +42,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Accessibility/Independent Study Plan.md",
-            "mode": "source"
+            "file": "Software-Engineering/Javascript.md",
+            "mode": "preview"
           }
         }
       }
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Accessibility/Independent Study Plan.md",
+                "file": "Software-Engineering/Javascript.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Accessibility/Independent Study Plan.md"
+                "file": "Software-Engineering/Javascript.md"
               }
             }
           }
@@ -159,6 +159,7 @@
   },
   "active": "e895aac946c548b6",
   "lastOpenFiles": [
+    "Software-Engineering/Javascript.md",
     "Accessibility/Independent Study Plan.md",
     "Accessibility/Supporting the Collaborative Appropriation of an Open Software Ecosystem.md",
     "Accessibility/Would you be Mine.md",
@@ -167,7 +168,6 @@
     "Accessibility/Empowering individuals with do-it-yourself assistive technology.md",
     "Accessibility/Desperately seeking simplicity.md",
     "Human-Computer-Interaction/Ideation.md",
-    "Accessibility/Open source and accessibility - advantages and limitations.md",
-    "Human-Computer-Interaction/HCI MOC.md"
+    "Accessibility/Open source and accessibility - advantages and limitations.md"
   ]
 }
