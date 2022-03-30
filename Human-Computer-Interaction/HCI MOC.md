@@ -56,3 +56,6 @@ Record: 11
 
 - 3/21/2022
 	- [[Ideation]]
+
+- 3/30/2022
+	- [[User Personas]]
