@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Human-Computer-Interaction/User Personas.md",
+            "file": "Human-Computer-Interaction/HCI MOC.md",
             "mode": "source"
           }
         }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Human-Computer-Interaction/User Personas.md",
+                "file": "Human-Computer-Interaction/HCI MOC.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Human-Computer-Interaction/User Personas.md"
+                "file": "Human-Computer-Interaction/HCI MOC.md"
               }
             }
           }
@@ -126,8 +126,8 @@
   },
   "active": "07c00617c2bf323b",
   "lastOpenFiles": [
-    "Human-Computer-Interaction/User Personas.md",
     "Human-Computer-Interaction/HCI MOC.md",
+    "Human-Computer-Interaction/User Personas.md",
     "Accessibility/Would you be Mine.md",
     "Accessibility/Mismatch - How Inclusion Shapes Design (Kat Holmes).md",
     "Software-Engineering/Javascript.md",
