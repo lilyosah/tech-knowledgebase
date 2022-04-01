@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Accessibility/INDS Writing Outline and Plan.md",
+                "file": "Accessibility/Independent Study Plan.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Accessibility/INDS Writing Outline and Plan.md"
+                "file": "Accessibility/Independent Study Plan.md"
               }
             }
           }
@@ -135,11 +135,11 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "04c1650b41e29f91",
+  "active": "07c00617c2bf323b",
   "lastOpenFiles": [
+    "Accessibility/Independent Study Plan.md",
     "Accessibility/INDS Writing Outline and Plan.md",
     "Accessibility/Open source and accessibility - advantages and limitations.md",
-    "Accessibility/Independent Study Plan.md",
     "Accessibility/Empowering individuals with do-it-yourself assistive technology.md",
     "Human-Computer-Interaction/HCI MOC.md",
     "Accessibility/Would you be Mine.md",

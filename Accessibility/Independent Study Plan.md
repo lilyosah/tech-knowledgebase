@@ -49,7 +49,7 @@ Maybe look at certain guidelines in particular
 - [ ] [[ Empowering individuals with do-it-yourself assistive technology]]
 - [ ] [[Designing with People with Disabilities - Adapting Best Practices of DIY and Organizational Approaches ]]
 - [ ] [[Disability Studies as a Source of Critical inquiry for the field of assistive technology]]
-- [ ] # Living Disability Theory: Reflections on Access, Research, and Design https://dl.acm.org/doi/pdf/10.1145/3373625.3416996
+- [ ] Living Disability Theory: Reflections on Access, Research, and Design https://dl.acm.org/doi/pdf/10.1145/3373625.3416996
 
 
 
