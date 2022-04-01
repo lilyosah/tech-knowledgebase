@@ -50,6 +50,8 @@ Maybe look at certain guidelines in particular
 - [ ] [[Designing with People with Disabilities - Adapting Best Practices of DIY and Organizational Approaches ]]
 - [ ] [[Disability Studies as a Source of Critical inquiry for the field of assistive technology]]
 - [ ] Living Disability Theory: Reflections on Access, Research, and Design https://dl.acm.org/doi/pdf/10.1145/3373625.3416996
+- [ ] Coping, Hacking, and DIY: Reframing the Accessibility of Interactions with Television for People with Motor Impairments https://dl.acm.org/doi/abs/10.1145/3452918.3458802
+- [ ] Making "making" accessible https://dl.acm.org/doi/abs/10.1145/2485760.2485883
 
 
 
