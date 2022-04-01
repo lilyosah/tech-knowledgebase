@@ -9,13 +9,24 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Accessibility/Independent Study Plan.md",
+            "file": "Human-Computer-Interaction/HCI MOC.md",
             "mode": "source"
           }
         }
       },
       {
         "id": "04c1650b41e29f91",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Human-Computer-Interaction/Speed Dating.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "7ed494026273a642",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -106,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Accessibility/Independent Study Plan.md",
+                "file": "Human-Computer-Interaction/Speed Dating.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Accessibility/Independent Study Plan.md"
+                "file": "Human-Computer-Interaction/Speed Dating.md"
               }
             }
           }
@@ -135,17 +146,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "07c00617c2bf323b",
+  "active": "04c1650b41e29f91",
   "lastOpenFiles": [
-    "Accessibility/Independent Study Plan.md",
+    "Human-Computer-Interaction/Speed Dating.md",
+    "Human-Computer-Interaction/HCI MOC.md",
     "Accessibility/INDS Writing Outline and Plan.md",
+    "Accessibility/Independent Study Plan.md",
     "Accessibility/Open source and accessibility - advantages and limitations.md",
     "Accessibility/Empowering individuals with do-it-yourself assistive technology.md",
-    "Human-Computer-Interaction/HCI MOC.md",
     "Accessibility/Would you be Mine.md",
     "Human-Computer-Interaction/User Personas.md",
     "Accessibility/Mismatch - How Inclusion Shapes Design (Kat Holmes).md",
-    "Software-Engineering/Javascript.md",
-    "Accessibility/Supporting the Collaborative Appropriation of an Open Software Ecosystem.md"
+    "Software-Engineering/Javascript.md"
   ]
 }

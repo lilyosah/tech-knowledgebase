@@ -82,6 +82,7 @@ All these levels are trying to make things accessible, here are the main levels,
 - This is very similar to the open source model
 	-  [[Open source and accessibility - advantages and limitations]], [[Supporting the Collaborative Appropriation of an Open Software Ecosystem]]
 -  Can't expect everyone to be able to code their own solution, so maybe adaptability is the way to go. How do we create adaptable products?
+	-  https://www.tandfonline.com/doi/abs/10.1080/15710882.2019.1612442?journalCode=ncdn20
 
 
 ### Conclusion
