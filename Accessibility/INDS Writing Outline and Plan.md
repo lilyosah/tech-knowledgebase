@@ -16,7 +16,26 @@ Tags:
 
 --- 
 
+
+## Thinking
+
 - UI frameworks
+
+What opportunities for power or change does each level have, what happens if we put these in the hands of the users?
+- Maybe we can't transfer everything, maybe give it to a mediator, maybe they could do something to change it for the user 
+
+What if there was a govt branch to implement solutions for people?
+Could be a total paradigm shift
+- Meals on wheels, govt agency going in to install a ramp
+
+Add a discussion session
+
+3 opportunities for change:
+- Dev:
+	- Setting, moddable
+	- Open souce kinda aligns with this but they're not getting paid, not standardized 
+- USeR: Get trasining they need to mod
+- Third party to bridge the gap
 
 ## Outline
 
@@ -51,6 +70,9 @@ All these levels are trying to make things accessible, here are the main levels,
 	- Linux does this well, maybe connect to open-source
 
 ##### Software/Browser
+
+- Does the browser have built-in accessibility tools?
+
 
 - What is the responsibility of the software / browser and thus the person who makes it?
 - Challenges for coders here
