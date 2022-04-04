@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Human-Computer-Interaction/HCI MOC.md",
+            "file": "Human-Computer-Interaction/Prototyping.md",
             "mode": "source"
           }
         }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Accessibility/INDS Writing Outline and Plan.md",
+                "file": "Human-Computer-Interaction/Prototyping.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Accessibility/INDS Writing Outline and Plan.md"
+                "file": "Human-Computer-Interaction/Prototyping.md"
               }
             }
           }
@@ -145,17 +145,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "7ed494026273a642",
+  "active": "07c00617c2bf323b",
   "lastOpenFiles": [
+    "Human-Computer-Interaction/Prototyping.md",
+    "Human-Computer-Interaction/HCI MOC.md",
     "Accessibility/INDS Writing Outline and Plan.md",
     "Human-Computer-Interaction/Speed Dating.md",
-    "Human-Computer-Interaction/HCI MOC.md",
     "Accessibility/Independent Study Plan.md",
     "Accessibility/Open source and accessibility - advantages and limitations.md",
     "Accessibility/Empowering individuals with do-it-yourself assistive technology.md",
     "Accessibility/Would you be Mine.md",
     "Human-Computer-Interaction/User Personas.md",
-    "Accessibility/Mismatch - How Inclusion Shapes Design (Kat Holmes).md",
-    "Software-Engineering/Javascript.md"
+    "Accessibility/Mismatch - How Inclusion Shapes Design (Kat Holmes).md"
   ]
 }
