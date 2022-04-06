@@ -20,7 +20,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Human-Computer-Interaction/Speed Dating.md",
+            "file": "Human-Computer-Interaction/Concept Posters.md",
             "mode": "source"
           }
         }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Human-Computer-Interaction/Prototyping.md",
+                "file": "Human-Computer-Interaction/Concept Posters.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Human-Computer-Interaction/Prototyping.md"
+                "file": "Human-Computer-Interaction/Concept Posters.md"
               }
             }
           }
@@ -145,17 +145,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "07c00617c2bf323b",
+  "active": "04c1650b41e29f91",
   "lastOpenFiles": [
-    "Human-Computer-Interaction/Prototyping.md",
+    "Human-Computer-Interaction/Concept Posters.md",
     "Human-Computer-Interaction/HCI MOC.md",
-    "Accessibility/INDS Writing Outline and Plan.md",
     "Human-Computer-Interaction/Speed Dating.md",
+    "Human-Computer-Interaction/Prototyping.md",
+    "Accessibility/INDS Writing Outline and Plan.md",
     "Accessibility/Independent Study Plan.md",
     "Accessibility/Open source and accessibility - advantages and limitations.md",
     "Accessibility/Empowering individuals with do-it-yourself assistive technology.md",
     "Accessibility/Would you be Mine.md",
-    "Human-Computer-Interaction/User Personas.md",
-    "Accessibility/Mismatch - How Inclusion Shapes Design (Kat Holmes).md"
+    "Human-Computer-Interaction/User Personas.md"
   ]
 }
