@@ -38,34 +38,42 @@ Add a discussion session
 - USeR: Get trasining they need to mod
 - Third party to bridge the gap
 
+
+As things currently are, users cannot  
+
+
 ## Outline
 
 Make this in the format of a paper, sort of literature review
 
 Talk about the levels of accessibility solutions that currently exist. Maybe because there are no clear responsibilities, it is unclear where this work should be done. Where is the power currently and where can it be?
 
-All these levels are trying to make things accessible, here are the main levels, here's what's happening in each one, examples, features, limitations, pros/consm maybe make a value judgement
+All these levels are trying to make things accessible, here are the main levels, here's what's happening in each one, examples, features, limitations, pros/cons maybe make a value judgement
 
 ### Abstract
 
 ### Introduction
 
-All these levels are trying to make things accessible, here are the main levels, here's what's happening in each one, examples, features, limitations, pros/consm maybe make a value judgement
+All these levels are trying to make things accessible, here are the main levels, here's what's happening in each one, examples, features, limitations, pros/cons maybe make a value judgment
+
+System as it exists
+
+| OS  | USER | 3rd PARTY | DEV | BROWSER |
+| --- | ---- | --------- | --- | ------- |
+|     |      |           |     |         |
+|     |      |           |     |         |
+
+| OS  |     |     |     |
+| --- | --- | --- | --- |
+|     |     |     |     |
+
+
 
 ### Levels as they exist
 
 #### Developer / Designer
 
-##### Power they have
-
-
-###### Operating System
-
-- What responsibility does the OS have?
-	- Linux does this well, maybe connect to open-source
-
-###### Software/Browser
-
+##### Accessibility implementations as they exist
 
 ##### Opportunities for change
 
@@ -76,10 +84,14 @@ All these levels are trying to make things accessible, here are the main levels,
 	- [[]] This is mentioned in [[Would you be Mine]]
 
 
+#### Operating System
+
+- What responsibility does the OS have?
+	- Linux does this well, maybe connect to open-source
+
+#### Software/Browser
 
 - Does the browser have built-in accessibility tools?
-
-
 - What is the responsibility of the software / browser and thus the person who makes it?
 - Challenges for coders here
 	- In theory they should just follow standards set up in WCAG, W3 
@@ -98,6 +110,11 @@ All these levels are trying to make things accessible, here are the main levels,
 		- [[Disability Studies as a Source of Critical inquiry for the field of assistive technology]]
 
 #### User
+
+##### Power as a user
+
+- Relies on how accessibility is implemented for them. This can be problematic:
+	- If designers do not have contact with disabled customers they do not know
 
 ##### DIY, Appropriation
 
