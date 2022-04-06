@@ -4,28 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "07c00617c2bf323b",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Human-Computer-Interaction/Prototyping.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "04c1650b41e29f91",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Human-Computer-Interaction/Concept Posters.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
         "id": "7ed494026273a642",
         "type": "leaf",
         "state": {
@@ -117,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Human-Computer-Interaction/Concept Posters.md",
+                "file": "Accessibility/INDS Writing Outline and Plan.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Human-Computer-Interaction/Concept Posters.md"
+                "file": "Accessibility/INDS Writing Outline and Plan.md"
               }
             }
           }
@@ -145,13 +123,13 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "04c1650b41e29f91",
+  "active": "7ed494026273a642",
   "lastOpenFiles": [
+    "Accessibility/INDS Writing Outline and Plan.md",
     "Human-Computer-Interaction/Concept Posters.md",
     "Human-Computer-Interaction/HCI MOC.md",
     "Human-Computer-Interaction/Speed Dating.md",
     "Human-Computer-Interaction/Prototyping.md",
-    "Accessibility/INDS Writing Outline and Plan.md",
     "Accessibility/Independent Study Plan.md",
     "Accessibility/Open source and accessibility - advantages and limitations.md",
     "Accessibility/Empowering individuals with do-it-yourself assistive technology.md",

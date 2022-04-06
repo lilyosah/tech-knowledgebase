@@ -21,7 +21,8 @@ Tags:
 
 - UI frameworks
 
-What opportunities for power or change does each level have, what happens if we put these in the hands of the users?
+**⭐ What opportunities for power or change does each level have, what happens if we put these in the hands of the users?**
+
 - Maybe we can't transfer everything, maybe give it to a mediator, maybe they could do something to change it for the user 
 
 What if there was a govt branch to implement solutions for people?
@@ -41,7 +42,7 @@ Add a discussion session
 
 Make this in the format of a paper, sort of literature review
 
-Talk about the levels of accessibility solutions that currently exist. Maybe because there are no clear responsibilities, it is unclear where this work should be done.
+Talk about the levels of accessibility solutions that currently exist. Maybe because there are no clear responsibilities, it is unclear where this work should be done. Where is the power currently and where can it be?
 
 All these levels are trying to make things accessible, here are the main levels, here's what's happening in each one, examples, features, limitations, pros/consm maybe make a value judgement
 
@@ -51,10 +52,22 @@ All these levels are trying to make things accessible, here are the main levels,
 
 All these levels are trying to make things accessible, here are the main levels, here's what's happening in each one, examples, features, limitations, pros/consm maybe make a value judgement
 
-
 ### Levels as they exist
 
-#### Designer
+#### Developer / Designer
+
+##### Power they have
+
+
+###### Operating System
+
+- What responsibility does the OS have?
+	- Linux does this well, maybe connect to open-source
+
+###### Software/Browser
+
+
+##### Opportunities for change
 
 - It's hard to bring disabled people in to get feedback (Participatory design)
 	- [[Disability Studies as a Source of Critical inquiry for the field of assistive technology]]
@@ -62,14 +75,7 @@ All these levels are trying to make things accessible, here are the main levels,
 - Often leads to more creative solutions and better products for everyone, but sometimes Universal Design can lead to poor adoption rates
 	- [[]] This is mentioned in [[Would you be Mine]]
 
-#### Coder
 
-##### Operating System
-
-- What responsibility does the OS have?
-	- Linux does this well, maybe connect to open-source
-
-##### Software/Browser
 
 - Does the browser have built-in accessibility tools?
 
