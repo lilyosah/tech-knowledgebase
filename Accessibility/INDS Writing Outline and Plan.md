@@ -23,6 +23,16 @@ Tags:
 
 **⭐ What opportunities for power or change does each level have, what happens if we put these in the hands of the users?**
 
+**Directions:**
+- Open source and accessibility
+- Who's responsibility is it. And at which level?
+- Where is the power? And are there opportunities for redistribution?
+
+**Problems:**
+- Hard to implement accessibility for developers, hard to test it
+- Hard to know what to do.
+	- Can create solutions that are supposed to work for everyone but this is associated with 
+
 - Maybe we can't transfer everything, maybe give it to a mediator, maybe they could do something to change it for the user 
 
 What if there was a govt branch to implement solutions for people?
@@ -36,7 +46,7 @@ Add a discussion session
 	- Setting, moddable
 	- Open souce kinda aligns with this but they're not getting paid, not standardized 
 - USeR: Get trasining they need to mod
-- Third party to bridge the gap
+- Third party to bridge the gap, even just to develop a chrome extension or something 
 
 
 As things currently are, users cannot  
@@ -88,6 +98,9 @@ System as it exists
 
 - What responsibility does the OS have?
 	- Linux does this well, maybe connect to open-source
+
+- Text only are generally better
+- 2007 article says linux was marignally better https://link.springer.com/chapter/10.1007/978-3-540-73279-2_75
 
 #### Software/Browser
 
