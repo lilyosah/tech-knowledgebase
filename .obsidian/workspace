@@ -7,8 +7,11 @@
         "id": "04d9d66e6015a434",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Human-Computer-Interaction/Survey Design.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -92,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Human-Computer-Interaction/Survey Design.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +111,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Human-Computer-Interaction/Survey Design.md"
+              }
             }
           }
         ],
@@ -119,15 +125,15 @@
   },
   "active": "04d9d66e6015a434",
   "lastOpenFiles": [
+    "Human-Computer-Interaction/Survey Design.md",
+    "Human-Computer-Interaction/HCI MOC.md",
     "Data-Structures-and-Algorithms/Binary Search Tree.md",
     "Data-Structures-and-Algorithms/Tree.md",
     "Data-Structures-and-Algorithms/Graphs.md",
     "Accessibility/INDS Writing Outline and Plan.md",
     "Human-Computer-Interaction/Concept Posters.md",
-    "Human-Computer-Interaction/HCI MOC.md",
     "Human-Computer-Interaction/Speed Dating.md",
     "Human-Computer-Interaction/Prototyping.md",
-    "Accessibility/Independent Study Plan.md",
-    "Accessibility/Open source and accessibility - advantages and limitations.md"
+    "Accessibility/Independent Study Plan.md"
   ]
 }
