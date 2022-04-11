@@ -61,7 +61,47 @@ Designing your own if you must:
 Pretest: 
 - Ask ppl to complete the survey while thinking out loud 
 
-### 3: Determining the sample
+### 2: Determining the sample
+
+Random sampling: Random
+Convience sampling: From whoever's around
+Snowball sampling: Recruit people from prior takers
+
+Do they have access to the internet if it's online?
+
+### 3 Designing a survey 
+
+Start with an introduction that includes instructions and talks about privacy
+
+#### First questions 
+Your first questions should be clearly relevant and easy to answer
+**Ex: ✏**  
+Have you used a mobile phone for any purpose since you woke up today?
+
+Save sensitive data (like demographics) for the end
+- Often irrelevant to your core questions, but help to ensure your sample is diverse along these demographic lines
+
+#### Good question writing
+Good questions are understood by all respondants?
+Understand terms: Be stupid
+Understand intent:
+**Ex: ✏** 
+Bad: How many people live in your household?
+Better: How many people, including yourself, live in your household?
+
+#### Respone bias
+It's unavoidable. Bad memory, etc. But you can try to limit it.
+
+Think about intents, maybe we're interested in the relative importance of Facebook use
+
+#### Measuring attitudes
+Attitude: A predisposition to behave in a favorable or unfavorable manner
+
+Cognitive: Non-evaluative beliefs about the thing. Ex: Belief about the number of apps in the app store
+Affective:  Feelings or evaluations about the thing. Ex: Feelings or evaluations about the object
+
+
+
 
 
 
