@@ -82,14 +82,23 @@ Save sensitive data (like demographics) for the end
 - Often irrelevant to your core questions, but help to ensure your sample is diverse along these demographic lines
 
 #### Good question writing
-Good questions are understood by all respondants?
-Understand terms: Be stupid
-Understand intent:
-**Ex: ✏** 
-Bad: How many people live in your household?
-Better: How many people, including yourself, live in your household?
+- Good questions are understood by all respondents?
+	- Understand terms: Be stupid
+	- Understand intent:
+		- **Ex: ✏** 
+			Bad: How many people live in your household?
+			Better: How many people, including yourself, live in your household?
+- With agree/disagree questions, ask about the extremes
 
-#### Respone bias
+#### Bad question writing 
+- Heterogeneity in the object: Are respondents talking about the same object/experience. Better to ask about a concrete instance
+- Double barrel questions: Only ask one thing at once
+- Hypotheticals or limited experience: Are the respondents drawing from real experience 
+	- Rely on real experience instead
+- Second-hand accounts
+- Beware of asking about causality. What is the main reason you purchased X
+
+#### Response bias
 It's unavoidable. Bad memory, etc. But you can try to limit it.
 
 Think about intents, maybe we're interested in the relative importance of Facebook use
@@ -99,7 +108,15 @@ Attitude: A predisposition to behave in a favorable or unfavorable manner
 
 Cognitive: Non-evaluative beliefs about the thing. Ex: Belief about the number of apps in the app store
 Affective:  Feelings or evaluations about the thing. Ex: Feelings or evaluations about the object
+Behavioral: Behaviors they do about the thing!
 
+
+#### Types of Response Tasks
+- Likert: As for a response on a continuum (Agree to disagere)
+- Rank order objects
+- How many categories should you have: Like agree, strongle agree... Etc.
+- Ask as many categories as possible if people can still make good distinctions
+	- Researchers say 5-7
 
 
 
