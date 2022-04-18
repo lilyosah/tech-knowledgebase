@@ -88,4 +88,9 @@ Always have an emergency exit to leave the unwanted state without having to go t
 Users should not have to wonder whether different words, situations, or actions mean the same thing
 - UI should be predictable and learnable
 
-Internal consistency: consistency within a products 
+==Internal consistency:== consistency within a companies products
+==External consistency:== maintaining established conventions for UI in your industry or in general 
+
+#### 5. Error Prevention
+
+Better than good error messages is preventing errors from occurring in the first place
