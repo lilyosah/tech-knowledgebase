@@ -116,5 +116,6 @@ Every extra unit of information in a dialogue competes with the relevant units o
 Focus on essentials, don't decorate
 Also order by priority
 
-### 9. Help users recognize, diagnose, and recover from errors
+### 9. Help users recognize, diagnose, and recover from errors	
 
+### 10. Help and Documentation
