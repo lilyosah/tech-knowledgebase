@@ -75,3 +75,6 @@ Record: 11
 
 - 4/15/2022
 	- [[Survey Analysis]]
+
+- 5/2/2022
+	- [[Ethics]]
