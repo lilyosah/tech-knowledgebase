@@ -20,7 +20,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Accessibility/Independent Study Plan.md",
+            "file": "Accessibility/What do we Mean by 'Accessibility Research'.md",
             "mode": "preview"
           }
         }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Accessibility/Independent Study Plan.md",
+                "file": "Accessibility/What do we Mean by 'Accessibility Research'.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Accessibility/Independent Study Plan.md"
+                "file": "Accessibility/What do we Mean by 'Accessibility Research'.md"
               }
             }
           }
@@ -136,6 +136,7 @@
   },
   "active": "6ce7bdbeddc83d21",
   "lastOpenFiles": [
+    "Accessibility/What do we Mean by 'Accessibility Research'.md",
     "Accessibility/Independent Study Plan.md",
     "Accessibility/Disability Studies as a Source of Critical inquiry for the field of assistive technology.md",
     "Accessibility/Would you be Mine.md",
@@ -144,7 +145,6 @@
     "Accessibility/Accessibility Challenges and Tool Features An IBM Web Developer Perspective.md",
     "Human-Computer-Interaction/Ideation.md",
     "Human-Computer-Interaction/Design in HCI.md",
-    "Human-Computer-Interaction/HCI MOC.md",
-    "Human-Computer-Interaction/Ethics.md"
+    "Human-Computer-Interaction/HCI MOC.md"
   ]
 }
