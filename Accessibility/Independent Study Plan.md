@@ -41,7 +41,6 @@ Maybe look at certain guidelines in particular
 - [x] [[What do we Mean by 'Accessibility Research']]
 - [ ] [[Accessibility Challenges and Tool Features An IBM Web Developer Perspective]]
 - [ ] [[Accessibility 2.0 people, policies and processes]]
-- [ ] [[Adee Bringing Accessibility Right Inside Design Tools]]
 - [x] [[Open source and accessibility - advantages and limitations]]
 - [x] [[Would you be Mine]]
 - [ ] [[Supporting the Collaborative Appropriation of an Open Software Ecosystem]]
