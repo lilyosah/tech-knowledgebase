@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Accessibility/Independent Study Plan.md",
-            "mode": "preview"
+            "file": "Software-Engineering/Javascript.md",
+            "mode": "source"
           }
         }
       },
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Accessibility/Independent Study Plan.md",
+                "file": "Software-Engineering/Javascript.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Accessibility/Independent Study Plan.md"
+                "file": "Software-Engineering/Javascript.md"
               }
             }
           }
@@ -136,6 +136,8 @@
   },
   "active": "04d9d66e6015a434",
   "lastOpenFiles": [
+    "Software-Engineering/Javascript.md",
+    "Software-Engineering/React.md",
     "Accessibility/Independent Study Plan.md",
     "Accessibility/Open source and accessibility - advantages and limitations.md",
     "Accessibility/Would you be Mine.md",
@@ -143,8 +145,6 @@
     "Accessibility/Disability Studies as a Source of Critical inquiry for the field of assistive technology.md",
     "Accessibility/INDS Writing Outline and Plan.md",
     "Accessibility/Supporting the Collaborative Appropriation of an Open Software Ecosystem.md",
-    "Accessibility/Accessibility Challenges and Tool Features An IBM Web Developer Perspective.md",
-    "Human-Computer-Interaction/Ideation.md",
-    "Human-Computer-Interaction/Design in HCI.md"
+    "Accessibility/Accessibility Challenges and Tool Features An IBM Web Developer Perspective.md"
   ]
 }

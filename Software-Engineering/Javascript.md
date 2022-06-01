@@ -1,4 +1,4 @@
-- # JavaScript
+	- # JavaScript
 #📥 
 %%
 #SWE 
@@ -70,6 +70,8 @@ arr1.push(new Date());
 ### Objects (Hashes)
 There are no classes - only objects. Every object has a prototype that it inherits from. When some lookup fails in that objects, consults the parent prototype, so it inherits functions and values. 
 
+⭐ **Classes as you'd regularly think about them are built on prototypes.**
+
 ```JS
 let student = {name: 'JS', classes: [class1, class2]}
 ```
@@ -93,6 +95,7 @@ function CountWords(str) {
 
 #### Prototype inheritance
 ❗ **Must use `this` keyword to make new object.** If you don't, `this` refers to the global object. To avoid this, include `"use strict";` at the top 
+❗**Must define all class  fields and init them outside of the constructor.**
 
 **Ex: ✏**  Square "class"
 ```JS
