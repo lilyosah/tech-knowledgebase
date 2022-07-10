@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software-Engineering/Javascript.md",
-            "mode": "source"
+            "file": "Data-Structures-and-Algorithms/Disjoint Sets.md",
+            "mode": "preview"
           }
         }
       },
@@ -50,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "r",
+                "query": "reflog",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software-Engineering/Javascript.md",
+                "file": "Data-Structures-and-Algorithms/Disjoint Sets.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software-Engineering/Javascript.md"
+                "file": "Data-Structures-and-Algorithms/Disjoint Sets.md"
               }
             }
           }
@@ -136,15 +136,15 @@
   },
   "active": "04d9d66e6015a434",
   "lastOpenFiles": [
+    "Data-Structures-and-Algorithms/Disjoint Sets.md",
+    "Data-Structures-and-Algorithms/Algo MOC.md",
+    "Data-Structures-and-Algorithms/Project 2 - Algorithmic complexity Union-Find.md",
+    "Software-Engineering/Git Commands.md",
     "Software-Engineering/Javascript.md",
     "Software-Engineering/React.md",
     "Accessibility/Independent Study Plan.md",
     "Accessibility/Open source and accessibility - advantages and limitations.md",
     "Accessibility/Would you be Mine.md",
-    "Accessibility/What do we Mean by 'Accessibility Research'.md",
-    "Accessibility/Disability Studies as a Source of Critical inquiry for the field of assistive technology.md",
-    "Accessibility/INDS Writing Outline and Plan.md",
-    "Accessibility/Supporting the Collaborative Appropriation of an Open Software Ecosystem.md",
-    "Accessibility/Accessibility Challenges and Tool Features An IBM Web Developer Perspective.md"
+    "Accessibility/What do we Mean by 'Accessibility Research'.md"
   ]
 }

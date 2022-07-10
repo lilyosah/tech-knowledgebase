@@ -50,4 +50,6 @@ Rebasing: going through and changing git history
 Instead of rebasing, you can also just merge to resolve conflicts but this will create a lot of merge commits
 
 ### Reflog
-Use `git reflog` to see a history of git commands that have been executed. To undo one, I think do `checkout [that reflog identifier]` 
+Use `git reflog` to see a history of git commands that have been executed. To undo git commands, `git reset [that reflog identifier]`. Ex: `git reset HEAD@{4}` to reset back to the state of `HEAD@{4}` (`HEAD@{4}` will be the last command executed).
+
+This can be used as a safety net!
