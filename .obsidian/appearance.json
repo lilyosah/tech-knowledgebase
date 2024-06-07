@@ -1,8 +1,8 @@
 {
   "translucency": false,
-  "cssTheme": "Modified Cybertron",
+  "cssTheme": "",
   "theme": "obsidian",
   "enabledCssSnippets": [],
-  "baseFontSize": 30,
-  "accentColor": ""
+  "baseFontSize": 20,
+  "accentColor": "#85ebff"
 }

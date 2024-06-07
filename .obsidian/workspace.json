@@ -11,8 +11,12 @@
             "id": "95f98ef1f0017f7a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Upgrading Package Versions.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Upgrading Package Versions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +112,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Upgrading Package Versions.md"
+              }
             }
           }
         ]
@@ -129,5 +136,8 @@
     }
   },
   "active": "95f98ef1f0017f7a",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "📥",
+    "Upgrading Package Versions.md"
+  ]
 }
