@@ -4,16 +4,16 @@
   "switcher",
   "graph",
   "backlink",
+  "canvas",
   "tag-pane",
   "page-preview",
   "templates",
   "note-composer",
   "command-palette",
-  "starred",
+  "bookmarks",
   "markdown-importer",
   "outline",
   "word-count",
   "slides",
-  "open-with-default-app",
   "file-recovery"
 ]
