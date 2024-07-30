@@ -33,9 +33,11 @@
             "id": "1a04eb545135e929",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.6.3"
+                "file": "Software-Engineering/Git Commands.md",
+                "mode": "preview",
+                "source": false
               }
             }
           }
@@ -69,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "rebas",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +88,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -106,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Upgrading Package Versions.md",
+                "file": "Software-Engineering/Git Commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Upgrading Package Versions.md"
+                "file": "Software-Engineering/Git Commands.md"
               }
             }
           }
@@ -156,7 +159,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1a04eb545135e929",
+  "active": "4d9458928a4d87b8",
   "lastOpenFiles": [
     "📥",
     "Upgrading Package Versions.md"
